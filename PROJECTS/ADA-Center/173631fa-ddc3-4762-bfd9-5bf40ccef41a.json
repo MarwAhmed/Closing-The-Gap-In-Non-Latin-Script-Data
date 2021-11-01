@@ -7,24 +7,35 @@
   "project": {
     "name": "Ada Lovelace Center for Digital Humanities",
     "established": 2021,
-    "description": "Ada Center serves as a networking hub and knowledge base for DH projects at Freie Universität Berlin."
-  },
-  "parents": [
-    {
-      "name": "Freie Universität Berlin",
-      "ref": "https://d-nb.info/gnd/2114189-7",
-      "place": {
-        "name": "Berlin",
-        "ref": "https://www.geonames.org/2950159"
+    "duration": null,
+    "concluded": null,
+    "description": "Ada Center serves as a networking hub and knowledge base for DH projects at Freie Universität Berlin.",
+    "ref": "https://",
+    "lang": [
+      "de", "en"
+    ],
+    "nls_related": false,
+    "parents": [
+      {
+        "name": "Freie Universität Berlin",
+        "ref": "https://d-nb.info/gnd/2114189-7",
+        "place": {
+          "name": "Berlin",
+          "ref": "https://www.geonames.org/2950159"
+        }
       }
-    }
-  ],
-  "children": [],
-  "contacts": [
-    {
-      "name": "Dennis Mischke",
-      "ref": "https://d-nb.info/gnd/1011172860",
-      "role": "project leader"
-    }
-  ]
+    ],
+    "children": [],
+    "contacts": [
+      {
+        "name": "Dennis Mischke",
+        "ref": "https://d-nb.info/gnd/1011172860",
+        "role": 0,
+        "url": "https://persoenlichewebsite"
+      }
+    ],
+    "research_data": {},
+    "technology": {},
+    "policies": {}
+  }
 }
