@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "uuid": "173631fa-ddc3-4762-bfd9-5bf40ccef41a",
+    "record_created": 20211029,
+    "record_created_by": "Mueller-Laackman, Jonas"
+  },
+  "project": {
+    "name": "Ada Lovelace Center for Digital Humanities",
+    "established": 2021,
+    "description": "Ada Center serves as a networking hub and knowledge base for DH projects at Freie Universität Berlin."
+  },
+  "parents": [
+    {
+      "name": "Freie Universität Berlin",
+      "ref": "https://d-nb.info/gnd/2114189-7",
+      "place": {
+        "name": "Berlin",
+        "ref": "https://www.geonames.org/2950159"
+      }
+    }
+  ],
+  "children": [],
+  "contacts": [
+    {
+      "name": "Dennis Mischke",
+      "ref": "https://d-nb.info/gnd/1011172860",
+      "role": "project leader"
+    }
+  ]
+}
