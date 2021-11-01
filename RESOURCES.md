@@ -52,7 +52,8 @@
 | #ocr                                         | kraken ocr                         | ocr engine für nls                                                         | http://kraken.re/                                                                                       |
 | #ocr, #htr                                   | eScriptorium                       | app for text recognition                                                   | https://www.escriptorium.uk/                                                                            |
 | #framework, #javascript, #3d, #visualization | three.js                           | Bibliothek für 3D-Visualisierungen                                         | https://threejs.org/                                                                                    |
-| #survey                                      | sosci.survey                       | wissenschaftliches Umfragetool                                             | https://www.soscisurvey.de/en/index)                                                                                                        |
+| #survey                                      | sosci.survey                       | wissenschaftliches Umfragetool                                             | https://www.soscisurvey.de/en/index)                                                                    |
+| #database, #ngrams, #literature              | The General Index                  | Database of n-Grams of 100 million+ journal articles                       | https://archive.org/details/GeneralIndex                                                                                                        |
 
 ## Languages
 Description:
@@ -89,6 +90,12 @@ Database:
 - [elasticSearch](https://www.elastic.co/de/elasticsearch/)
 - [eXist-db](http://exist-db.org/exist/apps/homepage/index.html)
 - [baseX](https://basex.org/)
+- [Supabase](https://supabase.io/)
+
+Query Languages:
+- [GraphQL](https://graphql.org/)
+- [SQL](https://www.w3schools.com/sql/sql_intro.asp)
+- [XQuery](https://www.w3schools.com/xml/xquery_intro.asp)
 
 ## Authority File Databases or similar
 Specific:
