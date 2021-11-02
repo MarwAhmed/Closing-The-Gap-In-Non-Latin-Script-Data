@@ -1,0 +1,68 @@
+{
+    "metadata":{
+        "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53",
+        "record_created": 20211101,
+        "record_created_by": "Kudela, Xenia Monika"
+        },
+    "project": {
+        "name": "DFG-Langfristvorhaben Gesamtedition des Werkes von Ibn Nubata Al-Misri",
+        "abbr": null,
+        "established": 2019,
+        "duration": "12 years",
+        "conluded": null,
+        "website": "https://www.uni-muenster.de/ALEA/",
+        "description": "Editing and digitalization of Ibn Nubata´s complete works",
+        "places": [
+            {
+                "name": "Münster",
+                "ref": "https://www.geonames.org/6553087/muenster.html"
+            }
+        ],
+        "lang":[
+            "de"
+        ],
+        "nls_related": true,
+        "dh_related": true,
+        "parents":[
+            {    
+                "name": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
+                "abbr": "ALEA",
+                "ref": null,
+                "website": "https://www.uni-muenster.de/ALEA/",
+                "type": "project",
+                "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83",
+                "places":[
+                    {
+                        "name": "Münster",
+                        "ref": "https://www.geonames.org/6553087/muenster.html"
+                    }
+                ]
+            },
+            {
+                "name": "WWU Münster",
+                "ref": "https://d-nb.info/gnd/36175-6",
+                "website": "https://www.uni-muenster.de",
+                "type": "org",
+                "uuid": null,
+                "places":[
+                    {
+                        "name": "Münster",
+                        "ref": "https://www.geonames.org/6553087/muenster.html"
+                    }
+                ]
+            }   
+        ],
+        "children": [],        
+        "contacts": [
+            {
+                "name": "Thomas Bauer",
+                "ref": "https://d-nb.info/gnd/130608467/",
+                "role": 0,
+                "website": "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
+            }
+        ],
+        "research_data": {},
+        "technology": {},
+        "policies": {}
+}
+}
