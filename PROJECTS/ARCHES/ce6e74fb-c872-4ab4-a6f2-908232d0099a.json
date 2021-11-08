@@ -1,0 +1,82 @@
+{
+    "metadata": {
+        "uuid": "ce6e74fb-c872-4ab4-a6f2-908232d0099a",
+        "record_created": 8112021,
+        "record_created_by": "Kudela, Xenia Monika"
+    },
+    "project": {
+        "title": "ARCHES",
+        "established": 2019,
+        "duration": "5 years",    
+        "concluded": null,        
+        "website": "https://www.naher-osten.uni-muenchen.de/forschung/arches-projekt/index.html",
+        "projectDesc": "This project, which is run in collaboration by Miriam Goldstein (Hebrew University of Jerusalem) and Ronny Vollandt (Ludwig-Maximilians-Universität, Munich), will recover a significant portion of the rich Arabic and Judaeo-Arabic manuscript heritage known as the Firkovitch Collection, held in the Russian National Library in St. Petersburg and available in microfilm and digital form at the National Library of Israel in Jerusalem. Our main objectives will be (1) to continue the identification and cataloguing of manuscripts related to Bible exegesis and translation in the Firkovitch collection series RNL Yevr.-Arab. I, (2) to make the metadata accessible for further research, so as to enable the integration of the findings into related fields, including Judaic studies, Islamic and Arabic studies, and the study of Eastern Christianity.",
+        "places": [
+            {
+                "placeName": "Munich",
+                "ref": "https://www.geonames.org/2867714/munich.html"
+            },
+            {   "placeName": "Jerusalem",
+                "ref": "https://www.geonames.org/293198/jerusalem.html"
+            }
+        ],
+        "lang":[            
+            "eng"
+        ],
+        "nls_related": true,
+        "dh_related": true,
+        "parents":[
+            {
+                "type": "org",
+                "orgName": "Ludwig-Maximilians-Universität Munich",
+                "ref": "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll",
+                "website": "https://www.lmu.de/de/index.html",
+                "uuid": null,
+                "places":[
+                    {
+                        "placeName": "Munich",
+                        "ref": "https://www.geonames.org/2867714/munich.html"
+                    }
+                ]
+            },
+            {
+                "type": "org",
+                "orgName": "The Hebrew University of Jerusalem",
+                "ref": "https://www.geonames.org/11608742/the-hebrew-university-of-jerusalem.html",
+                "website": "https://en.huji.ac.il/en",
+                "uuid": null,
+                "places": [
+                    {
+                        "placeName": "Jerusalem",
+                        "ref": "https://www.geonames.org/293198/jerusalem.html"
+                    
+                    }
+                ]
+            }   
+        ],
+        "children": [],
+        "contacts": [
+            {
+                "persName": "Ronny Vollandt",
+                "ref": "https://d-nb.info/gnd/1173742050",
+                "role": 0,
+                "website": "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.htmll"
+            },
+            {
+                "persName": "Miriam Goldstein",
+                "ref": "https://d-nb.info/gnd/1019351853",
+                "role": 0,
+                "website": "https://en.arabic-lang.huji.ac.il/people/miriam-goldstein" 
+            },
+            {
+                "persName": "David Sklare",
+                "ref": "https://d-nb.info/gnd/1158385684",
+                "role": 1,
+                "website": "https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/david-sklare/index.html" 
+            }
+        ],
+        "research_data": {},
+        "technology": {},
+        "policies": {}
+    }
+}
