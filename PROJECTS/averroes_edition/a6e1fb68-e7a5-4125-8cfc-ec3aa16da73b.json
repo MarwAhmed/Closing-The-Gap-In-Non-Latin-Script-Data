@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "uuid": "a6e1fb68-e7a5-4125-8cfc-ec3aa16da73b",
+        "record_created": 8112021,
+        "record_created_by": "Kudela, Xenia Monika"
+    },
+    "project": {
+        "title": "Averroes Edition",
+        "established": 2016,
+        "duration": "25 years",    
+        "concluded": null,           
+        "website": "https://averroes.uni-koeln.de/project/about/",
+        "projectDesc": "The Averroes Edition is a project of the North-Rhine Westphalian Academy of Sciences, Humanities and the Arts and the Thomas-Institut at the University of Cologne, it is directed by Andreas Speer and David Wirmer and pursued by a multilingual team of editors. The project has been established as part of the Akademienprogramm of the Federal Republic of Germany and the German federal states for a period of 25 years beginning in 2016. It forms part of an international collaborative corpus edition – Averrois Opera (Corpus Philosophorum Medii Aevi) – overseen by the Union Académique Internationale.",
+        "places": [
+            {
+                "placeName": "Düsseldorf",
+                "ref": "https://www.geonames.org/2934246/duesseldorf.html"
+            },
+            {   "placeName": "Köln",
+                "ref": "https://www.geonames.org/2886242/koeln.html"
+            }
+        ],
+        "lang":[            
+            "eng",
+            "de"        
+        ],
+        "nls_related": true,
+        "dh_related": true,
+        "parents":[
+            {
+                "type": "org",
+                "orgName": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste ",
+                "ref": "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html",
+                "website": "https://www.awk.nrw.de/startseite.html",
+                "uuid": null,
+                "places":[
+                    {
+                        "placeName": "Düsseldorf",
+                        "ref": "https://www.geonames.org/2934246/duesseldorf.html"
+                    }
+                ]
+            },
+            {
+                "type": "org",
+                "orgName": "Universität zu Köln",
+                "ref": "https://www.geonames.org/6947535/universitaet-zu-koeln.html",
+                "website": "https://thomasinstitut.uni-koeln.de/",
+                "uuid": null,
+                "places": [
+                    {
+                        "placeName": "Köln",
+                        "ref": "https://www.geonames.org/2886242/koeln.html"                            
+                    }
+                ]
+            }, 
+            {
+                "type": "project",
+                "title": "Averrois Opera (Corpus Philosophorum Medii Aevi)",
+                "ref": null,
+                "website": "http://www.uai-iua.org/en/projects/90/averrois-opera-corpus-philosophorum-medii-aevi",
+                "uuid": "",
+                "places": [
+                    {
+                        "placeName": "Cairo",
+                        "ref": "https://www.geonames.org/360630/cairo.html"  
+                    },
+                    {
+                        "placeName": "Düsseldorf",
+                        "ref": "https://www.geonames.org/2934246/duesseldorf.html" 
+                    },
+                    {                
+                        "placeName": "Jerusalem",
+                        "ref": "https://www.geonames.org/293198/jerusalem.html"
+                    }
+                ] 
+            }   
+        ],
+        "children": [],
+        "contacts": [
+            {
+                "persName": "David Wirmer",
+                "ref": null,
+                "role": 0,
+                "website": "https://thomasinstitut.uni-koeln.de/mitarbeiterinnen/david-wirmer"
+            }         
+        ],
+        "research_data": {},
+        "technology": {},
+        "policies": {}
+    }
+}
