@@ -57,13 +57,13 @@
 | #tool, #service, #nlp                        | RDMO (Research Data Management Organizer) | Online-Tool zur Erstellung von FDM-Plänen                                  | https://rdmorganiser.github.io/                                                                         |
 
 ## Languages
-Description:
+### Description:
 - [XML](https://www.w3schools.com/xml/xml_whatis.asp)
 - [HTML](https://www.w3schools.com/html/default.asp)
 - [RDF](https://www.w3.org/TR/rdf11-concepts/)
 - [Kdl](https://kdl.dev/)
 
-Web:
+### Web:
 - [JavaScript](https://www.w3schools.com/js/default.asp)
 	- [Vue](https://v3.vuejs.org/)
 	- [React](https://reactjs.org/)
@@ -72,17 +72,17 @@ Web:
 	- [Laravel](https://laravel.com/)
 - [Python](https://www.w3schools.com/python/default.asp)
 
-NLP:
+### NLP:
 - [Python](https://www.w3schools.com/python/default.asp)
 - [R](https://www.r-project.org/)
 - [Go](https://golang.org/)
 - [Java](https://www.java.com/de/)
 
-Style:
+### Style:
 - [CSS](https://www.w3schools.com/css/)
 - [SASS](https://sass-lang.com/)
 
-Database:
+### Database:
 - [MySQL](https://www.mysql.com/de/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [SPARQL](https://www.w3.org/TR/rdf-sparql-query/)
@@ -93,20 +93,20 @@ Database:
 - [baseX](https://basex.org/)
 - [Supabase](https://supabase.io/)
 
-Query Languages:
+### Query Languages:
 - [GraphQL](https://graphql.org/)
 - [SQL](https://www.w3schools.com/sql/sql_intro.asp)
 - [XQuery](https://www.w3schools.com/xml/xquery_intro.asp)
 
-## Authority File Databases or similar
-Specific:
+## Authority Control
+### Specific:
 - [[00_Syriaca.org]]
 - [[00_Wissensgemeinschaften]]
 - [[00_SNAPDRGN]]
 - [HAF](https://haf.vhmml.org/)
 - [Titulus](http://3.226.124.168/)
 
-General:
+### General:
 - [#VIAF](https://viaf.org/)
 - [#GND](https://lobid.org/gnd)
 - [#Wikidata](https://www.wikidata.org/)
