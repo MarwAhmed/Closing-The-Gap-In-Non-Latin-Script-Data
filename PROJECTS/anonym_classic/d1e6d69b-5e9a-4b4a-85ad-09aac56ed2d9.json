@@ -5,9 +5,9 @@
         "record_created_by": "Kudela, Xenia Monika"
     },
     "project": {
-        "title": "Kalila and Dimna-AnonymClassic",
-        "established": "January 2018",
-        "duration": "5 years",   
+        "title": "Kalila and Dimna - AnonymClassic",
+        "established": 2018,
+        "duration": 5,   
         "conluded": null,         
         "website": "https://www.geschkult.fu-berlin.de/en/e/kalila-wa-dimna/index.html",
         "projectDesc": "AnonymClassic is the first-ever comprehensive study of Kalila and Dimna (a book of wisdom in fable form), a text of premodern world literature. Its spread is comparable to that of the Bible, except that it passed from Hinduism and Buddhism via Islam to Christianity. Its Arabic version, produced in the 8th century, when this was the lingua franca of the Near East, became the source of all further translations up to the 19th century. The work’s multilingual history involving circa forty languages has never been systematically studied. The absence of available research has made world literature ignore it, while scholars of Arabic avoided it because of its widely diverging manuscripts so that the actual shape of the Arabic key version is still in need of investigation.",
@@ -49,6 +49,7 @@
         ],
         "research_data": {},
         "technology": {},
-        "policies": {}
+        "policies": {},
+        "keywords": {}
     }
 }

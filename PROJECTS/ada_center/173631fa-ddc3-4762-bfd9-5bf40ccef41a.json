@@ -5,37 +5,50 @@
     "record_created_by": "Mueller-Laackman, Jonas"
   },
   "project": {
-    "name": "Ada Lovelace Center for Digital Humanities",
+    "title": "Ada Lovelace Center for Digital Humanities",
     "established": 2021,
     "duration": null,
     "concluded": null,
-    "description": "Ada Center serves as a networking hub and knowledge base for DH projects at Freie Universität Berlin.",
-    "ref": "https://",
+    "website": null,
+    "projectDesc": "Ada Center serves as a networking hub and knowledge base for DH projects at Freie Universität Berlin.",
+    "places": [
+      {
+        "placeName": "Berlin", 
+        "ref": "https://www.geonames.org/3587265/berlin.html"
+      }
+    ],  
     "lang": [
       "de", "en"
     ],
     "nls_related": false,
+    "dh_related": true,
     "parents": [
       {
-        "name": "Freie Universität Berlin",
-        "ref": "https://d-nb.info/gnd/2114189-7",
-        "place": {
-          "name": "Berlin",
-          "ref": "https://www.geonames.org/2950159"
-        }
+        "type": "org",
+        "orgName": "FU Berlin",
+        "ref": "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html",
+        "website": "https://www.fu-berlin.de/",
+        "uuid": null,
+        "places":[
+          {
+            "placeName": "Berlin",
+            "ref": "https://www.geonames.org/2950159/berlin.html"
+          }
+        ]              
       }
     ],
     "children": [],
     "contacts": [
       {
-        "name": "Dennis Mischke",
+        "perName": "Dennis Mischke",
         "ref": "https://d-nb.info/gnd/1011172860",
         "role": 0,
-        "url": "https://persoenlichewebsite"
+        "website": "https://persoenlichewebsite"
       }
     ],
     "research_data": {},
     "technology": {},
-    "policies": {}
+    "policies": {},
+    "keywords":{}
   }
 }

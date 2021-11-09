@@ -7,7 +7,7 @@
     "project": {
         "title": "ARCHES",
         "established": 2019,
-        "duration": "5 years",    
+        "duration": 5,    
         "concluded": null,        
         "website": "https://www.naher-osten.uni-muenchen.de/forschung/arches-projekt/index.html",
         "projectDesc": "This project, which is run in collaboration by Miriam Goldstein (Hebrew University of Jerusalem) and Ronny Vollandt (Ludwig-Maximilians-Universität, Munich), will recover a significant portion of the rich Arabic and Judaeo-Arabic manuscript heritage known as the Firkovitch Collection, held in the Russian National Library in St. Petersburg and available in microfilm and digital form at the National Library of Israel in Jerusalem. Our main objectives will be (1) to continue the identification and cataloguing of manuscripts related to Bible exegesis and translation in the Firkovitch collection series RNL Yevr.-Arab. I, (2) to make the metadata accessible for further research, so as to enable the integration of the findings into related fields, including Judaic studies, Islamic and Arabic studies, and the study of Eastern Christianity.",
@@ -77,6 +77,7 @@
         ],
         "research_data": {},
         "technology": {},
-        "policies": {}
+        "policies": {},
+        "keywords": {}
     }
 }

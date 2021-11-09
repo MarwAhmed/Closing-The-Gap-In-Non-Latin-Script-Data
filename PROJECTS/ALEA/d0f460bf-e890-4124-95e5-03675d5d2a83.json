@@ -5,16 +5,16 @@
         "record_created_by": "Kudela, Xenia Monika"
     },
     "project": {
-        "name": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
+        "title": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
         "abbr": "ALEA",
         "established": null,
         "duration": null,
         "conluded": null,
         "website": "https://www.uni-muenster.de/ALEA/",
-        "description": "Research on the Arabic literature and rhetoric between 1100-1800",
+        "projectDesc": "Research on the Arabic literature and rhetoric between 1100-1800",
         "places": [
             {
-                "name": "Münster",
+                "placeName": "Münster",
                 "ref": "https://www.geonames.org/6553087/muenster.html"
             }
         ],
@@ -25,14 +25,14 @@
         "dh_related": false,
         "parents":[
             {
-                "name": "WWU Münster",
-                "ref": "https://d-nb.info/gnd/36175-6",
-                "website": "https://www.uni-muenster.de",
                 "type": "org",
+                "orgName": "WWU Münster",
+                "ref": "https://d-nb.info/gnd/36175-6",
+                "website": "https://www.uni-muenster.de",            
                 "uuid": null,
                 "places":[
                     {
-                        "name": "Münster",
+                        "placeName": "Münster",
                         "ref": "https://www.geonames.org/6553087/muenster.html"
                     }
                 ]
@@ -40,23 +40,14 @@
         ],
         "children": [
             {
-                "name": "DFG-Langfristvorhaben Gesamtedition des Werkes von Ibn Nubata Al-Misri",
-                "ref": null,
-                "website":"https://www.uni-muenster.de/ALEA/",
                 "type": "project",
-                "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53",
-                "places": [
-                    {
-                        "name":"Münster",
-                        "ref":"https://www.geonames.org/6553087/muenster.html"
-
-                    }
-                ]
+                "title": "DFG-Langfristvorhaben Gesamtedition des Werkes von Ibn Nubata Al-Misri",                             
+                "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53"             
             }
         ],
         "contacts": [
             {
-                "name": "Thomas Bauer",
+                "persName": "Thomas Bauer",
                 "ref": "https://d-nb.info/gnd/130608467/",
                 "role": 0,
                 "website": "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
@@ -64,6 +55,7 @@
         ],
         "research_data": {},
         "technology": {},
-        "policies": {}
+        "policies": {},
+        "keywords": {}
     }
 }
