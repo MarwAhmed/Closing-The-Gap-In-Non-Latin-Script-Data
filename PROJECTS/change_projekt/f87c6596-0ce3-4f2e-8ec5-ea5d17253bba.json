@@ -1,0 +1,60 @@
+{
+    "metadata": {
+        "uuid": "f87c6596-0ce3-4f2e-8ec5-ea5d17253bba",
+        "record_created": 11112021,
+        "record_created_by": "Kudela, Xenia Monika"
+    },
+    "project": {
+        "title": "Change Projekt - Wandel@FU-Bib",
+        "established": 2019,
+        "duration": 2,    
+        "concluded": 2021,           
+        "website": "https://www.fu-berlin.de/sites/ub/ueber-uns/wandel/index.html",
+        "projectDesc": "Das Change Projekt Wandel@FU-Bib hat im Mai 2019 begonnen und bis zum Mai 2021 vier zentrale Ziele bearbeitet: (1) Die Zusammenführung von Bibliotheken und CeDiS; (2) Vereinfachung der Strukturen im Sinne einer funktionalen Einschichtigkeit; (3) Erhöhung der Nutzerorientierung und Servicequalität, (4) Steigerung von Agilität, Flexibilität, Innovationskraft und Zukunftsorientierung. Für die zweijährige Laufzeit des Projekts waren zusätzliche Personalkapazitäten bereitgestellt: Es wurde ein zweiköpfiges Projektteam berufen, das sich in Vollzeit mit den Aufgabenschwerpunkten Projektleitung und Projektmanagement auf die Organisationsentwicklung konzentriert. Außerdem wurde eine externe Organisationsberatung beauftragt, um den Prozess zu begleiten und zu unterstützen. Die Projektleitung war zusätzlich in die Direktion des Bibliothekssystems kooptiert, sodass eine enge Zusammenarbeit mit dem leitenden Direktor, seiner Stellvertretung und der CeDiS-Leitung gegeben war. Für die Umsetzung des Projekts wurde die weitreichende Einbeziehung aller Mitarbeiterinnen und Mitarbeiter der Gesamtorganisation angestrebt. Zu den Projektergebnissen gehört unter anderem eine neue Organisationsstruktur, veränderte Kommunikationsprozesse und eine neues Führungskonzept. Die weitere Organisationsentwicklung kann auf der im Rahmen des Projekts entstandenen Strategie aufbauen. Eine ausführliche Zusammenfassung der Projektergebnisse ist in Vorbereitung.",
+        "places": [
+            {
+                "placeName": "Berlin",
+                "ref": ["https://www.geonames.org/2950159/berlin.html"]
+            }        
+        ],
+        "lang":["de"],
+        "nls_related": false,
+        "dh_related": true,
+        "parents":[
+            {
+                "type": "org",
+                "orgName": "FU Berlin",
+                "ref": ["https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"],
+                "website": "https://www.fu-berlin.de/",
+                "uuid": null,
+                "places":[
+                    {
+                        "placeName": "Berlin",
+                        "ref": ["https://www.geonames.org/2950159/berlin.html"]
+                    }
+                ]
+            }              
+        ],
+        "children": [],
+        "contacts": [
+            {
+                "persName": "Christina Riesenweber",
+                "ref": ["https://www.wikidata.org/wiki/Q57684019"],
+                "role": 0,
+                "website": "https://www.fu-berlin.de/sites/ub/ueber-uns/team/riesenweber/index.html"
+            },
+            {
+                "persName": "Martin Lee",
+                "ref": [null],
+                "role": 0,
+                "website": "https://www.fu-berlin.de/sites/ub/ueber-uns/team/lee/index.html"
+            }           
+        ],
+        "research_data": {
+            "lang":["de"]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": ["library"]
+    }
+}
