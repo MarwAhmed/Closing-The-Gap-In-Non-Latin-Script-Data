@@ -105,6 +105,7 @@
 - SNAPDRGN
 - [HAF](https://haf.vhmml.org/)
 - [Titulus](http://3.226.124.168/)
+- [GRID](https://www.grid.ac/)
 
 ### General:
 - [VIAF](https://viaf.org/)
