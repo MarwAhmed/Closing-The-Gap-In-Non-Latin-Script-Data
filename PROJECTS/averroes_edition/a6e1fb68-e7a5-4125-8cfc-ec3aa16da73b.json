@@ -56,23 +56,7 @@
             {
                 "type": "project",
                 "title": "Averrois Opera (Corpus Philosophorum Medii Aevi)",
-                "ref": null,
-                "website": "http://www.uai-iua.org/en/projects/90/averrois-opera-corpus-philosophorum-medii-aevi",
-                "uuid": "",
-                "places": [
-                    {
-                        "placeName": "Cairo",
-                        "ref": "https://www.geonames.org/360630/cairo.html"  
-                    },
-                    {
-                        "placeName": "Düsseldorf",
-                        "ref": "https://www.geonames.org/2934246/duesseldorf.html" 
-                    },
-                    {                
-                        "placeName": "Jerusalem",
-                        "ref": "https://www.geonames.org/293198/jerusalem.html"
-                    }
-                ] 
+                "ref": "9662a35d-fb57-4f20-b450-0eba8670a822"
             }   
         ],
         "children": [],
@@ -84,9 +68,18 @@
                 "website": "https://thomasinstitut.uni-koeln.de/mitarbeiterinnen/david-wirmer"
             }         
         ],
-        "research_data": {},
+        "research_data": {
+            "lang": [
+            "ar",
+            "he",
+            "la"
+        ]
+        },
         "technology": {},
         "policies": {}, 
-        "keywords": {}
+        "keywords": [
+            "Averroes",
+            "hebrew"
+        ]
     }
 }

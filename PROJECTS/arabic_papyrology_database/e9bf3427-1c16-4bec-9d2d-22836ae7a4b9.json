@@ -57,7 +57,8 @@
         "children": [
             {
                 "type": "project",
-                "title": "A Digital Typology of Arabic Documents"
+                "title": "A Digital Typology of Arabic Documents",
+                "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66"
             }
 
         ],
@@ -72,6 +73,11 @@
         "research_data": {},
         "technology": {},
         "policies": {},
-        "keywords": {}
+        "keywords": [
+            "pre-modern",
+            "datebase",
+            "lexicon",
+            "manuscript"
+        ]    
     }
 }

@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "uuid": "c523675a-0e54-4d1e-8d08-2395d58323e3",
+        "record_created": 11112021,
+        "record_created_by": "Kudela, Xenia Monika"
+    },
+    "project": {
+        "title": "Biblia Arabica",
+        "established": 2012,
+        "duration": 6,    
+        "concluded": 2018,           
+        "website": "https://biblia-arabica.com/",
+        "projectDesc": "The research project “Biblia Arabica: The Bible in Arabic among Jews, Christians and Muslims,” was originally conceived by researchers from Freie Universität Berlin (Sabine Schmidtke) and Tel Aviv University (Camilla Adang and Meira Polliack) and won a DFG DIP grant (“Deutsch-Israelische Projektkooperation”) in 2012. It is the very first project in the humanities ever to receive this prestigious grant. In 2015 the German side of the project moved to Ludwig-Maximilians-Universität Munich (LMU), after Sabine Schmidtke was appointed to the Institute of Advanced Study, Princeton, and Ronny Vollandt joined the LMU around the same time. In the focus of Biblia Arabica are the Biblical versions in Arabic that were produced over many centuries, on the basis of a wide range of source languages, and in varying contexts. The oldest Arabic Bible versions have come down to us from an early stage of the process of Arabicization in late-antique communities to quite recent contexts. Compared to other translation traditions of the Bible throughout its history, the Arabic versions are the most abundant in terms of the number of surviving manuscripts and, later, in terms of the number of prints. Moreover, they reveal an unusually large variety of stylistic and didactic approaches, vocabulary, scripts and, strategies. Although originally intended for internal use by the different denominations that produced them (Jews, Christian, and Samaritans), the translations were also quoted and adapted by Muslim writers, who were familiar with many biblical episodes and characters through their own sacred scripture, the Qur’an. Biblia Arabica attempts to set methodological standards and offer a clear definition of an emerging and very active new field of research. It charts the countless manuscripts and fragments that are nowadays found in monasteries throughout the Middle East and libraries across the globe, analyses the different methods of translation from Hebrew, Aramaic, Syriac, Greek and Coptic, and examines the mutual influences, both religious and cultural, between the different religious communities. In addition, it deals with the historical and social repercussions of the discourse and polemic that developed in the course of time and are still alive today. A blog and an online and searchable bibliography tool have been developed by the Biblia Arabica team in Munich to serve as the most comprehensive guide to date for research in the growing field of Arabic Bible. After the termination of the DFG-DIP project, Biblia Arabica has become a larger consortium for scholars interested in the Arabic Bible. It will continue as an international platform for research in the field, providing an infrastructure and an umbrella for independent research projects.",
+        "places": [
+            {
+                "placeName": "Berlin",
+                "ref": ["https://www.geonames.org/2950159/berlin.html"]
+            },
+            {
+                "placeName": "Tel Aviv",
+                "ref": ["https://www.geonames.org/293397/tel-aviv.html"]
+            },
+            {
+                "placeName": "Munich",
+                "ref": ["https://www.geonames.org/2867714/munich.html"]
+            }          
+        ],
+        "lang":["eng"],
+        "nls_related": true,
+        "dh_related": true,
+        "parents":[
+            {
+                "type": "org",
+                "orgName": "FU Berlin",
+                "ref": ["https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"],
+                "website": "https://www.fu-berlin.de/",
+                "uuid": null,
+                "places":[
+                    {
+                        "placeName": "Berlin",
+                        "ref": ["https://www.geonames.org/2950159/berlin.html"]
+                    }
+                ]
+            },
+            {
+                "type": "org",
+                "orgName": "Tel Aviv University",
+                "ref": ["https://www.geonames.org/6941120/tel-aviv-university.html"],
+                "website": "https://english.tau.ac.il/",
+                "uuid": null,
+                "places":[
+                    {
+                        "placeName": "Tel Aviv",
+                        "ref": ["https://www.geonames.org/293397/tel-aviv.html"]
+                    }
+                ]           
+             },
+             {
+                "type": "org",
+                "orgName": "Ludwig-Maximilians-Universität Munich",
+                "ref": ["https://www.geonames.org/6544574/ludwig-maximilians-universitaet.html"],
+                "website": "https://www.lmu.de/de/index.html",
+                "uuid": null,
+                "places":[
+                    {
+                        "placeName": "Munich",
+                        "ref": ["https://www.geonames.org/2867714/munich.html"]
+                    }
+                ]   
+             }               
+        ],
+        "children": [],
+        "contacts": [
+            {
+                "persName": "Ronny Vollandt",
+                "ref": ["https://d-nb.info/gnd/1173742050"],
+                "role": 0,
+                "website": "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.htmll"
+            }           
+        ],
+        "research_data": {
+            "lang":["ar"]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": [
+            "ar",
+            "bible"
+        ]
+    }
+}

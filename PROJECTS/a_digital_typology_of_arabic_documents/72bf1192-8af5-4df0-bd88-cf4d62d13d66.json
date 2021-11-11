@@ -1,0 +1,60 @@
+{
+    "metadata": {
+        "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66",
+        "record_created": 11112021,
+        "record_created_by": "Kudela, Xenia Monika"
+    },
+    "project": {
+        "title": "A Digital Typology of Arabic Documents",
+        "established": null,
+        "duration": null,    
+        "concluded": null,           
+        "website": "www.naher-osten.lmu.de/apd",
+        "projectDesc": null,
+        "places": [
+            {
+                "placeName": "Munich",
+                "ref": "https://www.geonames.org/2867714/munich.html"
+            }          
+        ],
+        "lang":[            
+            "eng"           
+        ],
+        "nls_related": true,
+        "dh_related": true,
+        "parents":[
+            {
+                "type": "org",
+                "orgName": "Ludwig-Maximilians-Universität Munich",
+                "ref": "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll",
+                "website": "https://www.lmu.de/de/index.html",
+                "uuid": null,
+                "places":[
+                    {
+                        "placeName": "Munich",
+                        "ref": "https://www.geonames.org/2867714/munich.html"
+                    }
+                ]
+            },       
+            {
+                "type": "project",
+                "title": "Arabic Papyrology Database",
+                "ref": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9"
+            }   
+        ],
+        "children": [],
+        "contacts": [
+            {
+                "persName": "Andreas Kaplony",
+                "ref": "https://d-nb.info/gnd/115211942",
+                "role": 0,
+                "website": "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"            
+            }         
+        ],
+        "research_data": {},
+        "technology": {},
+        "policies": {}, 
+        "keywords": []
+           
+    }
+}
