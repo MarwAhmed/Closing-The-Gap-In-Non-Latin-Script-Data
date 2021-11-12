@@ -5,7 +5,7 @@
 | #dataset                                     | DNBLab                                    | Datensets und digitale Objekte, mit Schnittstelle                          | [DNBLab](https://www.dnb.de/DE/Professionell/Services/WissenschaftundForschung/DNBLab/dnblab_node.html) |
 | #cheatsheet                                  | Markdown Cheatsheet                       | Cheatsheet für Markdown-Basics                                             | [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)                 |
 | #automation, #git                            | GitHub Actions                            | Automatisierung von Entwicklungsumgebungen, Github to Docker               | [GitHub Actions](https://github.com/features/actions)                                                   |
-| #software                                    | Open Encyclopedia System                  | Software-Lösung für wissenschaftliche Encyclopaedien                       | [OES]https://www.open-encyclopedia-system.org                                                           |
+| #software                                    | Open Encyclopedia System                  | Software-Lösung für wissenschaftliche Encyclopaedien                       | [OES](https://www.open-encyclopedia-system.org)                                                           |
 | #library                                     | المكتبة الشاملة                           | Datenbank mit arabischen Primär- und Sekundärquellen                       | https://shamela.ws/index.php/page/download-shamela                                                      |
 | #nlp                                         | alkhalil morpho sys                       | Arabic morphological analyzer                                              | https://sourceforge.net/projects/alkhalil/                                                              |
 | #software                                    | obsidian.md                               | Markdown-basierte Orga-App                                                 | https://obsidian.md/                                                                                    |
@@ -100,19 +100,20 @@
 
 ## Authority Control
 ### Specific:
-- [[00_Syriaca.org]]
-- [[00_Wissensgemeinschaften]]
-- [[00_SNAPDRGN]]
+- Syriaca
+- Wissensgemeinschaften
+- SNAPDRGN
 - [HAF](https://haf.vhmml.org/)
 - [Titulus](http://3.226.124.168/)
+- [GRID](https://www.grid.ac/)
 
 ### General:
-- [#VIAF](https://viaf.org/)
-- [#GND](https://lobid.org/gnd)
-- [#Wikidata](https://www.wikidata.org/)
-- [#LCCN](https://www.loc.gov/)
-- [#SUDOC](https://www.idref.fr/)
-- [#geonames](http://www.geonames.org/)
+- [VIAF](https://viaf.org/)
+- [GND](https://lobid.org/gnd)
+- [Wikidata](https://www.wikidata.org/)
+- [LCCN](https://www.loc.gov/)
+- [SUDOC](https://www.idref.fr/)
+- [geonames](http://www.geonames.org/)
 - [ISNI](https://isni.org/)
 
 ## Journals
