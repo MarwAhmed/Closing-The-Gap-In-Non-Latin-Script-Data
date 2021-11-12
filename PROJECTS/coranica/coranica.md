@@ -1,0 +1,1 @@
+link: https://webarchive.bbaw.de/default/20210819141519/http://www.coranica.de//front-page-en

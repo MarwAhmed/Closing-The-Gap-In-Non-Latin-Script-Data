@@ -40,13 +40,13 @@
         "children": [],
         "contacts": [
             {
-                "persName": "Verena Klemm",
+                "persName": "Verena Klemm-Kuhn",
                 "ref": ["https://www.wikidata.org/wiki/Q5675690"],
                 "role": 0,
-                "website": "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-verena-klemm-kuhn/l"
+                "website": "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-verena-klemm-kuhn"
             },
             {
-                "persName": "Verena Klemm",
+                "persName": "Boris Liebrenz",
                 "ref": ["https://d-nb.info/gnd/136837921"],
                 "role": 0,
                 "website": "https://www.saw-leipzig.de/de/mitarbeiter/liebrenzb"
