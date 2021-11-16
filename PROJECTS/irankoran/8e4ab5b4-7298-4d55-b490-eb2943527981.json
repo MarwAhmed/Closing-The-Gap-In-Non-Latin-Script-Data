@@ -1,0 +1,76 @@
+{
+    "record_metadata": {
+        "uuid": "8e4ab5b4-7298-4d55-b490-eb2943527981", 
+        "record_created": "2021-11_16", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": "Irankoran",
+        "date": [        
+            {
+                "from": "2017", 
+                "to": "2020"
+            }           
+        ],     
+        "ref": [
+            "https://www.bbaw.de/forschung/irankoran",
+            "https://corpuscoranicum.de/about/index/sure/1/vers/1"        
+        ],
+        "project_desc": "",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [],
+        "siblings": [],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": [],
+        "comment": null
+    }
+}
