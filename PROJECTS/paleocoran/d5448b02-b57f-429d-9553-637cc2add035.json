@@ -1,0 +1,73 @@
+{
+    "record_metadata": {
+        "uuid": "d5448b02-b57f-429d-9553-637cc2add035", 
+        "record_created": "2021-11-16", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": "Paleocoran",
+        "date": [        
+            {
+                "from": "2015", 
+                "to": "2018"
+            }           
+        ],     
+        "ref": ["https://www.bbaw.de/forschung/paleocoran"],
+        "project_desc": "",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [],
+        "siblings": [],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": [],
+        "comment": null
+    }
+}
