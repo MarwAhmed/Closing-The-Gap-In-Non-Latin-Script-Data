@@ -59,7 +59,7 @@
 | #framework, #images                          | iiiF                                      | Framework zur Bereitstellung von Bildern und Bildinformationen             | https://iiif.io/                                                                                        |
 | #tool, #nlp                                  | StemmaWeb                                 | Sammlung von Tools für empirische Textarbeit (Graphenbasiert)              | https://stemmaweb.net/                                                                                  |
 | #tool, #nlp                                  | Passim                                    | Tool für Text Alignment                                                    | https://github.com/dasmiq/passim                                                                        |
-| #service, #cicd                              | GitHub Actions                            | Service von Github zur Automatisierung von CI/CD-Abläufen                  | https://github.com/features/actions                                                                                                        |
+| #tool, #editor                               | miro                                      | Online-Whiteboard                                                          | https://miro.com/                                                                                                        |
 
 ## Languages
 ### Description:
