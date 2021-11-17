@@ -5,7 +5,7 @@
 | #dataset                                     | DNBLab                                    | Datensets und digitale Objekte, mit Schnittstelle                          | [DNBLab](https://www.dnb.de/DE/Professionell/Services/WissenschaftundForschung/DNBLab/dnblab_node.html) |
 | #cheatsheet                                  | Markdown Cheatsheet                       | Cheatsheet für Markdown-Basics                                             | [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)                 |
 | #automation, #git                            | GitHub Actions                            | Automatisierung von Entwicklungsumgebungen, Github to Docker               | [GitHub Actions](https://github.com/features/actions)                                                   |
-| #software                                    | Open Encyclopedia System                  | Software-Lösung für wissenschaftliche Encyclopaedien                       | [OES](https://www.open-encyclopedia-system.org)                                                           |
+| #software                                    | Open Encyclopedia System                  | Software-Lösung für wissenschaftliche Encyclopaedien                       | [OES](https://www.open-encyclopedia-system.org)                                                         |
 | #library                                     | المكتبة الشاملة                           | Datenbank mit arabischen Primär- und Sekundärquellen                       | https://shamela.ws/index.php/page/download-shamela                                                      |
 | #nlp                                         | alkhalil morpho sys                       | Arabic morphological analyzer                                              | https://sourceforge.net/projects/alkhalil/                                                              |
 | #software                                    | obsidian.md                               | Markdown-basierte Orga-App                                                 | https://obsidian.md/                                                                                    |
@@ -55,6 +55,11 @@
 | #survey                                      | sosci.survey                              | wissenschaftliches Umfragetool                                             | https://www.soscisurvey.de/en/index)                                                                    |
 | #database, #ngrams, #literature              | The General Index                         | Database of n-Grams of 100 million+ journal articles                       | https://archive.org/details/GeneralIndex                                                                |
 | #tool, #service, #nlp                        | RDMO (Research Data Management Organizer) | Online-Tool zur Erstellung von FDM-Plänen                                  | https://rdmorganiser.github.io/                                                                         |
+| #searchengine                                | staticSearch                              | Codebase for pure JSON search on XHTML5-documents                          | https://github.com/projectEndings/staticSearch                                                          |
+| #framework, #images                          | iiiF                                      | Framework zur Bereitstellung von Bildern und Bildinformationen             | https://iiif.io/                                                                                        |
+| #tool, #nlp                                  | StemmaWeb                                 | Sammlung von Tools für empirische Textarbeit (Graphenbasiert)              | https://stemmaweb.net/                                                                                  |
+| #tool, #nlp                                  | Passim                                    | Tool für Text Alignment                                                    | https://github.com/dasmiq/passim                                                                        |
+| #service, #cicd                              | GitHub Actions                            | Service von Github zur Automatisierung von CI/CD-Abläufen                  | https://github.com/features/actions                                                                                                        |
 
 ## Languages
 ### Description:
@@ -62,6 +67,7 @@
 - [HTML](https://www.w3schools.com/html/default.asp)
 - [RDF](https://www.w3.org/TR/rdf11-concepts/)
 - [Kdl](https://kdl.dev/)
+- [BEACON](https://de.wikipedia.org/wiki/Wikipedia:BEACON)
 
 ### Web:
 - [JavaScript](https://www.w3schools.com/js/default.asp)
@@ -85,24 +91,26 @@
 ### Database:
 - [MySQL](https://www.mysql.com/de/)
 - [PostgreSQL](https://www.postgresql.org/)
-- [SPARQL](https://www.w3.org/TR/rdf-sparql-query/)
 - [MongoDB](https://www.mongodb.com/de-de)
 - [Cassandra](https://cassandra.apache.org/_/index.html)
 - [elasticSearch](https://www.elastic.co/de/elasticsearch/)
 - [eXist-db](http://exist-db.org/exist/apps/homepage/index.html)
 - [baseX](https://basex.org/)
 - [Supabase](https://supabase.io/)
+- [staticSearch](https://github.com/projectEndings/staticSearch)
+- [Neo4J](https://neo4j.com/)
 
 ### Query Languages:
 - [GraphQL](https://graphql.org/)
 - [SQL](https://www.w3schools.com/sql/sql_intro.asp)
 - [XQuery](https://www.w3schools.com/xml/xquery_intro.asp)
+- [SPARQL](https://www.w3.org/TR/rdf-sparql-query/)
 
 ## Authority Control
 ### Specific:
-- Syriaca
-- Wissensgemeinschaften
-- SNAPDRGN
+- [Syriaca](https://syriaca.org/index.html)
+- [Wissensgemeinschaften](https://usaybia.net/exist/apps/usaybia/index.html)
+- [SNAPDRGN](https://snapdrgn.net/)
 - [HAF](https://haf.vhmml.org/)
 - [Titulus](http://3.226.124.168/)
 - [GRID](https://www.grid.ac/)
