@@ -59,7 +59,8 @@
 | #framework, #images                          | iiiF                                      | Framework zur Bereitstellung von Bildern und Bildinformationen             | https://iiif.io/                                                                                        |
 | #tool, #nlp                                  | StemmaWeb                                 | Sammlung von Tools für empirische Textarbeit (Graphenbasiert)              | https://stemmaweb.net/                                                                                  |
 | #tool, #nlp                                  | Passim                                    | Tool für Text Alignment                                                    | https://github.com/dasmiq/passim                                                                        |
-| #tool, #editor                               | miro                                      | Online-Whiteboard                                                          | https://miro.com/                                                                                                        |
+| #tool, #editor                               | miro                                      | Online-Whiteboard                                                          | https://miro.com/                                                                                       |
+| #tool, #rdm                                  | openRefine                                | Tool for cleaning, transforming and formatting "messy data"                | https://openrefine.org/                                                                                                      |
 
 ## Languages
 ### Description:
