@@ -1,0 +1,73 @@
+{
+    "record_metadata": {
+        "uuid": "d0a1971a-e11b-442f-ab1a-6d8d421422c5", 
+        "record_created": "2021-11-18", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": "Handschriftenportal",
+        "date": [        
+            {
+                "from": "", 
+                "to": ""
+            }           
+        ],     
+        "ref": ["https://handschriftenportal.de/"],
+        "project_desc": "Im DFG-Projekt Handschriftenportal wird eine zentrale Informationsplattform für mittelalterliche und neuzeitliche Buchhandschriften in deutschen Sammlungen entwickelt, die das bisherige Angebot von [Manuscripta Mediaevalia](http://www.manuscripta-mediaevalia.de/) zeitgemäß ersetzt: Das Handschriftenportal wird die verfügbaren Erschließungsdaten zu deutschen Handschriftenbeständen bündeln und vorhandene Digitalisate nachweisen bzw. integrieren. Sämtliche Daten werden interoperabel verfügbar gemacht.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [],
+        "siblings": [],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": ["manuscripts"],
+        "comment": null
+    }
+}
