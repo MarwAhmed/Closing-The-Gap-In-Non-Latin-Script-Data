@@ -1,0 +1,76 @@
+{
+    "record_metadata": {
+        "uuid": "377201a9-9b09-4a6b-b5e8-873190633e78", 
+        "record_created": "2021-11-18", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": "Middle East Librarians Association",
+        "abbr": "MELA",
+        "date": [        
+            {
+                "from": "", 
+                "to": ""
+            }           
+        ],     
+        "ref": ["https://www.mela.us/"],
+        "project_desc": "It is the mission of the Middle East Librarians Association to facilitate communication among members through meetings and publications; to improve the quality of area librarianship through the development of standards for the profession and education of Middle East library specialists; to compile and disseminate information concerning Middle East libraries and collections and to represent the judgment of the members in matters affecting them; to encourage cooperation among members and Middle East libraries, especially in the acquisition of materials and the development of bibliographic control; to cooperate with other library and area organizations in projects of mutual concern and benefit; to promote research in and development of indexing and automated techniques as applied to Middle East materials. Anyone who is employed by an institution to service Middle East library materials in a professional capacity (selection, acquisition, cataloging, indexing, reference work, administration, and/or preparation of research tools), as well as any other person who has an interest in these aspects of Middle East library materials, is eligible for membership in our Association.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [],
+        "siblings": [],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": [
+            "library", 
+            "mena"],
+        "comment": null
+    }
+}

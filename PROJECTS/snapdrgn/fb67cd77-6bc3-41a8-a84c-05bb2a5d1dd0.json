@@ -1,0 +1,76 @@
+{
+    "record_metadata": {
+        "uuid": "fb67cd77-6bc3-41a8-a84c-05bb2a5d1dd0", 
+        "record_created": "2021-11-18", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": "SNAP:DRGN",
+        "date": [        
+            {
+                "from": "", 
+                "to": ""
+            }           
+        ],     
+        "ref": ["https://snapdrgn.net/"],
+        "project_desc": "NAP:DRGN is building a virtual authority list for ancient people through Linked Data collection of common information from many collaborating projects. The graph will provide: 1. identifiers for all persons who appear in one or more corpora and catalogues; 2. gold standard normalization data for parsing and proofing tools; 3. visualization of ancient persons, names, titles and relationships; 4. research tools for historians; 5. standards and software contributing to the Linked Ancient World Data community.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [],
+        "siblings": [],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": [
+            "authorityfiles", 
+            "antiquity"
+        ],
+        "comment": null
+    }
+}

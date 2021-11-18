@@ -1,0 +1,73 @@
+{
+    "record_metadata": {
+        "uuid": "a4fa5143-90d2-42ba-a8a1-424b09696b1c", 
+        "record_created": "2021-11-18", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": "Orient-Digital",
+        "date": [        
+            {
+                "from": "2020", 
+                "to": "2023"
+            }           
+        ],     
+        "ref": ["https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/projekte/dfg-projekt-orient-digital"],
+        "project_desc": "Das Projekt „Orient-Digital“ ist ein von der Deutschen Forschungsgemeinschaft gefördertes, zunächst auf drei Jahre hin ausgelegtes Projekt zum Aufbau eines Verbundkatalogs und eines Portals für orientalische Handschriften. Ziele des Projektes sind die Etablierung gemeinsamer Erschließungsstandards, die Konvertierung gedruckter Kataloge in elektronische sowie die Zusammenführung aller bestehenden elektronischen Nachweise. Antragsteller und Haupt-Kooperationspartner sind die Staatsbibliothek zu Berlin, die Forschungsbibliothek Gotha der Universität Erfurt, die Bayerische Staatsbibliothek München und das Universitätsrechenzentrum Leipzig.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [],
+        "siblings": [],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": [],
+        "comment": null
+    }
+}
