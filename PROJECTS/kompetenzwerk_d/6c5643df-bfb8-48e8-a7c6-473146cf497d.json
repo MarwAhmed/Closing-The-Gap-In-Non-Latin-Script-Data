@@ -1,0 +1,76 @@
+{
+    "record_metadata": {
+        "uuid": "6c5643df-bfb8-48e8-a7c6-473146cf497d", 
+        "record_created": "2021-11-18", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": "KompetenzwerkD",
+        "date": [        
+            {
+                "from": "", 
+                "to": ""
+            }           
+        ],     
+        "ref": ["https://www.saw-leipzig.de/de/akademie-digital/akademie-digital/kompetenzwerkd-saechsisches-forschungszentrum-und-kompetenznetzwerk-fuer-digitale-geisteswissenschaften-und-kulturelles-erbe"],
+        "project_desc": "Das KompetenzwerkD – D steht für alle Facetten der Digitalisierung – ist ein Forschungszentrum (Werkstatt) und ein Kompetenz- und Leistungsverbund (Netzwerk) für die Bereiche Digitale Geisteswissenschaften und Digitales Kulturelles Erbe der außeruniversitären, geisteswissenschaftlichen Forschungseinrichtungen in Sachsen.Das Netzwerk bündelt die Kompetenz der beteiligten Institute auf dem Gebiet der Digital Humanities und entwickelt sie gezielt strategisch weiter. Im Vordergrund stehen dabei die Unterstützung bei der Nutzung und Übertragung von geeigneten Methoden auf geisteswissenschaftliche Fragestellungen und der Ausbau bereits vorhandener digitaler Forschungskomponenten. Die Werkstatt, institutionell angebunden an die Digital-Humanities-Abteilung der Akademie bildet den operativen Kern; das Netzwerk den inneren Raum für Transferleistungen",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [],
+        "siblings": [],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": [
+            "dh", 
+            "network"
+        ],
+        "comment": null
+    }
+}
