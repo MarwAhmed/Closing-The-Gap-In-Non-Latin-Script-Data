@@ -57,10 +57,15 @@
 | #tool, #service, #nlp                        | RDMO (Research Data Management Organizer) | Online-Tool zur Erstellung von FDM-Plänen                                  | https://rdmorganiser.github.io/                                                                         |
 | #searchengine                                | staticSearch                              | Codebase for pure JSON search on XHTML5-documents                          | https://github.com/projectEndings/staticSearch                                                          |
 | #framework, #images                          | iiiF                                      | Framework zur Bereitstellung von Bildern und Bildinformationen             | https://iiif.io/                                                                                        |
-| #tool, #nlp                                  | StemmaWeb                                 | Sammlung von Tools für empirische Textarbeit (Graphenbasiert)              | https://stemmaweb.net/                                                                                  |
+| #infrastructure, #tool, #nlp                 | StemmaWeb                                 | Sammlung von Tools für empirische Textarbeit (Graphenbasiert)              | https://stemmaweb.net/                                                                                  |
 | #tool, #nlp                                  | Passim                                    | Tool für Text Alignment                                                    | https://github.com/dasmiq/passim                                                                        |
 | #tool, #editor                               | miro                                      | Online-Whiteboard                                                          | https://miro.com/                                                                                       |
-| #tool, #rdm                                  | openRefine                                | Tool for cleaning, transforming and formatting "messy data"                | https://openrefine.org/                                                                                                      |
+| #tool, #rdm                                  | openRefine                                | Tool for cleaning, transforming and formatting "messy data"                | https://openrefine.org/                                                                                 |
+| #tool, #projectmanagement, #service          | openProject                               | OpenSource Project management software with (commercial) hosting options   | https://www.openproject.org/                                                                            |
+| #infrastructure, #tool, #nlp                 | CLARIN                                    | digital infrastructure services for language-based research                | https://www.clarin.eu/                                                                                  |
+| #infrastructure                              | openEIRE                                  | Research Data Infrastructure                                               | https://www.openaire.eu/                                                                                |
+| #library, #tool, #service, #nlp              | Hathi Trust                               | Digital Library and provider of NLP-Tools                                  | https://www.hathitrust.org/                                                                             |
+| #infrastructure, #service, #rdm              | OSF                                       | Research data infrastructure                                               | https://osf.io/                                                                                                        |
 
 ## Languages
 ### Description:
@@ -131,3 +136,13 @@
 - [Digital Studies / Le champ numérique](https://www.digitalstudies.org/ojs/index.php/digital_studies)
 - [jTEI](https://journals.openedition.org/jtei/)
 - [Kairos](https://kairos.technorhetoric.net/)
+
+## Consortia
+- [NFDI4Culture](https://nfdi4culture.de/)
+- [NFDI4Memory](https://4memory.de/)
+- [Text Plus](https://www.text-plus.org/)
+
+## Networks
+- [Islamicate Digital Humanities Network](https://idhn.org/)
+- [DARIAH](https://www.dariah.eu/)
+- [Research Data Alliance](https://rd-alliance.org/)
