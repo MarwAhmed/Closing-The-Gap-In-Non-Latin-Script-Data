@@ -1,0 +1,76 @@
+{
+    "record_metadata": {
+        "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df", 
+        "record_created": "2021-11-18", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": "Kitab",
+        "date": [        
+            {
+                "from": "", 
+                "to": ""
+            }           
+        ],     
+        "ref": ["http://kitab-project.org/"],
+        "project_desc": "KITAB provides a digital tool-box and a forum for discussions about Arabic texts. We wish to empower users to explore Arabic texts in completely new ways and to expand the frontiers of knowledge about one of the world’s largest and most complex textual traditions. We are leading with a tool that detects how authors copied from previous works. Arabic authors frequently made use of past works, cutting them into pieces and reconstituting them to address their own outlooks and concerns. Now you can discover relationships between these texts and also the profoundly intertextual circulatory systems in which they sit. Our most recent work has involved gathering statistics on such reuse across the tradition. This includes the extent and precision of reuse, and where it does and does not occur. We are also developing new visualisations that show the relationships between authors, books, and the ideas that they contain. Equally importantly, we are building the corpus of texts upon which our research is based, and making use of our recent and pioneering work on Optical Character Recognition, The technology that powers KITAB is at the cutting edge of computer science and we are deeply indebted to our partners. Our first algorithm has been developed by David Smith of Northeastern University. Gregory Crane (editor-in-chief of the Perseus Digital Library and the Alexander von Humboldt Chair in the Digital Humanities at Leipzig University) has been a major collaborator from the start on most aspects of the project. The University of Maryland is now also working with us on building building. For funding, we are grateful to the support that we have received from my home institution, the Aga Khan University and also from the British Academy and from May 2018, the European Research Council under the Horizon 2020 grant scheme (KITAB, no. 772989).",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [],
+        "siblings": [],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": [
+            "ara", 
+            "kitab"
+        ],
+        "comment": null
+    }
+}
