@@ -1,0 +1,73 @@
+{
+    "record_metadata": {
+        "uuid": "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e", 
+        "record_created": "2021-11-18", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": " PalREAD",
+        "date": [        
+            {
+                "from": "", 
+                "to": ""
+            }           
+        ],     
+        "ref": ["https://www.geschkult.fu-berlin.de/en/e/palread/index.html"],
+        "project_desc": "With massive numbers of the world’s population living as refugees and exiles, the literary production of displaced peoples poses serious questions and challenges to conventional and established methods of literary analysis. This is the context in which PalREAD is working to develop a comprehensive model for the study of Palestinian literature as an early and on-going case of literary displacement. To do so, PalREAD is seeking new ways to account for and analyze texts, literary production, reception and reading practices that challenge and lie outside the framework of the nation-state. In tracing the story of Palestinian literary production across different countries and continents, PalREAD adopts a transnational perspective combined with a holistic methodology that can view and understand Literature in its widest components.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [],
+        "siblings": [],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": ["ara"],
+        "comment": null
+    }
+}
