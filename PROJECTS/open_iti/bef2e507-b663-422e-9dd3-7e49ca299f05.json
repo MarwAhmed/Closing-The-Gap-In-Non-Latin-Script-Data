@@ -1,0 +1,79 @@
+{
+    "record_metadata": {
+        "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05", 
+        "record_created": "2021-11-18", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": "Open Islamicate Texts Initiative",
+        "abbr": "OpenITI",
+        "date": [        
+            {
+                "from": "", 
+                "to": ""
+            }           
+        ],     
+        "ref": ["https://alraqmiyyat.github.io/OpenITI/"],
+        "project_desc": "The written Arabic heritage is as vast as it is understudied and underrepresented in the digital humanities. The sheer volume and diversity of the surviving works produced in Arabic in the premodern period makes this body of texts ideal for computational forms of analysis. Efforts to utilize these new digital forms of analysis, however, have been stymied by the lack of a reliable corpus. Started as **OpenArabic**, an effort within the Alexander von Humboldt Chair for Digital Humanities (Leipzig University) to create the first machine-actionable scholarly corpus of premodern Arabic texts, **OpenITI** is the next stage of development of the corpus of not only Arabic texts, but also texts in other languages of the Islamic world.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [],
+        "siblings": [],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": [
+            "corpus", 
+            "dh", 
+            "multilingualdh",
+            "ara"
+        ],
+        "comment": null
+    }
+}
