@@ -1,0 +1,73 @@
+{
+    "record_metadata": {
+        "uuid": "9ed78f16-e6fa-4156-a03d-f6581b7b7367", 
+        "record_created": "2021-11-18", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": "Der Bibeltext der Handschriften mit babylonisch-jemenitischer Punktation: Erfassung der Textvarianten",
+        "date": [        
+            {
+                "from": "", 
+                "to": ""
+            }           
+        ],     
+        "ref": ["http://www.hfjs.eu//abc/projekte.babylonisch-jemenitische-bibeltext-Tradition.html"],
+        "project_desc": "Ziel des Projektes ist die vollständige Erfassung der Lesevarianten der Bibelhandschriften der babylonisch-jemenitischen Tradition sowie die computergestützte Erfassung aller philologisch bedeutenden Textvarianten dieser Tradition. Die Lesevarianten sollen dann mit anderen alten Textzeugen (samaritanischer Text, LXX und die anderen griechischen Übersetzungen, Peschitta, Vetus Latina und Vulgata sowie Targumim) verglichen und traditionsgeschichtlich eingeordnet werden. Die Analyse dieser Varianten wird eine bislang vernachlässigte Perspektive für die Rekonstruktion der biblischen Textgeschichte erschließen und neues bis jetzt unerforschtes Material zur Verfügung stellen, das neue Einblicke in die geschichtliche Entwicklung des biblischen Textes, sowohl in seiner vormasoretischen als auch in seiner masoretischen Phase, gewährt.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [],
+        "siblings": [],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": [],
+        "comment": null
+    }
+}
