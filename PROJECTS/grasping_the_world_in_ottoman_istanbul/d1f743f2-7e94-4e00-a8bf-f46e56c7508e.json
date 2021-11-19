@@ -1,0 +1,73 @@
+{
+    "record_metadata": {
+        "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e", 
+        "record_created": "2021-11-19", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sexteenth Century",
+        "date": [        
+            {
+                "from": "", 
+                "to": ""
+            }           
+        ],     
+        "ref": ["https://www.csmc.uni-hamburg.de/written-artefacts/field-d/rfd04.html"],
+        "project_desc": "",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [],
+        "siblings": [],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": [],
+        "comment": null
+    }
+}
