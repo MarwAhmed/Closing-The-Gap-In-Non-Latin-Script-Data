@@ -1,0 +1,108 @@
+{
+    "record_metadata": {
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213", 
+        "record_created": "2021-11-19", 
+        "record_created_by": "Kudela, Xenia Monika",
+        "record_modified": null,
+        "record_modified_by": null
+    },
+    "project": {
+        "title": "Understanding Written Artefacts",
+        "date": [        
+            {
+                "from": "2019", 
+                "to": ""
+            }           
+        ],     
+        "ref": ["https://www.csmc.uni-hamburg.de/written-artefacts/"],
+        "project_desc": "Writing is one of the most important cultural techniques to have shaped the world’s societies. For most of human history, writing has been handwriting and has been part of diverse and complex manuscript cultures. Written artefacts have been continuously produced up to our own day, though the invention of printing with moveable types marginalised some while at the same time prompted new ones, not least digital media.Over the past three decades, scholarly interest in written artefacts has increased significantly. Enhanced possibilities for the production, storage, circulation, and analysis of images and texts have stimulated historical and systematic inquiry. Material sciences provide methods for asserting the biological and chemical identities of written artefacts. In Asia and Africa manuscripts and inscriptions are increasingly relevant to cultural heritages, and the vast quantities of manuscripts have begun to be catalogued and made accessible.The time has come to develop a truly global framework for the study of all written artefacts from the beginning of writing to the present day and from all regions having produced such artefacts in a way only possible because of Hamburg’s unique combination of expertise. Universität Hamburg has a long history of excellence in manuscript studies. In addition to the Sonderforschungsbereich \"Manuscript Cultures in Asia, Africa and Europe\", three European Research Council (ERC) grants, two long-term projects (Akademienprogramm), the large-scale project \"Safeguarding the Manuscripts from Timbuktu\" and a number of smaller research projects are currently conducted.The proposed Cluster of Excellence \"Understanding Written Artefacts\" includes altogether forty investigators from the humanities representing twenty-three disciplines and ten from biology, chemistry, computer science, mineralogy, neurocognitive psychology, physics and radiology. They will establish a unified, comparative and comprehensive approach for studying how writing has shaped human societies and cultures, and how these in turn have adapted writing to their needs. Finally, they will produce insights immediately relevant for the preservation of objects belonging to the cultural heritage of all humankind.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "", 
+                    "ref": []
+                } 
+            }          
+        ],
+        "lang":[],
+        "nls_related": null,
+        "dh_related": null,
+        "parents":[
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"",
+                    "ref":[]
+                },
+                "ref": [],
+                "places":[
+                    {
+                        "place_name":{
+                            "text": "", 
+                            "ref": []
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "project",
+                "title": "",
+                "uuid": "" 
+            }       
+        ],
+        "children": [
+            {
+                "type": "project",
+                "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sexteenth Century",
+                "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e" 
+            },
+            {
+                "type": "project",
+                "title": "Script Styles versus Dialect and Language: A Case for Songhay in Islamic Manuscripts of Timbuktu and Jenne",
+                "uuid": "96c7995f-dfc8-489c-baf3-c4347b67c6db" 
+            }            
+        ],
+        "siblings": [
+            {
+                "type": "project",
+                "title": "The Persian Documents from al-Ḥaram al-Šarīf",
+                "uuid": "c0d5f0ed-cd33-4224-bcc9-d386f23b6446" 
+            },
+            {
+                "type": "project",
+                "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
+                "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c" 
+            }, 
+            {
+                "type": "project",
+                "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
+                "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e" 
+            }            
+        ],
+        "contacts": [
+            {
+                "pers_name":{
+                    "text": "",
+                    "ref":[]
+                },  
+                "role": null,
+                "ref": []     
+            }                 
+        ],
+        "research_data": {
+            "lang":[]
+        },
+        "technology": {},
+        "policies": {}, 
+        "keywords": [
+            "manuscripts", 
+            "fas", 
+            "eth", 
+            "eri", 
+            "san", 
+            "ara", 
+            "mali"
+        ],
+        "comment": null
+    }
+}
