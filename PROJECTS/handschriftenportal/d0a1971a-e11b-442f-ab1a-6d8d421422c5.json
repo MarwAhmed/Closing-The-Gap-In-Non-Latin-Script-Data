@@ -3,15 +3,15 @@
         "uuid": "d0a1971a-e11b-442f-ab1a-6d8d421422c5", 
         "record_created": "2021-11-18", 
         "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+        "record_modified": "2021-11-22",
+        "record_modified_by": "Kudela, Xenia Monika"
     },
     "project": {
         "title": "Handschriftenportal",
         "date": [        
             {
-                "from": "", 
-                "to": ""
+                "from": "2018", 
+                "to": "2021"
             }           
         ],     
         "ref": ["https://handschriftenportal.de/"],
@@ -19,35 +19,99 @@
         "places": [
             {
                 "place_name": {
-                    "text": "", 
-                    "ref": []
+                    "text": "Berlin", 
+                    "ref": ["http://www.geonames.org/2950159/berlin.html"]
+                } 
+            },
+            {
+                "place_name": {
+                    "text": "Leipzig", 
+                    "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Munich", 
+                    "ref": ["http://www.geonames.org/2867714/munich.html"]
+                }  
+            }, 
+            {
+                "place_name": {
+                    "text": "Wolfenbüttel", 
+                    "ref": ["http://www.geonames.org/2806914/wolfenbuettel.html"]
                 } 
             }          
         ],
-        "lang":[],
-        "nls_related": null,
-        "dh_related": null,
+        "lang":[
+            "eng",
+            "deu"
+        ],
+        "nls_related": false,
+        "dh_related": true,
         "parents":[
             {
                 "type": "org",
                 "org_name":{
-                    "text":"",
-                    "ref":[]
+                    "text":"Staatsbibliothek zu Berlin – Preußischer Kulturbesitz",
+                    "ref":["https://www.grid.ac/institutes/grid.461943.d"]
                 },
-                "ref": [],
+                "ref": ["http://staatsbibliothek-berlin.de/"],
                 "places":[
                     {
-                        "place_name":{
-                            "text": "", 
-                            "ref": []
+                        "place_name": {
+                            "text": "Berlin", 
+                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
                         }                    
                     }
                 ]
             },
             {
-                "type": "project",
-                "title": "",
-                "uuid": "" 
+                "type": "org",
+                "org_name":{
+                    "text":"Universitätsbibliothek Leipzig",
+                    "ref":["https://www.grid.ac/institutes/grid.9647.c"]
+                },
+                "ref": ["https://www.ub.uni-leipzig.de/start/"],
+                "places":[
+                    {                      
+                        "place_name": {
+                            "text": "Leipzig", 
+                            "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+                        }                     
+                    }
+                ]
+            },
+            {
+                "type": "org",
+                "org_name":{
+                "text":"Bayerische Staatsbibliothek München",
+                    "ref":["https://www.grid.ac/institutes/grid.432478.e"]
+                },
+                "ref": ["https://www.bsb-muenchen.de/"],
+                "places":[
+                    {
+                        "place_name": {
+                            "text": "Munich", 
+                            "ref": ["http://www.geonames.org/2867714/munich.html"]
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"Herzog August Bibliothek Wolfenbüttel",
+                    "ref":["https://www.grid.ac/institutes/grid.461604.1"]
+                },
+                "ref": ["http://www.hab.de/"],
+                "places":[
+                    {
+                        "place_name": {
+                            "text": "Wolfenbüttel", 
+                            "ref": ["http://www.geonames.org/2806914/wolfenbuettel.html"]
+                        }                   
+                    }
+                ]
             }       
         ],
         "children": [],
@@ -55,19 +119,22 @@
         "contacts": [
             {
                 "pers_name":{
-                    "text": "",
-                    "ref":[]
+                    "text": "Bonte, Achim",
+                    "ref":["https://d-nb.info/gnd/1023548224"]
                 },  
-                "role": null,
-                "ref": []     
+                "role": 0,
+                "ref": ["https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/generaldirektion/info-gd"]     
             }                 
         ],
         "research_data": {
-            "lang":[]
+            "lang":[
+                "deu",
+                "lat"
+            ]
         },
         "technology": {},
         "policies": {}, 
         "keywords": ["manuscripts"],
-        "comment": null
+        "comment":"In case of funding extension the second phase of the project should start in 2022"
     }
 }
