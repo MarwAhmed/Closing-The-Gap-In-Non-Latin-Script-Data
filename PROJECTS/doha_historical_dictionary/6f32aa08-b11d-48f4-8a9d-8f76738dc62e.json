@@ -3,51 +3,62 @@
         "uuid": "6f32aa08-b11d-48f4-8a9d-8f76738dc62e ", 
         "record_created": "2021-11-18", 
         "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+        "record_modified": "2021-11-22",
+        "record_modified_by": "Kudela, Xenia Monika"
     },
     "project": {
         "title": "Doha Historical Dictionary (معجم الدوحة التأريخي للغة العربية)",
         "date": [        
             {
-                "from": "", 
-                "to": ""
+                "from": "2013-05-23", 
+                "to": "2028"
             }           
         ],     
         "ref": ["https://dohadictionary.org/"],
-        "project_desc": "",
+        "project_desc": "​The Doha Historical Dictionary of Arabic​ aims to oversee the compilation of a historical lexicon of the Arabic language as it has developed over the last two millennia. Once completed, the final work will detail the origins of every word in its corpus and record the transformations in each word’s meaning, in addition to the location of its first appearance. To achieve this, the Doha Historical Dictionary of Arabic will rely on an extensive body of primary materials in the Arabic language, drawn from centuries of the Arabic canon. The mandate of the Doha Historical Dictionary of Arabic is significant in that it will remedy the present lack of an all-encompassing, historical dictionary for Arabic speakers. In addition, by serving to preserve the Arab nation’s common linguistic, epistemological and intellectual legacy, the Dictionary will serve to bolster Arab unity through highlighting the Arabs’ common linguistic heritage.",
         "places": [
             {
                 "place_name": {
-                    "text": "", 
-                    "ref": []
+                    "text": "Doha", 
+                    "ref": ["https://www.geonames.org/2643743/london.html"]
                 } 
             }          
         ],
-        "lang":[],
-        "nls_related": null,
-        "dh_related": null,
+        "lang":["ara"],
+        "nls_related": true,
+        "dh_related": true,
         "parents":[
             {
                 "type": "org",
                 "org_name":{
-                    "text":"",
-                    "ref":[]
+                    "text":"Arab Center for Research and Policy Studies",
+                    "ref":["https://www.wikidata.org/wiki/Q12192828"]
                 },
-                "ref": [],
+                "ref": ["https://www.dohainstitute.edu.qa/en/pages/default.aspx"],
                 "places":[
                     {
-                        "place_name":{
-                            "text": "", 
-                            "ref": []
-                        }                    
+                        "place_name": {
+                        "text": "Doha", 
+                        "ref": ["https://www.geonames.org/2643743/london.html"]
+                    }                    
                     }
                 ]
             },
             {
-                "type": "project",
-                "title": "",
-                "uuid": "" 
+                "type": "org",
+                "org_name":{
+                    "text":"Doha Institute for Graduate Studies",
+                    "ref":["https://www.wikidata.org/wiki/Q23418976"]
+                },
+                "ref": ["https://www.dohainstitute.org/en/Pages/index.aspx"],
+                "places":[
+                    {
+                        "place_name": {
+                        "text": "Doha", 
+                        "ref": ["https://www.geonames.org/2643743/london.html"]
+                    }                    
+                    }
+                ]
             }       
         ],
         "children": [],
@@ -55,19 +66,22 @@
         "contacts": [
             {
                 "pers_name":{
-                    "text": "",
-                    "ref":[]
+                    "text": "Baalbaki, Ramzi",
+                    "ref":["https://www.wikidata.org/wiki/Q19664932"]
                 },  
-                "role": null,
-                "ref": []     
+                "role": 0,
+                "ref": ["https://www.aub.edu.lb/fas/arabic/Pages/Ramzi-Baalbaki-par.aspx"]     
             }                 
         ],
         "research_data": {
-            "lang":[]
+            "lang":["ara"]
         },
         "technology": {},
         "policies": {}, 
-        "keywords": [],
+        "keywords": [
+            "ara",
+            "dictionary"
+        ],
         "comment": null
     }
 }
