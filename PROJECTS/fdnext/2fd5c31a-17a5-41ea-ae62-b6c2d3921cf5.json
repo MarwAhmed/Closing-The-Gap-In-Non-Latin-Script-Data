@@ -19,51 +19,144 @@
         "places": [
             {
                 "place_name": {
-                    "text": "", 
-                    "ref": []
+                    "text": "Berlin", 
+                    "ref": ["http://www.geonames.org/2950159/berlin.html"]
                 } 
-            }          
+            },
+            {
+                "place_name": {
+                    "text": "Potsdam", 
+                    "ref": ["http://www.geonames.org/2852458/potsdam.html"]
+                } 
+            },
+            {
+                "place_name": {
+                    "text": "Frankfurt (Oder)", 
+                    "ref": ["http://www.geonames.org/2925535/frankfurt-oder.html"]
+                } 
+            },
+            {
+                "place_name": {
+                    "text": "Cottbus", 
+                    "ref": ["https://www.geonames.org/2939811/cottbus.html"]
+                }
+            }       
         ],
-        "lang":[],
-        "nls_related": null,
-        "dh_related": null,
+        "lang":["eng"],
+        "nls_related": false,
+        "dh_related": false,
         "parents":[
             {
                 "type": "org",
                 "org_name":{
-                    "text":"",
-                    "ref":[]
+                    "text":"Humboldt-Universität zu Berlin",
+                    "ref":["https://www.grid.ac/institutes/grid.7468.d"]
                 },
-                "ref": [],
+                "ref": ["https://www.hu-berlin.de/de"],
                 "places":[
                     {
-                        "place_name":{
-                            "text": "", 
-                            "ref": []
-                        }                    
+                        "place_name": {
+                            "text": "Berlin", 
+                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
+                        }                     
                     }
                 ]
             },
             {
-                "type": "project",
-                "title": "",
-                "uuid": "" 
-            }       
+                "type": "org",
+                "org_name": {
+                    "text": "Freie Universität Berlin",
+                    "ref": ["https://www.grid.ac/institutes/grid.14095.39"]
+                },
+                "ref": ["https://www.fu-berlin.de/"],
+                "places": [
+                    {
+                        "place_name": {
+                            "text": "Berlin", 
+                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
+                        }                     
+                    }
+                ]
+            }, 
+            {
+                "type": "org",
+                "org_name": {
+                    "text": "Technische Universität Berlin",
+                    "ref": ["https://www.grid.ac/institutes/grid.6734.6"]
+                },
+                "ref": ["https://www.tu.berlin/"],
+                "places": [
+                    {
+                        "place_name": {
+                            "text": "Berlin", 
+                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
+                        }                     
+                    }
+                ]
+            },
+            {
+                "type": "org",
+                "org_name": {
+                    "text": "Universität Potsdam",
+                    "ref":  ["https://www.grid.ac/institutes/grid.11348.3f"]
+                },
+                "ref": ["https://www.uni-potsdam.de/de/"],
+                "places":[
+                    {
+                        "place_name": {
+                            "text": "Potsdam", 
+                            "ref": ["http://www.geonames.org/2852458/potsdam.html"]
+                        }                     
+                    }
+                ]
+            },
+            {
+                "type": "org",
+                "org_name": {
+                    "text": "Europa-Universität Viadrina Frankfurt (Oder)",
+                    "ref": ["https://www.grid.ac/institutes/grid.33018.39"]
+                },
+                "ref": ["https://www.europa-uni.de/en/index.html"],
+                "places": [
+                    {
+                        "place_name":{
+                            "text": "Frankfurt (Oder)", 
+                            "ref": ["http://www.geonames.org/2925535/frankfurt-oder.html"]
+                        }                     
+                    }
+                ]
+            },
+            {
+                "type": "org",
+                "org_name": {
+                    "text": "Brandenburgische Technische Universität Cottbus-Senftenberg",
+                    "ref": ["https://www.grid.ac/institutes/grid.8842.6"]
+                },
+                "ref": ["https://www.b-tu.de/"],
+                "places": [
+                    {
+                        "place_name": {
+                            "text": "Cottbus", 
+                            "ref": ["https://www.geonames.org/2939811/cottbus.html"]
+                        }                                             
+                    }
+                ]
+            }   
         ],
         "children": [],
         "siblings": [],
         "contacts": [
             {
                 "pers_name":{
-                    "text": "",
-                    "ref":[]
+                    "text": "Schmiederer, Simon",
+                    "ref":["https://d-nb.info/gnd/1227354606"]
                 },  
-                "role": null,
-                "ref": []     
+                "role": 1,
+                "ref": ["https://www.researchgate.net/profile/Simon-Schmiederer"]     
             }                 
         ],
         "research_data": {
-            "lang":[]
+            "lang":["eng"]
         },
         "technology": {},
         "policies": {}, 
