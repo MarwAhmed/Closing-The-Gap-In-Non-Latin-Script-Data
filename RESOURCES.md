@@ -65,7 +65,10 @@
 | #infrastructure, #tool, #nlp                 | CLARIN                                    | digital infrastructure services for language-based research                | https://www.clarin.eu/                                                                                  |
 | #infrastructure                              | openEIRE                                  | Research Data Infrastructure                                               | https://www.openaire.eu/                                                                                |
 | #library, #tool, #service, #nlp              | Hathi Trust                               | Digital Library and provider of NLP-Tools                                  | https://www.hathitrust.org/                                                                             |
-| #infrastructure, #service, #rdm              | OSF                                       | Research data infrastructure                                               | https://osf.io/                                                                                                        |
+| #infrastructure, #service, #rdm              | OSF                                       | Research data infrastructure                                               | https://osf.io/                                                                                         |
+| #annotation, #tool                           | Calfa                                     | web-based annotation tool for documents and images                         | https://vision.calfa.fr/                                                                                |
+| #ocr, #commandline                           | Calamari                                  | commandline based OCR-tool based on kraken and ocropy                      | https://github.com/Calamari-OCR/calamari                                                                |
+| #ocr, #nlp                                   | OCRopus                                   | tool collection for ocr and document analysis                              | https://github.com/ocropus/ocropy                                                                                                        |
 
 ## Languages
 ### Description:
