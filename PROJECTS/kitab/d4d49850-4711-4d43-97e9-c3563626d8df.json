@@ -3,15 +3,15 @@
         "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df", 
         "record_created": "2021-11-18", 
         "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+        "record_modified": "2021-11-23",
+        "record_modified_by": "Kudela, Xenia Monika"
     },
     "project": {
         "title": "Kitab",
         "date": [        
             {
-                "from": "", 
-                "to": ""
+                "from": "2018", 
+                "to": "2023"
             }           
         ],     
         "ref": ["http://kitab-project.org/"],
@@ -19,57 +19,73 @@
         "places": [
             {
                 "place_name": {
-                    "text": "", 
-                    "ref": []
+                    "text": "London", 
+                    "ref": ["https://www.geonames.org/2643743/london.html"]
                 } 
             }          
         ],
-        "lang":[],
-        "nls_related": null,
-        "dh_related": null,
+        "lang":[
+            "eng"
+        ],
+        "nls_related": true,
+        "dh_related": true,
         "parents":[
             {
                 "type": "org",
                 "org_name":{
-                    "text":"",
-                    "ref":[]
+                    "text":"The Aga Khan University (International)",
+                    "ref":["https://www.wikidata.org/wiki/Q4690953"]
                 },
-                "ref": [],
+                "ref": [
+                    "https://www.aku.edu/Pages/united-kingdom.aspx",
+                    "https://www.aku.edu/Pages/home.aspx"
+                ],
                 "places":[
                     {
                         "place_name":{
-                            "text": "", 
-                            "ref": []
+                            "text": "Karachi", 
+                            "ref": ["https://www.geonames.org/1174872/karachi.html"]
+                        }                    
+                    },
+                    {
+                        "place_name": {
+                            "text": "London", 
+                            "ref": ["https://www.geonames.org/2643743/london.html"]
                         }                    
                     }
                 ]
-            },
-            {
-                "type": "project",
-                "title": "",
-                "uuid": "" 
-            }       
+            }     
         ],
         "children": [],
         "siblings": [],
         "contacts": [
             {
                 "pers_name":{
-                    "text": "",
-                    "ref":[]
+                    "text": "Savant, Sarah",
+                    "ref":["https://d-nb.info/gnd/1044734957"]
                 },  
-                "role": null,
-                "ref": []     
+                "role": 0,
+                "ref": ["https://www.aku.edu/ismc/people/Pages/sarah-bowen-savant.aspx"]     
+            },
+            {
+                "pers_name":{
+                    "text": "Romanov, Maxim",
+                    "ref":[null]
+                },  
+                "role": 1,
+                "ref": ["http://www.dh.uni-leipzig.de/wo/maxim-romanov/"]     
             }                 
         ],
         "research_data": {
-            "lang":[]
+            "lang":["ara"]
         },
         "technology": {},
         "policies": {}, 
         "keywords": [
             "ara", 
-            "kitab"
+            "kitab",
+            "literature",
+            "arab_literature"
         ],
         "comment": null
     }

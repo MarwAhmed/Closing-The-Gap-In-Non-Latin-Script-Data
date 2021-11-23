@@ -3,8 +3,8 @@
         "uuid": "c82cb342-bf56-48ac-b910-f5c9a440b06e", 
         "record_created": "2021-11-18", 
         "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+        "record_modified": "2021-11-23",
+        "record_modified_by": "Kudela, Xenia Monika"
     },
     "project": {
         "title": "Keywords",
@@ -15,7 +15,7 @@
             }           
         ],     
         "ref": [],
-        "project_desc": "",
+        "project_desc": "KEYWORDS is a living online encyclopedia (format: \"Living Handbook)\" that consists of short articles (2-3 pages) by researchers on central terms and themes related to premodern Arabic literary tradition (8th to 18th centuries). ",
         "places": [
             {
                 "place_name": {

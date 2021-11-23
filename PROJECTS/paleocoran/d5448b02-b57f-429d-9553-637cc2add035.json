@@ -3,8 +3,8 @@
         "uuid": "d5448b02-b57f-429d-9553-637cc2add035", 
         "record_created": "2021-11-16", 
         "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+        "record_modified": "2021-11-23",
+        "record_modified_by": "Kudela, Xenia Monika"
     },
     "project": {
         "title": "Paleocoran",
@@ -15,59 +15,90 @@
             }           
         ],     
         "ref": ["https://www.bbaw.de/forschung/paleocoran"],
-        "project_desc": "",
+        "project_desc": "PALEOCORAN studies approx. 350 Quranic manuscript fragments with a total of more than 7.000 fol. that were once preserved in the ʿAmr Ibn al-ʿĀṣ-Mosque of al-Fusṭāṭ (Old-Cairo) and nowadays -among others – are to be found in Berlin, Cambridge, Chicago, Dublin, Gotha, Copenhagen, Leiden, Paris and St Petersburg. The German-French project – funded by the DFG and the Agence nationale de la recherche (Paris) – aims at reconstructing one of the most prominent Qur’anic libraries and making it digitally accessible. In addition to the manuscripts themselves multiple Arabic and Ottoman sources, travel accounts and archive material on the manuscript’s depositories will be analyzed. The German-French group of researchers will evaluate the manuscripts codicologically, paleographically, historically and scientifically – through ink analysis and the method of radiocarbon dating analysis – in order to determine date, the development of orthography and textual variations. Based on this, the wording within the fragments will be determined and compared to the Islamic literature of reading. Since the manuscripts – having originated before the determination of the seven Canonical ways of reading through the Baghdadi scholar Ibn Muǧāhid (d. 936) – are textual witnesses, they give us insight into the Qur’anic textual history, regardless of the Islamic scholarly literature.",
         "places": [
             {
                 "place_name": {
-                    "text": "", 
-                    "ref": []
+                    "text": "Berlin", 
+                    "ref": ["http://www.geonames.org/2950159/berlin.html"]
+                } 
+            },
+            {
+                "place_name": {
+                    "text": "Paris", 
+                    "ref": ["http://www.geonames.org/2988506/paris.html"]
                 } 
             }          
         ],
-        "lang":[],
-        "nls_related": null,
-        "dh_related": null,
+        "lang":[
+            "eng",
+            "fre",
+            "ger"
+        ],
+        "nls_related": true,
+        "dh_related": true,
         "parents":[
             {
                 "type": "org",
                 "org_name":{
-                    "text":"",
-                    "ref":[]
+                    "text":"die Berlin-Brandenburgische Akademie der Wissenschaften",
+                    "ref":["https://www.grid.ac/institutes/grid.420264.6"]
                 },
-                "ref": [],
+                "ref": ["https://www.bbaw.de/"],
                 "places":[
                     {
-                        "place_name":{
-                            "text": "", 
-                            "ref": []
+                        "place_name": {
+                            "text": "Berlin", 
+                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
                         }                    
                     }
                 ]
             },
             {
-                "type": "project",
-                "title": "",
-                "uuid": "" 
+                "type": "org",
+                "org_name":{
+                    "text":"Collège de France",
+                    "ref":["https://www.grid.ac/institutes/grid.410533.0"]
+                },
+                "ref": ["http://www.college-de-france.fr/site/college/index.htm"],
+                "places":[
+                    {
+                        "place_name": {
+                            "text": "Paris", 
+                            "ref": ["http://www.geonames.org/2988506/paris.html"]
+                        }                    
+                    }
+                ]
             }       
         ],
         "children": [],
-        "siblings": [],
+        "siblings": [
+            {
+                "type": "project",
+                "title": "Corpus Coranicum",
+                "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0" 
+            }
+        ],
         "contacts": [
             {
                 "pers_name":{
-                    "text": "",
-                    "ref":[]
+                    "text": "Marx, Michael",
+                    "ref":[null]
                 },  
-                "role": null,
-                "ref": []     
+                "role": 0,
+                "ref": ["https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/marx-michael"]     
             }                 
         ],
         "research_data": {
-            "lang":[]
+            "lang":["ara"]
         },
         "technology": {},
         "policies": {}, 
-        "keywords": [],
+        "keywords": [
+            "ara",
+            "quran_library",
+            "manuscripts"
+        ],
         "comment": null
     }
 }
