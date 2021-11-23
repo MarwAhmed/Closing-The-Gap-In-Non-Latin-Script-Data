@@ -3,63 +3,125 @@
         "uuid": "6c5643df-bfb8-48e8-a7c6-473146cf497d", 
         "record_created": "2021-11-18", 
         "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+        "record_modified": "2021-11-23",
+        "record_modified_by": "Kudela, Xenia Monika"
     },
     "project": {
         "title": "KompetenzwerkD",
         "date": [        
             {
-                "from": "", 
-                "to": ""
+                "from": "2020", 
+                "to": null
             }           
         ],     
-        "ref": ["https://www.saw-leipzig.de/de/akademie-digital/akademie-digital/kompetenzwerkd-saechsisches-forschungszentrum-und-kompetenznetzwerk-fuer-digitale-geisteswissenschaften-und-kulturelles-erbe"],
+        "ref": [
+            "https://www.saw-leipzig.de/de/akademie-digital/akademie-digital/kompetenzwerkd-saechsisches-forschungszentrum-und-kompetenznetzwerk-fuer-digitale-geisteswissenschaften-und-kulturelles-erbe",
+            "https://kompetenzwerkd.github.io/infoportal/"
+        ],
         "project_desc": "Das KompetenzwerkD – D steht für alle Facetten der Digitalisierung – ist ein Forschungszentrum (Werkstatt) und ein Kompetenz- und Leistungsverbund (Netzwerk) für die Bereiche Digitale Geisteswissenschaften und Digitales Kulturelles Erbe der außeruniversitären, geisteswissenschaftlichen Forschungseinrichtungen in Sachsen.Das Netzwerk bündelt die Kompetenz der beteiligten Institute auf dem Gebiet der Digital Humanities und entwickelt sie gezielt strategisch weiter. Im Vordergrund stehen dabei die Unterstützung bei der Nutzung und Übertragung von geeigneten Methoden auf geisteswissenschaftliche Fragestellungen und der Ausbau bereits vorhandener digitaler Forschungskomponenten. Die Werkstatt, institutionell angebunden an die Digital-Humanities-Abteilung der Akademie bildet den operativen Kern; das Netzwerk den inneren Raum für Transferleistungen",
         "places": [
             {
                 "place_name": {
-                    "text": "", 
-                    "ref": []
+                    "text": "Leipzig", 
+                    "ref": ["https://www.geonames.org/2879139/leipzig.html"]
                 } 
             }          
         ],
-        "lang":[],
-        "nls_related": null,
-        "dh_related": null,
+        "lang":["ger"],
+        "nls_related": false,
+        "dh_related": true,
         "parents":[
             {
                 "type": "org",
                 "org_name":{
-                    "text":"",
-                    "ref":[]
+                    "text":"Sächsische Akademie der Wissenschaften zu Leipzig",
+                    "ref":["https://www.grid.ac/institutes/grid.461800.b"]
                 },
-                "ref": [],
+                "ref": ["https://www.saw-leipzig.de/de/aktuelles"],
                 "places":[
                     {
-                        "place_name":{
-                            "text": "", 
-                            "ref": []
+                        "place_name": {
+                            "text": "Leipzig", 
+                            "ref": ["https://www.geonames.org/2879139/leipzig.html"]
                         }                    
                     }
                 ]
             },
             {
-                "type": "project",
-                "title": "",
-                "uuid": "" 
-            }       
+                "type": "org",
+                "org_name":{
+                    "text":"Leibniz-Institut für Geschichte und Kultur des östlichen Europa e.V.",
+                    "ref":["https://www.grid.ac/institutes/grid.505969.6"]
+                },
+                "ref": ["https://leibniz-gwzo.de/de"],
+                "places":[
+                    {
+                        "place_name": {
+                            "text": "Leipzig", 
+                            "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"das Leibniz-Institut für jüdische Geschichte und Kultur – Simon Dubnow e.V",
+                    "ref":["https://www.grid.ac/institutes/grid.505963.c"]
+                },
+                "ref": ["https://www.dubnow.de/"],
+                "places":[
+                    {
+                        "place_name": {
+                            "text": "Leipzig", 
+                            "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"Institut für Sächsische Geschichte und Volkskunde e.V",
+                    "ref":["https://www.grid.ac/institutes/grid.461669.a"]
+                },
+                "ref": ["https://www.isgv.de/"],
+                "places":[
+                    {
+                        "place_name": {
+                            "text": "Dresden", 
+                            "ref": ["http://www.geonames.org/2935022/dresden.html"]
+                        }                    
+                    }
+                ]
+            },
+            {
+                "type": "org",
+                "org_name":{
+                    "text":"Sorbische Institut e.V. / serbski institut z.t.",
+                    "ref":["https://www.grid.ac/institutes/grid.462837.c"]
+                },
+                "ref": ["https://www.serbski-institut.de/de/home/"],
+                "places":[
+                    {
+                        "place_name": {
+                            "text": "Bautzen", 
+                            "ref": ["https://www.geonames.org/2951881/bautzen.html"]
+                        }                    
+                    }
+                ]
+            }      
         ],
         "children": [],
         "siblings": [],
         "contacts": [
             {
                 "pers_name":{
-                    "text": "",
-                    "ref":[]
+                    "text": "Wiesmeth, Hans",
+                    "ref":["https://d-nb.info/gnd/109432703"]
                 },  
-                "role": null,
-                "ref": []     
+                "role": 0,
+                "ref": ["https://www.saw-leipzig.de/de/mitglieder/wiesmethh"]     
             }                 
         ],
         "research_data": {
