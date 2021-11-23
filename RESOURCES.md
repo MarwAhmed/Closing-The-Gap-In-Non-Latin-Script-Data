@@ -68,7 +68,8 @@
 | #infrastructure, #service, #rdm              | OSF                                       | Research data infrastructure                                               | https://osf.io/                                                                                         |
 | #annotation, #tool                           | Calfa                                     | web-based annotation tool for documents and images                         | https://vision.calfa.fr/                                                                                |
 | #ocr, #commandline                           | Calamari                                  | commandline based OCR-tool based on kraken and ocropy                      | https://github.com/Calamari-OCR/calamari                                                                |
-| #ocr, #nlp                                   | OCRopus                                   | tool collection for ocr and document analysis                              | https://github.com/ocropus/ocropy                                                                                                        |
+| #ocr, #nlp                                   | OCRopus                                   | tool collection for ocr and document analysis                              | https://github.com/ocropus/ocropy                                                                       |
+| #dictionary, #ara                                  | Arabic dictionary interface                            | collection of dictionaries                                                 | https://ejtaal.net/aa/                                                                                                  |
 
 ## Languages
 ### Description:
@@ -116,9 +117,8 @@
 - [SPARQL](https://www.w3.org/TR/rdf-sparql-query/)
 
 ## Authority Control
+
 ### Specific:
-- [Syriaca](https://syriaca.org/index.html)
-- [Wissensgemeinschaften](https://usaybia.net/exist/apps/usaybia/index.html)
 - [SNAPDRGN](https://snapdrgn.net/)
 - [HAF](https://haf.vhmml.org/)
 - [Titulus](http://3.226.124.168/)
@@ -132,6 +132,11 @@
 - [SUDOC](https://www.idref.fr/)
 - [geonames](http://www.geonames.org/)
 - [ISNI](https://isni.org/)
+
+## Reference Works
+- [Syriaca](https://syriaca.org/index.html)
+- [Wissensgemeinschaften](https://usaybia.net/exist/apps/usaybia/index.html)
+- [HIMME](https://medievalmideast.org/) 
 
 ## Journals
 - [Digital Humanities Quarterly](http://digitalhumanities.org/dhq/)
@@ -149,3 +154,4 @@
 - [Islamicate Digital Humanities Network](https://idhn.org/)
 - [DARIAH](https://www.dariah.eu/)
 - [Research Data Alliance](https://rd-alliance.org/)
+- [Hist-ME](https://github.com/Hist-ME)
