@@ -53,9 +53,10 @@
                     }
                 ]
             },
-            { "type": "org",
+            { 
+                "type": "org",
                 "org_name": {
-                    "text": "Bayerischen Staatsbibliothek",
+                    "text": "Bayerische Staatsbibliothek",
                     "ref": ["https://www.grid.ac/institutes/grid.432478.e"]
                 },
                 "ref": ["https://www.bsb-muenchen.de/"],
