@@ -3,73 +3,84 @@
         "uuid": "ddbb569b-1542-40fe-9fa7-3842610945c8", 
         "record_created": "2021-11-18", 
         "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+        "record_modified": "2021-11-25",
+        "record_modified_by": "Kudela, Xenia Monika"
     },
     "project": {
         "title": "Onmasticon Arabicum",
         "date": [        
             {
-                "from": "", 
-                "to": ""
+                "from": "1966-08", 
+                "to": "null"
             }           
         ],     
         "ref": ["https://onomasticon.irht.cnrs.fr"],
-        "project_desc": "",
+        "project_desc": "Onomasticon Arabicum (OA) is a long-living database project. This new online-version informs on more than 27000 scholars and celebrities from the first Muslim millenary. Its entries in Arabic are compiled from ancient biographical dictionaries, a veritable treasure of Islamic culture. Crossed search allows separate interrogation on any of the different elements of the Arabo-Muslim names, dates and places, reconstructing the identity of a person, trace ways of knowledge transmission and frame historical contexts.",
         "places": [
-            {
-                "place_name": {
-                    "text": "", 
-                    "ref": []
-                } 
+            {            
+                "place_name":{
+                    "text": "Paris", 
+                    "ref": ["http://www.geonames.org/2988506/paris.html"]
+                }  
             }          
         ],
-        "lang":[],
-        "nls_related": null,
-        "dh_related": null,
+        "lang":[
+            "ara",
+            "eng"
+        ],
+        "nls_related": true,
+        "dh_related": true,
         "parents":[
             {
                 "type": "org",
                 "org_name":{
-                    "text":"",
-                    "ref":[]
+                    "text":"Institut de Recherche et d'Histoire des Textes (IRHT)",
+                    "ref":["https://www.grid.ac/institutes/grid.450127.5"]
                 },
-                "ref": [],
+                "ref": ["https://www.irht.cnrs.fr/"],
                 "places":[
                     {
                         "place_name":{
-                            "text": "", 
-                            "ref": []
+                            "text": "Paris", 
+                            "ref": ["http://www.geonames.org/2988506/paris.html"]
                         }                    
                     }
                 ]
-            },
-            {
-                "type": "project",
-                "title": "",
-                "uuid": "" 
-            }       
+            }           
         ],
         "children": [],
         "siblings": [],
         "contacts": [
             {
                 "pers_name":{
-                    "text": "",
-                    "ref":[]
+                    "text": "Müller, Christian",
+                    "ref":[null]
                 },  
-                "role": null,
-                "ref": []     
-            }                 
+                "role": 0,
+                "ref": [
+                    "https://www.irht.cnrs.fr/fr/annuaire/muller-christian",
+                    "https://www.universiteitleiden.nl/en/news/2019/03/meet-our-spring-fellow-christian-muller"
+                ]     
+            },
+            {
+                "pers_name":{
+                    "text": "Roiland, Muriel",
+                    "ref":["https://d-nb.info/gnd/1074308999"]
+                },  
+                "role": 0,
+                "ref": ["https://www.irht.cnrs.fr/fr/annuaire/roiland-muriel"]     
+            }               
         ],
         "research_data": {
-            "lang":[]
+            "lang":["ara"]
         },
         "technology": {},
         "policies": {}, 
         "keywords": [
             "datenfriedhof",
-            "ara"
+            "ara", 
+            "datebase",
+            "prosopography"           
         ],
         "comment": null
     }
