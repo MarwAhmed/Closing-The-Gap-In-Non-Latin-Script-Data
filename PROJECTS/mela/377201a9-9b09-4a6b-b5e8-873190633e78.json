@@ -7,12 +7,12 @@
         "record_modified_by": null
     },
     "project": {
-        "title": "Middle East Librarians Association",
+        "title": "Middle East Librarians Association", // wikidata ref: https://www.wikidata.org/wiki/Q100320015
         "abbr": "MELA",
         "date": [        
             {
-                "from": "", 
-                "to": ""
+                "from": "1972", 
+                "to": "present"
             }           
         ],     
         "ref": ["https://www.mela.us/"],
@@ -20,14 +20,14 @@
         "places": [
             {
                 "place_name": {
-                    "text": "", 
-                    "ref": []
+                    "text": "US", 
+                    "ref": ["https://www.geonames.org/6252001/united-states.html"]
                 } 
             }          
         ],
-        "lang":[],
-        "nls_related": null,
-        "dh_related": null,
+        "lang":["eng"],
+        "nls_related": true,
+        "dh_related": true,
         "parents":[
             {
                 "type": "org",
