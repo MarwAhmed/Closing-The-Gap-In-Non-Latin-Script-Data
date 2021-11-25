@@ -8,6 +8,7 @@
     },
     "project": {
         "title": "Ptolemaeus Arabus et Latinus",
+        "abbr": "PAL",
         "date": [        
             {
                 "from": "", 
@@ -15,7 +16,7 @@
             }           
         ],     
         "ref": ["https://ptolemaeus.badw.de/start"],
-        "project_desc": "",
+        "project_desc": "The Project Ptolemaeus Arabus et Latinus (PAL) is dedicated to the edition and study of the Arabic and Latin versions of Ptolemy’s astronomical and astrological texts and related material. These include works by Ptolemy or attributed to him, commentaries thereupon, and other works that are of immediate relevance to understanding Ptolemy’s heritage in the Middle Ages and the early modern period up to 1700 A.D.",
         "places": [
             {
                 "place_name": {
@@ -69,7 +70,8 @@
         "policies": {}, 
         "keywords": [
             "ara",
-            "lat"
+            "lat",
+            "ptolemy"
         ],
         "comment": null
     }
