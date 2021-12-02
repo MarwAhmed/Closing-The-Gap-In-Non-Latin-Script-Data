@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_modified": "2021-12-02",
-    "last_modified_by": "Müller-Laackman, Jonas"
+    "last_modified_by": "Mueller-Laackman, Jonas"
   },
   "resources": {
     "general": [],
@@ -9,61 +9,87 @@
       "description": [
         {
           "label": "XML",
-          "ref": "https://www.w3schools.com/xml/xml_whatis.asp"
+          "ref": "https://www.w3schools.com/xml/xml_whatis.asp",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "HTML",
-          "ref": "https://www.w3schools.com/html/default.asp"
+          "ref": "https://www.w3schools.com/html/default.asp",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "RDF",
-          "ref": "https://www.w3.org/TR/rdf11-concepts/"
+          "ref": "https://www.w3.org/TR/rdf11-concepts/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "Kdl",
-          "ref": "https://kdl.dev/"
+          "ref": "https://kdl.dev/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "BEACON",
-          "ref": "https://de.wikipedia.org/wiki/Wikipedia:BEACON"
+          "ref": "https://de.wikipedia.org/wiki/Wikipedia:BEACON",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         }
       ],
       "web": [
         {
           "label": "JavaScript",
-          "ref": "https://www.w3schools.com/js/default.asp",
+          "ref": "https://www.w3schools.com/js/default.asp",,
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": "",
           "frameworks": [
             {
               "label": "Vue",
-              "ref": "https://v3.vuejs.org/"
+              "ref": "https://v3.vuejs.org/",
+              "curated_by": "Mueller-Laackman, Jonas",
+              "comment": ""
             },
             {
               "label": "React",
-              "ref": "https://reactjs.org/"
+              "ref": "https://reactjs.org/",
+              "curated_by": "Mueller-Laackman, Jonas",
+              "comment": ""
             },
             {
               "label": "Angular",
-              "ref": "https://angular.io/"
+              "ref": "https://angular.io/",
+              "curated_by": "Mueller-Laackman, Jonas",
+              "comment": ""
             }
           ]
         },
         {
           "label": "PHP",
           "ref": "https://laravel.com/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": "",
           "frameworks": [
             {
               "label": "Laravel",
-              "ref": "https://laravel.com/"
+              "ref": "https://laravel.com/",
+              "curated_by": "Mueller-Laackman, Jonas",
+              "comment": ""
             }
           ]
         },
         {
           "label": "Python",
           "ref": "https://www.w3schools.com/python/default.asp",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": "",
           "frameworks": [
             {
               "label": "Django",
-              "ref": "https://www.djangoproject.com/"
+              "ref": "https://www.djangoproject.com/",
+              "curated_by": "Mueller-Laackman, Jonas",
+              "comment": ""
             }
           ]
         }
@@ -72,102 +98,148 @@
         {
           "label": "Python",
           "ref": "https://www.w3schools.com/python/default.asp",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "R",
-          "ref": "https://www.r-project.org/"
+          "ref": "https://www.r-project.org/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "Go",
-          "ref": "https://golang.org/"
+          "ref": "https://golang.org/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "Java",
-          "ref": "https://www.java.com/de/"
+          "ref": "https://www.java.com/de/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         }
       ],
       "style": [
         {
           "label": "CSS",
           "ref": "https://www.w3schools.com/css/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": "",
           "frameworks": [
             {
               "label": "Tailwind CSS",
-              "ref": "https://tailwindcss.com/"
+              "ref": "https://tailwindcss.com/",
+              "curated_by": "Mueller-Laackman, Jonas",
+              "comment": ""
             },
             {
               "label": "Bootstrap",
-              "ref": "https://getbootstrap.com"
+              "ref": "https://getbootstrap.com",
+              "curated_by": "Mueller-Laackman, Jonas",
+              "comment": ""
             }
           ]
         },
         {
           "label": "SASS",
-          "ref": "https://sass-lang.com/"
+          "ref": "https://sass-lang.com/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         }
       ],
       "database": [
         {
           "label": "MySQL",
-          "ref": "https://www.mysql.com/de/"
+          "ref": "https://www.mysql.com/de/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "PostgreSQL",
-          "ref": "https://www.postgresql.org/"
+          "ref": "https://www.postgresql.org/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "MongoDB",
-          "ref": "https://www.mongodb.com/"
+          "ref": "https://www.mongodb.com/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "Cassandra",
-          "ref": "https://cassandra.apache.org/"
+          "ref": "https://cassandra.apache.org/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "elasticSearch",
-          "ref": "https://www.elastic.co/"
+          "ref": "https://www.elastic.co/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "eXist-db",
-          "ref": "http://exist-db.org/"
+          "ref": "http://exist-db.org/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "baseX",
-          "ref": "https://basex.org/"
+          "ref": "https://basex.org/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "Supabase",
-          "ref": "https://supabase.io/"
+          "ref": "https://supabase.io/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "Firebase",
-          "ref": "https://firebase.google.com/"
+          "ref": "https://firebase.google.com/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "staticSearc",
-          "ref": "https://github.com/projectEndings/staticSearch/"
+          "ref": "https://github.com/projectEndings/staticSearch/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "Neo4J",
-          "ref": "https://neo4j.com/"
+          "ref": "https://neo4j.com/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         }
       ],
       "query": [
         {
           "label": "GraphQL",
-          "ref": "https://graphql.org/"
+          "ref": "https://graphql.org/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "SQL",
-          "ref": "https://www.w3schools.com/sql/sql_intro.asp"
+          "ref": "https://www.w3schools.com/sql/sql_intro.asp",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "XQuery",
-          "ref": "https://www.w3schools.com/xml/xquery_intro.asp"
+          "ref": "https://www.w3schools.com/xml/xquery_intro.asp",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "SPARQL",
-          "ref": "https://www.w3.org/TR/rdf-sparql-query/"
+          "ref": "https://www.w3.org/TR/rdf-sparql-query/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         }
       ]
     },
@@ -175,114 +247,170 @@
       "general": [
         {
           "label": "VIAF",
-          "ref": "https://viaf.org/"
+          "ref": "https://viaf.org/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "GND",
-          "ref": "https://lobid.org/gnd"
+          "ref": "https://lobid.org/gnd",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "Wikidata",
-          "ref": "https://www.wikidata.org/"
+          "ref": "https://www.wikidata.org/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "LCCN",
-          "ref": "https://www.loc.gov/"
+          "ref": "https://www.loc.gov/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "SUDOC",
-          "ref": "https://www.idref.fr/"
+          "ref": "https://www.idref.fr/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "geonames",
-          "ref": "http://www.geonames.org/"
+          "ref": "http://www.geonames.org/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "ISNI",
-          "ref": "https://isni.org/"
+          "ref": "https://isni.org/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         }
       ],
       "specific": [
         {
           "label": "SNAPDRGN",
-          "ref": "https://snapdrgn.net/"
+          "ref": "https://snapdrgn.net/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "HAF & Titulus",
-          "ref": "https://haf.vhmml.org/"
+          "ref": "https://haf.vhmml.org/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         },
         {
           "label": "GRID",
-          "ref": "https://www.grid.ac/"
+          "ref": "https://www.grid.ac/",
+          "curated_by": "Mueller-Laackman, Jonas",
+          "comment": ""
         }
       ]
     },
     "reference_works": [
       {
         "label": "Syriaca",
-        "ref": "https://syriaca.org/"
+        "ref": "https://syriaca.org/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       },
       {
         "label": "Communities of Knowledge",
-        "ref": "https://usaybia.net/"
+        "ref": "https://usaybia.net/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       },
       {
         "label": "HIMME",
-        "ref": "https://medievalmideast.org/"
+        "ref": "https://medievalmideast.org/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
+      },
+      {
+        "label": "HistoGis",
+        "ref": "https://histogis.acdh.oeaw.ac.at/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       }
     ],
     "journals": [
       {
         "label": "Digital Humanities Quarterly",
-        "ref": "http://digitalhumanities.org/dhq/"
+        "ref": "http://digitalhumanities.org/dhq/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       },
       {
         "label": "Digital Scholarship in the Humanities",
-        "ref": "https://academic.oup.com/dsh"
+        "ref": "https://academic.oup.com/dsh",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       },
       {
         "label": "Digital Studies / Le champ numérique",
-        "ref": "https://www.digitalstudies.org/ojs/index.php/digital_studies"
+        "ref": "https://www.digitalstudies.org/ojs/index.php/digital_studies",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       },
       {
         "label": "jTEI",
-        "ref": "https://journals.openedition.org/jtei/"
+        "ref": "https://journals.openedition.org/jtei/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       },
       {
         "label": "Kairos",
-        "ref": "https://kairos.technorhetoric.net/"
+        "ref": "https://kairos.technorhetoric.net/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       }
     ],
     "consortia": [
       {
         "label": "NFDI4Culture",
-        "ref": "https://nfdi4culture.de/"
+        "ref": "https://nfdi4culture.de/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       },
       {
         "label": "NFDI4Memory",
-        "ref": "https://4memory.de/"
+        "ref": "https://4memory.de/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       },
       {
         "label": "Text+",
-        "ref": "https://www.text-plus.org/"
+        "ref": "https://www.text-plus.org/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       }
     ],
     "networks": [
       {
         "label": "Islamicate Digital Humanities Network",
-        "ref": "https://idhn.org/"
+        "ref": "https://idhn.org/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       },
       {
         "label": "DARIAH",
-        "ref": "https://www.dariah.eu/"
+        "ref": "https://www.dariah.eu/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       },
       {
         "label": "Research Data Alliance",
-        "ref": "https://rd-alliance.org/"
+        "ref": "https://rd-alliance.org/",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       },
       {
         "label": "Hist-ME",
-        "ref": "https://github.com/Hist-ME"
+        "ref": "https://github.com/Hist-ME",
+        "curated_by": "Mueller-Laackman, Jonas",
+        "comment": ""
       }
     ]
   }
