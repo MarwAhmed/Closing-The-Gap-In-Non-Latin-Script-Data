@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "last_modified": "2021-12-02",
+    "last_modified_by": "Müller-Laackman, Jonas"
+  },
+  "resources": {
+    "general": [],
+    "languages": {
+      "description": [
+        {
+          "label": "XML",
+          "ref": "https://www.w3schools.com/xml/xml_whatis.asp"
+        },
+        {
+          "label": "HTML",
+          "ref": "https://www.w3schools.com/html/default.asp"
+        },
+        {
+          "label": "RDF",
+          "ref": "https://www.w3.org/TR/rdf11-concepts/"
+        },
+        {
+          "label": "Kdl",
+          "ref": "https://kdl.dev/"
+        },
+        {
+          "label": "BEACON",
+          "ref": "https://de.wikipedia.org/wiki/Wikipedia:BEACON"
+        }
+      ],
+      "web": [
+        {
+          "label": "JavaScript",
+          "ref": "https://www.w3schools.com/js/default.asp",
+          "frameworks": [
+            {
+              "label": "Vue",
+              "ref": "https://v3.vuejs.org/"
+            },
+            {
+              "label": "React",
+              "ref": "https://reactjs.org/"
+            },
+            {
+              "label": "Angular",
+              "ref": "https://angular.io/"
+            }
+          ]
+        },
+        {
+          "label": "PHP",
+          "ref": "https://laravel.com/",
+          "frameworks": [
+            {
+              "label": "Laravel",
+              "ref": "https://laravel.com/"
+            }
+          ]
+        },
+        {
+          "label": "Python",
+          "ref": "https://www.w3schools.com/python/default.asp",
+          "frameworks": [
+            {
+              "label": "Django",
+              "ref": "https://www.djangoproject.com/"
+            }
+          ]
+        }
+      ],
+      "nlp": [
+        {
+          "label": "Python",
+          "ref": "https://www.w3schools.com/python/default.asp",
+        },
+        {
+          "label": "R",
+          "ref": "https://www.r-project.org/"
+        },
+        {
+          "label": "Go",
+          "ref": "https://golang.org/"
+        },
+        {
+          "label": "Java",
+          "ref": "https://www.java.com/de/"
+        }
+      ],
+      "style": [
+        {
+          "label": "CSS",
+          "ref": "https://www.w3schools.com/css/",
+          "frameworks": [
+            {
+              "label": "Tailwind CSS",
+              "ref": "https://tailwindcss.com/"
+            },
+            {
+              "label": "Bootstrap",
+              "ref": "https://getbootstrap.com"
+            }
+          ]
+        },
+        {
+          "label": "SASS",
+          "ref": "https://sass-lang.com/"
+        }
+      ],
+      "database": [
+        {
+          "label": "MySQL",
+          "ref": "https://www.mysql.com/de/"
+        },
+        {
+          "label": "PostgreSQL",
+          "ref": "https://www.postgresql.org/"
+        },
+        {
+          "label": "MongoDB",
+          "ref": "https://www.mongodb.com/"
+        },
+        {
+          "label": "Cassandra",
+          "ref": "https://cassandra.apache.org/"
+        },
+        {
+          "label": "elasticSearch",
+          "ref": "https://www.elastic.co/"
+        },
+        {
+          "label": "eXist-db",
+          "ref": "http://exist-db.org/"
+        },
+        {
+          "label": "baseX",
+          "ref": "https://basex.org/"
+        },
+        {
+          "label": "Supabase",
+          "ref": "https://supabase.io/"
+        },
+        {
+          "label": "Firebase",
+          "ref": "https://firebase.google.com/"
+        },
+        {
+          "label": "staticSearc",
+          "ref": "https://github.com/projectEndings/staticSearch/"
+        },
+        {
+          "label": "Neo4J",
+          "ref": "https://neo4j.com/"
+        }
+      ],
+      "query": [
+        {
+          "label": "GraphQL",
+          "ref": "https://graphql.org/"
+        },
+        {
+          "label": "SQL",
+          "ref": "https://www.w3schools.com/sql/sql_intro.asp"
+        },
+        {
+          "label": "XQuery",
+          "ref": "https://www.w3schools.com/xml/xquery_intro.asp"
+        },
+        {
+          "label": "SPARQL",
+          "ref": "https://www.w3.org/TR/rdf-sparql-query/"
+        }
+      ]
+    },
+    "authority_control": {
+      "general": [
+        {
+          "label": "VIAF",
+          "ref": "https://viaf.org/"
+        },
+        {
+          "label": "GND",
+          "ref": "https://lobid.org/gnd"
+        },
+        {
+          "label": "Wikidata",
+          "ref": "https://www.wikidata.org/"
+        },
+        {
+          "label": "LCCN",
+          "ref": "https://www.loc.gov/"
+        },
+        {
+          "label": "SUDOC",
+          "ref": "https://www.idref.fr/"
+        },
+        {
+          "label": "geonames",
+          "ref": "http://www.geonames.org/"
+        },
+        {
+          "label": "ISNI",
+          "ref": "https://isni.org/"
+        }
+      ],
+      "specific": [
+        {
+          "label": "SNAPDRGN",
+          "ref": "https://snapdrgn.net/"
+        },
+        {
+          "label": "HAF & Titulus",
+          "ref": "https://haf.vhmml.org/"
+        },
+        {
+          "label": "GRID",
+          "ref": "https://www.grid.ac/"
+        }
+      ]
+    },
+    "reference_works": [
+      {
+        "label": "Syriaca",
+        "ref": "https://syriaca.org/"
+      },
+      {
+        "label": "Communities of Knowledge",
+        "ref": "https://usaybia.net/"
+      },
+      {
+        "label": "HIMME",
+        "ref": "https://medievalmideast.org/"
+      }
+    ],
+    "journals": [
+      {
+        "label": "Digital Humanities Quarterly",
+        "ref": "http://digitalhumanities.org/dhq/"
+      },
+      {
+        "label": "Digital Scholarship in the Humanities",
+        "ref": "https://academic.oup.com/dsh"
+      },
+      {
+        "label": "Digital Studies / Le champ numérique",
+        "ref": "https://www.digitalstudies.org/ojs/index.php/digital_studies"
+      },
+      {
+        "label": "jTEI",
+        "ref": "https://journals.openedition.org/jtei/"
+      },
+      {
+        "label": "Kairos",
+        "ref": "https://kairos.technorhetoric.net/"
+      }
+    ],
+    "consortia": [
+      {
+        "label": "NFDI4Culture",
+        "ref": "https://nfdi4culture.de/"
+      },
+      {
+        "label": "NFDI4Memory",
+        "ref": "https://4memory.de/"
+      },
+      {
+        "label": "Text+",
+        "ref": "https://www.text-plus.org/"
+      }
+    ],
+    "networks": [
+      {
+        "label": "Islamicate Digital Humanities Network",
+        "ref": "https://idhn.org/"
+      },
+      {
+        "label": "DARIAH",
+        "ref": "https://www.dariah.eu/"
+      },
+      {
+        "label": "Research Data Alliance",
+        "ref": "https://rd-alliance.org/"
+      },
+      {
+        "label": "Hist-ME",
+        "ref": "https://github.com/Hist-ME"
+      }
+    ]
+  }
+}
