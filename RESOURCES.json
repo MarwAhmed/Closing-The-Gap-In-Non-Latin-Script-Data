@@ -881,6 +881,19 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         }
+      },
+      {
+        "label": "ʿArūż",
+        "comment": "Online tool that performs quantitative analysis of Persian meter",
+        "ref": "http://prosody.ir/",
+        "tags": [
+          "#tool",
+          "#fas"
+        ],
+        "curated_by": {
+          "name": "Intellectual Digital Humanities Network",
+          "ref": "https://idhn.org/resources/"
+        }
       }
     ],
     "languages": {
