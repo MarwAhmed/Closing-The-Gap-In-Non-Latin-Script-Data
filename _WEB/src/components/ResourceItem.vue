@@ -28,7 +28,7 @@
       {{ comment }}
     </p>
     <div class="w-full text-xs mt-2">
-      Curated by <a href="{{ credit.ref }}" target="_blank">{{ credit.name }}</a>.
+      Collected by <a v-bind:href="credit.ref" target="_blank">{{ credit.name }}</a>.
     </div>
   </div>
 </template>
