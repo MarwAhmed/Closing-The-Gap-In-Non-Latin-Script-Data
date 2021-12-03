@@ -6,9 +6,9 @@
   "resources": {
     "general": [
       {
-        "label": "DNBLab",
-        "comment": "Datensets und digitale Objekte, mit Schnittstelle",
-        "ref": "https://www.dnb.de/DE/Professionell/Services/WissenschaftundForschung/DNBLab/dnblab_node.html",
+        "label": "#dataset",
+        "comment": "DNBLab",
+        "ref": "Datensets und digitale Objekte, mit Schnittstelle",
         "tags": [
           "#dataset"
         ],
@@ -20,7 +20,7 @@
       {
         "label": "Markdown Cheatsheet",
         "comment": "Cheatsheet f\u00fcr Markdown-Basics",
-        "ref": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
+        "ref": "[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)",
         "tags": [
           "#cheatsheet"
         ],
@@ -32,7 +32,7 @@
       {
         "label": "GitHub Actions",
         "comment": "Automatisierung von Entwicklungsumgebungen, Github to Docker",
-        "ref": "https://github.com/features/actions",
+        "ref": "[GitHub Actions](https://github.com/features/actions)",
         "tags": [
           "#automation",
           "#git"
@@ -45,7 +45,7 @@
       {
         "label": "Open Encyclopedia System",
         "comment": "Software-L\u00f6sung f\u00fcr wissenschaftliche Encyclopaedien",
-        "ref": "https://www.open-encyclopedia-system.org",
+        "ref": "[OES](https://www.open-encyclopedia-system.org)",
         "tags": [
           "#software"
         ],
