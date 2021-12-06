@@ -861,7 +861,7 @@
       }
     },
     {
-      "type": "language:description",
+      "type": "language:descriptive",
       "label": "XML",
       "ref": "https://www.w3schools.com/xml/xml_whatis.asp",
       "collected_by": {
@@ -871,7 +871,7 @@
       "comment": ""
     },
     {
-      "type": "language:description",
+      "type": "language:descriptive",
       "label": "HTML",
       "ref": "https://www.w3schools.com/html/default.asp",
       "collected_by": {
@@ -881,7 +881,7 @@
       "comment": ""
     },
     {
-      "type": "language:description",
+      "type": "language:descriptive",
       "label": "RDF",
       "ref": "https://www.w3.org/TR/rdf11-concepts/",
       "collected_by": {
@@ -891,7 +891,7 @@
       "comment": ""
     },
     {
-      "type": "language:description",
+      "type": "language:descriptive",
       "label": "Kdl",
       "ref": "https://kdl.dev/",
       "collected_by": {
@@ -901,7 +901,7 @@
       "comment": ""
     },
     {
-      "type": "language:description",
+      "type": "language:descriptive",
       "label": "BEACON",
       "ref": "https://de.wikipedia.org/wiki/Wikipedia:BEACON",
       "collected_by": {
