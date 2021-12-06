@@ -496,20 +496,6 @@
     },
     {
       "type": "other",
-      "label": "markdown cheatsheet",
-      "comment": "",
-      "ref": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
-      "tags": [
-        "#cheatsheet",
-        "#markdown"
-      ],
-      "collected_by": {
-        "name": "Mueller-Laackman, Jonas",
-        "ref": "https://orcid.org/0000-0003-2279-6751"
-      }
-    },
-    {
-      "type": "other",
       "label": "grex",
       "comment": "Regex erstellen durch Eingabe des patterns",
       "ref": "https://github.com/pemistahl/grex",
@@ -868,7 +854,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "language:descriptive",
@@ -878,7 +865,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "language:descriptive",
@@ -888,7 +876,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "language:descriptive",
@@ -898,7 +887,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "language:descriptive",
@@ -908,7 +898,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "language:web",
@@ -928,7 +919,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": ""
+          "comment": "",
+          "tags": []
         },
         {
           "type": "framework:web",
@@ -938,7 +930,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": ""
+          "comment": "",
+          "tags": []
         },
         {
           "type": "framework:web",
@@ -948,7 +941,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": ""
+          "comment": "",
+          "tags": []
         },
         {
           "type": "framework:presentation",
@@ -1021,6 +1015,7 @@
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
       "comment": "",
+      "tags": [],
       "frameworks": [
         {
           "type": "framework:web",
@@ -1030,7 +1025,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": ""
+          "comment": "",
+          "tags": []
         },
         {
           "type": "framework:documentation",
@@ -1058,6 +1054,7 @@
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
       "comment": "",
+      "tags": [],
       "frameworks": [
         {
           "type": "framework:web",
@@ -1067,7 +1064,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": ""
+          "comment": "",
+          "tags": []
         }
       ]
     },
@@ -1079,7 +1077,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "language:nlp",
@@ -1089,7 +1088,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "language:nlp",
@@ -1099,7 +1099,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "language:style",
@@ -1110,6 +1111,7 @@
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
       "comment": "",
+      "tags": [],
       "frameworks": [
         {
           "type": "framework:style",
@@ -1119,7 +1121,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": ""
+          "comment": "",
+          "tags": []
         },
         {
           "type": "framework:style",
@@ -1129,7 +1132,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": ""
+          "comment": "",
+          "tags": []
         },
         {
           "type": "framework:style",
@@ -1155,7 +1159,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "db:sql",
@@ -1165,7 +1170,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "db:sql",
@@ -1175,7 +1181,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "db:nosql",
@@ -1185,7 +1192,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "db:nosql",
@@ -1195,7 +1203,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "db:nosql",
@@ -1205,7 +1214,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "db:xml",
@@ -1215,7 +1225,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "db:xml",
@@ -1225,7 +1236,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "db:nosql",
@@ -1235,7 +1247,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "db:nosql",
@@ -1245,7 +1258,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "db:xml",
@@ -1255,7 +1269,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "db:graph",
@@ -1265,7 +1280,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "language:query:graph",
@@ -1275,7 +1291,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "language:query:sql",
@@ -1285,7 +1302,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "language:query:xml",
@@ -1295,7 +1313,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "language:query:rdf",
@@ -1305,7 +1324,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "authority:general",
@@ -1315,7 +1335,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "authority:general",
@@ -1325,7 +1346,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "authority:general",
@@ -1335,7 +1357,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "authority:general",
@@ -1345,7 +1368,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "authority:general",
@@ -1355,7 +1379,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "authority:gis",
@@ -1365,7 +1390,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "authority:general",
@@ -1375,7 +1401,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "authority:people",
@@ -1385,7 +1412,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": "For ancient people"
+      "comment": "For ancient people",
+      "tags": []
     },
     {
       "type": "authority:ms",
@@ -1395,7 +1423,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "authority:org",
@@ -1405,7 +1434,8 @@
           "name": "Mueller-Laackman, Jonas",
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
-      "comment": "Global Identifier for Research Organisations"
+      "comment": "Global Identifier for Research Organisations",
+      "tags": []
     },
     {
       "type": "reference",
@@ -1415,7 +1445,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "reference",
@@ -1425,7 +1456,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "reference",
@@ -1435,7 +1467,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "reference",
@@ -1445,7 +1478,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "journal",
@@ -1455,7 +1489,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "journal",
@@ -1465,7 +1500,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "journal",
@@ -1475,7 +1511,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "journal",
@@ -1485,7 +1522,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "journal",
@@ -1495,7 +1533,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "consortium",
@@ -1505,7 +1544,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "consortium",
@@ -1515,7 +1555,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "consortium",
@@ -1525,7 +1566,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "network",
@@ -1535,7 +1577,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "network",
@@ -1545,7 +1588,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "network",
@@ -1555,7 +1599,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     },
     {
       "type": "network",
@@ -1565,61 +1610,8 @@
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-      "comment": ""
+      "comment": "",
+      "tags": []
     }
-  ],
-  "tag_list": [
-    "#dataset",
-    "#cheatsheet",
-    "#automation",
-    "#git",
-    "#software",
-    "#library",
-    "#nlp",
-    "#editor",
-    "#testing",
-    "#framework",
-    "#api",
-    "#guideline",
-    "#javascript",
-    "#codestyle",
-    "#article",
-    "#php",
-    "#service",
-    "#tei",
-    "#css",
-    "#mockup",
-    "#catalogue",
-    "#utf8",
-    "#visualization",
-    "#presentations",
-    "#geojson",
-    "#json",
-    "#translation",
-    "#regex",
-    "#tool",
-    "#grammar",
-    "#documentation",
-    "#typescript",
-    "#ocr",
-    "#gui",
-    "#discord",
-    "#dhd",
-    "#markdown",
-    "#htr",
-    "#3d",
-    "#survey",
-    "#database",
-    "#ngrams",
-    "#literature",
-    "#searchengine",
-    "#images",
-    "#infrastructure",
-    "#rdm",
-    "#projectmanagement",
-    "#annotation",
-    "#commandline",
-    "#dictionary",
-    "#ara"
   ]
 }
