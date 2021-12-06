@@ -197,7 +197,9 @@
       "comment": "Styleguides f\u00fcr UI-Designentscheidungen",
       "ref": "https://www.refactoringui.com/",
       "tags": [
-        "#article"
+        "#article",
+        "#UI",
+        "#interfacedesign"
       ],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -307,7 +309,7 @@
       "ref": "https://app.diagrams.net/",
       "tags": [
         "#editor",
-        "#visualization"
+        "#visualisation"
       ],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -431,7 +433,7 @@
       "tags": [
         "#grammar",
         "#guideline",
-        "#visualization"
+        "#visualisation"
       ],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -984,7 +986,7 @@
           "tags": [
             "#framework",
             "#javascript",
-            "#visualization"
+            "#visualisation"
           ],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
