@@ -1183,7 +1183,9 @@
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
       "comment": "",
-      "tags": []
+      "tags": [
+        "sql"
+      ]
     },
     {
       "type": "db:nosql",
@@ -1216,7 +1218,9 @@
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
       "comment": "",
-      "tags": []
+      "tags": [
+        "nosql"
+      ]
     },
     {
       "type": "db:xml",
@@ -1238,7 +1242,9 @@
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
       "comment": "",
-      "tags": []
+      "tags": [
+        "xml"
+      ]
     },
     {
       "type": "db:nosql",
@@ -1260,7 +1266,9 @@
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
       "comment": "",
-      "tags": []
+      "tags": [
+        "nosql"
+      ]
     },
     {
       "type": "db:xml",
@@ -1271,7 +1279,9 @@
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
       "comment": "",
-      "tags": []
+      "tags": [
+        "xml"
+      ]
     },
     {
       "type": "db:graph",
@@ -1282,7 +1292,9 @@
           "ref": "https://orcid.org/0000-0003-2279-6751"
         },
       "comment": "",
-      "tags": []
+      "tags": [
+        "graph"
+      ]
     },
     {
       "type": "language:query:graph",
