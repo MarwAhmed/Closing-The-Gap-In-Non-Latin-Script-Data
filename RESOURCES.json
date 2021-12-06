@@ -1552,7 +1552,7 @@
       "tags": []
     },
     {
-      "type": "consortium",
+      "type": "org",
       "label": "NFDI4Culture",
       "ref": "https://nfdi4culture.de/",
       "collected_by": {
@@ -1563,7 +1563,7 @@
       "tags": []
     },
     {
-      "type": "consortium",
+      "type": "org",
       "label": "NFDI4Memory",
       "ref": "https://4memory.de/",
       "collected_by": {
@@ -1574,7 +1574,7 @@
       "tags": []
     },
     {
-      "type": "consortium",
+      "type": "org",
       "label": "Text+",
       "ref": "https://www.text-plus.org/",
       "collected_by": {
@@ -1585,7 +1585,7 @@
       "tags": []
     },
     {
-      "type": "network",
+      "type": "org",
       "label": "Islamicate Digital Humanities Network",
       "ref": "https://idhn.org/",
       "collected_by": {
@@ -1596,7 +1596,7 @@
       "tags": []
     },
     {
-      "type": "network",
+      "type": "org",
       "label": "DARIAH",
       "ref": "https://www.dariah.eu/",
       "collected_by": {
@@ -1607,7 +1607,7 @@
       "tags": []
     },
     {
-      "type": "network",
+      "type": "org",
       "label": "Research Data Alliance",
       "ref": "https://rd-alliance.org/",
       "collected_by": {
@@ -1618,7 +1618,7 @@
       "tags": []
     },
     {
-      "type": "network",
+      "type": "org",
       "label": "Hist-ME",
       "ref": "https://github.com/Hist-ME",
       "collected_by": {
