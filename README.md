@@ -13,7 +13,11 @@ Jonas Müller-Laackman
 
 [@Orcid](https://orcid.org/0000-0003-2279-6751)
 
-## JSON Scheme for Resources (v0.1.0)
+## JSON Scheme for Projects (`v0.0.9`)
+
+Scheme documentation upcoming, as `v0.1.0` is still in early development.
+
+## JSON Scheme for Resources (`v0.1.0`)
 
 
 In case you want to participate in collecting material for the collection of resources, please follow this scheme.
