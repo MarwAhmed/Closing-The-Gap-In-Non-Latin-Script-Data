@@ -180,7 +180,7 @@
     },
     {
       "type": "literature",
-      "label": "balancing creativity and usability",
+      "label": "Balancing Creativity and Usability",
       "comment": "",
       "ref": "https://borism.medium.com/balancing-creativity-and-usability-9bb2cd0fe929",
       "tags": [
@@ -195,7 +195,7 @@
     },
     {
       "type": "literature",
-      "label": "why do all websites look the same?",
+      "label": "Why Do All Websites Look the Same?",
       "comment": "",
       "ref": "https://modus.medium.com/on-the-visual-weariness-of-the-web-8af1c969ce73",
       "tags": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "literature",
-      "label": "refactoring UI",
+      "label": "Refactoring UI",
       "comment": "Styleguide for UI",
       "ref": "https://www.refactoringui.com/",
       "tags": [
