@@ -17,7 +17,7 @@ Jonas Müller-Laackman
 
 Scheme documentation upcoming, as `v0.1.0` is still in early development.
 
-## JSON Scheme for Resources (`v0.1.0`)
+## JSON Scheme for Resources (`v0.1.1`)
 
 
 In case you want to participate in collecting material for the collection of resources, please follow this scheme.
@@ -36,11 +36,18 @@ In case you want to participate in collecting material for the collection of res
   "tags": [
     "#tag",
   ],
-  // __Optional__ to provide relation between frameworks and their languages. Array of Objects with the same scheme as parent.
+  // __Optional__: Provide relation between frameworks and their languages. Array of Objects with the same scheme as parent.
   "frameworks": [],
   // Credit for collecting.
   "collected_by": {
     // Name of collector.
+    "name": "",
+    // Reference link, e.g. URI or URL to website or Orcid-Profile.
+    "ref": ""
+  },
+  // __Optional__: Credit for editing.
+  "edited_by": {
+    // Name of editor.
     "name": "",
     // Reference link, e.g. URI or URL to website or Orcid-Profile.
     "ref": ""
