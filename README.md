@@ -4,6 +4,8 @@ The project aims to facilitate research in Digital Humanities projects dealing w
 
 The repository also contains a markdown-file that includes information on resources gathered on the way. Feel free to distribute and contribute.
 
+GUI (in development): https://closing-the-gap-in-nls-dh.github.io/
+
 ## Contact
 Jonas Müller-Laackman
 
