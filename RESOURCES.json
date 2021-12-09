@@ -1,16 +1,17 @@
 {
   "metadata": {
-    "last_modified": "2021-12-02",
+    "last_modified": "2021-12-09",
     "last_modified_by": "Mueller-Laackman, Jonas"
   },
   "resources": [
     {
       "type": "other",
       "label": "DNBLab",
-      "comment": "Datensets und digitale Objekte, mit Schnittstelle",
+      "comment": "Dataset and digital objects, with API",
       "ref": "https://www.dnb.de/DE/Professionell/Services/WissenschaftundForschung/DNBLab/dnblab_node.html",
       "tags": [
-        "#dataset"
+        "#dataset",
+        "#gnd"
       ],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -20,10 +21,11 @@
     {
       "type": "other",
       "label": "Markdown Cheatsheet",
-      "comment": "Cheatsheet f\u00fcr Markdown-Basics",
+      "comment": "Cheatsheet for Markdown-Basics",
       "ref": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
       "tags": [
-        "#cheatsheet"
+        "#cheatsheet",
+        "#markdown"
       ],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -33,7 +35,7 @@
     {
       "type": "other",
       "label": "GitHub Actions",
-      "comment": "Automatisierung von Entwicklungsumgebungen, Github to Docker",
+      "comment": "Automation of CD/CI",
       "ref": "https://github.com/features/actions",
       "tags": [
         "#automation",
@@ -47,10 +49,11 @@
     {
       "type": "other",
       "label": "Open Encyclopedia System",
-      "comment": "Software-L\u00f6sung f\u00fcr wissenschaftliche Encyclopaedien",
+      "comment": "software for scholarly encyclopedias",
       "ref": "https://www.open-encyclopedia-system.org",
       "tags": [
-        "#software"
+        "#software",
+        "#encyclopedia"
       ],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -60,10 +63,11 @@
     {
       "type": "other",
       "label": "\u0627\u0644\u0645\u0643\u062a\u0628\u0629 \u0627\u0644\u0634\u0627\u0645\u0644\u0629",
-      "comment": "Datenbank mit arabischen Prim\u00e4r- und Sekund\u00e4rquellen",
-      "ref": "https://shamela.ws/index.php/page/download-shamela",
+      "comment": "Database for Arabic primary and secondary Sources",
+      "ref": "https://shamela.ws/",
       "tags": [
-        "#library"
+        "#library",
+        "#ara"
       ],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -76,7 +80,8 @@
       "comment": "Arabic morphological analyzer",
       "ref": "https://sourceforge.net/projects/alkhalil/",
       "tags": [
-        "#nlp"
+        "#nlp",
+        "#ara"
       ],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -86,10 +91,12 @@
     {
       "type": "other",
       "label": "obsidian.md",
-      "comment": "Markdown-basierte Orga-App",
+      "comment": "Markdown-based App for organisation, daily notes and to create a knowledge base",
       "ref": "https://obsidian.md/",
       "tags": [
-        "#software"
+        "#software",
+        "#markdown",
+        "#orga"
       ],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -99,10 +106,12 @@
     {
       "type": "other",
       "label": "swagger",
-      "comment": "Interaktiver Browser-basierter Editor f\u00fcr z.B. openAPI-yaml-Daten",
+      "comment": "Interactive Browser-based editor for openAPI-yaml-Files",
       "ref": "https://editor.swagger.io/",
       "tags": [
-        "#editor"
+        "#editor",
+        "#yaml",
+        "#openapi"
       ],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -110,13 +119,14 @@
       }
     },
     {
-      "type": "other",
+      "type": "framework:other",
       "label": "dredd",
-      "comment": "Testing-Framework, z.B. f\u00fcr openAPI",
+      "comment": "Testing-Framework, e.g. for openAPI",
       "ref": "https://dredd.org/",
       "tags": [
         "#testing",
-        "#framework"
+        "#framework",
+        "#openAPI"
       ],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
