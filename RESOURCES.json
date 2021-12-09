@@ -1642,7 +1642,7 @@
       ]
     },
     {
-      "type": "authority:org",
+      "type": "authority",
       "label": "GRID",
       "ref": "https://www.grid.ac/",
       "collected_by": {
