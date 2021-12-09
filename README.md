@@ -22,7 +22,7 @@ Scheme documentation upcoming, as `v0.1.0` is still in early development.
 
 In case you want to participate in collecting material for the collection of resources, please follow this scheme.
 
-```json
+```javascript
 {
   // Valid main values for parent entries in field "type" can be extended by colon notation, e.g. "language:query:xml". For children, main value may vary, e.g. "framework".
   "type": "other|language|db|reference|authority|org|literature|journal",
