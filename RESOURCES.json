@@ -1188,6 +1188,22 @@
             "#framework",
             "#python"
           ]
+        },
+        {
+          "type": "framework:topicmodeling",
+          "label": "Gensim",
+          "ref": "https://radimrehurek.com/gensim/index.html",
+          "collected_by": {
+                "name": "Mueller-Laackman, Jonas",
+                "ref": "https://orcid.org/0000-0003-2279-6751"
+              },
+          "comment": "Python library for topic modeling",
+          "tags": [
+            "#topicmodeling",
+            "#nlp",
+            "#tool",
+            "#python"
+          ]
         }
       ]
     },
@@ -1864,6 +1880,112 @@
           },
       "comment": "",
       "tags": []
+    },
+    {
+      "type": "other",
+      "label": "Palmetto",
+      "ref": "https://github.com/dice-group/Palmetto",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Quality measuring tool for topics",
+      "tags": [
+        "#topicmodeling",
+        "#nlp",
+        "#tool"
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Mallet",
+      "ref": "https://mimno.github.io/Mallet/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Topic modeling toolkit",
+      "tags": [
+        "#topicmodeling",
+        "#nlp",
+        "#tool"
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Arabic betaCode",
+      "ref": "https://github.com/PerseusDL/ArabicBetacode",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Coding scheme for Arabic transcription",
+      "tags": [
+        "#ara",
+        "#transcription"
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Conceptboard",
+      "ref": "https://conceptboard.com/de/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Online Whiteboard",
+      "tags": [
+        "#tool",
+        "#browserbased",
+        "#collaborative"
+      ]
+    },
+    {
+      "type": "other",
+      "label": "GatherTown",
+      "ref": "https://www.gather.town/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Browser-based virtual space in 2D for meetings or conferences, JRPG-lookalike",
+      "tags": [
+        "#tool",
+        "#browserbased",
+        "#collaborative"
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Mozilla Hubs",
+      "ref": "https://hubs.mozilla.com/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Browser-based virtual space in 3D for meetings or conferences",
+      "tags": [
+        "#tool",
+        "#browserbased",
+        "#collaborative"
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Nodegoat",
+      "ref": "https://nodegoat.net/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Browser-based tool for building data models, datasets and visualisations",
+      "tags": [
+        "#service",
+        "#infrastructure",
+        "#visualisation",
+        "#browserbased",
+        "#tool"
+      ]
     }
   ]
 }
