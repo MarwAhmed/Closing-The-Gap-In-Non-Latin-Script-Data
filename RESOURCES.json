@@ -1071,7 +1071,7 @@
         {
           "type": "framework:visualisation",
           "label": "three.js",
-          "comment": "Bibliothek for 3D-visualisations",
+          "comment": "Library for 3D-visualisations",
           "ref": "https://threejs.org/",
           "tags": [
             "#framework",
@@ -1148,7 +1148,7 @@
         {
           "type": "framework:documentation",
           "label": "daux.io",
-          "comment": "Framework f\u00fcr Dokumentation",
+          "comment": "Framework for documentations",
           "ref": "http://daux.io/",
           "tags": [
             "#framework",
