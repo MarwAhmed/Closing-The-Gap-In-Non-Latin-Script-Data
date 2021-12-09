@@ -24,8 +24,8 @@ In case you want to participate in collecting material for the collection of res
 
 ```json
 {
-  // Valid main values in field "type" can be extended by colon notation, e.g. "language:query:xml".
-  "type": "other|language|reference|authority|framework|db",
+  // Valid main values for parent entries in field "type" can be extended by colon notation, e.g. "language:query:xml". For children, main value may vary, e.g. "framework".
+  "type": "other|language|db|reference|authority|org|literature|journal",
   // Title of entry.
   "label": "",
   // Link to documentation or website.
