@@ -1,0 +1,216 @@
+{
+  "_id": "cgnlsd_authority",
+  "last_modified": "2021-12-09",
+  "last_modified_by": "Mueller-Laackman, Jonas",
+  "authority": [
+    {
+      "_id": "0",
+      "type": "authority",
+      "label": "VIAF",
+      "ref": "https://viaf.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#authoritycontrol",
+        "#viaf",
+        "#people",
+        "#places",
+        "#organisations",
+        "#works"
+      ]
+    },
+    {
+      "_id": "1",
+      "type": "authority",
+      "label": "GND",
+      "ref": "https://lobid.org/gnd",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#authoritycontrol",
+        "#gnd",
+        "#dnb",
+        "#people",
+        "#places",
+        "#organisations",
+        "#works"
+      ]
+    },
+    {
+      "_id": "2",
+      "type": "authority",
+      "label": "Wikidata",
+      "ref": "https://www.wikidata.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#wikidata",
+        "#authoritycontrol",
+        "#people",
+        "#places",
+        "#organisations",
+        "#works"
+      ]
+    },
+    {
+      "_id": "3",
+      "type": "authority",
+      "label": "LCCN",
+      "ref": "https://www.loc.gov/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#lccn",
+        "#authoritycontrol",
+        "#people",
+        "#places",
+        "#organisations",
+        "#works"
+      ]
+    },
+    {
+      "_id": "4",
+      "type": "authority",
+      "label": "SUDOC",
+      "ref": "https://www.idref.fr/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#sudoc",
+        "#authoritycontrol",
+        "#people",
+        "#places",
+        "#organisations",
+        "#works"
+      ]
+    },
+    {
+      "_id": "5",
+      "type": "authority",
+      "label": "geonames",
+      "ref": "http://www.geonames.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#gis",
+        "#geonames",
+        "#authoritycontrol",
+        "#organisations",
+        "#places"
+      ]
+    },
+    {
+      "_id": "6",
+      "type": "authority",
+      "label": "ISNI",
+      "ref": "https://isni.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#isni",
+        "#authoritycontrol",
+        "#music",
+        "#people"
+      ]
+    },
+    {
+      "_id": "7",
+      "type": "authority",
+      "label": "SNAPDRGN",
+      "ref": "https://snapdrgn.net/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "For ancient people",
+      "tags": [
+        "#snapdrgn",
+        "#antique",
+        "#people",
+        "#authoritycontrol"
+      ]
+    },
+    {
+      "_id": "8",
+      "type": "authority",
+      "label": "HAF & Titulus",
+      "ref": "https://haf.vhmml.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#authoritycontrol",
+        "#manuscripts",
+        "#people"
+      ]
+    },
+    {
+      "_id": "9",
+      "type": "authority",
+      "label": "GRID",
+      "ref": "https://www.grid.ac/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "Global Identifier for Research Organisations",
+      "tags": [
+        "#organisations",
+        "#authoritycontrol"
+      ]
+    }
+  ]
+}

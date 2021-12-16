@@ -1,0 +1,483 @@
+{
+  "_id": "cgnlsd_stack",
+  "last_modified": "2021-12-09",
+  "last_modified_by": "Mueller-Laackman, Jonas",
+  "stack": [
+    {
+      "_id": "0",
+      "type": "language",
+      "label": "XML",
+      "ref": "https://www.w3schools.com/xml/xml_whatis.asp",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#xml"
+      ]
+    },
+    {
+      "_id": "1",
+      "type": "language",
+      "label": "HTML",
+      "ref": "https://www.w3schools.com/html/default.asp",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#html"
+      ]
+    },
+    {
+      "_id": "2",
+      "type": "language",
+      "label": "RDF",
+      "ref": "https://www.w3.org/TR/rdf11-concepts/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#rdf"
+      ]
+    },
+    {
+      "_id": "3",
+      "type": "language",
+      "label": "Kdl",
+      "ref": "https://kdl.dev/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#kdl"
+      ]
+    },
+    {
+      "_id": "4",
+      "type": "language",
+      "label": "BEACON",
+      "ref": "https://de.wikipedia.org/wiki/Wikipedia:BEACON",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#beacon"
+      ]
+    },
+    {
+      "_id": "5",
+      "type": "language",
+      "label": "JavaScript",
+      "ref": "https://www.w3schools.com/js/default.asp",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#javascript"
+      ]
+    },
+    {
+      "_id": "6",
+      "type": "language",
+      "label": "PHP",
+      "ref": "https://laravel.com/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#php"
+      ]
+    },
+    {
+      "_id": "7",
+      "type": "language",
+      "label": "Python",
+      "ref": "https://www.w3schools.com/python/default.asp",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#python"
+      ]
+    },
+    {
+      "_id": "8",
+      "type": "language",
+      "label": "R",
+      "ref": "https://www.r-project.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#r"
+      ]
+    },
+    {
+      "_id": "9",
+      "type": "language",
+      "label": "Go",
+      "ref": "https://golang.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#go"
+      ]
+    },
+    {
+      "_id": "10",
+      "type": "language",
+      "label": "Java",
+      "ref": "https://www.java.com/de/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#java"
+      ]
+    },
+    {
+      "_id": "11",
+      "type": "language",
+      "label": "CSS",
+      "ref": "https://www.w3schools.com/css/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#css"
+      ]
+    },
+    {
+      "_id": "12",
+      "type": "language",
+      "label": "SASS",
+      "ref": "https://sass-lang.com/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#sass"
+      ]
+    },
+    {
+      "_id": "13",
+      "type": "database",
+      "label": "MySQL",
+      "ref": "https://www.mysql.com/de/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#sql"
+      ]
+    },
+    {
+      "_id": "14",
+      "type": "database",
+      "label": "PostgreSQL",
+      "ref": "https://www.postgresql.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#sql"
+      ]
+    },
+    {
+      "_id": "15",
+      "type": "database",
+      "label": "MongoDB",
+      "ref": "https://www.mongodb.com/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#nosql"
+      ]
+    },
+    {
+      "_id": "16",
+      "type": "database",
+      "label": "Cassandra",
+      "ref": "https://cassandra.apache.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#nosql"
+      ]
+    },
+    {
+      "_id": "17",
+      "type": "database",
+      "label": "elasticSearch",
+      "ref": "https://www.elastic.co/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#nosql"
+      ]
+    },
+    {
+      "_id": "18",
+      "type": "database",
+      "label": "eXist-db",
+      "ref": "http://exist-db.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#xml"
+      ]
+    },
+    {
+      "_id": "19",
+      "type": "database",
+      "label": "baseX",
+      "ref": "https://basex.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#xml"
+      ]
+    },
+    {
+      "_id": "20",
+      "type": "database",
+      "label": "Supabase",
+      "ref": "https://supabase.io/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#nosql"
+      ]
+    },
+    {
+      "_id": "21",
+      "type": "database",
+      "label": "Firebase",
+      "ref": "https://firebase.google.com/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#nosql"
+      ]
+    },
+    {
+      "_id": "22",
+      "type": "database",
+      "label": "staticSearc",
+      "ref": "https://github.com/projectEndings/staticSearch/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#xml"
+      ]
+    },
+    {
+      "_id": "23",
+      "type": "database",
+      "label": "Neo4J",
+      "ref": "https://neo4j.com/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#graph"
+      ]
+    },
+    {
+      "_id": "24",
+      "type": "language",
+      "label": "GraphQL",
+      "ref": "https://graphql.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#graph"
+      ]
+    },
+    {
+      "_id": "25",
+      "type": "language",
+      "label": "SQL",
+      "ref": "https://www.w3schools.com/sql/sql_intro.asp",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#sql"
+      ]
+    },
+    {
+      "_id": "26",
+      "type": "language",
+      "label": "XQuery",
+      "ref": "https://www.w3schools.com/xml/xquery_intro.asp",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#xml"
+      ]
+    },
+    {
+      "_id": "27",
+      "type": "language",
+      "label": "SPARQL",
+      "ref": "https://www.w3.org/TR/rdf-sparql-query/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#rdf"
+      ]
+    }
+  ]
+}

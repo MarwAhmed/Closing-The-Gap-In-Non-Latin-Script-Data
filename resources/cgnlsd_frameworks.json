@@ -1,0 +1,306 @@
+{
+  "_id": "cgnlsd_frameworks",
+  "last_modified": "2021-12-10",
+  "last_modified_by": "Mueller-Laackman, Jonas",
+  "frameworks": [
+    {
+      "_id": "0",
+      "type": "framework",
+      "based_on": "5",
+      "label": "Vue",
+      "ref": "https://v3.vuejs.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#framework",
+        "#javascript",
+        "#frontend"
+      ]
+    },
+    {
+      "_id": "1",
+      "type": "framework",
+      "based_on": "5",
+      "label": "React",
+      "ref": "https://reactjs.org/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#framework",
+        "#javascript",
+        "#frontend"
+      ]
+    },
+    {
+      "_id": "2",
+      "type": "framework",
+      "based_on": "5",
+      "label": "Express",
+      "ref": "https://expressjs.com/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#framework",
+        "#javascript",
+        "#backend"
+      ]
+    },
+    {
+      "_id": "3",
+      "type": "framework",
+      "based_on": "5",
+      "label": "Angular",
+      "ref": "https://angular.io/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": [
+        "#framework",
+        "#javascript",
+        "#frontend"
+      ]
+    },
+    {
+      "_id": "4",
+      "type": "framework",
+      "based_on": "5",
+      "label": "revealJS",
+      "comment": "JavaScript-Framework for presentations",
+      "ref": "https://revealjs.com/",
+      "tags": [
+        "#framework",
+        "#javascript",
+        "#presentations"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "_id": "5",
+      "type": "framework",
+      "based_on": "5",
+      "label": "three.js",
+      "comment": "Bibliothek for 3D-visualisations",
+      "ref": "https://threejs.org/",
+      "tags": [
+        "#framework",
+        "#javascript",
+        "#3d",
+        "#visualisation"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "_id": "6",
+      "type": "framework",
+      "based_on": "5",
+      "label": "d3",
+      "comment": "Javascript-Framework for visualisations",
+      "ref": "https://d3js.org/",
+      "tags": [
+        "#framework",
+        "#javascript",
+        "#visualisation"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "_id": "7",
+      "type": "framework",
+      "based_on": "5",
+      "label": "pixiJS",
+      "comment": "Javascript/HTML5-Framework for WebGL",
+      "ref": "https://www.pixijs.com/",
+      "tags": [
+        "#framework",
+        "#javascript",
+        "#webgl"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "_id": "8",
+      "type": "framework",
+      "based_on": "6",
+      "label": "Laravel",
+      "ref": "https://laravel.com/",
+      "comment": "",
+      "tags": [
+        "#framework",
+        "#frontend",
+        "#backend",
+        "#php"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "_id": "9",
+      "type": "framework",
+      "based_on": "6",
+      "label": "daux.io",
+      "comment": "Framework f\u00fcr Dokumentation",
+      "ref": "http://daux.io/",
+      "tags": [
+        "#framework",
+        "#php",
+        "#documentation"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "_id": "10",
+      "type": "framework",
+      "based_on": "7",
+      "label": "Django",
+      "ref": "https://www.djangoproject.com/",
+      "comment": "",
+      "tags": [
+        "#framework",
+        "#python"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "_id": "11",
+      "type": "framework",
+      "based_on": "7",
+      "label": "Gensim",
+      "ref": "https://radimrehurek.com/gensim/index.html",
+      "comment": "Python library for topic modeling",
+      "tags": [
+        "#topicmodeling",
+        "#nlp",
+        "#tool",
+        "#python"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "_id": "12",
+      "type": "framework",
+      "based_on": "11",
+      "label": "Tailwind CSS",
+      "ref": "https://tailwindcss.com/",
+      "comment": "",
+      "tags": [
+        "#framework",
+        "#css"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "_id": "13",
+      "type": "framework",
+      "based_on": "11",
+      "label": "Bootstrap",
+      "ref": "https://getbootstrap.com",
+      "comment": "",
+      "tags": [
+        "#framework",
+        "#css"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "_id": "14",
+      "type": "framework",
+      "based_on": "11",
+      "label": "skeleton",
+      "comment": "CSS-Framework",
+      "ref": "http://getskeleton.com/",
+      "tags": [
+        "#framework",
+        "#css"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    }
+  ]
+}

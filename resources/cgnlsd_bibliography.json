@@ -1,0 +1,136 @@
+{
+  "_id": "cgnlsd_bibliography",
+  "last_modified": "2021-12-09",
+  "last_modified_by": "Mueller-Laackman, Jonas",
+  "bibliography": [
+    {
+      "_id": "0",
+      "type": "journal",
+      "label": "Digital Humanities Quarterly",
+      "ref": "http://digitalhumanities.org/dhq/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": []
+    },
+    {
+      "_id": "1",
+      "type": "journal",
+      "label": "Digital Scholarship in the Humanities",
+      "ref": "https://academic.oup.com/dsh",
+      "comment": "",
+      "tags": [],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "_id": "2",
+      "type": "journal",
+      "label": "Digital Studies / Le champ numérique",
+      "ref": "https://www.digitalstudies.org/ojs/index.php/digital_studies",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": []
+    },
+    {
+      "_id": "3",
+      "type": "journal",
+      "label": "jTEI",
+      "ref": "https://journals.openedition.org/jtei/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": []
+    },
+    {
+      "_id": "4",
+      "type": "journal",
+      "label": "Kairos",
+      "ref": "https://kairos.technorhetoric.net/",
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": [],
+      "comment": "",
+      "tags": []
+    },
+    {
+      "type": "article",
+      "label": "Balancing Creativity and Usability",
+      "comment": "",
+      "ref": "https://borism.medium.com/balancing-creativity-and-usability-9bb2cd0fe929",
+      "tags": [
+        "#UI",
+        "#UX",
+        "#interfacedesign"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "type": "article",
+      "label": "Why Do All Websites Look the Same?",
+      "comment": "",
+      "ref": "https://modus.medium.com/on-the-visual-weariness-of-the-web-8af1c969ce73",
+      "tags": [
+        "#webdesign",
+        "#UI",
+        "#UX"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    },
+    {
+      "type": "article",
+      "label": "Refactoring UI",
+      "comment": "Styleguide for UI",
+      "ref": "https://www.refactoringui.com/",
+      "tags": [
+        "#UI",
+        "#UX",
+        "#interfacedesign"
+      ],
+      "collected_by": [
+        {
+          "name": "Mueller-Laackman, Jonas",
+          "ref": "https://orcid.org/0000-0003-2279-6751"
+        }
+      ],   
+      "edited_by": []
+    }
+  ]
+}

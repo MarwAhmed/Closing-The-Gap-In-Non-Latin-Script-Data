@@ -1,0 +1,84 @@
+{
+  "_id": "cgnlsd_organisations",
+  "last_modified": "2021-12-09",
+  "last_modified_by": "Mueller-Laackman, Jonas",
+  "organisations": [
+    {
+      "type": "consortium",
+      "label": "NFDI4Culture",
+      "ref": "https://nfdi4culture.de/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "",
+      "tags": []
+    },
+    {
+      "type": "consortium",
+      "label": "NFDI4Memory",
+      "ref": "https://4memory.de/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "",
+      "tags": []
+    },
+    {
+      "type": "consortium",
+      "label": "Text+",
+      "ref": "https://www.text-plus.org/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "",
+      "tags": []
+    },
+    {
+      "type": "network",
+      "label": "Islamicate Digital Humanities Network",
+      "ref": "https://idhn.org/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "",
+      "tags": []
+    },
+    {
+      "type": "consortium",
+      "label": "DARIAH",
+      "ref": "https://www.dariah.eu/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "",
+      "tags": []
+    },
+    {
+      "type": "consortium",
+      "label": "Research Data Alliance",
+      "ref": "https://rd-alliance.org/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "",
+      "tags": []
+    },
+    {
+      "type": "network",
+      "label": "Hist-ME",
+      "ref": "https://github.com/Hist-ME",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "",
+      "tags": []
+    }
+  ]
+}
