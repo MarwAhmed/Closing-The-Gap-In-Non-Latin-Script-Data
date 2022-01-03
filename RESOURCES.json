@@ -2066,6 +2066,86 @@
         "#service",
         "#privacy"
       ]
+    },
+    {
+      "type": "other",
+      "label": "Fihrist",
+      "ref": "https://www.fihrist.org.uk/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Catalogue of Manuscripts from the Islamicate World",
+      "tags": [
+        "#catalogue",
+        "#library",
+        "#manuscripts",
+        "#ara",
+        "#fas"
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Arabic Transliteration Tool",
+      "ref": "https://hawramani.com/arabic-transliteration-tool/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Simple browserbased transformation tool for Arabic Transliteration",
+      "tags": [
+        "#browserbased",
+        "#ara",
+        "#transcription"
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Arabic Lexikon",
+      "ref": "http://arabiclexicon.hawramani.com/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Online Lexikon that provides browsing and search in multiple dictionaries and references",
+      "tags": [
+        "#browserbased",
+        "#ara",
+        "#dictionary",
+        "#lexikon"
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Tanzil",
+      "ref": "https://tanzil.net/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Online Qurʾān navigator with several translations and display options",
+      "tags": [ 
+        "#browserbased",
+        "#ara",
+        "#translation",
+        "#quran"
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Wikidata Query Service",
+      "ref": "https://query.wikidata.org/",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Online SPARQL-based querying service for Wikidata",
+      "tags": [ 
+        "#browserbased",
+        "#sparql",
+        "#authoritycontrol",
+        "#wikidata"
+      ]
     }
   ]
 }
