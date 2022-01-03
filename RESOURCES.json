@@ -2146,6 +2146,40 @@
         "#authoritycontrol",
         "#wikidata"
       ]
+    },
+    {
+      "type": "other",
+      "label": "TRSCR Keyboard for Transcribing Arabic/Persian/Osmanic",
+      "ref": "https://www.aoi.uzh.ch/de/islamwissenschaft/it/transcription/tastaturmacosx.html",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Keyboard layout for Arabic/Persian/Osmanic Script for Mac OS and Windows",
+      "tags": [ 
+        "#keyboardlayout",
+        "#ara",
+        "#fas",
+        "#ota",
+        "#win",
+        "#macos"
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Keyboard Layout for Transcribing Arabic Script",
+      "ref": "https://github.com/sixtyfive/de_dmg",
+      "collected_by": {
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
+      "comment": "Keyboard layout for Arabic Script for Linux and Windows",
+      "tags": [ 
+        "#keyboardlayout",
+        "#ara",
+        "#win",
+        "#linux"
+      ]
     }
   ]
 }
