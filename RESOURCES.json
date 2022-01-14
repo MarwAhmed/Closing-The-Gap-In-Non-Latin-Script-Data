@@ -1163,7 +1163,7 @@
       ]
     },
     {
-      "type": "language:nlp:web",
+      "type": "language:nlp",
       "label": "Python",
       "ref": "https://www.w3schools.com/python/default.asp",
       "collected_by": {
