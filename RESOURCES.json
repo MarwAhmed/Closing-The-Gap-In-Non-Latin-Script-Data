@@ -916,7 +916,7 @@
       }
     },
     {
-      "type": "language:descriptive",
+      "type": "language",
       "label": "XML",
       "ref": "https://www.w3schools.com/xml/xml_whatis.asp",
       "collected_by": {
@@ -925,11 +925,11 @@
         },
       "comment": "",
       "tags": [
-        "#xml"
+        "#xml", "#descriptive"
       ]
     },
     {
-      "type": "language:descriptive",
+      "type": "language",
       "label": "HTML",
       "ref": "https://www.w3schools.com/html/default.asp",
       "collected_by": {
@@ -938,11 +938,11 @@
         },
       "comment": "",
       "tags": [
-        "#html"
+        "#html", "#descriptive"
       ]
     },
     {
-      "type": "language:descriptive",
+      "type": "language",
       "label": "RDF",
       "ref": "https://www.w3.org/TR/rdf11-concepts/",
       "collected_by": {
@@ -951,11 +951,11 @@
         },
       "comment": "",
       "tags": [
-        "#rdf"
+        "#rdf", "#descriptive"
       ]
     },
     {
-      "type": "language:descriptive",
+      "type": "language",
       "label": "Kdl",
       "ref": "https://kdl.dev/",
       "collected_by": {
@@ -964,11 +964,11 @@
         },
       "comment": "",
       "tags": [
-        "#kdl"
+        "#kdl", "#descriptive"
       ]
     },
     {
-      "type": "language:descriptive",
+      "type": "language",
       "label": "BEACON",
       "ref": "https://de.wikipedia.org/wiki/Wikipedia:BEACON",
       "collected_by": {
@@ -977,11 +977,11 @@
         },
       "comment": "",
       "tags": [
-        "#beacon"
+        "#beacon", "#descriptive"
       ]
     },
     {
-      "type": "language:web",
+      "type": "language",
       "label": "JavaScript",
       "ref": "https://www.w3schools.com/js/default.asp",
       "collected_by": {
@@ -990,134 +990,85 @@
         },
       "comment": "",
       "tags": [
-        "#javascript"
+        "#javascript", "#frontend", "#framework", "#presentations", "#3d", "#visualisation", "#webgl"
       ],
       "frameworks": [
         {
-          "type": "framework:web",
           "label": "Vue",
           "ref": "https://v3.vuejs.org/",
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": "",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#frontend"
-          ]
+          "comment": ""
         },
         {
-          "type": "framework:web",
           "label": "React",
           "ref": "https://reactjs.org/",
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": "",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#frontend"
-          ]
+          "comment": ""
         },
         {
-          "type": "framework:backend",
           "label": "Express",
           "ref": "https://expressjs.com/",
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": "",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#backend"
-          ]
+          "comment": ""
         },
         {
-          "type": "framework:web",
           "label": "Angular",
           "ref": "https://angular.io/",
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": "",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#frontend"
-          ]
+          "comment": ""
         },
         {
-          "type": "framework:presentation",
           "label": "revealJS",
-          "comment": "JavaScript-Framework for presentations",
           "ref": "https://revealjs.com/",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#presentations"
-          ],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
-          }
+          },
+          "comment": "JavaScript-Framework for presentations"
         },
         {
-          "type": "framework:visualisation",
           "label": "three.js",
-          "comment": "Bibliothek for 3D-visualisations",
           "ref": "https://threejs.org/",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#3d",
-            "#visualisation"
-          ],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
-          }
+          },
+          "comment": "Library for 3D-visualisations"
         },
         {
-          "type": "framework:visualisation",
           "label": "d3",
-          "comment": "Javascript-Framework for visualisations",
           "ref": "https://d3js.org/",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#visualisation"
-          ],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
-          }
+          },
+          "comment": "Javascript-Framework for visualisations"
         },
         {
-          "type": "framework:web",
           "label": "pixiJS",
-          "comment": "Javascript/HTML5-Framework for WebGL",
           "ref": "https://www.pixijs.com/",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#webgl"
-          ],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
-          }
+          },
+          "comment": "Javascript/HTML5-Framework for WebGL"
         }
       ]
     },
     {
-      "type": "language:web",
+      "type": "language",
       "label": "PHP",
       "ref": "https://laravel.com/",
       "collected_by": {
@@ -1126,44 +1077,31 @@
         },
       "comment": "",
       "tags": [
-        "#php"
+        "#php", "#web", "#documentation", "#backend", "#frontend", "#frameworks"
       ],
       "frameworks": [
         {
-          "type": "framework:web",
           "label": "Laravel",
           "ref": "https://laravel.com/",
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": "",
-          "tags": [
-            "#framework",
-            "#frontend",
-            "#backend",
-            "#php"
-          ]
+          "comment": ""
         },
         {
-          "type": "framework:documentation",
           "label": "daux.io",
-          "comment": "Framework f\u00fcr Dokumentation",
           "ref": "http://daux.io/",
-          "tags": [
-            "#framework",
-            "#php",
-            "#documentation"
-          ],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
-          }
+          },
+          "comment": "Framework f\u00fcr Dokumentation"
         }
       ]
     },
     {
-      "type": "language:nlp",
+      "type": "language",
       "label": "Python",
       "ref": "https://www.w3schools.com/python/default.asp",
       "collected_by": {
@@ -1172,43 +1110,31 @@
         },
       "comment": "",
       "tags": [
-        "#python"
+        "#python", "#nlp", "#web", "#frameworks", "#topicmodeling"
       ],
       "frameworks": [
         {
-          "type": "framework:web",
           "label": "Django",
           "ref": "https://www.djangoproject.com/",
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": "",
-          "tags": [
-            "#framework",
-            "#python"
-          ]
+          "comment": "Python Web-Framework"
         },
         {
-          "type": "framework:topicmodeling",
           "label": "Gensim",
           "ref": "https://radimrehurek.com/gensim/index.html",
           "collected_by": {
                 "name": "Mueller-Laackman, Jonas",
                 "ref": "https://orcid.org/0000-0003-2279-6751"
               },
-          "comment": "Python library for topic modeling",
-          "tags": [
-            "#topicmodeling",
-            "#nlp",
-            "#tool",
-            "#python"
-          ]
+          "comment": "Python library for topic modeling"
         }
       ]
     },
     {
-      "type": "language:nlp",
+      "type": "language",
       "label": "R",
       "ref": "https://www.r-project.org/",
       "collected_by": {
@@ -1217,11 +1143,11 @@
         },
       "comment": "",
       "tags": [
-        "#r"
+        "#r", "#nlp", "#visualisation"
       ]
     },
     {
-      "type": "language:nlp",
+      "type": "language",
       "label": "Go",
       "ref": "https://golang.org/",
       "collected_by": {
@@ -1234,7 +1160,7 @@
       ]
     },
     {
-      "type": "language:nlp",
+      "type": "language",
       "label": "Java",
       "ref": "https://www.java.com/de/",
       "collected_by": {
@@ -1247,7 +1173,7 @@
       ]
     },
     {
-      "type": "language:style",
+      "type": "language",
       "label": "CSS",
       "ref": "https://www.w3schools.com/css/",
       "collected_by": {
@@ -1256,55 +1182,40 @@
         },
       "comment": "",
       "tags": [
-        "#css"
+        "#css", "#frameworks", "#style"
       ],
       "frameworks": [
         {
-          "type": "framework:style",
           "label": "Tailwind CSS",
           "ref": "https://tailwindcss.com/",
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": "",
-          "tags": [
-            "#framework",
-            "#css"
-          ]
+          "comment": ""
         },
         {
-          "type": "framework:style",
           "label": "Bootstrap",
           "ref": "https://getbootstrap.com",
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
-          "comment": "",
-          "tags": [
-            "#framework",
-            "#css"
-          ]
+          "comment": ""
         },
         {
-          "type": "framework:style",
           "label": "skeleton",
-          "comment": "CSS-Framework",
           "ref": "http://getskeleton.com/",
-          "tags": [
-            "#framework",
-            "#css"
-          ],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
-          }
+          },
+          "comment": ""
         }
       ]
     },
     {
-      "type": "language:style",
+      "type": "language",
       "label": "SASS",
       "ref": "https://sass-lang.com/",
       "collected_by": {
@@ -1317,7 +1228,7 @@
       ]
     },
     {
-      "type": "db:sql",
+      "type": "db",
       "label": "MySQL",
       "ref": "https://www.mysql.com/de/",
       "collected_by": {
@@ -1330,7 +1241,7 @@
       ]
     },
     {
-      "type": "db:sql",
+      "type": "db",
       "label": "PostgreSQL",
       "ref": "https://www.postgresql.org/",
       "collected_by": {
@@ -1343,7 +1254,7 @@
       ]
     },
     {
-      "type": "db:nosql",
+      "type": "db",
       "label": "MongoDB",
       "ref": "https://www.mongodb.com/",
       "collected_by": {
@@ -1356,7 +1267,7 @@
       ]
     },
     {
-      "type": "db:nosql",
+      "type": "db",
       "label": "Cassandra",
       "ref": "https://cassandra.apache.org/",
       "collected_by": {
@@ -1369,7 +1280,7 @@
       ]
     },
     {
-      "type": "db:nosql",
+      "type": "db",
       "label": "elasticSearch",
       "ref": "https://www.elastic.co/",
       "collected_by": {
@@ -1382,7 +1293,7 @@
       ]
     },
     {
-      "type": "db:xml",
+      "type": "db",
       "label": "eXist-db",
       "ref": "http://exist-db.org/",
       "collected_by": {
@@ -1395,7 +1306,7 @@
       ]
     },
     {
-      "type": "db:xml",
+      "type": "db",
       "label": "baseX",
       "ref": "https://basex.org/",
       "collected_by": {
@@ -1408,7 +1319,7 @@
       ]
     },
     {
-      "type": "db:nosql",
+      "type": "db",
       "label": "Supabase",
       "ref": "https://supabase.io/",
       "collected_by": {
@@ -1421,7 +1332,7 @@
       ]
     },
     {
-      "type": "db:nosql",
+      "type": "db",
       "label": "Firebase",
       "ref": "https://firebase.google.com/",
       "collected_by": {
@@ -1434,7 +1345,7 @@
       ]
     },
     {
-      "type": "db:xml",
+      "type": "db",
       "label": "staticSearc",
       "ref": "https://github.com/projectEndings/staticSearch/",
       "collected_by": {
@@ -1447,7 +1358,7 @@
       ]
     },
     {
-      "type": "db:graph",
+      "type": "db",
       "label": "Neo4J",
       "ref": "https://neo4j.com/",
       "collected_by": {
@@ -1460,7 +1371,7 @@
       ]
     },
     {
-      "type": "language:query:graph",
+      "type": "language",
       "label": "GraphQL",
       "ref": "https://graphql.org/",
       "collected_by": {
@@ -1469,11 +1380,11 @@
         },
       "comment": "",
       "tags": [
-        "#graph"
+        "#graph", "#query"
       ]
     },
     {
-      "type": "language:query:sql",
+      "type": "language",
       "label": "SQL",
       "ref": "https://www.w3schools.com/sql/sql_intro.asp",
       "collected_by": {
@@ -1482,11 +1393,11 @@
         },
       "comment": "",
       "tags": [
-        "#sql"
+        "#sql", "#query"
       ]
     },
     {
-      "type": "language:query:xml",
+      "type": "language",
       "label": "XQuery",
       "ref": "https://www.w3schools.com/xml/xquery_intro.asp",
       "collected_by": {
@@ -1495,11 +1406,11 @@
         },
       "comment": "",
       "tags": [
-        "#xml"
+        "#xml", "#query"
       ]
     },
     {
-      "type": "language:query:rdf",
+      "type": "language",
       "label": "SPARQL",
       "ref": "https://www.w3.org/TR/rdf-sparql-query/",
       "collected_by": {
@@ -1508,7 +1419,7 @@
         },
       "comment": "",
       "tags": [
-        "#rdf"
+        "#rdf", "#query"
       ]
     },
     {
