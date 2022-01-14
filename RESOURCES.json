@@ -120,13 +120,13 @@
       }
     },
     {
-      "type": "framework:other",
+      "type": "other",
       "label": "dredd",
       "comment": "Testing-Framework, e.g. for openAPI",
       "ref": "https://dredd.org/",
       "tags": [
         "#testing",
-        "#framework",
+        "#frameworks",
         "#openapi"
       ],
       "collected_by": {
@@ -693,7 +693,7 @@
       "comment": "Framework for providing pictures and related metadata",
       "ref": "https://iiif.io/",
       "tags": [
-        "#framework",
+        "#frameworks",
         "#images",
         "#service"
       ],
@@ -990,7 +990,7 @@
         },
       "comment": "",
       "tags": [
-        "#javascript", "#frontend", "#framework", "#presentations", "#3d", "#visualisation", "#webgl"
+        "#javascript", "#frontend", "#frameworks", "#presentations", "#3d", "#visualisation", "#webgl"
       ],
       "frameworks": [
         {
