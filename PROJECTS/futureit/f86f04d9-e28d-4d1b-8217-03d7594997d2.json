@@ -1,76 +1,97 @@
 {
-    "record_metadata": {
-        "uuid": "f86f04d9-e28d-4d1b-8217-03d7594997d2", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": "2021-11-22",
-        "record_modified_by": null
+  "record_metadata": {
+    "uuid": "f86f04d9-e28d-4d1b-8217-03d7594997d2",
+    "record_created": "2021-11-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": "2021-11-22",
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "FUtureIT",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020-10",
+        "to": "2021-03"
+      },
+      {
+        "from": "2021-04",
+        "to": "2022-09"
+      }
+    ],
+    "website": [
+      "https://www.fu-berlin.de/sites/futureit/index.html"
+    ],
+    "project_desc": "FUtureIT – für eine service- und zukunftsorientierte IT an der Freien Universität Berlin. Für die Arbeit in Forschung, Lehre, Studium und Verwaltung ist eine leistungsfähige Informationstechnologie unverzichtbar. Die zunehmende Digitalisierung der Arbeit führt dazu, dass Standard-IT-Services immer mehr an Bedeutung gewinnen und zugleich individuelle IT-Lösungen gefragt sind. Die über Jahrzehnte gewachsenen Strukturen an der Freien Universität Berlin werden dieser Situation derzeit nicht immer gerecht. Daher hat das Präsidium das auf zwei Jahre angelegte Projekt FutureIT initiiert, um die Ausstattung mit passgenauer Informationstechnik und den Support von Forschenden, Lehrenden, Studierenden sowie den Beschäftigten spürbar und nachhaltig zu verbessern. Die Schritte auf dem Weg zu diesem Ziel werden in Teilprojekten erarbeitet, in die alle Teile der Freien Universität einbezogen sind. Feedback von vielen Mitgliedern der Universität und Kommunikation mit allen Bereichen sind grundlegend im Projekt FutureIT und entscheidend für den Erfolg.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": false,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "FUtureIT",
-        "date": [        
-            {
-                "from": "2020-10", 
-                "to": "2021-03"
-            },
-            {
-                "from": "2021-04", 
-                "to": "2022-09"
-            }           
-        ],     
-        "ref": ["https://www.fu-berlin.de/sites/futureit/index.html"],
-        "project_desc": "FUtureIT – für eine service- und zukunftsorientierte IT an der Freien Universität Berlin. Für die Arbeit in Forschung, Lehre, Studium und Verwaltung ist eine leistungsfähige Informationstechnologie unverzichtbar. Die zunehmende Digitalisierung der Arbeit führt dazu, dass Standard-IT-Services immer mehr an Bedeutung gewinnen und zugleich individuelle IT-Lösungen gefragt sind. Die über Jahrzehnte gewachsenen Strukturen an der Freien Universität Berlin werden dieser Situation derzeit nicht immer gerecht. Daher hat das Präsidium das auf zwei Jahre angelegte Projekt FutureIT initiiert, um die Ausstattung mit passgenauer Informationstechnik und den Support von Forschenden, Lehrenden, Studierenden sowie den Beschäftigten spürbar und nachhaltig zu verbessern. Die Schritte auf dem Weg zu diesem Ziel werden in Teilprojekten erarbeitet, in die alle Teile der Freien Universität einbezogen sind. Feedback von vielen Mitgliedern der Universität und Kommunikation mit allen Bereichen sind grundlegend im Projekt FutureIT und entscheidend für den Erfolg.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin", 
-                    "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                }    
-            }          
-        ],
-        "lang":["deu"],
-        "nls_related": false,
-        "dh_related": false,
-        "parents":[
-            {
-                "type": "org",
-                "org_name": {
-                    "text": "Freie Universität Berlin",
-                    "ref": ["https://www.grid.ac/institutes/grid.14095.39"]
-                },
-                "ref": ["https://www.fu-berlin.de/"],
-                "places": [
-                    {
-                        "place_name": {
-                            "text": "Berlin", 
-                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                        }                     
-                    }
-                ]
-            }      
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "Geukes, Albert",
-                    "ref":null
-                },  
-                "role": 0,
-                "ref": ["https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/ageukes.html"]     
-            }                 
-        ],
-        "research_data": {
-            "lang":[]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.14095.39"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "digitalisation",
-            "workplace",
-            "standard_it_service"
+        "website": [
+          "https://www.fu-berlin.de/"
         ],
-        "comment": null
-    }
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Geukes, Albert",
+          "ref": null
+        },
+        "role": 0,
+        "website": [
+          "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/ageukes.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "digitalisation",
+      "standard_it_service",
+      "workplace"
+    ],
+    "comment": ""
+  }
 }

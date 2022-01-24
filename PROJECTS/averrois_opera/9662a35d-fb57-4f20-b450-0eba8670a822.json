@@ -1,94 +1,138 @@
 {
-    "metadata": {
-        "uuid": "9662a35d-fb57-4f20-b450-0eba8670a822",
-        "record_created": 11112021,
-        "record_created_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "9662a35d-fb57-4f20-b450-0eba8670a822",
+    "record_created": "2021-11-11",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "Averrois Opera (Corpus Philosophorum Medii Aevi)",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "1980",
+        "to": "1996"
+      }
+    ],
+    "website": [
+      "http://www.uai-iua.org/en/projects/90/averrois-opera-corpus-philosophorum-medii-aevi"
+    ],
+    "project_desc": "The publication plan followed the general layout and structure sketched by H. A. Wolfson in 1931, to serve as a basis for his plan for the publication of a Corpus Commentariorum Averrois in Aristotelem, submitted to UAI by the Mediæval Academy of America, revised in 1963. The first edition of the Corpus Commentariorum was published by the Mediæval Academy of America in 1949. This work was continued from 1980 to 1996 under the general editorship of Albert Zimmermann (Köln), by the American, Egyptian, Israeli, Polish, Spanish and German academies engaged in the project, under the more comprehensive title Averrois Opera (including works of Averroes beside his commentaries of Aristotle) and the project was reorganized in three sections : Arabic, in charge of the Academy of the Arabic language, Cairo ; Latin, in charge of the Nordrhein-West-fälische Akademie der Wissenschaften, Düsseldorf ; and Hebrew, in charge of the Isral Academy of Sciences and Humanities, Jerusalem.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Cairo",
+          "ref": "https://www.geonames.org/360630/cairo.html"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Düsseldorf",
+          "ref": "https://www.geonames.org/2934246/duesseldorf.html"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Jerusalem",
+          "ref": "https://www.geonames.org/293198/jerusalem.html"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": false,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Averrois Opera (Corpus Philosophorum Medii Aevi)",
-        "established": 1980,
-        "duration": 16,    
-        "concluded": 1996,           
-        "website": "http://www.uai-iua.org/en/projects/90/averrois-opera-corpus-philosophorum-medii-aevi",
-        "projectDesc": "The publication plan followed the general layout and structure sketched by H. A. Wolfson in 1931, to serve as a basis for his plan for the publication of a Corpus Commentariorum Averrois in Aristotelem, submitted to UAI by the Mediæval Academy of America, revised in 1963. The first edition of the Corpus Commentariorum was published by the Mediæval Academy of America in 1949. This work was continued from 1980 to 1996 under the general editorship of Albert Zimmermann (Köln), by the American, Egyptian, Israeli, Polish, Spanish and German academies engaged in the project, under the more comprehensive title Averrois Opera (including works of Averroes beside his commentaries of Aristotle) and the project was reorganized in three sections : Arabic, in charge of the Academy of the Arabic language, Cairo ; Latin, in charge of the Nordrhein-West-fälische Akademie der Wissenschaften, Düsseldorf ; and Hebrew, in charge of the Isral Academy of Sciences and Humanities, Jerusalem.",
-        "places": [
-            {
-                "placeName": "Cairo",
-                "ref": "https://www.geonames.org/360630/cairo.html"  
-            },
-            {
-                "placeName": "Düsseldorf",
-                "ref": "https://www.geonames.org/2934246/duesseldorf.html" 
-            },
-            {                
-                "placeName": "Jerusalem",
-                "ref": "https://www.geonames.org/293198/jerusalem.html"
-            }
-        ],
-        "lang":["eng"],
-        "nls_related": true,
-        "dh_related": false,
-        "parents":[
-            {
-                "type": "org",
-                "orgName": "Academy of the Arabic Language",
-                "ref": null,
-                "website": "http://www.arabicacademy.org.eg/",
-                "uuid": null,
-                "places":[
-                    {
-                        "placeName": "Cairo",
-                        "ref": "https://www.geonames.org/360630/cairo.html"
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "orgName": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste ",
-                "ref": "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html",
-                "website": "https://www.awk.nrw.de/startseite.html",
-                "uuid": null,
-                "places":[
-                    {
-                        "placeName": "Düsseldorf",
-                        "ref": "https://www.geonames.org/2934246/duesseldorf.html"
-                    }
-                ]
-            }, 
-            {
-                "type": "org",
-                "orgName": "Israel Academy of Sciences and Humanities",
-                "ref": "https://www.grid.ac/institutes/grid.453493.c",
-                "website": "https://www.academy.ac.il/english.aspx",
-                "uuid": null,
-                "places":[
-                    {
-                        "placeName": "Jerusalem",
-                        "ref": "https://www.geonames.org/293198/jerusalem.html"
-                    }
-                ]
-            }   
-        ],
-        "children": [
-            {
-                "type": "project",
-                "title": "Averroes Edition",
-                "uuid": "a6e1fb68-e7a5-4125-8cfc-ec3aa16da73b"
-            }
-        ],
-        "contacts": [],
-        "research_data": {
-            "lang":[
-                "ar",
-                "he",
-                "la"
-            ]    
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Academy of the Arabic Language",
+          "ref": null
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "Averroes",
-            "hebrew"
+        "website": [
+          "http://www.arabicacademy.org.eg/"
+        ],
+        "places": [
+          {
+            "text": "Cairo",
+            "ref": "https://www.geonames.org/360630/cairo.html"
+          }
         ]
-    }
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste ",
+          "ref": "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html"
+        },
+        "website": [
+          "https://www.awk.nrw.de/startseite.html"
+        ],
+        "places": [
+          {
+            "text": "Düsseldorf",
+            "ref": "https://www.geonames.org/2934246/duesseldorf.html"
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Israel Academy of Sciences and Humanities",
+          "ref": "https://www.grid.ac/institutes/grid.453493.c"
+        },
+        "website": [
+          "https://www.academy.ac.il/english.aspx"
+        ],
+        "places": [
+          {
+            "text": "Jerusalem",
+            "ref": "https://www.geonames.org/293198/jerusalem.html"
+          }
+        ]
+      }
+    ],
+    "children": [
+      {
+        "type": "project",
+        "title": "Averroes Edition",
+        "uuid": "a6e1fb68-e7a5-4125-8cfc-ec3aa16da73b"
+      }
+    ],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": ""
+        },
+        "role": "",
+        "website": ""
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "heb",
+        "lat"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "Averroes",
+      "ara",
+      "heb",
+      "lat"
+    ],
+    "comment": ""
+  }
 }

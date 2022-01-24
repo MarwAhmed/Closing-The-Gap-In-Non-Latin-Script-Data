@@ -1,73 +1,98 @@
 {
-    "record_metadata": {
-        "uuid": "e9ddf49e-4dc1-4f1c-ac73-ba0883cdd5d2", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+  "record_metadata": {
+    "uuid": "e9ddf49e-4dc1-4f1c-ac73-ba0883cdd5d2",
+    "record_created": "2021-11-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "The Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
+    "abbr": "DigiPal",
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2010",
+        "to": "2014"
+      }
+    ],
+    "website": [
+      "http://www.digipal.eu/"
+    ],
+    "project_desc": "The Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic (DigiPal) has been developed at the Department of Digital Humanities at Kings College London. Funded by the European Research Council (ERC), as part of the European Commission's FP7 programme, the project aims to bring new methods in Digital Humanities to the study of medieval handwriting in its diplomatic and manuscript context by combining digital catalogues, descriptions of handwriting, and images of documents and their constituent letter-forms. The project aims to bring digital technology to bear on scholarly discussion in new and innovative ways. It combines digital photographs of medieval handwriting with detailed descriptions and characterisations of the writing, as well as the text in which it is found, and the content and structure of the manuscript or document as a whole. It incorporates different ways of exploring and manipulating the information, such as annotated images, as well as more conventional text-based browse and search. It therefore allows scholars to apply new developments in palaeographical method which have been discussed in theory but which have proven difficult or impossible to implement in practice",
+    "places": [
+      {
+        "place_name": {
+          "text": "London",
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "The Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
-        "abbr": "DigiPal",
-        "date": [        
-            {
-                "from": "2010", 
-                "to": "2014"
-            }           
-        ],     
-        "ref": ["http://www.digipal.eu/"],
-        "project_desc": "The Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic (DigiPal) has been developed at the Department of Digital Humanities at Kings College London. Funded by the European Research Council (ERC), as part of the European Commission's FP7 programme, the project aims to bring new methods in Digital Humanities to the study of medieval handwriting in its diplomatic and manuscript context by combining digital catalogues, descriptions of handwriting, and images of documents and their constituent letter-forms. The project aims to bring digital technology to bear on scholarly discussion in new and innovative ways. It combines digital photographs of medieval handwriting with detailed descriptions and characterisations of the writing, as well as the text in which it is found, and the content and structure of the manuscript or document as a whole. It incorporates different ways of exploring and manipulating the information, such as annotated images, as well as more conventional text-based browse and search. It therefore allows scholars to apply new developments in palaeographical method which have been discussed in theory but which have proven difficult or impossible to implement in practice",
-        "places": [
-            {
-                "place_name": {
-                    "text": "London", 
-                    "ref": ["https://www.geonames.org/2643743/london.html"]
-                } 
-            }          
-        ],
-        "lang":["eng"],
-        "nls_related": false,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"King's College London",
-                    "ref":["https://www.grid.ac/institutes/grid.13097.3c"]
-                },
-                "ref": ["https://www.kcl.ac.uk/"],
-                "places":[
-                    {
-                        "place_name":{
-                            "text": "London", 
-                            "ref": ["https://www.geonames.org/2643743/london.html"]
-                        }                    
-                    }
-                ]
-            }     
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "Stokes, Peter A.",
-                    "ref":["http://viaf.org/viaf/107883884/#Stokes,_Peter_A."]
-                },  
-                "role": 0,
-                "ref": ["http://peterstokes.org/cv/index.html"]     
-            }                 
-        ],
-        "research_data": {
-            "lang":["eng"]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "King's College London",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.13097.3c"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "manuscripts", 
-            "middleages",
-            "europe"
+        "website": [
+          "https://www.kcl.ac.uk/"
         ],
-        "comment": null
-    }
+        "places": [
+          {
+            "place_name": {
+              "text": "London",
+              "ref": [
+                "https://www.geonames.org/2643743/london.html"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Stokes, Peter A.",
+          "ref": [
+            "http://viaf.org/viaf/107883884/#Stokes,_Peter_A."
+          ]
+        },
+        "role": 0,
+        "website": [
+          "http://peterstokes.org/cv/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "eng"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "eng",
+      "europe",
+      "manuscripts",
+      "middleages"
+    ],
+    "comment": ""
+  }
 }

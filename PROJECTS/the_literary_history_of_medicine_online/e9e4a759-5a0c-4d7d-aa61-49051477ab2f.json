@@ -1,77 +1,88 @@
 {
-    "record_metadata": {
-        "uuid": "e9e4a759-5a0c-4d7d-aa61-49051477ab2f", 
-        "record_created": "2021-11-19", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+  "record_metadata": {
+    "uuid": "e9e4a759-5a0c-4d7d-aa61-49051477ab2f",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "A Literary History of Medicine Online",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": null,
+        "to": null
+      }
+    ],
+    "website": [
+      "https://scholarlyeditions.brill.com/lhom/"
+    ],
+    "project_desc": "Introduction: A Literary History of Medicine Online offers a complete, annotated translation along with a new edition of The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah. This web version allows for a parallel reading of the Arabic edition and English translation. The work’s background is painted by the editors and translators in several introductory essays. The Work:This celebrated, informative and entertaining history of medicine – the first of its kind – by the Syrian physician Ibn Abī Uṣaybiʿah (d. 1270) is the earliest comprehensive history of medicine. It contains biographies of over 432 physicians, ranging from the ancient Greeks to the author’s contemporaries, describing their training and practice, often as court physicians, and listing their medical works; all this interlaced with poems and anecdotes. The reader will find in this work an Islamic society that worked closely with Christians and Jews, deeply committed to advancing knowledge and applying it to health and wellbeing. The readable, faithful, complete translation is fully accessible to scholars and nonscholars alike.",
+    "places": [
+      {
+        "place_name": {
+          "text": "",
+          "ref": []
+        }
+      }
+    ],
+    "lang": [],
+    "topic_relations": {
+      "nls": null,
+      "dh": null,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "A Literary History of Medicine Online",
-        "date": [        
-            {
-                "from": "", 
-                "to": ""
-            }           
-        ],     
-        "ref": ["https://scholarlyeditions.brill.com/lhom/"],
-        "project_desc": "Introduction: A Literary History of Medicine Online offers a complete, annotated translation along with a new edition of The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah. This web version allows for a parallel reading of the Arabic edition and English translation. The work’s background is painted by the editors and translators in several introductory essays. The Work:This celebrated, informative and entertaining history of medicine – the first of its kind – by the Syrian physician Ibn Abī Uṣaybiʿah (d. 1270) is the earliest comprehensive history of medicine. It contains biographies of over 432 physicians, ranging from the ancient Greeks to the author’s contemporaries, describing their training and practice, often as court physicians, and listing their medical works; all this interlaced with poems and anecdotes. The reader will find in this work an Islamic society that worked closely with Christians and Jews, deeply committed to advancing knowledge and applying it to health and wellbeing. The readable, faithful, complete translation is fully accessible to scholars and nonscholars alike.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "", 
-                    "ref": []
-                } 
-            }          
-        ],
-        "lang":[],
-        "nls_related": null,
-        "dh_related": null,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"",
-                    "ref":[]
-                },
-                "ref": [],
-                "places":[
-                    {
-                        "place_name":{
-                            "text": "", 
-                            "ref": []
-                        }                    
-                    }
-                ]
-            },
-            {
-                "type": "project",
-                "title": "",
-                "uuid": "" 
-            }       
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "",
-                    "ref":[]
-                },  
-                "role": null,
-                "ref": []     
-            }                 
-        ],
-        "research_data": {
-            "lang":[]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "",
+          "ref": []
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "ibn-abi-usaybia", 
-            "digitaledition", 
-            "ara"
-        ],
-        "comment": null
-    }
+        "website": [],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": []
+            }
+          }
+        ]
+      },
+      {
+        "type": "project",
+        "title": "",
+        "uuid": ""
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": []
+        },
+        "role": null,
+        "website": []
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "ara",
+      "digitaledition",
+      "ibn-abi-usaybia"
+    ],
+    "comment": ""
+  }
 }

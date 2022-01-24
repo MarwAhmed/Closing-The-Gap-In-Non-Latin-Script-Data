@@ -1,83 +1,114 @@
 {
-    "metadata": {
-        "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9",
-        "record_created": 8112021,
-        "record_created_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9",
+    "record_created": "2021-11-08",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "Arabic Papyrology Database",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2004",
+        "to": null
+      }
+    ],
+    "website": [
+      "https://www.apd.gwi.uni-muenchen.de/apd/about.jsp"
+    ],
+    "project_desc": "The Arabic Papyrology Database (APD) gives you access to editions of and research on pre-modern Arabic documents written on papyrus, parchment, paper, etc., an often untapped treasure for almost every aspect of the Islamicate World from the 7th up to the 16th century CE.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Munich",
+          "ref": "https://www.geonames.org/2867714/munich.html"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Zürich",
+          "ref": "https://www.geonames.org/7287650/zuerich.html"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Arabic Papyrology Database",
-        "established": 2004,
-        "duration": null,    
-        "concluded": null,           
-        "website": "https://www.apd.gwi.uni-muenchen.de/apd/about.jsp",
-        "projectDesc": "The Arabic Papyrology Database (APD) gives you access to editions of and research on pre-modern Arabic documents written on papyrus, parchment, paper, etc., an often untapped treasure for almost every aspect of the Islamicate World from the 7th up to the 16th century CE.",
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Ludwig-Maximilians-Universität Munich",
+          "ref": "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
+        },
+        "website": [
+          "https://www.lmu.de/de/index.html"
+        ],
         "places": [
-            {
-                "placeName": "Munich",
-                "ref": "https://www.geonames.org/2867714/munich.html"
-            },
-            {   "placeName": "Zürich",
-                "ref": "https://www.geonames.org/7287650/zuerich.html"
-            }
+          {
+            "text": "Munich",
+            "ref": "https://www.geonames.org/2867714/munich.html"
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Universität Zürich",
+          "ref": "https://www.geonames.org/6930857/university-of-zuerich.html"
+        },
+        "website": [
+          "https://www.uzh.ch/de.html"
         ],
-        "lang":[            
-            "eng"
-        ],
-        "nls_related": true,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "orgName": "Ludwig-Maximilians-Universität Munich",
-                "ref": "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll",
-                "website": "https://www.lmu.de/de/index.html",
-                "uuid": null,
-                "places":[
-                    {
-                        "placeName": "Munich",
-                        "ref": "https://www.geonames.org/2867714/munich.html"
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "orgName": "Universität Zürich",
-                "ref": "https://www.geonames.org/6930857/university-of-zuerich.html",
-                "website": "https://www.uzh.ch/de.html",
-                "uuid": null,
-                "places": [
-                    {
-                        "placeName": "Zürich",
-                        "ref": "https://www.geonames.org/7287650/zuerich.html"
-                    
-                    }
-                ]
-            }   
-        ],
-        "children": [
-            {
-                "type": "project",
-                "title": "A Digital Typology of Arabic Documents",
-                "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66"
-            }
-
-        ],
-        "contacts": [
-            {
-                "persName": "Andreas Kaplony",
-                "ref": "https://d-nb.info/gnd/115211942",
-                "role": 0,
-                "website": "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"
-            }
-        ],
-        "research_data": {},
-        "technology": {},
-        "policies": {},
-        "keywords": [
-            "pre-modern",
-            "datebase",
-            "lexicon",
-            "manuscript"
-        ]    
-    }
+        "places": [
+          {
+            "text": "Zürich",
+            "ref": "https://www.geonames.org/7287650/zuerich.html"
+          }
+        ]
+      }
+    ],
+    "children": [
+      {
+        "type": "project",
+        "title": "A Digital Typology of Arabic Documents",
+        "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66"
+      }
+    ],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Andreas Kaplony",
+          "ref": "https://d-nb.info/gnd/115211942"
+        },
+        "role": 0,
+        "website": [
+          "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "datebase",
+      "lexicon",
+      "manuscript",
+      "pre-modern"
+    ],
+    "comment": ""
+  }
 }

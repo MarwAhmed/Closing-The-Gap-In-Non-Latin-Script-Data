@@ -1,147 +1,194 @@
 {
-    "record_metadata": {
-        "uuid": "a4fa5143-90d2-42ba-a8a1-424b09696b1c", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": "2021-11-25",
-        "record_modified_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "a4fa5143-90d2-42ba-a8a1-424b09696b1c",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": "2021-11-25",
+    "record_modified_by": "Kudela, Xenia Monika"
+  },
+  "project": {
+    "title": "Orient-Digital",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2023"
+      }
+    ],
+    "website": [
+      "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/projekte/dfg-projekt-orient-digital"
+    ],
+    "project_desc": "Das Projekt „Orient-Digital“ ist ein von der Deutschen Forschungsgemeinschaft gefördertes, zunächst auf drei Jahre hin ausgelegtes Projekt zum Aufbau eines Verbundkatalogs und eines Portals für orientalische Handschriften. Ziele des Projektes sind die Etablierung gemeinsamer Erschließungsstandards, die Konvertierung gedruckter Kataloge in elektronische sowie die Zusammenführung aller bestehenden elektronischen Nachweise. Antragsteller und Haupt-Kooperationspartner sind die Staatsbibliothek zu Berlin, die Forschungsbibliothek Gotha der Universität Erfurt, die Bayerische Staatsbibliothek München und das Universitätsrechenzentrum Leipzig.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Gotha",
+          "ref": [
+            "http://www.geonames.org/2918752/gotha.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Munich",
+          "ref": [
+            "http://www.geonames.org/2867714/munich.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Orient-Digital",
-        "date": [        
-            {
-                "from": "2020", 
-                "to": "2023"
-            }           
-        ],     
-        "ref": ["https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/projekte/dfg-projekt-orient-digital"],
-        "project_desc": "Das Projekt „Orient-Digital“ ist ein von der Deutschen Forschungsgemeinschaft gefördertes, zunächst auf drei Jahre hin ausgelegtes Projekt zum Aufbau eines Verbundkatalogs und eines Portals für orientalische Handschriften. Ziele des Projektes sind die Etablierung gemeinsamer Erschließungsstandards, die Konvertierung gedruckter Kataloge in elektronische sowie die Zusammenführung aller bestehenden elektronischen Nachweise. Antragsteller und Haupt-Kooperationspartner sind die Staatsbibliothek zu Berlin, die Forschungsbibliothek Gotha der Universität Erfurt, die Bayerische Staatsbibliothek München und das Universitätsrechenzentrum Leipzig.",
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Staatsbibliothek zu Berlin",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.461943.d"
+          ]
+        },
+        "website": [
+          "https://staatsbibliothek-berlin.de/"
+        ],
         "places": [
           {
             "place_name": {
-                "text": "Berlin", 
-                "ref": ["http://www.geonames.org/2950159/berlin.html"]
-            } 
-          },
-          {
-            "place_name": {
-                "text": "Gotha", 
-                "ref": ["http://www.geonames.org/2918752/gotha.html"]
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
             }
-          },
-          {
-            "place_name": {
-                "text": "Leipzig", 
-                "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-            } 
-          },
-          {
-            "place_name": {
-                "text": "Munich", 
-                "ref": ["http://www.geonames.org/2867714/munich.html"]
-            } 
-          }                
-        ],
-        "lang":["ger"],
-        "nls_related": true,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"Staatsbibliothek zu Berlin",
-                    "ref":["https://www.grid.ac/institutes/grid.461943.d"]
-                },
-                "ref": ["https://staatsbibliothek-berlin.de/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Berlin", 
-                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                        }                     
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"Universität Erfurt",
-                    "ref":["https://www.grid.ac/institutes/grid.32801.38"]
-                },
-                "ref": ["https://www.uni-erfurt.de/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Erfurt", 
-                            "ref": ["https://www.geonames.org/2929670/erfurt.html"]
-                        }                     
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"Leipzig University (LU)",
-                    "ref":["https://www.grid.ac/institutes/grid.9647.c"]
-                },
-                "ref": ["https://www.uni-leipzig.de/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Leipzig", 
-                            "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-                        }                    
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name": {
-                    "text": "Bayerische Staatsbibliothek",
-                    "ref": ["https://www.grid.ac/institutes/grid.432478.e"]
-                },
-                "ref": ["https://www.bsb-muenchen.de/"],
-                "places": [
-                    {
-                        "place_name": {
-                            "text": "Munich", 
-                            "ref": ["http://www.geonames.org/2867714/munich.html"]
-                        }                     
-                    }
-                ]
-            }     
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "Rauch, Christoph",
-                    "ref":["https://d-nb.info/gnd/1102171662"]
-                },  
-                "role": 0,
-                "ref": ["https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/service-und-benutzung/kontakt"]     
-            }                 
-        ],
-        "research_data": {
-            "lang":[
-                "ara",
-                "per",
-                "tur"
-            ]
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Universität Erfurt",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.32801.38"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "ara",
-            "per",
-            "tur",
-            "databank", 
-            "datanbank",
-            "digitalization",
-            "library",
-            "manuscripts"
+        "website": [
+          "https://www.uni-erfurt.de/"
         ],
-        "comment": null
-    }
+        "places": [
+          {
+            "place_name": {
+              "text": "Erfurt",
+              "ref": [
+                "https://www.geonames.org/2929670/erfurt.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Leipzig University (LU)",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.9647.c"
+          ]
+        },
+        "website": [
+          "https://www.uni-leipzig.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Leipzig",
+              "ref": [
+                "https://www.geonames.org/2879139/leipzig.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Bayerische Staatsbibliothek",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.432478.e"
+          ]
+        },
+        "website": [
+          "https://www.bsb-muenchen.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Munich",
+              "ref": [
+                "http://www.geonames.org/2867714/munich.html"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Rauch, Christoph",
+          "ref": [
+            "https://d-nb.info/gnd/1102171662"
+          ]
+        },
+        "role": 0,
+        "website": [
+          "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/service-und-benutzung/kontakt"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "per",
+        "tur"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "ara",
+      "databank",
+      "datanbank",
+      "digitalization",
+      "library",
+      "manuscripts",
+      "per",
+      "tur"
+    ],
+    "comment": ""
+  }
 }

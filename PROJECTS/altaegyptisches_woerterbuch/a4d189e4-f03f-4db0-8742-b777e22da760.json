@@ -1,0 +1,91 @@
+{
+    "record_metadata": {
+      "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760",
+      "record_created": "2022-01-17",
+      "record_created_by": "Kudela, Xenia Monika",
+      "record_modified": "",
+      "record_modified_by": ""
+    },
+    "project": {
+      "title": "Altägyptisches Wörterbuch",
+      "abbr": "",
+      "type": "project",
+      "ref": [],
+      "date": [
+        {
+          "from": "",
+          "to": ""
+        }
+      ],
+      "website": ["https://aaew.bbaw.de/de",
+        "http://altewelt.bbaw.de/projekte"],
+      "project_desc": "",
+      "places": [
+        {
+          "place_name": {
+            "text": "",
+            "ref": []
+          }
+        }
+      ],
+      "lang": [],
+      "topic_relations": {
+        "nls": null,
+        "dh": null,
+        "rdm": null,
+        "infrastructure": null
+      },
+      "parents": [
+        {
+          "type": "org",
+          "org_name": {
+            "text": "",
+            "ref": []
+          },
+          "website": [],
+          "places": [
+            {
+              "place_name": {
+                "text": "",
+                "ref": []
+              }
+            }
+          ]
+        },
+        {
+          "type": "project",
+          "title": "",
+          "uuid": ""
+        },
+        {
+          "type": "org",
+          "org_name": {
+            "text": "",
+            "ref": [
+              ""
+            ]
+          },
+          "uuid": ""
+        }
+      ],
+      "children": [],
+      "siblings": [],
+      "contacts": [
+        {
+          "pers_name": {
+            "text": "",
+            "ref": []
+          },
+          "role": "",
+          "website": []
+        }
+      ],
+      "research_data": {
+        "lang": []
+      },
+      "technology": {},
+      "policies": {},
+      "keywords": [],
+      "comment": ""
+    }
+  }

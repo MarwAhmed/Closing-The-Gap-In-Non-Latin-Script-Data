@@ -1,87 +1,116 @@
 {
-    "record_metadata": {
-        "uuid": "5f9179dc-cfdf-442b-b4a4-73ebf2f6256d", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": "2021-11-23",
-        "record_modified_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "5f9179dc-cfdf-442b-b4a4-73ebf2f6256d",
+    "record_created": "2021-11-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": "2021-11-23",
+    "record_modified_by": "Kudela, Xenia Monika"
+  },
+  "project": {
+    "title": "Hannah Arendt Digital",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020-2",
+        "to": "2023-2"
+      }
+    ],
+    "website": [
+      "https://hannah-arendt-edition.net/index.html",
+      "https://www.arendteditionprojekt.de/en/projekt/General-Information/index.html"
+    ],
+    "project_desc": "Vierzig Jahre nach ihrem Tod ist Hannah Arendt eine der meistgelesenen AutorInnen des 20. Jahrhunderts. Im Kontext der politischen Philosophie ist ihr Werk einzigartig. Es stellt sich in kritischen Lektüren der Tradition, und es nimmt die Herausforderung an, die dieses von Gewalt geprägte Jahrhundert dem Denken stellt. Doch bis heute gibt es keine Ausgabe ihrer Schriften, die dieser Bedeutung angemessen wäre. Geplant ist eine historisch-kritische Ausgabe von Hannah Arendts zu Lebzeiten veröffentlichten Schriften sowie dem Nachlass in den Originalsprachen der jeweiligen Texte (Deutsch und Englisch). Präsentiert wird sie als Hybrid-Edition: Die Printausgabe erscheint beim Wallstein Verlag in Göttingen, die digitale Version wird von der Freien Universität Berlin veröffentlicht. Die Ausgabe wird Hannah Arendts Texte zum ersten Mal vollständig, kommentiert und in der Vielfalt der Sprachen präsentieren, in denen sie verfasst wurden. Neben den gedruckten sollen alle überlieferten Texte digital erfasst und via XML/TEI erschlossen werden. Für die politische Philosophie, die politischen Wissenschaften, Literatur- und Medienwissenschaften eröffnen sich dadurch neue Nutzungs-, Zugangs- und Analysemöglichkeiten. Dazu gehören u.a. innovative Formen der Navigation, der Verknüpfung und des Vergleichs von Textfassungen, Visualisierungen der Textgenealogie sowie der das Arendtsche Werk kennzeichnenden Taxonomien.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Hannah Arendt Digital",
-        "date": [        
-            {
-                "from": "2020-2", 
-                "to": "2023-2"
-            }           
-        ],     
-        "ref": [
-            "https://hannah-arendt-edition.net/index.html",
-            "https://www.arendteditionprojekt.de/en/projekt/General-Information/index.html"
-        ],
-        "project_desc": "Vierzig Jahre nach ihrem Tod ist Hannah Arendt eine der meistgelesenen AutorInnen des 20. Jahrhunderts. Im Kontext der politischen Philosophie ist ihr Werk einzigartig. Es stellt sich in kritischen Lektüren der Tradition, und es nimmt die Herausforderung an, die dieses von Gewalt geprägte Jahrhundert dem Denken stellt. Doch bis heute gibt es keine Ausgabe ihrer Schriften, die dieser Bedeutung angemessen wäre. Geplant ist eine historisch-kritische Ausgabe von Hannah Arendts zu Lebzeiten veröffentlichten Schriften sowie dem Nachlass in den Originalsprachen der jeweiligen Texte (Deutsch und Englisch). Präsentiert wird sie als Hybrid-Edition: Die Printausgabe erscheint beim Wallstein Verlag in Göttingen, die digitale Version wird von der Freien Universität Berlin veröffentlicht. Die Ausgabe wird Hannah Arendts Texte zum ersten Mal vollständig, kommentiert und in der Vielfalt der Sprachen präsentieren, in denen sie verfasst wurden. Neben den gedruckten sollen alle überlieferten Texte digital erfasst und via XML/TEI erschlossen werden. Für die politische Philosophie, die politischen Wissenschaften, Literatur- und Medienwissenschaften eröffnen sich dadurch neue Nutzungs-, Zugangs- und Analysemöglichkeiten. Dazu gehören u.a. innovative Formen der Navigation, der Verknüpfung und des Vergleichs von Textfassungen, Visualisierungen der Textgenealogie sowie der das Arendtsche Werk kennzeichnenden Taxonomien.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin", 
-                    "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                } 
-            }          
-        ],
-        "lang": [
-            "deu",
-            "eng"
-        ],
-        "nls_related": false,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "org_name": {
-                    "text": "Freie Universität Berlin",
-                    "ref": ["https://www.grid.ac/institutes/grid.14095.39"]
-                },
-                "ref": ["https://www.fu-berlin.de/"],
-                "places": [
-                    {
-                        "place_name": {
-                            "text": "Berlin", 
-                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                        }                    
-                    }
-                ]
-            }               
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name": {
-                    "text": "Hahn, Barbara",
-                    "ref": ["https://d-nb.info/gnd/115655271"]
-                },  
-                "role": 0,
-                "ref": ["https://as.vanderbilt.edu/german-russian-studies/bio/barbara-hahn/?who=barbara-hahn"]     
-            },
-            {
-                "pers_name": {
-                    "text": "Grote, Brigitte",
-                    "ref": [null]
-                },  
-                "role": 1,
-                "ref": ["https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/bgrote.html"]
-            }                 
-        ],
-        "research_data": {
-            "lang":[
-                "deu",
-                "eng",
-                "fra",
-                "yid"
-            ]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.14095.39"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": ["digitaledition"],
-        "comment": "The project is currently in the first funding phase which should be extended into sustain funding after 2023"
-    }
+        "website": [
+          "https://www.fu-berlin.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Hahn, Barbara",
+          "ref": [
+            "https://d-nb.info/gnd/115655271"
+          ]
+        },
+        "role": 0,
+        "website": [
+          "https://as.vanderbilt.edu/german-russian-studies/bio/barbara-hahn/?who=barbara-hahn"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Grote, Brigitte",
+          "ref": [
+            null
+          ]
+        },
+        "role": 1,
+        "website": [
+          "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/bgrote.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "eng",
+        "fre",
+        "ger",
+        "yid"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "digitaledition",
+      "eng",
+      "fre",
+      "ger",
+      "yid"
+    ],
+    "comment": "The project is currently in the first funding phase which should be extended into sustain funding after 2023"
+  }
 }

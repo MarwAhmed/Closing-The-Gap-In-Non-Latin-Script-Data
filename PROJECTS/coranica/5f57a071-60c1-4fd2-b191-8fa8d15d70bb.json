@@ -1,114 +1,148 @@
 {
-    "record_metadata": {
-        "uuid": "5f57a071-60c1-4fd2-b191-8fa8d15d70bb", 
-        "record_created": "2021-11-16", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": "2021-11-23",
-        "record_modified_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "5f57a071-60c1-4fd2-b191-8fa8d15d70bb",
+    "record_created": "2021-11-11",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": "2021-11-23",
+    "record_modified_by": "Kudela, Xenia Monika"
+  },
+  "project": {
+    "title": "Coranica",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2011",
+        "to": "2014"
+      }
+    ],
+    "website": [
+      "https://webarchive.bbaw.de/default/20210819141519/http://www.coranica.de/front-page-en?set_language=en",
+      "https://www.orient-mediterranee.com/spip.php?rubrique305"
+    ],
+    "project_desc": "To date, knowledge of the textual history of the Qur'an has relied primarily on the Arabo-Islamic tradition, especially the major commentaries on the Qur'an. The study of material evidence, which should contribute to understanding the historical development of the canonization of the text, form the first part of the Coranica project, Manuscripta et testimonia coranica. A second component, Glossarium Coranicum, will provide focused analysis and documentation on the languages (spoken and written) and religions that were practiced in Arabia at the time of Muhammad, and on their impact on the Qur'anic lexicon. The Coranica project gives priority to an empirical approach, contributing to the history of the Qur'anic text based primarily on material evidence, distributed chronologically, and less on the data of the Arabo-Islamic tradition. As part of its empirical approach, Coranica aims to take into account current developments and the latest discoveries. These include continuing and amplifying the research on older written witnesses of the Qur'an, a field of study that lay dormant until the 1980s and was revived by the discoveries of Sanaa, and other well known collections, such as those of St. Petersburg or Istanbul. With the opening of archaeological excavations in the Arabian Peninsula, a large number of epigraphic and archaeological discoveries have been made in Yemen and Saudi Arabia, as illustrated in the \"Roads of Arabia\" exhibition at the Louvre (Paris) in 2010 and the Pergamon Museum (Berlin) in 2012. Some of the texts discovered are particularly close, chronologically and geographically, to the Qur'an, enriching our knowledge of the religions of pre-Islamic Arabia. Archaeology provides a more accurate picture of the environmental and demographic milieu of Arabia in the second half of the sixth century, including political and economic components; it also illuminates the spread of Christianity in eastern Arabia. Coranica provides a platform for cooperation between those in the fields of antiquity and Islamic studies. The project brings together researchers from various disciplines from Germany, France, England, Austria and Italy. Coranica began in 2011, and is directed by Christian Robin and François Deroche (AIBL, Paris) and Michael Marx and Angelika Neuwirth (BBAW, Berlin)",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Paris",
+          "ref": [
+            "http://www.geonames.org/2988506/paris.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "fre",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Coranica",
-        "date": [        
-            {
-                "from": "2011", 
-                "to": "2014"
-            }        
-        ],     
-        "ref": [
-            "https://webarchive.bbaw.de/default/20210819141519/http://www.coranica.de/front-page-en?set_language=en",
-            "https://www.orient-mediterranee.com/spip.php?rubrique305"
-        ],
-        "project_desc": "To date, knowledge of the textual history of the Qur'an has relied primarily on the Arabo-Islamic tradition, especially the major commentaries on the Qur'an. The study of material evidence, which should contribute to understanding the historical development of the canonization of the text, form the first part of the Coranica project, Manuscripta et testimonia coranica. A second component, Glossarium Coranicum, will provide focused analysis and documentation on the languages (spoken and written) and religions that were practiced in Arabia at the time of Muhammad, and on their impact on the Qur'anic lexicon. The Coranica project gives priority to an empirical approach, contributing to the history of the Qur'anic text based primarily on material evidence, distributed chronologically, and less on the data of the Arabo-Islamic tradition. As part of its empirical approach, Coranica aims to take into account current developments and the latest discoveries. These include continuing and amplifying the research on older written witnesses of the Qur'an, a field of study that lay dormant until the 1980s and was revived by the discoveries of Sanaa, and other well known collections, such as those of St. Petersburg or Istanbul. With the opening of archaeological excavations in the Arabian Peninsula, a large number of epigraphic and archaeological discoveries have been made in Yemen and Saudi Arabia, as illustrated in the \"Roads of Arabia\" exhibition at the Louvre (Paris) in 2010 and the Pergamon Museum (Berlin) in 2012. Some of the texts discovered are particularly close, chronologically and geographically, to the Qur'an, enriching our knowledge of the religions of pre-Islamic Arabia. Archaeology provides a more accurate picture of the environmental and demographic milieu of Arabia in the second half of the sixth century, including political and economic components; it also illuminates the spread of Christianity in eastern Arabia. Coranica provides a platform for cooperation between those in the fields of antiquity and Islamic studies. The project brings together researchers from various disciplines from Germany, France, England, Austria and Italy. Coranica began in 2011, and is directed by Christian Robin and François Deroche (AIBL, Paris) and Michael Marx and Angelika Neuwirth (BBAW, Berlin)",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin", 
-                    "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                } 
-            },
-            {
-                "place_name": {
-                    "text": "Paris", 
-                    "ref": ["http://www.geonames.org/2988506/paris.html"]
-                }
-            }         
-        ],
-        "lang":[
-            "eng",
-            "fre",
-            "ger"
-        ],
-        "nls_related": true,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"die Berlin-Brandenburgische Akademie der Wissenschaften",
-                    "ref":["https://www.grid.ac/institutes/grid.420264.6"]
-                },
-                "ref": ["https://www.bbaw.de/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Berlin", 
-                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                        }                    
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"Académie des Inscriptions et Belles-Lettres Paris",
-                    "ref":["https://www.wikidata.org/wiki/Q337526"]
-                },
-                "ref": ["https://www.aibl.fr/?lang=fr"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Paris", 
-                            "ref": ["http://www.geonames.org/2988506/paris.html"]
-                        }                   
-                    }
-                ] 
-            }              
-        ],
-        "children": [],
-        "siblings": [
-            {
-                "type": "project",
-                "title": "Corpus Coranicum",
-                "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0" 
-            }    
-        ],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "Neuwirth, Angelika",
-                    "ref":["https://d-nb.info/gnd/108800083"]
-                },  
-                "role": 0,
-                "ref": ["https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Ehemalige-Mitarbeiterinnen-und-Mitarbeiter/Professuren/neuwirth/index.html"]     
-            },
-            {
-                "pers_name":{
-                    "text": "Robin, Christian Julien",
-                    "ref":["https://www.wikidata.org/wiki/Q27919930"]
-                },  
-                "role": 0,
-                "ref": ["https://www.aibl.fr/membres/academiciens-depuis-1663/article/robin-christian-julien"]
-            }                 
-        ],
-        "research_data": {
-            "lang":["ara"]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "die Berlin-Brandenburgische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.420264.6"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "quran",
-            "lexicon"
-            ],
-        "comment": {} 
-    }
+        "website": [
+          "https://www.bbaw.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Académie des Inscriptions et Belles-Lettres Paris",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q337526"
+          ]
+        },
+        "website": [
+          "https://www.aibl.fr/?lang=fr"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Paris",
+              "ref": [
+                "http://www.geonames.org/2988506/paris.html"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Corpus Coranicum",
+        "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Neuwirth, Angelika",
+          "ref": [
+            "https://d-nb.info/gnd/108800083"
+          ]
+        },
+        "role": 0,
+        "website": [
+          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Ehemalige-Mitarbeiterinnen-und-Mitarbeiter/Professuren/neuwirth/index.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Robin, Christian Julien",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q27919930"
+          ]
+        },
+        "role": 0,
+        "website": [
+          "https://www.aibl.fr/membres/academiciens-depuis-1663/article/robin-christian-julien"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "ara",
+      "lexicon",
+      "quran"
+    ],
+    "comment": ""
+  }
 }

@@ -1,85 +1,106 @@
 {
-    "record_metadata": {
-        "uuid": "8e4ab5b4-7298-4d55-b490-eb2943527981", 
-        "record_created": "2021-11_16", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": "2021-11_23",
-        "record_modified_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "8e4ab5b4-7298-4d55-b490-eb2943527981",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": "2021-11_23",
+    "record_modified_by": "Kudela, Xenia Monika"
+  },
+  "project": {
+    "title": "Irankoran",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2017",
+        "to": "2020"
+      }
+    ],
+    "website": [
+      "https://www.bbaw.de/forschung/irankoran",
+      "https://corpuscoranicum.de/about/index/sure/1/vers/1"
+    ],
+    "project_desc": "Die Auswertung früher Koranhandschriften bietet einen Schlüssel zum Verständnis der Textgeschichte des Korans. Das vom BMBF geförderte Projekt IRANKORAN (2017­–2020) möchte die bedeutenden Handschriften aus iranischen Sammlungen erschließen, naturwissenschaftlich datieren (C-14 Methode) und analysieren: somit versteht es sich als Beitrag zur historisch-kritischen Koranforschung. Das Quellenmaterial bietet eine neue Perspektive auf die Textgeschichte des Korans, da erstmalig Handschriften aus dem Osten der islamischen Welt in den Blick genommen werden. Im Mittelpunkt steht dabei die Frage, mit welchen Abweichungen der heute übliche Textbestand des Korans, der erst im 10. Jahrhundert festgelegt wurde, historisch nachweisbar ist. Im Laufe des Vorhabens werden Bilder von Koranhandschriften aus iranischen Bibliotheken zusammen mit Metadaten in einer Datenbank erfasst. Dabei werden in Auswahl Transliterationen des arabischen Handschriftentextes angefertigt. Diese digitalen Transliterationen verzeichnen neben unterschiedlichen Lesbarkeitsstufen, Modifikationen, Radierungen, auch die Abweichungen vom heute üblichen Korantext. Auf der Grundlage der erhobenen Daten wird ein ausführlicher philologischer Kommentar erstellt, der die Textgeschichte des Korans im Spiegel iranischer Handschriften darstellt. Das Projekt besteht aus den folgenden Arbeitsschritten: (1) Entwicklung eines digitalen Online-Katalogs (\"Bibliotheca Coranica Iranica\") nach den Richtlinien der Text Encoding Initiative (TEI). (2) Aufnahme sämtlicher Koranhandschriftenbilder des Iranischen Nationalmuseums und anderer Sammlungen Irans in die Datenbank. Erstellung von Transliterationen des arabischen Textes von ausgewählten Seiten nach einem XML-Schema. (3) Vorbereitung einer Radiokarbon-Messkampagne ausgewählter Handschriften des Iranischen Nationalmusseums zur naturwissenschaftlichen Datierung des Pergaments. Es ist geplant die Datierungen in Zusammenarbeit mit dem Laboratory of Ion Beam Physics Isotopenlabor (ETH Zürich) durchzuführen. (4) Aufbauend auf Datierung der Handschriften und der Textanalyse, wird die Frage untersucht, welche Textvarianten sich in den zu untersuchenden Koranhandschriften wiederspiegeln und wo die verzeichneten Textfassungen von den kanonischen Lesarten des Ibn Muǧāhid (gest. 936) – d.h. vom heute bestehenden Text des Korans – abweichen.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "fre",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Irankoran",
-        "date": [        
-            {
-                "from": "2017", 
-                "to": "2020"
-            }           
-        ],     
-        "ref": [
-            "https://www.bbaw.de/forschung/irankoran",
-            "https://corpuscoranicum.de/about/index/sure/1/vers/1"        
-        ],
-        "project_desc": "Die Auswertung früher Koranhandschriften bietet einen Schlüssel zum Verständnis der Textgeschichte des Korans. Das vom BMBF geförderte Projekt IRANKORAN (2017­–2020) möchte die bedeutenden Handschriften aus iranischen Sammlungen erschließen, naturwissenschaftlich datieren (C-14 Methode) und analysieren: somit versteht es sich als Beitrag zur historisch-kritischen Koranforschung. Das Quellenmaterial bietet eine neue Perspektive auf die Textgeschichte des Korans, da erstmalig Handschriften aus dem Osten der islamischen Welt in den Blick genommen werden. Im Mittelpunkt steht dabei die Frage, mit welchen Abweichungen der heute übliche Textbestand des Korans, der erst im 10. Jahrhundert festgelegt wurde, historisch nachweisbar ist. Im Laufe des Vorhabens werden Bilder von Koranhandschriften aus iranischen Bibliotheken zusammen mit Metadaten in einer Datenbank erfasst. Dabei werden in Auswahl Transliterationen des arabischen Handschriftentextes angefertigt. Diese digitalen Transliterationen verzeichnen neben unterschiedlichen Lesbarkeitsstufen, Modifikationen, Radierungen, auch die Abweichungen vom heute üblichen Korantext. Auf der Grundlage der erhobenen Daten wird ein ausführlicher philologischer Kommentar erstellt, der die Textgeschichte des Korans im Spiegel iranischer Handschriften darstellt. Das Projekt besteht aus den folgenden Arbeitsschritten: (1) Entwicklung eines digitalen Online-Katalogs (\"Bibliotheca Coranica Iranica\") nach den Richtlinien der Text Encoding Initiative (TEI). (2) Aufnahme sämtlicher Koranhandschriftenbilder des Iranischen Nationalmuseums und anderer Sammlungen Irans in die Datenbank. Erstellung von Transliterationen des arabischen Textes von ausgewählten Seiten nach einem XML-Schema. (3) Vorbereitung einer Radiokarbon-Messkampagne ausgewählter Handschriften des Iranischen Nationalmusseums zur naturwissenschaftlichen Datierung des Pergaments. Es ist geplant die Datierungen in Zusammenarbeit mit dem Laboratory of Ion Beam Physics Isotopenlabor (ETH Zürich) durchzuführen. (4) Aufbauend auf Datierung der Handschriften und der Textanalyse, wird die Frage untersucht, welche Textvarianten sich in den zu untersuchenden Koranhandschriften wiederspiegeln und wo die verzeichneten Textfassungen von den kanonischen Lesarten des Ibn Muǧāhid (gest. 936) – d.h. vom heute bestehenden Text des Korans – abweichen.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin", 
-                    "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                } 
-            }          
-        ],
-        "lang":[
-            "eng",
-            "fre",
-            "ger"
-        ],
-        "nls_related": true,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"die Berlin-Brandenburgische Akademie der Wissenschaften",
-                    "ref":["https://www.grid.ac/institutes/grid.420264.6"]
-                },
-                "ref": ["https://www.bbaw.de/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Berlin", 
-                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                        }                    
-                    }
-                ]
-            }      
-        ],
-        "children": [],
-        "siblings": [
-            {
-                "type": "project",
-                "title": "Corpus Coranicum",
-                "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0" 
-            } 
-        ],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "Aghaei, Ali",
-                    "ref":[null]
-                },  
-                "role": 0,
-                "ref": ["https://kw.uni-paderborn.de/seminar-fuer-islamische-theologie/personal-a-z/personen/87590"]     
-            }                 
-        ],
-        "research_data": {
-            "lang":["per"]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "die Berlin-Brandenburgische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.420264.6"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "per", 
-            "quran",
-            "manuscripts"
+        "website": [
+          "https://www.bbaw.de/"
         ],
-        "comment": null
-    }
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Corpus Coranicum",
+        "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Aghaei, Ali",
+          "ref": [
+            null
+          ]
+        },
+        "role": 0,
+        "website": [
+          "https://kw.uni-paderborn.de/seminar-fuer-islamische-theologie/personal-a-z/personen/87590"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "per"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "manuscripts",
+      "per",
+      "quran"
+    ],
+    "comment": ""
+  }
 }

@@ -1,73 +1,96 @@
 {
-    "record_metadata": {
-        "uuid": "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": "2021-11-25",
-        "record_modified_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": "2021-11-25",
+    "record_modified_by": "Kudela, Xenia Monika"
+  },
+  "project": {
+    "title": " PalREAD",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2018-04-01",
+        "to": "2023-03-31"
+      }
+    ],
+    "website": [
+      "https://www.geschkult.fu-berlin.de/en/e/palread/index.html"
+    ],
+    "project_desc": "With massive numbers of the world’s population living as refugees and exiles, the literary production of displaced peoples poses serious questions and challenges to conventional and established methods of literary analysis. This is the context in which PalREAD is working to develop a comprehensive model for the study of Palestinian literature as an early and on-going case of literary displacement. To do so, PalREAD is seeking new ways to account for and analyze texts, literary production, reception and reading practices that challenge and lie outside the framework of the nation-state. In tracing the story of Palestinian literary production across different countries and continents, PalREAD adopts a transnational perspective combined with a holistic methodology that can view and understand Literature in its widest components.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
+        }
+      }
+    ],
+    "lang": [],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": " PalREAD",
-        "date": [        
-            {
-                "from": "2018-04-01", 
-                "to": "2023-03-31"
-            }           
-        ],     
-        "ref": ["https://www.geschkult.fu-berlin.de/en/e/palread/index.html"],
-        "project_desc": "With massive numbers of the world’s population living as refugees and exiles, the literary production of displaced peoples poses serious questions and challenges to conventional and established methods of literary analysis. This is the context in which PalREAD is working to develop a comprehensive model for the study of Palestinian literature as an early and on-going case of literary displacement. To do so, PalREAD is seeking new ways to account for and analyze texts, literary production, reception and reading practices that challenge and lie outside the framework of the nation-state. In tracing the story of Palestinian literary production across different countries and continents, PalREAD adopts a transnational perspective combined with a holistic methodology that can view and understand Literature in its widest components.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin", 
-                    "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                } 
-            }          
-        ],
-        "lang":[],
-        "nls_related": true,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "org_name": {
-                    "text": "Freie Universität Berlin",
-                    "ref": ["https://www.grid.ac/institutes/grid.14095.39"]
-                },
-                "ref": ["https://www.fu-berlin.de/"],
-                "places": [
-                    {
-                        "place_name": {
-                            "text": "Berlin", 
-                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                        }                     
-                    }
-                ]
-            }             
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "Abu-Remaileh, Refqa ",
-                    "ref":["Refqa "]
-                },  
-                "role": 0,
-                "ref": ["https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Abu-Remaileh/index.html"]     
-            }                 
-        ],
-        "research_data": {
-            "lang":["ara"]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.14095.39"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "ara",
-            "palestine",
-            "palestinian_literature",
-            "modern_arabic_literature"
+        "website": [
+          "https://www.fu-berlin.de/"
         ],
-        "comment": null
-    }
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Abu-Remaileh, Refqa ",
+          "ref": [
+            "Refqa "
+          ]
+        },
+        "role": 0,
+        "website": [
+          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Abu-Remaileh/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "ara",
+      "modern_arabic_literature",
+      "palestine",
+      "palestinian_literature"
+    ],
+    "comment": ""
+  }
 }

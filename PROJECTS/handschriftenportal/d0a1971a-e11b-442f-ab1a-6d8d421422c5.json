@@ -1,140 +1,189 @@
 {
-    "record_metadata": {
-        "uuid": "d0a1971a-e11b-442f-ab1a-6d8d421422c5", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": "2021-11-22",
-        "record_modified_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "d0a1971a-e11b-442f-ab1a-6d8d421422c5",
+    "record_created": "2021-11-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": "2021-11-22",
+    "record_modified_by": "Kudela, Xenia Monika"
+  },
+  "project": {
+    "title": "Handschriftenportal",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2018",
+        "to": "2021"
+      }
+    ],
+    "website": [
+      "https://handschriftenportal.de/"
+    ],
+    "project_desc": "Im DFG-Projekt Handschriftenportal wird eine zentrale Informationsplattform für mittelalterliche und neuzeitliche Buchhandschriften in deutschen Sammlungen entwickelt, die das bisherige Angebot von [Manuscripta Mediaevalia](http://www.manuscripta-mediaevalia.de/) zeitgemäß ersetzt: Das Handschriftenportal wird die verfügbaren Erschließungsdaten zu deutschen Handschriftenbeständen bündeln und vorhandene Digitalisate nachweisen bzw. integrieren. Sämtliche Daten werden interoperabel verfügbar gemacht.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Munich",
+          "ref": [
+            "http://www.geonames.org/2867714/munich.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Wolfenbüttel",
+          "ref": [
+            "http://www.geonames.org/2806914/wolfenbuettel.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Handschriftenportal",
-        "date": [        
-            {
-                "from": "2018", 
-                "to": "2021"
-            }           
-        ],     
-        "ref": ["https://handschriftenportal.de/"],
-        "project_desc": "Im DFG-Projekt Handschriftenportal wird eine zentrale Informationsplattform für mittelalterliche und neuzeitliche Buchhandschriften in deutschen Sammlungen entwickelt, die das bisherige Angebot von [Manuscripta Mediaevalia](http://www.manuscripta-mediaevalia.de/) zeitgemäß ersetzt: Das Handschriftenportal wird die verfügbaren Erschließungsdaten zu deutschen Handschriftenbeständen bündeln und vorhandene Digitalisate nachweisen bzw. integrieren. Sämtliche Daten werden interoperabel verfügbar gemacht.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin", 
-                    "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                } 
-            },
-            {
-                "place_name": {
-                    "text": "Leipzig", 
-                    "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Munich", 
-                    "ref": ["http://www.geonames.org/2867714/munich.html"]
-                }  
-            }, 
-            {
-                "place_name": {
-                    "text": "Wolfenbüttel", 
-                    "ref": ["http://www.geonames.org/2806914/wolfenbuettel.html"]
-                } 
-            }          
-        ],
-        "lang":[
-            "eng",
-            "deu"
-        ],
-        "nls_related": false,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"Staatsbibliothek zu Berlin – Preußischer Kulturbesitz",
-                    "ref":["https://www.grid.ac/institutes/grid.461943.d"]
-                },
-                "ref": ["http://staatsbibliothek-berlin.de/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Berlin", 
-                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                        }                    
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"Universitätsbibliothek Leipzig",
-                    "ref":["https://www.grid.ac/institutes/grid.9647.c"]
-                },
-                "ref": ["https://www.ub.uni-leipzig.de/start/"],
-                "places":[
-                    {                      
-                        "place_name": {
-                            "text": "Leipzig", 
-                            "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-                        }                     
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name":{
-                "text":"Bayerische Staatsbibliothek München",
-                    "ref":["https://www.grid.ac/institutes/grid.432478.e"]
-                },
-                "ref": ["https://www.bsb-muenchen.de/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Munich", 
-                            "ref": ["http://www.geonames.org/2867714/munich.html"]
-                        }                    
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"Herzog August Bibliothek Wolfenbüttel",
-                    "ref":["https://www.grid.ac/institutes/grid.461604.1"]
-                },
-                "ref": ["http://www.hab.de/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Wolfenbüttel", 
-                            "ref": ["http://www.geonames.org/2806914/wolfenbuettel.html"]
-                        }                   
-                    }
-                ]
-            }       
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "Bonte, Achim",
-                    "ref":["https://d-nb.info/gnd/1023548224"]
-                },  
-                "role": 0,
-                "ref": ["https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/generaldirektion/info-gd"]     
-            }                 
-        ],
-        "research_data": {
-            "lang":[
-                "deu",
-                "lat"
-            ]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Staatsbibliothek zu Berlin – Preußischer Kulturbesitz",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.461943.d"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": ["manuscripts"],
-        "comment":"In case of funding extension the second phase of the project should start in 2022"
-    }
+        "website": [
+          "http://staatsbibliothek-berlin.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Universitätsbibliothek Leipzig",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.9647.c"
+          ]
+        },
+        "website": [
+          "https://www.ub.uni-leipzig.de/start/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Leipzig",
+              "ref": [
+                "https://www.geonames.org/2879139/leipzig.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Bayerische Staatsbibliothek München",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.432478.e"
+          ]
+        },
+        "website": [
+          "https://www.bsb-muenchen.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Munich",
+              "ref": [
+                "http://www.geonames.org/2867714/munich.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Herzog August Bibliothek Wolfenbüttel",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.461604.1"
+          ]
+        },
+        "website": [
+          "http://www.hab.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Wolfenbüttel",
+              "ref": [
+                "http://www.geonames.org/2806914/wolfenbuettel.html"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Bonte, Achim",
+          "ref": [
+            "https://d-nb.info/gnd/1023548224"
+          ]
+        },
+        "role": 0,
+        "website": [
+          "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/generaldirektion/info-gd"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ger",
+        "lat"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "ger",
+      "lat",
+      "manuscripts"
+    ],
+    "comment": "In case of funding extension the second phase of the project should start in 2022"
+  }
 }

@@ -1,1 +1,0 @@
-link: http://www.hfjs.eu//abc/projekte.babylonisch-jemenitische-bibeltext-Tradition.html

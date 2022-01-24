@@ -1,78 +1,89 @@
 {
-    "record_metadata": {
-        "uuid": "a9ca5d9f-47ab-4704-ad27-9a09e492ca2a", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+  "record_metadata": {
+    "uuid": "a9ca5d9f-47ab-4704-ad27-9a09e492ca2a",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "Ptolemaeus Arabus et Latinus",
+    "abbr": "PAL",
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": null,
+        "to": null
+      }
+    ],
+    "website": [
+      "https://ptolemaeus.badw.de/start"
+    ],
+    "project_desc": "The Project Ptolemaeus Arabus et Latinus (PAL) is dedicated to the edition and study of the Arabic and Latin versions of Ptolemy’s astronomical and astrological texts and related material. These include works by Ptolemy or attributed to him, commentaries thereupon, and other works that are of immediate relevance to understanding Ptolemy’s heritage in the Middle Ages and the early modern period up to 1700 A.D.",
+    "places": [
+      {
+        "place_name": {
+          "text": "",
+          "ref": []
+        }
+      }
+    ],
+    "lang": [],
+    "topic_relations": {
+      "nls": null,
+      "dh": null,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Ptolemaeus Arabus et Latinus",
-        "abbr": "PAL",
-        "date": [        
-            {
-                "from": "", 
-                "to": ""
-            }           
-        ],     
-        "ref": ["https://ptolemaeus.badw.de/start"],
-        "project_desc": "The Project Ptolemaeus Arabus et Latinus (PAL) is dedicated to the edition and study of the Arabic and Latin versions of Ptolemy’s astronomical and astrological texts and related material. These include works by Ptolemy or attributed to him, commentaries thereupon, and other works that are of immediate relevance to understanding Ptolemy’s heritage in the Middle Ages and the early modern period up to 1700 A.D.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "", 
-                    "ref": []
-                } 
-            }          
-        ],
-        "lang":[],
-        "nls_related": null,
-        "dh_related": null,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"",
-                    "ref":[]
-                },
-                "ref": [],
-                "places":[
-                    {
-                        "place_name":{
-                            "text": "", 
-                            "ref": []
-                        }                    
-                    }
-                ]
-            },
-            {
-                "type": "project",
-                "title": "",
-                "uuid": "" 
-            }       
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "",
-                    "ref":[]
-                },  
-                "role": null,
-                "ref": []     
-            }                 
-        ],
-        "research_data": {
-            "lang":[]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "",
+          "ref": []
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "ara",
-            "lat",
-            "ptolemy"
-        ],
-        "comment": null
-    }
+        "website": [],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": []
+            }
+          }
+        ]
+      },
+      {
+        "type": "project",
+        "title": "",
+        "uuid": ""
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": []
+        },
+        "role": null,
+        "website": []
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "lat"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "ara",
+      "lat",
+      "ptolemy"
+    ],
+    "comment": ""
+  }
 }

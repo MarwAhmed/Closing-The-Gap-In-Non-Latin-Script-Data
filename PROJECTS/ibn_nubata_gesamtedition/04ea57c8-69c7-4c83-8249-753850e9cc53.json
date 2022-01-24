@@ -1,68 +1,86 @@
 {
-    "metadata":{
-        "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53",
-        "record_created": 20211101,
-        "record_created_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "DFG-Langfristvorhaben Gesamtedition des Werkes von Ibn Nubata Al-Misri",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2019",
+        "to": null
+      }
+    ],
+    "website": [
+      "https://www.uni-muenster.de/ALEA/"
+    ],
+    "project_desc": "Editing and digitalization of Ibn Nubata´s complete works",
+    "places": [
+      {
+        "place_name": {
+          "text": "Münster",
+          "ref": "https://www.geonames.org/6553087/muenster.html"
+        }
+      }
+    ],
+    "lang": [
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
+    },
+    "parents": [
+      {
+        "type": "project",
+        "title": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
+        "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83"
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "WWU Münster",
+          "ref": "https://d-nb.info/gnd/36175-6"
         },
-    "project": {
-        "name": "DFG-Langfristvorhaben Gesamtedition des Werkes von Ibn Nubata Al-Misri",
-        "abbr": null,
-        "established": 2019,
-        "duration": "12 years",
-        "conluded": null,
-        "website": "https://www.uni-muenster.de/ALEA/",
-        "description": "Editing and digitalization of Ibn Nubata´s complete works",
+        "website": [
+          "https://www.uni-muenster.de"
+        ],
         "places": [
-            {
-                "name": "Münster",
-                "ref": "https://www.geonames.org/6553087/muenster.html"
-            }
-        ],
-        "lang":[
-            "de"
-        ],
-        "nls_related": true,
-        "dh_related": true,
-        "parents":[
-            {    
-                "name": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
-                "abbr": "ALEA",
-                "ref": null,
-                "website": "https://www.uni-muenster.de/ALEA/",
-                "type": "project",
-                "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83",
-                "places":[
-                    {
-                        "name": "Münster",
-                        "ref": "https://www.geonames.org/6553087/muenster.html"
-                    }
-                ]
-            },
-            {
-                "name": "WWU Münster",
-                "ref": "https://d-nb.info/gnd/36175-6",
-                "website": "https://www.uni-muenster.de",
-                "type": "org",
-                "uuid": null,
-                "places":[
-                    {
-                        "name": "Münster",
-                        "ref": "https://www.geonames.org/6553087/muenster.html"
-                    }
-                ]
-            }   
-        ],
-        "children": [],        
-        "contacts": [
-            {
-                "name": "Thomas Bauer",
-                "ref": "https://d-nb.info/gnd/130608467/",
-                "role": 0,
-                "website": "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
-            }
-        ],
-        "research_data": {},
-        "technology": {},
-        "policies": {}
-}
+          {
+            "text": "Münster",
+            "ref": "https://www.geonames.org/6553087/muenster.html"
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Thomas Bauer",
+          "ref": "https://d-nb.info/gnd/130608467/"
+        },
+        "role": 0,
+        "website": [
+          "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [],
+    "comment": ""
+  }
 }

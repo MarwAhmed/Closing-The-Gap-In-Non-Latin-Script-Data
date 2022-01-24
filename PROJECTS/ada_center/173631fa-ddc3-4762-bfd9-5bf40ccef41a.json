@@ -1,54 +1,80 @@
 {
-  "metadata": {
+  "record_metadata": {
     "uuid": "173631fa-ddc3-4762-bfd9-5bf40ccef41a",
-    "record_created": 20211029,
-    "record_created_by": "Mueller-Laackman, Jonas"
+    "record_created": "2021-10-29",
+    "record_created_by": "Mueller-Laackman, Jonas",
+    "record_modified": null,
+    "record_modified_by": null
   },
   "project": {
     "title": "Ada Lovelace Center for Digital Humanities",
-    "established": 2021,
-    "duration": null,
-    "concluded": null,
-    "website": null,
-    "projectDesc": "Ada Center serves as a networking hub and knowledge base for DH projects at Freie Universität Berlin.",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2021",
+        "to": null
+      }
+    ],
+    "website": [],
+    "project_desc": "Ada Center serves as a networking hub and knowledge base for DH projects at Freie Universität Berlin.",
     "places": [
       {
-        "placeName": "Berlin", 
-        "ref": "https://www.geonames.org/3587265/berlin.html"
+        "place_name": {
+          "text": "Berlin",
+          "ref": "https://www.geonames.org/3587265/berlin.html"
+        }
       }
-    ],  
-    "lang": [
-      "de", "en"
     ],
-    "nls_related": false,
-    "dh_related": true,
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
+    },
     "parents": [
       {
         "type": "org",
-        "orgName": "FU Berlin",
-        "ref": "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html",
-        "website": "https://www.fu-berlin.de/",
-        "uuid": null,
-        "places":[
+        "org_name": {
+          "text": "FU Berlin",
+          "ref": "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
+        },
+        "website": [
+          "https://www.fu-berlin.de/"
+        ],
+        "places": [
           {
-            "placeName": "Berlin",
+            "text": "Berlin",
             "ref": "https://www.geonames.org/2950159/berlin.html"
           }
-        ]              
+        ]
       }
     ],
     "children": [],
+    "siblings": [],
     "contacts": [
       {
-        "perName": "Dennis Mischke",
-        "ref": "https://d-nb.info/gnd/1011172860",
+        "pers_name": {
+          "text": "Dennis Mischke",
+          "ref": "https://d-nb.info/gnd/1011172860"
+        },
         "role": 0,
-        "website": "https://persoenlichewebsite"
+        "website": [
+          "https://persoenlichewebsite"
+        ]
       }
     ],
-    "research_data": {},
+    "research_data": {
+      "lang": []
+    },
     "technology": {},
     "policies": {},
-    "keywords":[]
+    "keywords": [],
+    "comment": ""
   }
 }

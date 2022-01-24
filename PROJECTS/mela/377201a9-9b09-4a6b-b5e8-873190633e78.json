@@ -1,76 +1,91 @@
 {
-    "record_metadata": {
-        "uuid": "377201a9-9b09-4a6b-b5e8-873190633e78", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+  "record_metadata": {
+    "uuid": "377201a9-9b09-4a6b-b5e8-873190633e78",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "Middle East Librarians Association",
+    "abbr": "MELA",
+    "type": "association",
+    "ref": [
+      "https://www.wikidata.org/wiki/Q100320015"
+    ],
+    "date": [
+      {
+        "from": "1972",
+        "to": null
+      }
+    ],
+    "website": [
+      "https://www.mela.us/"
+    ],
+    "project_desc": "It is the mission of the Middle East Librarians Association to facilitate communication among members through meetings and publications; to improve the quality of area librarianship through the development of standards for the profession and education of Middle East library specialists; to compile and disseminate information concerning Middle East libraries and collections and to represent the judgment of the members in matters affecting them; to encourage cooperation among members and Middle East libraries, especially in the acquisition of materials and the development of bibliographic control; to cooperate with other library and area organizations in projects of mutual concern and benefit; to promote research in and development of indexing and automated techniques as applied to Middle East materials. Anyone who is employed by an institution to service Middle East library materials in a professional capacity (selection, acquisition, cataloging, indexing, reference work, administration, and/or preparation of research tools), as well as any other person who has an interest in these aspects of Middle East library materials, is eligible for membership in our Association.",
+    "places": [
+      {
+        "place_name": {
+          "text": "US",
+          "ref": [
+            "https://www.geonames.org/6252001/united-states.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Middle East Librarians Association", // wikidata ref: https://www.wikidata.org/wiki/Q100320015
-        "abbr": "MELA",
-        "date": [        
-            {
-                "from": "1972", 
-                "to": "present"
-            }           
-        ],     
-        "ref": ["https://www.mela.us/"],
-        "project_desc": "It is the mission of the Middle East Librarians Association to facilitate communication among members through meetings and publications; to improve the quality of area librarianship through the development of standards for the profession and education of Middle East library specialists; to compile and disseminate information concerning Middle East libraries and collections and to represent the judgment of the members in matters affecting them; to encourage cooperation among members and Middle East libraries, especially in the acquisition of materials and the development of bibliographic control; to cooperate with other library and area organizations in projects of mutual concern and benefit; to promote research in and development of indexing and automated techniques as applied to Middle East materials. Anyone who is employed by an institution to service Middle East library materials in a professional capacity (selection, acquisition, cataloging, indexing, reference work, administration, and/or preparation of research tools), as well as any other person who has an interest in these aspects of Middle East library materials, is eligible for membership in our Association.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "US", 
-                    "ref": ["https://www.geonames.org/6252001/united-states.html"]
-                } 
-            }          
-        ],
-        "lang":["eng"],
-        "nls_related": true,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"",
-                    "ref":[]
-                },
-                "ref": [],
-                "places":[
-                    {
-                        "place_name":{
-                            "text": "", 
-                            "ref": []
-                        }                    
-                    }
-                ]
-            },
-            {
-                "type": "project",
-                "title": "",
-                "uuid": "" 
-            }       
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "",
-                    "ref":[]
-                },  
-                "role": null,
-                "ref": []     
-            }                 
-        ],
-        "research_data": {
-            "lang":[]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "",
+          "ref": []
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "library", 
-            "mena"],
-        "comment": null
-    }
+        "website": [],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": []
+            }
+          }
+        ]
+      },
+      {
+        "type": "project",
+        "title": "",
+        "uuid": ""
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": []
+        },
+        "role": null,
+        "website": []
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "library",
+      "mena"
+    ],
+    "comment": ""
+  }
 }

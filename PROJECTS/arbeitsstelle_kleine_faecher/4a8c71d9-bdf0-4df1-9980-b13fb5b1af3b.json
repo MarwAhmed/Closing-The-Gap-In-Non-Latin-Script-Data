@@ -1,61 +1,101 @@
 {
-    "metadata": {
-        "uuid": "4a8c71d9-bdf0-4df1-9980-b13fb5b1af3b",
-        "record_created": 11112021,
-        "record_created_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "4a8c71d9-bdf0-4df1-9980-b13fb5b1af3b",
+    "record_created": "2021-11-11",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "Arbeitsstelle Kleine Fächer",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2012",
+        "to": null
+      }
+    ],
+    "website": [
+      "https://www.kleinefaecher.de/kartierung/arbeitsstelle-kleine-faecher.html"
+    ],
+    "project_desc": "Die Kartierung der kleinen Fächer bildet die Kernaufgabe der Arbeitsstelle Kleine Fächer. Seit Herbst 2019 wird sie dauerhaft durch das Ministerium für Wissenschaft, Weiterbildung und Kultur (MWWK) Rheinland-Pfalz gefördert. Teil der Kartierung ist es: (1)kleine Fächer an deutschen Hochschulen in Abgrenzung zu großen Fächern und nicht-selbständigen Teildisziplinen zu identifizieren; (2) den Bestand kleiner Fächer an deutschen Hochschulen kontinuierlich zu dokumentieren (= Kartierung der kleinen Fächer); (3) die Entwicklung kleiner Fächer an deutschen Hochschulen vergleichend zu untersuchen; (4) die Daten und Untersuchungsergebnisse zu den kleinen Fächern digital sowie über Publikationen, Vorträge und Workshops öffentlich zugänglich zu machen. Über die Kartierung hinaus führt die Arbeitsstelle Kleine Fächer zeitlich befristete Projekte durch, in denen sie zum einen spezifische Forschungsfragen zu den kleinen Fächern vertiefend untersucht und zum anderen den strukturierten Austausch zwischen Fachvertreterinnen und -vertretern, Hochschuladministration, -politik sowie -forschung mit Blick auf zentrale Herausforderungen kleiner Fächer befördert.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Mainz",
+          "ref": [
+            "https://www.geonames.org/2874224/mainz.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": false,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Arbeitsstelle Kleine Fächer",
-        "established": 2012,
-        "duration": null,    
-        "concluded": null,           
-        "website": "https://www.kleinefaecher.de/kartierung/arbeitsstelle-kleine-faecher.html",
-        "projectDesc": "Die Kartierung der kleinen Fächer bildet die Kernaufgabe der Arbeitsstelle Kleine Fächer. Seit Herbst 2019 wird sie dauerhaft durch das Ministerium für Wissenschaft, Weiterbildung und Kultur (MWWK) Rheinland-Pfalz gefördert. Teil der Kartierung ist es: (1)kleine Fächer an deutschen Hochschulen in Abgrenzung zu großen Fächern und nicht-selbständigen Teildisziplinen zu identifizieren; (2) den Bestand kleiner Fächer an deutschen Hochschulen kontinuierlich zu dokumentieren (= Kartierung der kleinen Fächer); (3) die Entwicklung kleiner Fächer an deutschen Hochschulen vergleichend zu untersuchen; (4) die Daten und Untersuchungsergebnisse zu den kleinen Fächern digital sowie über Publikationen, Vorträge und Workshops öffentlich zugänglich zu machen. Über die Kartierung hinaus führt die Arbeitsstelle Kleine Fächer zeitlich befristete Projekte durch, in denen sie zum einen spezifische Forschungsfragen zu den kleinen Fächern vertiefend untersucht und zum anderen den strukturierten Austausch zwischen Fachvertreterinnen und -vertretern, Hochschuladministration, -politik sowie -forschung mit Blick auf zentrale Herausforderungen kleiner Fächer befördert.",
-        "places": [
-            {
-                "placeName": "Mainz",
-                "ref": ["https://www.geonames.org/2874224/mainz.html"]
-            }          
-        ],
-        "lang":["de"],
-        "nls_related": false,
-        "dh_related": false,
-        "parents":[
-            {
-                "type": "org",
-                "orgName": "Johannes Gutenberg-Universität Mainz",
-                "ref": ["https://www.grid.ac/institutes/grid.5802.f"],
-                "website": "https://www.uni-mainz.de/",
-                "uuid": null,
-                "places":[
-                    {
-                        "placeName": "Mainz",
-                        "ref": ["https://www.geonames.org/2874224/mainz.html"]
-                    }
-                ]
-            }      
-        ],
-        "children": [],
-        "contacts": [
-            {
-                "persName": "Uwe Schmidt",
-                "ref": [null],
-                "role": 0,
-                "website": "https://www.zq.uni-mainz.de/ueber-uns/team/univ-prof-dr-uwe-schmidt/"
-            },
-            {
-                
-                "persName": "Katharina Bahlmann",
-                "ref": ["https://d-nb.info/gnd/1026820677"],
-                "role": 0,
-                "website": "https://www.zq.uni-mainz.de/dr-katharina-bahlmann/"
-            }        
-        ],
-        "research_data": {
-            "lang": []
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Johannes Gutenberg-Universität Mainz",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.5802.f"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": []
-    }
+        "website": [
+          "https://www.uni-mainz.de/"
+        ],
+        "places": [
+          {
+            "text": "Mainz",
+            "ref": [
+              "https://www.geonames.org/2874224/mainz.html"
+            ]
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Uwe Schmidt",
+          "ref": [
+            null
+          ]
+        },
+        "role": 0,
+        "website": [
+          "https://www.zq.uni-mainz.de/ueber-uns/team/univ-prof-dr-uwe-schmidt/"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Katharina Bahlmann",
+          "ref": [
+            "https://d-nb.info/gnd/1026820677"
+          ]
+        },
+        "role": 0,
+        "website": [
+          "https://www.zq.uni-mainz.de/dr-katharina-bahlmann/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [],
+    "comment": ""
+  }
 }

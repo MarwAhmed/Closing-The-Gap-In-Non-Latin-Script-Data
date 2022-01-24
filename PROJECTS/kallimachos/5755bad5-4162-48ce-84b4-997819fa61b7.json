@@ -1,75 +1,98 @@
 {
-    "record_metadata": {
-        "uuid": "5755bad5-4162-48ce-84b4-997819fa61b7", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": "2021-11-23",
-        "record_modified_by":"Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "5755bad5-4162-48ce-84b4-997819fa61b7",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": "2021-11-23",
+    "record_modified_by": "Kudela, Xenia Monika"
+  },
+  "project": {
+    "title": "Kallimachos",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2014",
+        "to": "2017"
+      },
+      {
+        "from": "2017",
+        "to": "2019"
+      }
+    ],
+    "website": [
+      "http://www.kallimachos.de/"
+    ],
+    "project_desc": "KALLIMACHOS führt Geisteswissenschaftler und Informatiker in einem regionalen Digital-Humanities-Zentrum zusammen. Der Aufbau des Zentrums wurde in zwei Förderphasen von 2014-2017 und 2017 bis 2019 durch das Bundesministerium für Bildung und Forschung im Rahmen der Fördermaßnahme e-Humanities bezuschusst. Die an der Universität Würzburg vorhandenen Kompetenzen werden durch Partner am DFKI Kaiserslautern (Förderphase I) und an der Universität Erlangen-Nürnberg (Förderphase I und II) ergänzt. Nach dem Projektende fließen die Projektergebnisse und erarbeiteten Werkzeuge und Workflows in das 2019 gegründete Zentrum für Philologie und Digitalität Kallimachos (ZPD) der Universität Würzburg ein. Unser Aufgabenschwerpunkt liegt auf der Erarbeitung digitaler Editionen und quantitativer Analyseverfahren aus dem Bereich des Text Mining, z.B. Stilometrie, Topic Modeling und Named Entity Recognition. Wir bieten unseren Projektpartnern die nötige technische und soziale Infrastruktur, die Geisteswissenschaftler bei der Beantwortung von Forschungsfragen auf der Basis digitaler Methoden unterstützt. Auf der technischen Seite gehören dazu die Entwicklung und Bereitstellung der benötigten Software-Komponenten und das Erarbeiten prototypischer Arbeitsabläufe, die in bereits vorhandene Infrastrukturen integriert werden. Dabei ist uns gerade auch die langfristige Verfügbarkeit, Pflege und Archivierung der Projekte, Portale und Forschungsdaten ein wichtiges Anliegen. Insofern baut KALLIMACHOS eine intergrierte Struktur für Forschungsdatenmanagement in den Geisteswissenschaften auf. Außerdem fördern wir durch regelmäßige Workshops und Tagungen den Austausch zwischen den regionalen und überregionalen Digital-Humanities-Projekten. Durch Beratungen und Schulungen führen wir Fachleuten, aber auch weniger technikaffinen Wissenschaftlern und dem akademischen Nachwuchs die Möglichkeiten digitaler Methoden zur Bearbeitung von Forschungsfragen vor Augen und bieten methodische, technische und organisatorische Unterstützung.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Würzburg",
+          "ref": [
+            "https://www.geonames.org/2805615/wuerzburg.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Kallimachos",
-        "date": [        
-            {
-                "from": "2014", 
-                "to": "2017"
-            },
-            {
-                "from": "2017", 
-                "to": "2019"
-            }            
-        ],     
-        "ref": ["http://www.kallimachos.de/"],
-        "project_desc": "KALLIMACHOS führt Geisteswissenschaftler und Informatiker in einem regionalen Digital-Humanities-Zentrum zusammen. Der Aufbau des Zentrums wurde in zwei Förderphasen von 2014-2017 und 2017 bis 2019 durch das Bundesministerium für Bildung und Forschung im Rahmen der Fördermaßnahme e-Humanities bezuschusst. Die an der Universität Würzburg vorhandenen Kompetenzen werden durch Partner am DFKI Kaiserslautern (Förderphase I) und an der Universität Erlangen-Nürnberg (Förderphase I und II) ergänzt. Nach dem Projektende fließen die Projektergebnisse und erarbeiteten Werkzeuge und Workflows in das 2019 gegründete Zentrum für Philologie und Digitalität Kallimachos (ZPD) der Universität Würzburg ein. Unser Aufgabenschwerpunkt liegt auf der Erarbeitung digitaler Editionen und quantitativer Analyseverfahren aus dem Bereich des Text Mining, z.B. Stilometrie, Topic Modeling und Named Entity Recognition. Wir bieten unseren Projektpartnern die nötige technische und soziale Infrastruktur, die Geisteswissenschaftler bei der Beantwortung von Forschungsfragen auf der Basis digitaler Methoden unterstützt. Auf der technischen Seite gehören dazu die Entwicklung und Bereitstellung der benötigten Software-Komponenten und das Erarbeiten prototypischer Arbeitsabläufe, die in bereits vorhandene Infrastrukturen integriert werden. Dabei ist uns gerade auch die langfristige Verfügbarkeit, Pflege und Archivierung der Projekte, Portale und Forschungsdaten ein wichtiges Anliegen. Insofern baut KALLIMACHOS eine intergrierte Struktur für Forschungsdatenmanagement in den Geisteswissenschaften auf. Außerdem fördern wir durch regelmäßige Workshops und Tagungen den Austausch zwischen den regionalen und überregionalen Digital-Humanities-Projekten. Durch Beratungen und Schulungen führen wir Fachleuten, aber auch weniger technikaffinen Wissenschaftlern und dem akademischen Nachwuchs die Möglichkeiten digitaler Methoden zur Bearbeitung von Forschungsfragen vor Augen und bieten methodische, technische und organisatorische Unterstützung.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Würzburg", 
-                    "ref": ["https://www.geonames.org/2805615/wuerzburg.html"]
-                } 
-            }          
-        ],
-        "lang":["ger"],
-        "nls_related": false,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"Julius Maximilian University of Würzburg",
-                    "ref":["https://www.grid.ac/institutes/grid.8379.5"]
-                },
-                "ref": ["https://www.uni-wuerzburg.de/startseite/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Würzburg", 
-                            "ref": ["https://www.geonames.org/2805615/wuerzburg.html"]
-                        }                    
-                    }
-                ]
-            }                   
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "Hasse, Dag Nikolaus",
-                    "ref":["Hasse, Dag Nikolaus"]
-                },  
-                "role": 1,
-                "ref": ["https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/"]     
-            }                 
-        ],
-        "research_data": {
-            "lang":[]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Julius Maximilian University of Würzburg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.8379.5"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "dh", 
-            "multilingualdh"
+        "website": [
+          "https://www.uni-wuerzburg.de/startseite/"
         ],
-        "comment": null
-    }
+        "places": [
+          {
+            "place_name": {
+              "text": "Würzburg",
+              "ref": [
+                "https://www.geonames.org/2805615/wuerzburg.html"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Hasse, Dag Nikolaus",
+          "ref": [
+            "Hasse, Dag Nikolaus"
+          ]
+        },
+        "role": 1,
+        "website": [
+          "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "dh",
+      "multilingualdh"
+    ],
+    "comment": ""
+  }
 }

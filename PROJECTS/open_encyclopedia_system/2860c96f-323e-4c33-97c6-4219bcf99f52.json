@@ -1,97 +1,124 @@
 {
-    "record_metadata": {
-        "uuid": "2860c96f-323e-4c33-97c6-4219bcf99f52", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": "2021-11-25",
-        "record_modified_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "2860c96f-323e-4c33-97c6-4219bcf99f52",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": "2021-11-25",
+    "record_modified_by": "Kudela, Xenia Monika"
+  },
+  "project": {
+    "title": "Open Encyclopedia System",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2016",
+        "to": "2020"
+      }
+    ],
+    "website": [
+      "https://www.open-encyclopedia-system.org"
+    ],
+    "project_desc": "Gemeinsam mit dem Friedrich-Meinecke-Institut der Freien Universität Berlin und der Bayerischen Staatsbibliothek München ist im Rahmen des von der DFG geförderten Projektes \"1914-1918-online. International Encyclopedia of the First World War\" eine frei verfügbare, englischsprachige Online-Enzyklopädie über den Ersten Weltkrieg entstanden. Aufbauend auf den Erfahrungen des Projektes „1914-1918-online“ werden neue Verfahren und Werkzeuge zur Erstellung, Publikation und Pflege von wissenschaftlichen Sammelwerken ausgebaut und um zusätzliche Funktionalitäten ergänzt. Zentrales Ziel des neuen Projektes ist die Entwicklung einer standardisierten Plattform Open Encyclopedia System (OES) zur Erstellung und für den Betrieb von – vorrangig geistes- und sozialwissenschaftlichen – Online-Enzyklopädien, die als Open-Source-Software verfügbar gemacht werden soll.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Munich",
+          "ref": [
+            "http://www.geonames.org/2867714/munich.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Open Encyclopedia System",
-        "date": [        
-            {
-                "from": "2016", 
-                "to": "2020"
-            }           
-        ],     
-        "ref": ["https://www.open-encyclopedia-system.org"],
-        "project_desc": "Gemeinsam mit dem Friedrich-Meinecke-Institut der Freien Universität Berlin und der Bayerischen Staatsbibliothek München ist im Rahmen des von der DFG geförderten Projektes \"1914-1918-online. International Encyclopedia of the First World War\" eine frei verfügbare, englischsprachige Online-Enzyklopädie über den Ersten Weltkrieg entstanden. Aufbauend auf den Erfahrungen des Projektes „1914-1918-online“ werden neue Verfahren und Werkzeuge zur Erstellung, Publikation und Pflege von wissenschaftlichen Sammelwerken ausgebaut und um zusätzliche Funktionalitäten ergänzt. Zentrales Ziel des neuen Projektes ist die Entwicklung einer standardisierten Plattform Open Encyclopedia System (OES) zur Erstellung und für den Betrieb von – vorrangig geistes- und sozialwissenschaftlichen – Online-Enzyklopädien, die als Open-Source-Software verfügbar gemacht werden soll.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin", 
-                    "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                } 
-            },
-            {
-                "place_name": {
-                    "text": "Munich", 
-                    "ref": ["http://www.geonames.org/2867714/munich.html"]
-                }  
-            }         
-        ],
-        "lang":[
-            "eng",
-            "ger"
-        ],
-        "nls_related": false,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "org_name": {
-                    "text": "Freie Universität Berlin",
-                    "ref": ["https://www.grid.ac/institutes/grid.14095.39"]
-                },
-                "ref": ["https://www.fu-berlin.de/"],
-                "places": [
-                    {
-                        "place_name": {
-                            "text": "Berlin", 
-                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                        }                     
-                    }
-                ]
-            },
-            { 
-                "type": "org",
-                "org_name": {
-                    "text": "Bayerische Staatsbibliothek",
-                    "ref": ["https://www.grid.ac/institutes/grid.432478.e"]
-                },
-                "ref": ["https://www.bsb-muenchen.de/"],
-                "places": [
-                    {
-                        "place_name": {
-                            "text": "Munich", 
-                            "ref": ["http://www.geonames.org/2867714/munich.html"]
-                        }                     
-                    }
-                ]
-            }       
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "Geukes, Albert",
-                    "ref":null
-                },  
-                "role": 0,
-                "ref": ["https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/ageukes.html"]     
-            }                 
-        ],
-        "research_data": {
-            "lang":[]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.14095.39"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "encyclopedia", 
-            "opensource", 
-            "software"
+        "website": [
+          "https://www.fu-berlin.de/"
         ],
-        "comment": null
-    }
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Bayerische Staatsbibliothek",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.432478.e"
+          ]
+        },
+        "website": [
+          "https://www.bsb-muenchen.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Munich",
+              "ref": [
+                "http://www.geonames.org/2867714/munich.html"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Geukes, Albert",
+          "ref": null
+        },
+        "role": 0,
+        "website": [
+          "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/ageukes.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "encyclopedia",
+      "opensource",
+      "software"
+    ],
+    "comment": ""
+  }
 }

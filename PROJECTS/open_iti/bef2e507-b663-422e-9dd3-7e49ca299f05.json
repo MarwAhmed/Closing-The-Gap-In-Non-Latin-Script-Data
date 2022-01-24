@@ -1,162 +1,206 @@
 {
-    "record_metadata": {
-        "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": "2021-11-25",
-        "record_modified_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": "2021-11-25",
+    "record_modified_by": "Kudela, Xenia Monika"
+  },
+  "project": {
+    "title": "Open Islamicate Texts Initiative",
+    "abbr": "OpenITI",
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2019-09",
+        "to": "2021-12"
+      }
+    ],
+    "website": [
+      "https://alraqmiyyat.github.io/OpenITI/",
+      "https://github.com/OpenITI"
+    ],
+    "project_desc": "The written Arabic heritage is as vast as it is understudied and underrepresented in the digital humanities. The sheer volume and diversity of the surviving works produced in Arabic in the premodern period makes this body of texts ideal for computational forms of analysis. Efforts to utilize these new digital forms of analysis, however, have been stymied by the lack of a reliable corpus. Started as **OpenArabic**, an effort within the Alexander von Humboldt Chair for Digital Humanities (Leipzig University) to create the first machine-actionable scholarly corpus of premodern Arabic texts, **OpenITI** is the next stage of development of the corpus of not only Arabic texts, but also texts in other languages of the Islamic world.",
+    "places": [
+      {
+        "place_name": {
+          "text": "College Park",
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "London",
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Open Islamicate Texts Initiative",
-        "abbr": "OpenITI",
-        "date": [        
-            {
-                "from": "2019-09", 
-                "to": "2021-12"
-            }           
-        ],     
-        "ref": [
-            "https://alraqmiyyat.github.io/OpenITI/",
-            "https://github.com/OpenITI"
-        ],
-        "project_desc": "The written Arabic heritage is as vast as it is understudied and underrepresented in the digital humanities. The sheer volume and diversity of the surviving works produced in Arabic in the premodern period makes this body of texts ideal for computational forms of analysis. Efforts to utilize these new digital forms of analysis, however, have been stymied by the lack of a reliable corpus. Started as **OpenArabic**, an effort within the Alexander von Humboldt Chair for Digital Humanities (Leipzig University) to create the first machine-actionable scholarly corpus of premodern Arabic texts, **OpenITI** is the next stage of development of the corpus of not only Arabic texts, but also texts in other languages of the Islamic world.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "College Park", 
-                    "ref": ["https://www.geonames.org/4351977/college-park.html"]
-                }  
-            },
-            {
-                "place_name": {
-                    "text": "Leipzig", 
-                    "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-                } 
-            },
-            {
-                "place_name": {
-                    "text": "London", 
-                    "ref": ["https://www.geonames.org/2643743/london.html"]
-                }
-            },            
-            {
-                "place_name": {
-                    "text": "Vienna", 
-                    "ref": ["https://www.geonames.org/2761369/vienna.html"]
-                }   
-            } 
-        ],
-        "lang":["eng"],
-        "nls_related": true,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"University of Maryland, College Park",
-                    "ref":["https://www.grid.ac/institutes/grid.164295.d"]
-                },
-                "ref": ["https://www.umd.edu/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "College Park", 
-                            "ref": ["https://www.geonames.org/4351977/college-park.html"]
-                        }                     
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"Leipzig University (LU)",
-                    "ref":["https://www.grid.ac/institutes/grid.9647.c"]
-                },
-                "ref": ["https://www.uni-leipzig.de/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Leipzig", 
-                            "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-                        }                    
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"The Aga Khan University (International)",
-                    "ref":["https://www.wikidata.org/wiki/Q4690953"]
-                },
-                "ref": [
-                    "https://www.aku.edu/Pages/united-kingdom.aspx",
-                    "https://www.aku.edu/Pages/home.aspx"
-                ],
-                "places":[
-                    {
-                        "place_name":{
-                            "text": "Karachi", 
-                            "ref": ["https://www.geonames.org/1174872/karachi.html"]
-                        }                    
-                    },
-                    {
-                        "place_name": {
-                            "text": "London", 
-                            "ref": ["https://www.geonames.org/2643743/london.html"]
-                        }                    
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"University of Vienna",
-                    "ref":["https://www.grid.ac/institutes/grid.10420.37"]
-                },
-                "ref": ["https://www.univie.ac.at/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Vienna", 
-                            "ref": ["https://www.geonames.org/2761369/vienna.html"]
-                        }                    
-                    }
-                ]
-            }     
-        ],
-        "children": [],
-        "siblings": [
-            {
-                "type": "project",
-                "title": "Kitab",
-                "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df"
-            } 
-        ],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "Romanov, Maxim",
-                    "ref":[null]
-                },  
-                "role": 1,
-                "ref": ["http://www.dh.uni-leipzig.de/wo/maxim-romanov/"]     
-            }                 
-        ],
-        "research_data": {
-            "lang":[
-                "ara",
-                "per"
-            ]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "University of Maryland, College Park",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.164295.d"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "ara",
-            "corpus", 
-            "dh", 
-            "multilingualdh",
-            "per"            
+        "website": [
+          "https://www.umd.edu/"
         ],
-        "comment": null
-    }
+        "places": [
+          {
+            "place_name": {
+              "text": "College Park",
+              "ref": [
+                "https://www.geonames.org/4351977/college-park.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Leipzig University (LU)",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.9647.c"
+          ]
+        },
+        "website": [
+          "https://www.uni-leipzig.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Leipzig",
+              "ref": [
+                "https://www.geonames.org/2879139/leipzig.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "The Aga Khan University (International)",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q4690953"
+          ]
+        },
+        "website": [
+          "https://www.aku.edu/Pages/united-kingdom.aspx",
+          "https://www.aku.edu/Pages/home.aspx"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Karachi",
+              "ref": [
+                "https://www.geonames.org/1174872/karachi.html"
+              ]
+            }
+          },
+          {
+            "place_name": {
+              "text": "London",
+              "ref": [
+                "https://www.geonames.org/2643743/london.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "University of Vienna",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.10420.37"
+          ]
+        },
+        "website": [
+          "https://www.univie.ac.at/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Vienna",
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Kitab",
+        "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Romanov, Maxim",
+          "ref": [
+            null
+          ]
+        },
+        "role": 1,
+        "website": [
+          "http://www.dh.uni-leipzig.de/wo/maxim-romanov/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "per"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "ara",
+      "corpus",
+      "dh",
+      "multilingualdh",
+      "per"
+    ],
+    "comment": ""
+  }
 }

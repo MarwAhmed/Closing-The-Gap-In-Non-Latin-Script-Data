@@ -1,73 +1,82 @@
 {
-    "record_metadata": {
-        "uuid": "96c7995f-dfc8-489c-baf3-c4347b67c6db", 
-        "record_created": "2021-11-19", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+  "record_metadata": {
+    "uuid": "96c7995f-dfc8-489c-baf3-c4347b67c6db",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "Script Styles versus Dialect and Language: A Case for Songhay in Islamic Manuscripts of Timbuktu and Jenne",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": null,
+        "to": null
+      }
+    ],
+    "website": [
+      "https://www.csmc.uni-hamburg.de/written-artefacts/field-d/rfd14.html"
+    ],
+    "project_desc": "",
+    "places": [
+      {
+        "place_name": {
+          "text": "",
+          "ref": []
+        }
+      }
+    ],
+    "lang": [],
+    "topic_relations": {
+      "nls": null,
+      "dh": null,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Script Styles versus Dialect and Language: A Case for Songhay in Islamic Manuscripts of Timbuktu and Jenne",
-        "date": [        
-            {
-                "from": "", 
-                "to": ""
-            }           
-        ],     
-        "ref": ["https://www.csmc.uni-hamburg.de/written-artefacts/field-d/rfd14.html"],
-        "project_desc": "",
-        "places": [
-            {
-                "place_name": {
-                    "text": "", 
-                    "ref": []
-                } 
-            }          
-        ],
-        "lang":[],
-        "nls_related": null,
-        "dh_related": null,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"",
-                    "ref":[]
-                },
-                "ref": [],
-                "places":[
-                    {
-                        "place_name":{
-                            "text": "", 
-                            "ref": []
-                        }                    
-                    }
-                ]
-            },
-            {
-                "type": "project",
-                "title": "",
-                "uuid": "" 
-            }       
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "",
-                    "ref":[]
-                },  
-                "role": null,
-                "ref": []     
-            }                 
-        ],
-        "research_data": {
-            "lang":[]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "",
+          "ref": []
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [],
-        "comment": null
-    }
+        "website": [],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": []
+            }
+          }
+        ]
+      },
+      {
+        "type": "project",
+        "title": "",
+        "uuid": ""
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": []
+        },
+        "role": null,
+        "website": []
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [],
+    "comment": ""
+  }
 }

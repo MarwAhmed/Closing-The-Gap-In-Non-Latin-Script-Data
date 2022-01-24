@@ -1,61 +1,87 @@
 {
-    "metadata": {
-        "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83",
-        "record_created": 20211101,
-        "record_created_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
+    "abbr": "ALEA",
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": null,
+        "to": null
+      }
+    ],
+    "website": [
+      "https://www.uni-muenster.de/ALEA/"
+    ],
+    "project_desc": "Research on the Arabic literature and rhetoric between 1100-1800",
+    "places": [
+      {
+        "place_name": {
+          "text": "Münster",
+          "ref": "https://www.geonames.org/6553087/muenster.html"
+        }
+      }
+    ],
+    "lang": [
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": false,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
-        "abbr": "ALEA",
-        "established": null,
-        "duration": null,
-        "conluded": null,
-        "website": "https://www.uni-muenster.de/ALEA/",
-        "projectDesc": "Research on the Arabic literature and rhetoric between 1100-1800",
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "WWU Münster",
+          "ref": "https://d-nb.info/gnd/36175-6"
+        },
+        "website": [
+          "https://www.uni-muenster.de"
+        ],
         "places": [
-            {
-                "placeName": "Münster",
-                "ref": "https://www.geonames.org/6553087/muenster.html"
-            }
-        ],
-        "lang":[
-            "de"
-        ],
-        "nls_related": true,
-        "dh_related": false,
-        "parents":[
-            {
-                "type": "org",
-                "orgName": "WWU Münster",
-                "ref": "https://d-nb.info/gnd/36175-6",
-                "website": "https://www.uni-muenster.de",            
-                "uuid": null,
-                "places":[
-                    {
-                        "placeName": "Münster",
-                        "ref": "https://www.geonames.org/6553087/muenster.html"
-                    }
-                ]
-            }   
-        ],
-        "children": [
-            {
-                "type": "project",
-                "title": "DFG-Langfristvorhaben Gesamtedition des Werkes von Ibn Nubata Al-Misri",                             
-                "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53"             
-            }
-        ],
-        "contacts": [
-            {
-                "persName": "Thomas Bauer",
-                "ref": "https://d-nb.info/gnd/130608467/",
-                "role": 0,
-                "website": "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
-            }
-        ],
-        "research_data": {},
-        "technology": {},
-        "policies": {},
-        "keywords": []
-    }
+          {
+            "text": "Münster",
+            "ref": "https://www.geonames.org/6553087/muenster.html"
+          }
+        ]
+      }
+    ],
+    "children": [
+      {
+        "type": "project",
+        "title": "DFG-Langfristvorhaben Gesamtedition des Werkes von Ibn Nubata Al-Misri",
+        "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53"
+      }
+    ],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Thomas Bauer",
+          "ref": "https://d-nb.info/gnd/130608467/"
+        },
+        "role": 0,
+        "website": [
+          "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [],
+    "comment": ""
+  }
 }

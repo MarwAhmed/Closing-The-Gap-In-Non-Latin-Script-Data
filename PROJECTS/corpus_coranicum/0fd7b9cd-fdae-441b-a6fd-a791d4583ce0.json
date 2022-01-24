@@ -1,101 +1,150 @@
 {
-    "metadata": {
-        "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0",
-        "record_created": 12112021,
-        "record_created_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0",
+    "record_created": "2021-11-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "Corpus Coranicum",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2007",
+        "to": null
+      }
+    ],
+    "website": [
+      "https://corpuscoranicum.de/"
+    ],
+    "project_desc": "The project offers systematic access to early Qur'anic manuscripts with images and transliterated text. In parallel, a catalogue of variant readings included in the works of the Islamic scholarly tradition is produced. Based on textual history, the project creates a chronological commentary using methods of literary studies and refering to relevant texts from Antiquity and Late Antiquity. These source texts are accessible in the database 'Texts from the environment of the Qur'an' (TEQ). The development of the first Muslim community is reconstructed for the first time as the interaction between the Prophet and the first addressees in Mecca and Medina.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Potsdam",
+          "ref": [
+            "http://www.geonames.org/2852458/potsdam.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "fre",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Corpus Coranicum",
-        "established":2007,
-        "duration": 18,    
-        "concluded": null,           
-        "website": "https://corpuscoranicum.de/",
-        "projectDesc": "The project offers systematic access to early Qur'anic manuscripts with images and transliterated text. In parallel, a catalogue of variant readings included in the works of the Islamic scholarly tradition is produced. Based on textual history, the project creates a chronological commentary using methods of literary studies and refering to relevant texts from Antiquity and Late Antiquity. These source texts are accessible in the database 'Texts from the environment of the Qur'an' (TEQ). The development of the first Muslim community is reconstructed for the first time as the interaction between the Prophet and the first addressees in Mecca and Medina.",
-        "places": [
-            {
-                "placeName": "Potsdam",
-                "ref": ["http://www.geonames.org/2852458/potsdam.html"]
-            }        
-        ],
-        "lang":[
-            "eng",
-            "de",
-            "fr"],
-        "nls_related": true,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "orgName": "Berlin-Brandenburgische Akademie der Wissenschaften",
-                "ref": ["https://www.grid.ac/institutes/grid.420264.6"],
-                "website": "https://www.bbaw.de/",
-                "uuid": null,
-                "places":[
-                    {
-                        "placeName": "Berlin",
-                        "ref": ["https://www.geonames.org/2950159/berlin.html"]
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "orgName": "Union der Deutschen Akademien der Wissenschaften",
-                "ref": ["https://www.wikidata.org/wiki/Q1662834"],
-                "website": "https://www.akademienunion.de/",
-                "uuid": null,
-                "places":[
-                    {
-                        "placeName": "Berlin",
-                        "ref": ["https://www.geonames.org/2950159/berlin.html"]
-                    }
-                ]
-            }              
-        ],
-        "children": [],
-        "siblings": [
-            {
-                "type": "project",
-                "title": "Coranica",
-                "uuid": "5f57a071-60c1-4fd2-b191-8fa8d15d70bb" 
-            },
-            {
-                "type": "project",
-                "title": "Irankoran",
-                "uuid": "8e4ab5b4-7298-4d55-b490-eb2943527981" 
-            },
-            {
-                "type": "project",
-                "title": "Paleocoran",
-                "uuid": "d5448b02-b57f-429d-9553-637cc2add035" 
-            }           
-        ],
-        "contacts": [
-            {
-                "persName": "Angelika Neuwirth",
-                "ref": ["https://d-nb.info/gnd/108800083"],
-                "role": 0,
-                "website": "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Ehemalige-Mitarbeiterinnen-und-Mitarbeiter/Professuren/neuwirth/index.html"                
-            },
-            {
-                "persName": "Michael Marx",
-                "ref": [null],
-                "role": 0,
-                "website": "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/marx-michael"
-            }                   
-        ],
-        "research_data": {
-            "lang":[
-                "ar",
-                "de",
-                "eng",
-                "fr"
-            ]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.420264.6"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": [
-            "ar",
-            "quran"
+        "website": [
+          "https://www.bbaw.de/"
+        ],
+        "places": [
+          {
+            "text": "Berlin",
+            "ref": [
+              "https://www.geonames.org/2950159/berlin.html"
+            ]
+          }
         ]
-    }
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Union der Deutschen Akademien der Wissenschaften",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1662834"
+          ]
+        },
+        "website": [
+          "https://www.akademienunion.de/"
+        ],
+        "places": [
+          {
+            "text": "Berlin",
+            "ref": [
+              "https://www.geonames.org/2950159/berlin.html"
+            ]
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Coranica",
+        "uuid": "5f57a071-60c1-4fd2-b191-8fa8d15d70bb"
+      },
+      {
+        "type": "project",
+        "title": "Irankoran",
+        "uuid": "8e4ab5b4-7298-4d55-b490-eb2943527981"
+      },
+      {
+        "type": "project",
+        "title": "Paleocoran",
+        "uuid": "d5448b02-b57f-429d-9553-637cc2add035"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Angelika Neuwirth",
+          "ref": [
+            "https://d-nb.info/gnd/108800083"
+          ]
+        },
+        "role": 0,
+        "website": [
+          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Ehemalige-Mitarbeiterinnen-und-Mitarbeiter/Professuren/neuwirth/index.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Michael Marx",
+          "ref": [
+            null
+          ]
+        },
+        "role": 0,
+        "website": [
+          "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/marx-michael"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "eng",
+        "fre",
+        "ger"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "ara",
+      "eng",
+      "fre",
+      "ger",
+      "quran"
+    ],
+    "comment": ""
+  }
 }

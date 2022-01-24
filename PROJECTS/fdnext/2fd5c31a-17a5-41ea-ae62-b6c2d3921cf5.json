@@ -1,166 +1,230 @@
 {
-    "record_metadata": {
-        "uuid": "2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": "2021-11-22",
-        "record_modified_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5",
+    "record_created": "2021-11-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": "2021-11-22",
+    "record_modified_by": "Kudela, Xenia Monika"
+  },
+  "project": {
+    "title": "FDNext",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2023"
+      }
+    ],
+    "website": [
+      "https://www.forschungsdaten.org/index.php/FDNext"
+    ],
+    "project_desc": "Sechs Universitäten in Berlin und Brandenburg bündeln ihre Forschungsdatenexpertise für neue Verfahren und Maßnahmen: _Wissenschaftliche Einrichtungen generieren viele digitale Forschungsdaten. Die große Herausforderung für wissenschaftliche Einrichtungen ist der systematische Umgang mit diesen Daten – von der Erhebung über die Verarbeitung und Analyse bis hin zur Archivierung und Nachnutzung._Das Forschungsprojekt FDNext entwickelt in den kommenden drei Jahren zentrale Aspekte des Forschungsdatenmanagements weiter. Neben der Konzeption einer Kontaktstelle zu rechtlichen Fragen im Umgang mit Forschungsdaten (First-Level-Support), geht es um den fachspezifischen Ausbau des Qualifizierungs- und Schulungsangebots für Forschende, die Entwicklung fachspezifischer Strategien und projektbezogener Forschungsdaten-Policies sowie eine Analyse und Zusammenstellung passender Services von Zentraleinrichtungen. Dabei ist die Anschlussfähigkeit an zukünftige Strukturen, wie die im Aufbau befindliche Nationale Forschungsdateninfrastruktur (NFDI), von grundsätzlicher Bedeutung, ebenso wie die Förderung der Zusammenarbeit auf internationaler Ebene.v Die DFG fördert FDNext in den nächsten drei Jahren mit insgesamt rund 645.000 Euro. Ziel von FDNext ist die Analyse und Erarbeitung konkreter Verfahren und Maßnahmen im Forschungsdatenmanagement für einzelne Fachbereiche und besondere Organisationsformen wie institutionsübergreifende Forschungsprojekte. Die daraus entstehenden Konzepte und Materialien werden so gestaltet, dass sie mit wenig Aufwand auf andere Fächer und Kontexte übertragen werden können. Sie unterstützen somit die Selbstorganisation der Fächer, die beratenden Stellen und die zentralen Serviceeinrichtungen. Alle Ergebnisse des Projekts werden frei zugänglich und nachnutzbar sein.Der regionale Verbund umfasst die Humboldt-Universität zu Berlin, die Freie Universität Berlin, die Technische Universität Berlin, die Universität Potsdam, die Europa-Universität Viadrina Frankfurt (Oder) und die Brandenburgische Technische Universität Cottbus-Senftenberg. Jeder Verbundpartner verantwortet mit seiner Expertise einen konkreten Themenbereich, wobei es zahlreiche Bezugspunkte zwischen den einzelnen Schwerpunkten gibt. Die Humboldt-Universität zu Berlin begleitet koordinierend die intensive Zusammenarbeit der Projektpartner und den Verbund als Ganzes, der auf eine langfristige Kooperation angelegt ist.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Potsdam",
+          "ref": [
+            "http://www.geonames.org/2852458/potsdam.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Frankfurt (Oder)",
+          "ref": [
+            "http://www.geonames.org/2925535/frankfurt-oder.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Cottbus",
+          "ref": [
+            "https://www.geonames.org/2939811/cottbus.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": false,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "FDNext",
-        "date": [        
-            {
-                "from": "2020", 
-                "to": "2023"
-            }           
-        ],     
-        "ref": ["https://www.forschungsdaten.org/index.php/FDNext"],
-        "project_desc": "Sechs Universitäten in Berlin und Brandenburg bündeln ihre Forschungsdatenexpertise für neue Verfahren und Maßnahmen: _Wissenschaftliche Einrichtungen generieren viele digitale Forschungsdaten. Die große Herausforderung für wissenschaftliche Einrichtungen ist der systematische Umgang mit diesen Daten – von der Erhebung über die Verarbeitung und Analyse bis hin zur Archivierung und Nachnutzung._Das Forschungsprojekt FDNext entwickelt in den kommenden drei Jahren zentrale Aspekte des Forschungsdatenmanagements weiter. Neben der Konzeption einer Kontaktstelle zu rechtlichen Fragen im Umgang mit Forschungsdaten (First-Level-Support), geht es um den fachspezifischen Ausbau des Qualifizierungs- und Schulungsangebots für Forschende, die Entwicklung fachspezifischer Strategien und projektbezogener Forschungsdaten-Policies sowie eine Analyse und Zusammenstellung passender Services von Zentraleinrichtungen. Dabei ist die Anschlussfähigkeit an zukünftige Strukturen, wie die im Aufbau befindliche Nationale Forschungsdateninfrastruktur (NFDI), von grundsätzlicher Bedeutung, ebenso wie die Förderung der Zusammenarbeit auf internationaler Ebene.v Die DFG fördert FDNext in den nächsten drei Jahren mit insgesamt rund 645.000 Euro. Ziel von FDNext ist die Analyse und Erarbeitung konkreter Verfahren und Maßnahmen im Forschungsdatenmanagement für einzelne Fachbereiche und besondere Organisationsformen wie institutionsübergreifende Forschungsprojekte. Die daraus entstehenden Konzepte und Materialien werden so gestaltet, dass sie mit wenig Aufwand auf andere Fächer und Kontexte übertragen werden können. Sie unterstützen somit die Selbstorganisation der Fächer, die beratenden Stellen und die zentralen Serviceeinrichtungen. Alle Ergebnisse des Projekts werden frei zugänglich und nachnutzbar sein.Der regionale Verbund umfasst die Humboldt-Universität zu Berlin, die Freie Universität Berlin, die Technische Universität Berlin, die Universität Potsdam, die Europa-Universität Viadrina Frankfurt (Oder) und die Brandenburgische Technische Universität Cottbus-Senftenberg. Jeder Verbundpartner verantwortet mit seiner Expertise einen konkreten Themenbereich, wobei es zahlreiche Bezugspunkte zwischen den einzelnen Schwerpunkten gibt. Die Humboldt-Universität zu Berlin begleitet koordinierend die intensive Zusammenarbeit der Projektpartner und den Verbund als Ganzes, der auf eine langfristige Kooperation angelegt ist.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin", 
-                    "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                } 
-            },
-            {
-                "place_name": {
-                    "text": "Potsdam", 
-                    "ref": ["http://www.geonames.org/2852458/potsdam.html"]
-                } 
-            },
-            {
-                "place_name": {
-                    "text": "Frankfurt (Oder)", 
-                    "ref": ["http://www.geonames.org/2925535/frankfurt-oder.html"]
-                } 
-            },
-            {
-                "place_name": {
-                    "text": "Cottbus", 
-                    "ref": ["https://www.geonames.org/2939811/cottbus.html"]
-                }
-            }       
-        ],
-        "lang":["eng"],
-        "nls_related": false,
-        "dh_related": false,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"Humboldt-Universität zu Berlin",
-                    "ref":["https://www.grid.ac/institutes/grid.7468.d"]
-                },
-                "ref": ["https://www.hu-berlin.de/de"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Berlin", 
-                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                        }                     
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name": {
-                    "text": "Freie Universität Berlin",
-                    "ref": ["https://www.grid.ac/institutes/grid.14095.39"]
-                },
-                "ref": ["https://www.fu-berlin.de/"],
-                "places": [
-                    {
-                        "place_name": {
-                            "text": "Berlin", 
-                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                        }                     
-                    }
-                ]
-            }, 
-            {
-                "type": "org",
-                "org_name": {
-                    "text": "Technische Universität Berlin",
-                    "ref": ["https://www.grid.ac/institutes/grid.6734.6"]
-                },
-                "ref": ["https://www.tu.berlin/"],
-                "places": [
-                    {
-                        "place_name": {
-                            "text": "Berlin", 
-                            "ref": ["http://www.geonames.org/2950159/berlin.html"]
-                        }                     
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name": {
-                    "text": "Universität Potsdam",
-                    "ref":  ["https://www.grid.ac/institutes/grid.11348.3f"]
-                },
-                "ref": ["https://www.uni-potsdam.de/de/"],
-                "places":[
-                    {
-                        "place_name": {
-                            "text": "Potsdam", 
-                            "ref": ["http://www.geonames.org/2852458/potsdam.html"]
-                        }                     
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name": {
-                    "text": "Europa-Universität Viadrina Frankfurt (Oder)",
-                    "ref": ["https://www.grid.ac/institutes/grid.33018.39"]
-                },
-                "ref": ["https://www.europa-uni.de/en/index.html"],
-                "places": [
-                    {
-                        "place_name":{
-                            "text": "Frankfurt (Oder)", 
-                            "ref": ["http://www.geonames.org/2925535/frankfurt-oder.html"]
-                        }                     
-                    }
-                ]
-            },
-            {
-                "type": "org",
-                "org_name": {
-                    "text": "Brandenburgische Technische Universität Cottbus-Senftenberg",
-                    "ref": ["https://www.grid.ac/institutes/grid.8842.6"]
-                },
-                "ref": ["https://www.b-tu.de/"],
-                "places": [
-                    {
-                        "place_name": {
-                            "text": "Cottbus", 
-                            "ref": ["https://www.geonames.org/2939811/cottbus.html"]
-                        }                                             
-                    }
-                ]
-            }   
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "Schmiederer, Simon",
-                    "ref":["https://d-nb.info/gnd/1227354606"]
-                },  
-                "role": 1,
-                "ref": ["https://www.researchgate.net/profile/Simon-Schmiederer"]     
-            }                 
-        ],
-        "research_data": {
-            "lang":["eng"]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Humboldt-Universität zu Berlin",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7468.d"
+          ]
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": ["fdm"],
-        "comment": null
-    }
+        "website": [
+          "https://www.hu-berlin.de/de"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.14095.39"
+          ]
+        },
+        "website": [
+          "https://www.fu-berlin.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Technische Universität Berlin",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.6734.6"
+          ]
+        },
+        "website": [
+          "https://www.tu.berlin/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Universität Potsdam",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.11348.3f"
+          ]
+        },
+        "website": [
+          "https://www.uni-potsdam.de/de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Potsdam",
+              "ref": [
+                "http://www.geonames.org/2852458/potsdam.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Europa-Universität Viadrina Frankfurt (Oder)",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.33018.39"
+          ]
+        },
+        "website": [
+          "https://www.europa-uni.de/en/index.html"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Frankfurt (Oder)",
+              "ref": [
+                "http://www.geonames.org/2925535/frankfurt-oder.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Brandenburgische Technische Universität Cottbus-Senftenberg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.8842.6"
+          ]
+        },
+        "website": [
+          "https://www.b-tu.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Cottbus",
+              "ref": [
+                "https://www.geonames.org/2939811/cottbus.html"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Schmiederer, Simon",
+          "ref": [
+            "https://d-nb.info/gnd/1227354606"
+          ]
+        },
+        "role": 1,
+        "website": [
+          "https://www.researchgate.net/profile/Simon-Schmiederer"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "eng"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "eng",
+      "fdm"
+    ],
+    "comment": ""
+  }
 }

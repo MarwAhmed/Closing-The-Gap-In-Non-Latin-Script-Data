@@ -1,73 +1,86 @@
 {
-    "record_metadata": {
-        "uuid": "fdda3e43-e15b-4c64-a99d-924f37152cc9", 
-        "record_created": "2021-11-18", 
-        "record_created_by": "Kudela, Xenia Monika",
-        "record_modified": null,
-        "record_modified_by": null
+  "record_metadata": {
+    "uuid": "fdda3e43-e15b-4c64-a99d-924f37152cc9",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "Syriaca.org: The Syriac Reference Portal",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": null,
+        "to": null
+      }
+    ],
+    "website": [
+      "https://syriaca.org/index.html"
+    ],
+    "project_desc": "Syriaca.org: The Syriac Reference Portal is a digital project for the study of Syriac literature, culture, and history. Today, a number of heritage communities around the world have linguistic, religious or cultural identities with roots in Syriac language and culture. Syriaca.org exists to document and preserve these Syriac cultural heritages. The online tools published by Syriaca.org are intended for use by a wide audience including researchers and students, members of Syriac heritage communities and the interested general public. In order to meet the diverse needs of users, the design of Syriaca.org is inherently collaborative and fluid. The primary function of Syriaca.org is to be a reference hub for digitally linking research findings. Syriaca.org's publications compile and classify core data for the study of Syriac sources, offer the scholarly community digital tools for freely disseminating that data, and facilitate further research through the creation of shared digital tools and infrastructure",
+    "places": [
+      {
+        "place_name": {
+          "text": "",
+          "ref": []
+        }
+      }
+    ],
+    "lang": [],
+    "topic_relations": {
+      "nls": null,
+      "dh": null,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "Syriaca.org: The Syriac Reference Portal",
-        "date": [        
-            {
-                "from": "", 
-                "to": ""
-            }           
-        ],     
-        "ref": ["https://syriaca.org/index.html"],
-        "project_desc": "Syriaca.org: The Syriac Reference Portal is a digital project for the study of Syriac literature, culture, and history. Today, a number of heritage communities around the world have linguistic, religious or cultural identities with roots in Syriac language and culture. Syriaca.org exists to document and preserve these Syriac cultural heritages. The online tools published by Syriaca.org are intended for use by a wide audience including researchers and students, members of Syriac heritage communities and the interested general public. In order to meet the diverse needs of users, the design of Syriaca.org is inherently collaborative and fluid. The primary function of Syriaca.org is to be a reference hub for digitally linking research findings. Syriaca.org's publications compile and classify core data for the study of Syriac sources, offer the scholarly community digital tools for freely disseminating that data, and facilitate further research through the creation of shared digital tools and infrastructure",
-        "places": [
-            {
-                "place_name": {
-                    "text": "", 
-                    "ref": []
-                } 
-            }          
-        ],
-        "lang":[],
-        "nls_related": null,
-        "dh_related": null,
-        "parents":[
-            {
-                "type": "org",
-                "org_name":{
-                    "text":"",
-                    "ref":[]
-                },
-                "ref": [],
-                "places":[
-                    {
-                        "place_name":{
-                            "text": "", 
-                            "ref": []
-                        }                    
-                    }
-                ]
-            },
-            {
-                "type": "project",
-                "title": "",
-                "uuid": "" 
-            }       
-        ],
-        "children": [],
-        "siblings": [],
-        "contacts": [
-            {
-                "pers_name":{
-                    "text": "",
-                    "ref":[]
-                },  
-                "role": null,
-                "ref": []     
-            }                 
-        ],
-        "research_data": {
-            "lang":[]
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "",
+          "ref": []
         },
-        "technology": {},
-        "policies": {}, 
-        "keywords": ["syr"],
-        "comment": null
-    }
+        "website": [],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": []
+            }
+          }
+        ]
+      },
+      {
+        "type": "project",
+        "title": "",
+        "uuid": ""
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": []
+        },
+        "role": null,
+        "website": []
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "syr"
+      ]
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [
+      "syr"
+    ],
+    "comment": ""
+  }
 }

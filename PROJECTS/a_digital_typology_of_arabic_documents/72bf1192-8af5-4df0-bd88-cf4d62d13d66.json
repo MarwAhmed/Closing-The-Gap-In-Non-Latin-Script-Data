@@ -1,60 +1,86 @@
 {
-    "metadata": {
-        "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66",
-        "record_created": 11112021,
-        "record_created_by": "Kudela, Xenia Monika"
+  "record_metadata": {
+    "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66",
+    "record_created": "2021-11-11",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": null,
+    "record_modified_by": null
+  },
+  "project": {
+    "title": "A Digital Typology of Arabic Documents",
+    "abbr": null,
+    "type": "research",
+    "ref": [],
+    "date": [
+      {
+        "from": null,
+        "to": null
+      }
+    ],
+    "website": [
+      "https://www.naher-osten.lmu.de/apd"
+    ],
+    "project_desc": "Das Projekt wird im Rahmen der Arabic Papyrology Database durchgeführt.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Munich",
+          "ref": "https://www.geonames.org/2867714/munich.html"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": null,
+      "infrastructure": null
     },
-    "project": {
-        "title": "A Digital Typology of Arabic Documents",
-        "established": null,
-        "duration": null,    
-        "concluded": null,           
-        "website": "www.naher-osten.lmu.de/apd",
-        "projectDesc": null,
+    "parents": [
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Ludwig-Maximilians-Universität Munich",
+          "ref": "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
+        },
+        "website": [
+          "https://www.lmu.de/de/index.html"
+        ],
         "places": [
-            {
-                "placeName": "Munich",
-                "ref": "https://www.geonames.org/2867714/munich.html"
-            }          
-        ],
-        "lang":[            
-            "eng"          
-        ],
-        "nls_related": true,
-        "dh_related": true,
-        "parents":[
-            {
-                "type": "org",
-                "orgName": "Ludwig-Maximilians-Universität Munich",
-                "ref": "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll",
-                "website": "https://www.lmu.de/de/index.html",
-                "uuid": null,
-                "places":[
-                    {
-                        "placeName": "Munich",
-                        "ref": "https://www.geonames.org/2867714/munich.html"
-                    }
-                ]
-            },       
-            {
-                "type": "project",
-                "title": "Arabic Papyrology Database",
-                "ref": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9"
-            }   
-        ],
-        "children": [],
-        "contacts": [
-            {
-                "persName": "Andreas Kaplony",
-                "ref": "https://d-nb.info/gnd/115211942",
-                "role": 0,
-                "website": "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"            
-            }         
-        ],
-        "research_data": {},
-        "technology": {},
-        "policies": {}, 
-        "keywords": []
-           
-    }
+          {
+            "text": "Munich",
+            "ref": "https://www.geonames.org/2867714/munich.html"
+          }
+        ]
+      },
+      {
+        "type": "project",
+        "title": "Arabic Papyrology Database",
+        "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9"
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Andreas Kaplony",
+          "ref": "https://d-nb.info/gnd/115211942"
+        },
+        "role": 0,
+        "website": [
+          "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "technology": {},
+    "policies": {},
+    "keywords": [],
+    "comment": "This project does not have it us own website. It is mentioned only in Kaplony´s website as his contribution to the partent project."
+  }
 }
