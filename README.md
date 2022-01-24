@@ -36,6 +36,8 @@ Feel free to discuss the scheme in the GitHub issues.
 
 ### JSON Scheme for Projects (`v0.1.0`)
 
+The JSON-file is to be put in a folder with a simplified, machine-readable name of the project's title and added to the project-index.
+
 ```javascript
 {
   "record_metadata": {
@@ -58,7 +60,7 @@ Feel free to discuss the scheme in the GitHub issues.
   "project": {
     // Official title of the project
     "title": "",
-    // __Optional__: Abbreviation
+    // Abbreviation if applicable
     "abbr": "",
     // Type of the project: organisation | association | research | meta
     "type": "",
@@ -75,7 +77,7 @@ Feel free to discuss the scheme in the GitHub issues.
     ],
     // Array of project websites
     "website": [
-      "",
+      ""
     ],
     // Description of the project
     "project_desc": "",
@@ -89,7 +91,7 @@ Feel free to discuss the scheme in the GitHub issues.
           "ref": [
             ""
           ]
-        },  
+        }
       }          
     ],
     // Array of languages used in the project's presentation (website, flyer, ...) in ISO-639-2
@@ -97,11 +99,11 @@ Feel free to discuss the scheme in the GitHub issues.
       ""          
     ],
     "topic_relations": {
-      // If no information is available: null, otherwise: true|false
+      // If no information is available: null, otherwise: true | false
       "nls": true, // Is the project related to Non-Latin Scripts?
       "dh": true, // Is the project related to Digital Humanities?
       "rdm": true, // Is the project related to Research Data Management?
-      "infrastructure": true, // Is the project related to infrastructure?
+      "infrastructure": true // Is the project related to infrastructure?
     },
     "parents": [
       // For each parent-project
@@ -115,7 +117,7 @@ Feel free to discuss the scheme in the GitHub issues.
           // Array of Authority file URIs  
           "ref": [
             ""
-          ],
+          ]
         },
         // Array of Websites
         "website": [
@@ -131,7 +133,7 @@ Feel free to discuss the scheme in the GitHub issues.
               "ref": [
                 ""
               ]
-            },  
+            }
           }
         ]
       },       
@@ -140,7 +142,7 @@ Feel free to discuss the scheme in the GitHub issues.
         // research | meta
         "type": "",
         // name of the project
-        "title": ""
+        "title": "",
         // Array of Authority file URIs 
         "ref": [
           ""
@@ -159,7 +161,7 @@ Feel free to discuss the scheme in the GitHub issues.
               "ref": [
                 ""
               ]
-            },  
+            }
           }
         ]
       },   
@@ -184,7 +186,7 @@ Feel free to discuss the scheme in the GitHub issues.
               ""
           ]
         },
-        "uuid": "",
+        "uuid": ""
       }
     ],
     // Children are handled the same way as parents
@@ -200,7 +202,7 @@ Feel free to discuss the scheme in the GitHub issues.
           // Array of Authority file URIs 
           "ref": [
               ""
-          ],
+          ]
         },
         // Role of the contact:
         // 0 = Management (e.g. PI, Coordinator, ...)
@@ -230,7 +232,7 @@ Feel free to discuss the scheme in the GitHub issues.
       ""
     ],
     // Comment on the entry, the project or field for any information that doesn't fit anywhere else
-    "comment": "",
+    "comment": ""
   }
 }
 ```
