@@ -1,8 +1,10 @@
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 # Closing the Gap in Non-Latin Script Data
 
 The project aims to facilitate research in Digital Humanities projects dealing with Non-Latin Script in Latin Script environments. One of our goals is to gather and provide information on existing projects. As a first step, this repository is meant to contain basic information on research or infrastructure projects, initiatives and/or related institutions in a structured way.
 
-The repository also contains a markdown-file that includes information on resources gathered on the way. Feel free to distribute and contribute.
+This repository contains metadata information on projects and useful resources that can be loosely associated to the field of Digital Humanities and Non-Latin-Script-based research. This project is particularly interested in the situation of (digital) Arabic Studies and related fields.
 
 GUI (in development): https://closing-the-gap-in-nls-dh.github.io/
 
