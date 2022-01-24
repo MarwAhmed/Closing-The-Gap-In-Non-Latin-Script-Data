@@ -2,7 +2,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Closing-the-Gap-in-NLS-DH/Projects/graphs/commit-activity)
 
 
-[![Generic badge](https://img.shields.io/badge/IndexScheme-v0.1.0-blue.svg)](#indexscheme)
+[![Generic badge](https://img.shields.io/badge/IndexScheme-v0.1.1-blue.svg)](#indexscheme)
 [![Generic badge](https://img.shields.io/badge/ProjectsScheme-v0.1.0-blue.svg)](#projectsscheme)
 [![Generic badge](https://img.shields.io/badge/ResourcesScheme-v0.1.0-blue.svg)](#resourcesscheme)
 
@@ -31,13 +31,16 @@ The scheme underlies continuous development. Existing entries are going to be au
 
 Feel free to discuss the scheme in the GitHub issues.
 
-### <a id="indexscheme"></a>JSON Scheme for Project Index / UUID Dictionary (`v0.1.0`)
+### <a id="indexscheme"></a>JSON Scheme for Project Index / UUID Dictionary (`v0.1.1`)
 
 ```javascript
 {
   ...
-  // UUID of the project: Full title of the project
-  "{uuid}": "{title}",
+  "{uuid}": {
+    "title": "{title}",
+    // The simplified title should not contain any special characters and be machine-readable
+    "path": "/PROJECTS/{simplified_title}/"
+  }
   ...
 }
 ```
