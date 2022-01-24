@@ -1,4 +1,9 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+
+[![Generic badge](https://img.shields.io/badge/ProjectsScheme-v0.1.0-blue.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/IndexScheme-v0.1.0-blue.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/ResourcesScheme-v0.1.0-blue.svg)](https://shields.io/)
 
 # Closing the Gap in Non-Latin Script Data
 
