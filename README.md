@@ -64,18 +64,18 @@ Feel free to discuss the scheme in the GitHub issues.
     "type": "",
     // Array of Authority file URIs 
     "ref": [
-        ""
+      ""
     ],
     // Array of active terms in format: YYYY-MM-DD
     "date": [
-        {
-            "from": "",
-            "to": ""
-        }
+      {
+        "from": "",
+        "to": ""
+      }
     ],
     // Array of project websites
     "website": [
-        "",
+      "",
     ],
     // Description of the project
     "project_desc": "",
@@ -227,7 +227,7 @@ Feel free to discuss the scheme in the GitHub issues.
     "policies": {}, 
     // Array of keywords for the project, including all relevant languages in ISO-639-2
     "keywords": [
-        ""
+      ""
     ],
     // Comment on the entry, the project or field for any information that doesn't fit anywhere else
     "comment": "",
