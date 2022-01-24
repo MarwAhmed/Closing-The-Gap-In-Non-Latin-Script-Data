@@ -3,8 +3,8 @@
 
 
 [![Generic badge](https://img.shields.io/badge/IndexScheme-v0.1.0-blue.svg)](#indexscheme)
-[![Generic badge](https://img.shields.io/badge/ProjectsScheme-v0.1.0-blue.svg)](#projectscheme)
-[![Generic badge](https://img.shields.io/badge/ResourcesScheme-v0.1.0-blue.svg)](#resourcescheme)
+[![Generic badge](https://img.shields.io/badge/ProjectsScheme-v0.1.0-blue.svg)](#projectsscheme)
+[![Generic badge](https://img.shields.io/badge/ResourcesScheme-v0.1.0-blue.svg)](#resourcesscheme)
 
 # Closing the Gap in Non-Latin Script Data
 
@@ -42,7 +42,7 @@ Feel free to discuss the scheme in the GitHub issues.
 }
 ```
 
-### <a id="projectscheme"></a>JSON Scheme for Projects (`v0.1.0`)
+### <a id="projectsscheme"></a>JSON Scheme for Projects (`v0.1.0`)
 
 The JSON-file is to be put in a folder with a simplified, machine-readable name of the project's title and added to the project-index.
 
@@ -245,7 +245,7 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
 }
 ```
 
-### <a id="resourcescheme"></a>JSON Scheme for Resources (`v0.1.1`)
+### <a id="resourcesscheme"></a>JSON Scheme for Resources (`v0.1.1`)
 
 ```javascript
 {
