@@ -1,9 +1,10 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Closing-the-Gap-in-NLS-DH/Projects/graphs/commit-activity)
 
-[![Generic badge](https://img.shields.io/badge/ProjectsScheme-v0.1.0-blue.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/IndexScheme-v0.1.0-blue.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/ResourcesScheme-v0.1.0-blue.svg)](https://shields.io/)
+
+[![Generic badge](https://img.shields.io/badge/IndexScheme-v0.1.0-blue.svg)](#indexscheme)
+[![Generic badge](https://img.shields.io/badge/ProjectsScheme-v0.1.0-blue.svg)](#projectscheme)
+[![Generic badge](https://img.shields.io/badge/ResourcesScheme-v0.1.0-blue.svg)](#resourcescheme)
 
 # Closing the Gap in Non-Latin Script Data
 
@@ -30,7 +31,7 @@ The scheme underlies continuous development. Existing entries are going to be au
 
 Feel free to discuss the scheme in the GitHub issues.
 
-### JSON Scheme for Project Index / UUID Dictionary (`v0.1.0`)
+### <a id="indexscheme"></a>JSON Scheme for Project Index / UUID Dictionary (`v0.1.0`)
 
 ```javascript
 {
@@ -41,7 +42,7 @@ Feel free to discuss the scheme in the GitHub issues.
 }
 ```
 
-### JSON Scheme for Projects (`v0.1.0`)
+### <a id="projectscheme"></a>JSON Scheme for Projects (`v0.1.0`)
 
 The JSON-file is to be put in a folder with a simplified, machine-readable name of the project's title and added to the project-index.
 
@@ -244,7 +245,7 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
 }
 ```
 
-### JSON Scheme for Resources (`v0.1.1`)
+### <a id="resourcescheme"></a>JSON Scheme for Resources (`v0.1.1`)
 
 ```javascript
 {
