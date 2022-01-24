@@ -172,7 +172,7 @@ Feel free to discuss the scheme in the GitHub issues.
         // UUID of the project
         "uuid": ""
       },
-      // 3. if of type ( organisation | association ) and has a UUID:
+      // 4. if of type ( organisation | association ) and has a UUID:
       {
         // organisation | association
         "type": "",
