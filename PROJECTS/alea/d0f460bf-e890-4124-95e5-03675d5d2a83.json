@@ -3,8 +3,12 @@
     "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": null,
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
@@ -13,8 +17,8 @@
     "ref": [],
     "date": [
       {
-        "from": null,
-        "to": null
+        "from": "",
+        "to": ""
       }
     ],
     "website": [
@@ -25,7 +29,9 @@
       {
         "place_name": {
           "text": "Münster",
-          "ref": "https://www.geonames.org/6553087/muenster.html"
+          "ref": [
+            "https://www.geonames.org/6553087/muenster.html"
+          ]
         }
       }
     ],
@@ -43,15 +49,21 @@
         "type": "org",
         "org_name": {
           "text": "WWU Münster",
-          "ref": "https://d-nb.info/gnd/36175-6"
+          "ref": [
+            "https://d-nb.info/gnd/36175-6"
+          ]
         },
         "website": [
           "https://www.uni-muenster.de"
         ],
         "places": [
           {
-            "text": "Münster",
-            "ref": "https://www.geonames.org/6553087/muenster.html"
+            "place_name": {
+              "text": "Münster",
+              "ref": [
+                "https://www.geonames.org/6553087/muenster.html"
+              ]
+            }
           }
         ]
       }
@@ -68,7 +80,9 @@
       {
         "pers_name": {
           "text": "Thomas Bauer",
-          "ref": "https://d-nb.info/gnd/130608467/"
+          "ref": [
+            "https://d-nb.info/gnd/130608467/"
+          ]
         },
         "role": 0,
         "website": [
@@ -79,7 +93,7 @@
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [],
     "comment": ""

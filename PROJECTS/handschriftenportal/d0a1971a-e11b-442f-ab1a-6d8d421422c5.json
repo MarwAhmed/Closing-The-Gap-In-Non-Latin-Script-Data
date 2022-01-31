@@ -3,12 +3,16 @@
     "uuid": "d0a1971a-e11b-442f-ab1a-6d8d421422c5",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": "2021-11-22",
-    "record_modified_by": "Kudela, Xenia Monika"
+    "record_modified": [
+      {
+        "record_modified_at": "2021-11-22",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Handschriftenportal",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -177,7 +181,7 @@
         "lat"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ger",

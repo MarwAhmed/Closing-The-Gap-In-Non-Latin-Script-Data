@@ -3,12 +3,16 @@
     "uuid": "9662a35d-fb57-4f20-b450-0eba8670a822",
     "record_created": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": null,
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "Averrois Opera (Corpus Philosophorum Medii Aevi)",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -25,19 +29,25 @@
       {
         "place_name": {
           "text": "Cairo",
-          "ref": "https://www.geonames.org/360630/cairo.html"
+          "ref": [
+            "https://www.geonames.org/360630/cairo.html"
+          ]
         }
       },
       {
         "place_name": {
           "text": "Düsseldorf",
-          "ref": "https://www.geonames.org/2934246/duesseldorf.html"
+          "ref": [
+            "https://www.geonames.org/2934246/duesseldorf.html"
+          ]
         }
       },
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": "https://www.geonames.org/293198/jerusalem.html"
+          "ref": [
+            "https://www.geonames.org/293198/jerusalem.html"
+          ]
         }
       }
     ],
@@ -62,8 +72,12 @@
         ],
         "places": [
           {
-            "text": "Cairo",
-            "ref": "https://www.geonames.org/360630/cairo.html"
+            "place_name": {
+              "text": "Cairo",
+              "ref": [
+                "https://www.geonames.org/360630/cairo.html"
+              ]
+            }
           }
         ]
       },
@@ -71,15 +85,21 @@
         "type": "org",
         "org_name": {
           "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste ",
-          "ref": "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html"
+          "ref": [
+            "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html"
+          ]
         },
         "website": [
           "https://www.awk.nrw.de/startseite.html"
         ],
         "places": [
           {
-            "text": "Düsseldorf",
-            "ref": "https://www.geonames.org/2934246/duesseldorf.html"
+            "place_name": {
+              "text": "Düsseldorf",
+              "ref": [
+                "https://www.geonames.org/2934246/duesseldorf.html"
+              ]
+            }
           }
         ]
       },
@@ -87,15 +107,21 @@
         "type": "org",
         "org_name": {
           "text": "Israel Academy of Sciences and Humanities",
-          "ref": "https://www.grid.ac/institutes/grid.453493.c"
+          "ref": [
+            "https://www.grid.ac/institutes/grid.453493.c"
+          ]
         },
         "website": [
           "https://www.academy.ac.il/english.aspx"
         ],
         "places": [
           {
-            "text": "Jerusalem",
-            "ref": "https://www.geonames.org/293198/jerusalem.html"
+            "place_name": {
+              "text": "Jerusalem",
+              "ref": [
+                "https://www.geonames.org/293198/jerusalem.html"
+              ]
+            }
           }
         ]
       }
@@ -112,7 +138,7 @@
       {
         "pers_name": {
           "text": "",
-          "ref": ""
+          "ref": []
         },
         "role": "",
         "website": ""
@@ -125,7 +151,7 @@
         "lat"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "Averroes",

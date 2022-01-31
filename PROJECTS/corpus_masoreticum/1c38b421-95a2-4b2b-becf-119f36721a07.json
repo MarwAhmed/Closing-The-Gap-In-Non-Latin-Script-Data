@@ -3,12 +3,16 @@
     "uuid": "1c38b421-95a2-4b2b-becf-119f36721a07",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": null,
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "Corpus Masoreticum",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -90,7 +94,7 @@
         "heb"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "bible",

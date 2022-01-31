@@ -3,18 +3,22 @@
     "uuid": "ce6e74fb-c872-4ab4-a6f2-908232d0099a",
     "record_created": "2021-11-08",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": null,
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "ARCHES",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
         "from": "2019",
-        "to": null
+        "to": ""
       }
     ],
     "website": [
@@ -25,13 +29,17 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": "https://www.geonames.org/2867714/munich.html"
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
         }
       },
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": "https://www.geonames.org/293198/jerusalem.html"
+          "ref": [
+            "https://www.geonames.org/293198/jerusalem.html"
+          ]
         }
       }
     ],
@@ -49,15 +57,21 @@
         "type": "org",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
-          "ref": "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
+          "ref": [
+            "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
+          ]
         },
         "website": [
           "https://www.lmu.de/de/index.html"
         ],
         "places": [
           {
-            "text": "Munich",
-            "ref": "https://www.geonames.org/2867714/munich.html"
+            "place_name": {
+              "text": "Munich",
+              "ref": [
+                "https://www.geonames.org/2867714/munich.html"
+              ]
+            }
           }
         ]
       },
@@ -65,15 +79,21 @@
         "type": "org",
         "org_name": {
           "text": "The Hebrew University of Jerusalem",
-          "ref": "https://www.geonames.org/11608742/the-hebrew-university-of-jerusalem.html"
+          "ref": [
+            "https://www.geonames.org/11608742/the-hebrew-university-of-jerusalem.html"
+          ]
         },
         "website": [
           "https://en.huji.ac.il/en"
         ],
         "places": [
           {
-            "text": "Jerusalem",
-            "ref": "https://www.geonames.org/293198/jerusalem.html"
+            "place_name": {
+              "text": "Jerusalem",
+              "ref": [
+                "https://www.geonames.org/293198/jerusalem.html"
+              ]
+            }
           }
         ]
       }
@@ -84,7 +104,9 @@
       {
         "pers_name": {
           "text": "Ronny Vollandt",
-          "ref": "https://d-nb.info/gnd/1173742050"
+          "ref": [
+            "https://d-nb.info/gnd/1173742050"
+          ]
         },
         "role": 0,
         "website": [
@@ -94,7 +116,9 @@
       {
         "pers_name": {
           "text": "Miriam Goldstein",
-          "ref": "https://d-nb.info/gnd/1019351853"
+          "ref": [
+            "https://d-nb.info/gnd/1019351853"
+          ]
         },
         "role": 0,
         "website": [
@@ -104,7 +128,9 @@
       {
         "pers_name": {
           "text": "David Sklare",
-          "ref": "https://d-nb.info/gnd/1158385684"
+          "ref": [
+            "https://d-nb.info/gnd/1158385684"
+          ]
         },
         "role": 1,
         "website": [
@@ -117,7 +143,7 @@
         "heb"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "heb"

@@ -3,18 +3,22 @@
     "uuid": "173631fa-ddc3-4762-bfd9-5bf40ccef41a",
     "record_created": "2021-10-29",
     "record_created_by": "Mueller-Laackman, Jonas",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": null,
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "Ada Lovelace Center for Digital Humanities",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
         "from": "2021",
-        "to": null
+        "to": ""
       }
     ],
     "website": [],
@@ -23,7 +27,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": "https://www.geonames.org/3587265/berlin.html"
+          "ref": [
+            "https://www.geonames.org/3587265/berlin.html"
+          ]
         }
       }
     ],
@@ -42,15 +48,21 @@
         "type": "org",
         "org_name": {
           "text": "FU Berlin",
-          "ref": "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
+          "ref": [
+            "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
+          ]
         },
         "website": [
           "https://www.fu-berlin.de/"
         ],
         "places": [
           {
-            "text": "Berlin",
-            "ref": "https://www.geonames.org/2950159/berlin.html"
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
+            }
           }
         ]
       }
@@ -61,7 +73,9 @@
       {
         "pers_name": {
           "text": "Dennis Mischke",
-          "ref": "https://d-nb.info/gnd/1011172860"
+          "ref": [
+            "https://d-nb.info/gnd/1011172860"
+          ]
         },
         "role": 0,
         "website": [
@@ -72,7 +86,7 @@
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [],
     "comment": ""

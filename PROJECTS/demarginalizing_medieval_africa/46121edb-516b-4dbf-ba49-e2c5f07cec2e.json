@@ -3,12 +3,16 @@
     "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2022-01-31",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
-    "abbr": null,
+    "abbr": "ITIESE",
     "type": "research",
     "ref": [],
     "date": [
@@ -20,63 +24,115 @@
     "website": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/demarginalizing-medieval-africa.html"
     ],
-    "project_desc": "",
+    "project_desc": "The ITIESE project has been supported by an AHRC-DFG grant (ref. no. AH/V002910/1). It intends to shed new light on the art, history, and culture of the Ethiopian Empire during a period going from the rise of a new dynasty which claimed to descend from the biblical King Solomon in 1270 to its near collapse in 1527, through a series of collaborations with libraries and institutions across the world, and to set up a platform for exchange between scholars working on the history of manuscript illumination – with a particular focus on the Oriental Orthodox traditions of the Armenian, Coptic, and the Syriac worlds – and on the Christian arts of Ethiopia and Eritrea",
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "London",
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         }
       }
     ],
-    "lang": [],
+    "lang": [
+      "eng"
+    ],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "Universität Hamburg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.9026.d"
+          ]
         },
-        "website": [],
+        "website": [
+          "http://www.uni-hamburg.de/"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Hamburg",
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
             }
           }
         ]
       },
       {
-        "type": "project",
-        "title": "",
-        "uuid": ""
+        "type": "org",
+        "org_name": {
+          "text": "University College Londong",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.83440.3b"
+          ]
+        },
+        "website": [
+          "http://www.ucl.ac.uk"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "London",
+              "ref": [
+                "https://www.geonames.org/2643743/london.html"
+              ]
+            }
+          }
+        ]
       }
     ],
-    "children": [],
+    "children": [
+      [
+        {
+          "type": "project",
+          "title": "Understanding Written Artefacts",
+          "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+        }
+      ]
+    ],
     "siblings": [],
     "contacts": [
       {
         "pers_name": {
-          "text": "",
-          "ref": []
+          "text": "Bausi, Alessandro",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q62559559"
+          ]
         },
-        "role": null,
-        "website": []
+        "role": 0,
+        "website": [
+          "https://www.aai.uni-hamburg.de/afrika/personen/bausi.html"
+        ]
       }
     ],
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
-    "keywords": [],
+    "keywords": [
+      "ethiopian_art",
+      "exchange_platform",
+      "manuscript illumination",
+      "solomonic_ethiopia"
+    ],
     "comment": ""
   }
 }

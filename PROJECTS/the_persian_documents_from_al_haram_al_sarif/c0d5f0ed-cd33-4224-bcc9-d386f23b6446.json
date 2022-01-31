@@ -3,12 +3,16 @@
     "uuid": "c0d5f0ed-cd33-4224-bcc9-d386f23b6446",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2022-01-24",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "The Persian Documents from al-Ḥaram al-Šarīf",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -20,63 +24,91 @@
     "website": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/persian-documents.html"
     ],
-    "project_desc": "",
+    "project_desc": "This project investigates 76 medieval Islamic legal and administrative documents on paper produced in fourteenth-century Northwest Iran. Written mainly in Persian, these documents became entangled at some stage with a much larger corpus of over 900 Arabic documents drawn up in fourteenth-century Mamluk Jerusalem. The larger corpus was ‘discovered’ in separate batches since the 1970s in locked drawers of the Islamic Museum in Jerusalem, and numerous documents remain uncatalogued. Precisely when and how this major medieval Islamic documentary corpus, including the Persian documents, entered the collections of the Islamic Museum in Jerusalem (founded in 1927) is unclear. The Islamic Museum itself is located in the southwest corner of the Temple Mount or al-Ḥaram al-Sharīf in Arabic, next to the Al-Aqṣā Mosque. It occupies the halls of two historic buildings, the al-Maghāriba congregational mosque and a second building which probably dates back to the Crusader or the Ayyubid period or both.",
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         }
       }
     ],
-    "lang": [],
+    "lang": [
+      "eng"
+    ],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "Universität Hamburg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.9026.d"
+          ]
         },
-        "website": [],
+        "website": [
+          "http://www.uni-hamburg.de/"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Hamburg",
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
             }
           }
         ]
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
       }
     ],
     "children": [],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Understanding Written Artefacts",
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+      },
+      {
+        "type": "project",
+        "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
+        "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
+      },
+      {
+        "type": "project",
+        "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
+        "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Bhalloo, Zahir ",
           "ref": []
         },
-        "role": null,
-        "website": []
+        "role": 0,
+        "website": [
+          "https://www.csmc.uni-hamburg.de/about/people/bhalloo.html"
+        ]
       }
     ],
     "research_data": {
-      "lang": []
+      "lang": [
+        "per"
+      ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
-    "keywords": [],
+    "keywords": [
+      "manuscripts",
+      "per"
+    ],
     "comment": ""
   }
 }

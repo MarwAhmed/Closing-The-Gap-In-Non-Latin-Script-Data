@@ -3,18 +3,22 @@
     "uuid": "a6e1fb68-e7a5-4125-8cfc-ec3aa16da73b",
     "record_created": "2021-11-08",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": null,
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "Averroes Edition",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
         "from": "2016",
-        "to": null
+        "to": ""
       }
     ],
     "website": [
@@ -25,13 +29,17 @@
       {
         "place_name": {
           "text": "Düsseldorf",
-          "ref": "https://www.geonames.org/2934246/duesseldorf.html"
+          "ref": [
+            "https://www.geonames.org/2934246/duesseldorf.html"
+          ]
         }
       },
       {
         "place_name": {
           "text": "Köln",
-          "ref": "https://www.geonames.org/2886242/koeln.html"
+          "ref": [
+            "https://www.geonames.org/2886242/koeln.html"
+          ]
         }
       }
     ],
@@ -50,15 +58,21 @@
         "type": "org",
         "org_name": {
           "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste ",
-          "ref": "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html"
+          "ref": [
+            "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html"
+          ]
         },
         "website": [
           "https://www.awk.nrw.de/startseite.html"
         ],
         "places": [
           {
-            "text": "Düsseldorf",
-            "ref": "https://www.geonames.org/2934246/duesseldorf.html"
+            "place_name": {
+              "text": "Düsseldorf",
+              "ref": [
+                "https://www.geonames.org/2934246/duesseldorf.html"
+              ]
+            }
           }
         ]
       },
@@ -66,15 +80,21 @@
         "type": "org",
         "org_name": {
           "text": "Universität zu Köln",
-          "ref": "https://www.geonames.org/6947535/universitaet-zu-koeln.html"
+          "ref": [
+            "https://www.geonames.org/6947535/universitaet-zu-koeln.html"
+          ]
         },
         "website": [
           "https://thomasinstitut.uni-koeln.de/"
         ],
         "places": [
           {
-            "text": "Köln",
-            "ref": "https://www.geonames.org/2886242/koeln.html"
+            "place_name": {
+              "text": "Köln",
+              "ref": [
+                "https://www.geonames.org/2886242/koeln.html"
+              ]
+            }
           }
         ]
       },
@@ -90,7 +110,7 @@
       {
         "pers_name": {
           "text": "David Wirmer",
-          "ref": null
+          "ref": []
         },
         "role": 0,
         "website": [
@@ -105,7 +125,7 @@
         "lat"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "Averroes",

@@ -3,8 +3,12 @@
     "uuid": "b583a2f6-22bb-4ddb-8639-c9a9aa7b511b",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2022-01-24",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Topoi. The Formation and Transformation of Space and Knowledge in Ancient Civilizations",
@@ -14,6 +18,10 @@
     "date": [
       {
         "from": "2007",
+        "to": "2012"
+      },
+      {
+        "from": "2012",
         "to": "2019"
       }
     ],
@@ -24,39 +32,58 @@
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "Berlin",
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
         }
       }
     ],
     "lang": [],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "Humboldt-Universität zu Berlin",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7468.d"
+          ]
         },
-        "website": [],
+        "website": [
+          "https://www.hu-berlin.de"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
             }
           }
         ]
       },
       {
-        "type": "project",
-        "title": "",
-        "uuid": ""
+        "type": "org",
+        "org_name": {
+          "text": "FU Berlin",
+          "ref": "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
+        },
+        "website": [
+          "https://www.fu-berlin.de/"
+        ],
+        "places": [
+          {
+            "text": "Berlin",
+            "ref": "https://www.geonames.org/2950159/berlin.html"
+          }
+        ]
       }
     ],
     "children": [],
@@ -64,19 +91,27 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
-          "ref": []
+          "text": "Meyer, Michael",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1928613"
+          ]
         },
-        "role": null,
-        "website": []
+        "role": 0,
+        "website": [
+          "https://www.geschkult.fu-berlin.de/e/praehist/institut/Mitarbeiterinnen-und-Mitarbeiter/Professoren/Meyer.html"
+        ]
       }
     ],
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
-    "keywords": [],
+    "keywords": [
+      "ancient_cultures",
+      "excellence_cluster",
+      "research_network"
+    ],
     "comment": ""
   }
 }

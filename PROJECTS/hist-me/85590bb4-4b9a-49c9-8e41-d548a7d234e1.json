@@ -3,8 +3,12 @@
     "uuid": "85590bb4-4b9a-49c9-8e41-d548a7d234e1",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": null,
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "Historical Middle East Data Alliance",
@@ -13,8 +17,8 @@
     "ref": [],
     "date": [
       {
-        "from": null,
-        "to": null
+        "from": "",
+        "to": ""
       }
     ],
     "website": [
@@ -74,7 +78,7 @@
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [],
     "comment": ""

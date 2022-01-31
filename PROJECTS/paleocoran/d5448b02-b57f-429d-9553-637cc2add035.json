@@ -3,12 +3,16 @@
     "uuid": "d5448b02-b57f-429d-9553-637cc2add035",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": "2021-11-23",
-    "record_modified_by": "Kudela, Xenia Monika"
+    "record_modified": [
+      {
+        "record_modified_at": "2021-11-23",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Paleocoran",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -108,9 +112,7 @@
       {
         "pers_name": {
           "text": "Marx, Michael",
-          "ref": [
-            null
-          ]
+          "ref": []
         },
         "role": 0,
         "website": [
@@ -123,7 +125,7 @@
         "ara"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ara",

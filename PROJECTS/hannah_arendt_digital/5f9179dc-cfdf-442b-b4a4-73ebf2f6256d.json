@@ -3,12 +3,16 @@
     "uuid": "5f9179dc-cfdf-442b-b4a4-73ebf2f6256d",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": "2021-11-23",
-    "record_modified_by": "Kudela, Xenia Monika"
+    "record_modified": [
+      {
+        "record_modified_at": "2021-11-23",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Hannah Arendt Digital",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -84,9 +88,7 @@
       {
         "pers_name": {
           "text": "Grote, Brigitte",
-          "ref": [
-            null
-          ]
+          "ref": []
         },
         "role": 1,
         "website": [
@@ -102,7 +104,7 @@
         "yid"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "digitaledition",

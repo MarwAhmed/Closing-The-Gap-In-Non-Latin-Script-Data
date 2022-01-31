@@ -3,18 +3,22 @@
     "uuid": "e9e4a759-5a0c-4d7d-aa61-49051477ab2f",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2021-01-24",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "A Literary History of Medicine Online",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
-        "from": null,
-        "to": null
+        "from": "2013",
+        "to": "2017"
       }
     ],
     "website": [
@@ -24,39 +28,74 @@
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "Coventry",
+          "ref": [
+            "https://www.geonames.org/2652221/coventry.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Oxford",
+          "ref": [
+            "https://www.geonames.org/2640729/oxford.html"
+          ]
         }
       }
     ],
-    "lang": [],
+    "lang": [
+      "eng"
+    ],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "Warwick University",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7372.1"
+          ]
         },
-        "website": [],
+        "website": [
+          "http://www2.warwick.ac.uk/"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Coventry",
+              "ref": [
+                "https://www.geonames.org/2652221/coventry.html"
+              ]
             }
           }
         ]
       },
       {
-        "type": "project",
-        "title": "",
-        "uuid": ""
+        "type": "org",
+        "org_name": {
+          "text": "University of Oxford",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.4991.5"
+          ]
+        },
+        "website": [
+          "http://www.ox.ac.uk"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Oxford",
+              "ref": [
+                "https://www.geonames.org/2640729/oxford.html"
+              ]
+            }
+          }
+        ]
       }
     ],
     "children": [],
@@ -64,11 +103,27 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
-          "ref": []
+          "text": "Savage-Smith, Emilie ",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q64437299"
+          ]
         },
-        "role": null,
-        "website": []
+        "role": 0,
+        "website": [
+          "https://www.orinst.ox.ac.uk/people/emilie-savage-smith"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Swain, Simon",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q55386758"
+          ]
+        },
+        "role": 0,
+        "website": [
+          "https://warwick.ac.uk/fac/arts/classics/intranets/staff/simonswain/"
+        ]
       }
     ],
     "research_data": {
@@ -76,7 +131,7 @@
         "ara"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ara",

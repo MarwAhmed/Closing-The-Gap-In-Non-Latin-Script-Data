@@ -3,18 +3,22 @@
     "uuid": "ddbb569b-1542-40fe-9fa7-3842610945c8",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": "2021-11-25",
-    "record_modified_by": "Kudela, Xenia Monika"
+    "record_modified": [
+      {
+        "record_modified_at": "2021-11-25",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Onmasticon Arabicum",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
         "from": "1966-08",
-        "to": null
+        "to": ""
       }
     ],
     "website": [
@@ -71,9 +75,7 @@
       {
         "pers_name": {
           "text": "Müller, Christian",
-          "ref": [
-            null
-          ]
+          "ref": []
         },
         "role": 0,
         "website": [
@@ -99,7 +101,7 @@
         "ara"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ara",

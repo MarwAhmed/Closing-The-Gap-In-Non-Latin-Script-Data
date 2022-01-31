@@ -3,8 +3,12 @@
     "uuid": "377201a9-9b09-4a6b-b5e8-873190633e78",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": null,
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "Middle East Librarians Association",
@@ -16,7 +20,7 @@
     "date": [
       {
         "from": "1972",
-        "to": null
+        "to": ""
       }
     ],
     "website": [
@@ -80,7 +84,7 @@
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "library",

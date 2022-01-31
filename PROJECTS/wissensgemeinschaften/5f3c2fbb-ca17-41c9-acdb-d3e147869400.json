@@ -3,60 +3,70 @@
     "uuid": "5f3c2fbb-ca17-41c9-acdb-d3e147869400",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2022-01-26",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
-    "title": "Wissensgemeinschaften",
-    "abbr": null,
+    "title": "Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s \"History of the Physicians\"",
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
-        "from": null,
-        "to": null
+        "from": "2018",
+        "to": "2021"
       }
     ],
     "website": [
       "https://usaybia.net/"
     ],
-    "project_desc": "Das Projekt untersucht die sozialen Begegnungen christlicher, muslimischer und jüdischer Gelehrter im Nahen Osten der Abbasidenzeit (750-1258). Während die Christliche Orientalistik zwar von einem mannigfaltigen Austausch zu Zeiten der griechisch-arabischen Übersetzungsbewegung ausgeht, findet der soziale Kontext nur selten Beachtung. Die Medizin repräsentiert ein zentrales Feld dieses Austausches. Ibn Abi Usaybiʿa (gest. 1270), ein muslimischer Arzt aus Syrien, verfasste eine 250.000 Worte umfassende Abhandlung, welche die Interaktionen hunderter Gelehrter mit ihrem sozialen Umfeld beschreibt. Diese Schilderungen sollen zunächst digitalisiert werden, um mit Hilfe der Netzwerkanalyse die Umstände und diejenigen Personen zu identifizieren, die am häufigsten im Wissensaustausch involviert waren. Ibn Abi Usaybiʿa’s Darstellung der Ereignisse sollen hierzu im Kontext des Damaskus des 13. Jahrhunderts untersucht und mit Darstellungen anderer Quellen verglichen werden. Die Ergebnisse des Forschungsprojekts sollen als Monographie veröffentlicht und die Daten auf der Projektwebsite und in öffentlichen Archiven zugänglich gemacht werden. Ziel des Projekts ist es, durch internationale Zusammenarbeit dazu beizutragen, die Christliche Orientalistik als mit der Islamwissenschaft und der Judaistik verbundenes \"Kleines Fach\" zu beleben und Fragen der religiösen Vielfalt aus historischer Perspektive zu beleuchten.",
+    "project_desc": "This project will examine the social encounters of Christian, Muslim, and Jewish scholars in the Abbasid Near East (750–1258). Christian Oriental studies has helped to reveal the diverse exchanges of Abbasid scholars, particularly during the Greco-Arabic translation movement, but the social context of these exchanges is seldom considered. An area in which collaboration is constantly attested in primary sources is the medical field. Ibn Abi Usaybiʿa (d. 1270), a Muslim physician from Syria, composed a 250,000-word history of medicine describing the interactions of nearly 450 physicians along with their social environment. The proposed project will digitally record these interactions in order and, using network analysis, identify the persons who were most frequently involved in scholarly exchange. Ibn Abi Usaybiʿa’s representation of these events will then be analyzed and compared with representations from other sources. The project’s results will be published as a monograph and project data will be made accessible on the project website and in public archives. The goal of the project is to revitalize Christian Oriental studies as a “kleines Fach” connected to Islamic and Jewish studies and to illuminate issues of religious diversity from a historical perspective.",
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "Munich",
+          "ref": [
+            "http://www.geonames.org/2867714/munich.html"
+          ]
         }
       }
     ],
-    "lang": [],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "Ludwig-Maximilians-Universität in Munich",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.5252.0"
+          ]
         },
-        "website": [],
+        "website": [
+          "https://www.lmu.de/"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Munich",
+              "ref": [
+                "http://www.geonames.org/2867714/munich.html"
+              ]
             }
           }
         ]
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
       }
     ],
     "children": [],
@@ -64,19 +74,29 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
-          "ref": []
+          "text": "Gibson,Nathan ",
+          "ref": [
+            "https://id.loc.gov/authorities/names/no2016135689.html"
+          ]
         },
-        "role": null,
-        "website": []
+        "role": 0,
+        "website": [
+          "https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html"
+        ]
       }
     ],
     "research_data": {
-      "lang": []
+      "lang": [
+        "ara"
+      ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
-    "keywords": [],
+    "keywords": [
+      "ara",
+      "ibn_abi_usaybia",
+      "network_analysis"
+    ],
     "comment": ""
   }
 }

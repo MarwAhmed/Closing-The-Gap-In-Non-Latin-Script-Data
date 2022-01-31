@@ -3,12 +3,16 @@
     "uuid": "5f57a071-60c1-4fd2-b191-8fa8d15d70bb",
     "record_created": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": "2021-11-23",
-    "record_modified_by": "Kudela, Xenia Monika"
+    "record_modified": [
+      {
+        "record_modified_at": "2021-11-23",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Coranica",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -136,7 +140,7 @@
         "ara"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ara",

@@ -3,80 +3,113 @@
     "uuid": "96c7995f-dfc8-489c-baf3-c4347b67c6db",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2022-01-19",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Script Styles versus Dialect and Language: A Case for Songhay in Islamic Manuscripts of Timbuktu and Jenne",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
-        "from": null,
-        "to": null
+        "from": "2020",
+        "to": "2023"
       }
     ],
     "website": [
       "https://www.csmc.uni-hamburg.de/written-artefacts/field-d/rfd14.html"
     ],
-    "project_desc": "",
+    "project_desc": "Songhay is a cover term for a complex of dialect varieties and several languages spoken along the middle Niger River in Mali, Niger, Benin, Burkina Faso, Nigeria and in nomadic and oasis offshoots in Mali, Niger and Algeria. Unlike its spoken varieties, written Songhay is almost unstudied because the scholars did not notice that Islamic manuscripts of Timbuktu, Jenne and other centres of Muslim education in Mali contained Songhay written between the lines of Arabic texts. Recent findings proved the existence of extensive Songhay annotations – often used alongside the other languages – in Arabic manuscripts. We do not know what variety of Songhay is represented in the annotations, but we see noticeable differences between Timbuktu and Jenne manuscripts, especially in the use of script styles and languages. To understand what motivated the scribes’ choices of visual and linguistic components of writing, this interdisciplinary international project will run a comparative study of the Timbuktu and Jenne manuscripts with a focus on Songhay. For the first time in the West African context, this study will correlate multilingualism with script style variation and will thus investigate how a complex content has been transmitted and formatted into multiple linguistic and visual layers.",
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         }
       }
     ],
-    "lang": [],
+    "lang": [
+      "eng"
+    ],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "Universität Hamburg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.9026.d"
+          ]
         },
-        "website": [],
+        "website": [
+          "http://www.uni-hamburg.de/"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Hamburg",
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
             }
           }
         ]
       },
       {
         "type": "project",
-        "title": "",
-        "uuid": ""
+        "title": "Understanding Written Artefacts",
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
       }
     ],
     "children": [],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sexteenth Century",
+        "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
-          "text": "",
-          "ref": []
+          "text": "Bondarev, Dmitry ",
+          "ref": [
+            "https://d-nb.info/gnd/1185835431"
+          ]
         },
-        "role": null,
-        "website": []
+        "role": 0,
+        "website": [
+          "https://www.aai.uni-hamburg.de/afrika/personen/bondarev.html",
+          "https://www.csmc.uni-hamburg.de/about/people/bondarev.html"
+        ]
       }
     ],
     "research_data": {
-      "lang": []
+      "lang": [
+        "son"
+      ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
-    "keywords": [],
+    "keywords": [
+      "Islamic manuscripts",
+      "manuscripts",
+      "son",
+      "Songhay",
+      "Timbuktu"
+    ],
     "comment": ""
   }
 }

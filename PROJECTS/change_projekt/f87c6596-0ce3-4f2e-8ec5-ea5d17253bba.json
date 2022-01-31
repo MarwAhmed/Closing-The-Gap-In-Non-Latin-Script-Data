@@ -3,12 +3,16 @@
     "uuid": "f87c6596-0ce3-4f2e-8ec5-ea5d17253bba",
     "record_created": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": null,
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "Change Projekt - Wandel@FU-Bib",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -54,10 +58,12 @@
         ],
         "places": [
           {
-            "text": "Berlin",
-            "ref": [
-              "https://www.geonames.org/2950159/berlin.html"
-            ]
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
+            }
           }
         ]
       }
@@ -80,9 +86,7 @@
       {
         "pers_name": {
           "text": "Martin Lee",
-          "ref": [
-            null
-          ]
+          "ref": []
         },
         "role": 0,
         "website": [
@@ -95,7 +99,7 @@
         "ger"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ger",

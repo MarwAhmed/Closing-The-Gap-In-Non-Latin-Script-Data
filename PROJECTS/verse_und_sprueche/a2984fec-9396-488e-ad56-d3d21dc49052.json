@@ -3,60 +3,88 @@
     "uuid": "a2984fec-9396-488e-ad56-d3d21dc49052",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2022-01-26",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
-        "from": null,
-        "to": null
+        "from": "",
+        "to": ""
       }
     ],
     "website": [
       "https://www.sfb-episteme.de/teilprojekte/handeln/C10/index.html"
     ],
-    "project_desc": "Das Teilprojekt untersucht Mikro-Texte in Dichtung und Gnomik im Arabischen und verwandten Traditionen wie dem Syrischen und dem Griechischen, d. h. Einzelverse und Weisheitssprüche, die über Jahrhunderte und Sprachgrenzen hinweg in populäre und wissenschaftliche Diskurse eingegangen sind. Anhand der Zirkulation dieser Kleinst-Formen und der Verdichtungsmodi, die sie in ihren jeweiligen literarischen oder wissenschaftlichen Kontextualisierungen durchlaufen haben, lassen sich Momenta eines reziproken Wissenstransfers aufschließen. Die modellhafte mikrostrukturelle Analyse der Aneignungs- und Übertragungsweisen sowie der unterschiedlichen Kontextualisierungen ermöglicht, auch in anderen Zusammenhängen das Zusammenwirken von multiplen Faktoren und Impulsen epistemischer Veränderungsbewegungen nachzuzeichnen.",
+    "project_desc": "Das Teilprojekt untersucht Mikro-Texte in Dichtung und Gnomik im Arabischen und verwandten Traditionen wie dem Syrischen und dem Griechischen, d.h. Einzelverse und Weisheitssprüche, die über Jahrhunderte und Sprachgrenzen hinweg in populäre und wissenschaftliche Diskurse eingegangen sind. Anhand der Zirkulation dieser Kleinst-Formen und der Verdichtungsmodi, die sie in ihren jeweiligen literarischen oder wissenschaftlichen Kontextualisierungen durchlaufen haben, lassen sich Momenta eines reziproken Wissenstransfers aufschließen. Die modellhafte mikrostrukturelle Analyse der Aneignungs- und Übertragungsweisen sowie der unterschiedlichen Kontextualisierungen ermöglicht, auch in anderen Zusammenhängen das Zusammenwirken von multiplen Faktoren und Impulsen epistemischer Veränderungsbewegungen nachzuzeichnen.",
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "Berlin",
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
         }
       }
     ],
-    "lang": [],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "FU Berlin",
+          "ref": [
+            "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
+          ]
         },
-        "website": [],
+        "website": [
+          "https://www.fu-berlin.de/"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
             }
           }
         ]
       },
       {
         "type": "project",
-        "title": "",
-        "uuid": ""
+        "title": "Episteme in Bewegung - Wissenstransfer von der Alten Welt bis in die Frühe Neuzeit",
+        "ref": [],
+        "website": [
+          "https://www.sfb-episteme.de/"
+        ],
+        "places":[
+          {
+            "place_name":{
+              "text":"Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ]
       }
     ],
     "children": [],
@@ -64,24 +92,32 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
-          "ref": []
+          "text": "Beatrice Gruendler",
+          "ref": [
+            "https://d-nb.info/gnd/111749344X"
+          ]
         },
-        "role": null,
-        "website": []
+        "role": 0,
+        "website": [
+          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Gruendler/"
+        ]
       }
     ],
     "research_data": {
       "lang": [
-        "ara"
+        "ara",
+        "gre",
+        "syr"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ara",
-      "mutanabbi",
-      "sprueche"
+      "gre",
+      "micro-texts",
+      "sprueche",
+      "syr"
     ],
     "comment": ""
   }

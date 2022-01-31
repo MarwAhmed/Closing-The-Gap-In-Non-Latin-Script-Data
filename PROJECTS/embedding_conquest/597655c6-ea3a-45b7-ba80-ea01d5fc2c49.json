@@ -3,12 +3,16 @@
     "uuid": "597655c6-ea3a-45b7-ba80-ea01d5fc2c49",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": "2021-11-22",
-    "record_modified_by": "Kudela, Xenia Monika"
+    "record_modified": [
+      {
+        "record_modified_at": "2021-11-22",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Embedding Conquest. Naturalising Muslim Rule in the Early Islamic Empire (600-1000)",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -86,7 +90,7 @@
         "ara"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ara",

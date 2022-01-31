@@ -3,18 +3,22 @@
     "uuid": "ab7e5659-177f-40ed-befb-5d0eecea737f",
     "record_created": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": null,
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "Bibliotheca Arabica",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
         "from": "2018",
-        "to": null
+        "to": ""
       }
     ],
     "website": [
@@ -55,10 +59,12 @@
         ],
         "places": [
           {
-            "text": "Leipzig",
-            "ref": [
-              "https://www.geonames.org/2879139/leipzig.html"
-            ]
+            "place_name": {
+              "text": "Leipzig",
+              "ref": [
+                "https://www.geonames.org/2879139/leipzig.html"
+              ]
+            }
           }
         ]
       }
@@ -98,7 +104,7 @@
         "ger"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ara",

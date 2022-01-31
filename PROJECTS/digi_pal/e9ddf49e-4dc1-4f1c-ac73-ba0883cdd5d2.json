@@ -3,8 +3,12 @@
     "uuid": "e9ddf49e-4dc1-4f1c-ac73-ba0883cdd5d2",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": null,
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "The Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
@@ -85,7 +89,7 @@
         "eng"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "eng",

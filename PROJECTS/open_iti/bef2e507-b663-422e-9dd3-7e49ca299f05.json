@@ -3,8 +3,12 @@
     "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": "2021-11-25",
-    "record_modified_by": "Kudela, Xenia Monika"
+    "record_modified": [
+      {
+        "record_modified_at": "2021-11-25",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Open Islamicate Texts Initiative",
@@ -176,9 +180,7 @@
       {
         "pers_name": {
           "text": "Romanov, Maxim",
-          "ref": [
-            null
-          ]
+          "ref": []
         },
         "role": 1,
         "website": [
@@ -192,7 +194,7 @@
         "per"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ara",

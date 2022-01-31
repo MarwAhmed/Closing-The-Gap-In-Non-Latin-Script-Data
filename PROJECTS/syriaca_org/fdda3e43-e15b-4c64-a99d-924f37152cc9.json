@@ -3,18 +3,22 @@
     "uuid": "fdda3e43-e15b-4c64-a99d-924f37152cc9",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": null,
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "Syriaca.org: The Syriac Reference Portal",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
-        "from": null,
-        "to": null
+        "from": "",
+        "to": ""
       }
     ],
     "website": [
@@ -24,39 +28,154 @@
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "Nashville",
+          "ref": [
+            "https://www.geonames.org/4644585/nashville.html"
+          ]
         }
       }
     ],
     "lang": [],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "Center of Digital Humanities Research - Texas A&M University",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q7707466",
+            "https://www.grid.ac/institutes/grid.264755.7"
+          ]
         },
-        "website": [],
+        "website": [
+          "https://codhr.dh.tamu.edu/",
+          "https://www.tamu.edu/"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Laredo",
+              "ref": [
+                "https://www.geonames.org/4705349/laredo.html"
+              ]
             }
           }
         ]
       },
       {
-        "type": "project",
-        "title": "",
-        "uuid": ""
+        "type": "org",
+        "org_name": {
+          "text": "Vanderbilt University",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.152326.1"
+          ]
+        },
+        "website": [
+          "https://www.vanderbilt.edu/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Nashville",
+              "ref": [
+                "https://www.geonames.org/4644585/nashville.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Princeton University",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.16750.35"
+          ]
+        },
+        "website": [
+          "https://www.princeton.edu/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Princeton",
+              "ref": [
+                "https://www.geonames.org/5102922/princeton.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Marquette University",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.259670.f"
+          ]
+        },
+        "website": [
+          "http://www.marquette.edu"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Milwaukee",
+              "ref": [
+                "https://www.geonames.org/5263045/milwaukee.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "New York University",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.137628.9"
+          ]
+        },
+        "website": [
+          "http://www.nyu.edu"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "New York",
+              "ref": [
+                "https://www.geonames.org/5128581/new-york-city.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Beth Mardutho Research Library",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.498567.1"
+          ]
+        },
+        "website": [
+          "https://bethmardutho.org/library/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Piscataway",
+              "ref": [
+                "https://www.geonames.org/5102713/piscataway.html"
+              ]
+            }
+          }
+        ]
       }
     ],
     "children": [],
@@ -64,11 +183,13 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Gibson, Nathan",
           "ref": []
         },
-        "role": null,
-        "website": []
+        "role": 1,
+        "website": [
+          "https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html"
+        ]
       }
     ],
     "research_data": {
@@ -76,7 +197,7 @@
         "syr"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "syr"
