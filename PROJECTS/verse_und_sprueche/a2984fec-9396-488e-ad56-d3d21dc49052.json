@@ -75,10 +75,10 @@
         "website": [
           "https://www.sfb-episteme.de/"
         ],
-        "places":[
+        "places": [
           {
-            "place_name":{
-              "text":"Berlin",
+            "place_name": {
+              "text": "Berlin",
               "ref": [
                 "https://www.geonames.org/2950159/berlin.html"
               ]

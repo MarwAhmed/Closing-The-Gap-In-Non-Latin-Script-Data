@@ -45,8 +45,8 @@
     "topic_relations": {
       "nls": false,
       "dh": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": true
     },
     "parents": [
       {
@@ -92,9 +92,8 @@
     "stack": {},
     "policies": {},
     "keywords": [
-      "digitalisation",
-      "standard_it_service",
-      "workplace"
+      "infrastructure",
+      "standard_it_service"
     ],
     "comment": ""
   }

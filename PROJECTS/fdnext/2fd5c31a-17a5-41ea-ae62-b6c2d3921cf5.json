@@ -65,8 +65,8 @@
     "topic_relations": {
       "nls": false,
       "dh": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": true,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -227,7 +227,8 @@
     "policies": {},
     "keywords": [
       "eng",
-      "fdm"
+      "fdm",
+      "rdm"
     ],
     "comment": ""
   }

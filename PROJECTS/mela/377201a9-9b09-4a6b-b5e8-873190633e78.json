@@ -5,8 +5,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": null,
-        "record_modified_by": null
+        "record_modified_at": "2022-02-02",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -43,42 +43,22 @@
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": true
     },
-    "parents": [
-      {
-        "type": "org",
-        "org_name": {
-          "text": "",
-          "ref": []
-        },
-        "website": [],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": []
-            }
-          }
-        ]
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      }
-    ],
+    "parents": [],
     "children": [],
     "siblings": [],
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Salamon, Anaïs ",
           "ref": []
         },
-        "role": null,
-        "website": []
+        "role": 0,
+        "website": [
+          "https://www.mcgill.ca/library/librarians/anais-salamon"
+        ]
       }
     ],
     "research_data": {

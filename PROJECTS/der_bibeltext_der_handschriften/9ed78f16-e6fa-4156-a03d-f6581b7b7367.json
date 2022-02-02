@@ -6,7 +6,7 @@
     "record_modified": [
       {
         "record_modified_at": "2022-01-31",
-        "record_modified_by":"Kudela, Xenia Monika"
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -28,7 +28,7 @@
     "places": [
       {
         "place_name": {
-          "text": "Heidelberg",          
+          "text": "Heidelberg",
           "ref": [
             "https://www.geonames.org/2907911/heidelberg.html"
           ]

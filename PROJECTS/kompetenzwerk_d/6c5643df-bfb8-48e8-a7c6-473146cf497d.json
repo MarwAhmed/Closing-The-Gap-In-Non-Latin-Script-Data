@@ -17,8 +17,8 @@
     "ref": [],
     "date": [
       {
-        "from": "2020",
-        "to": null
+        "from": "",
+        "to": ""
       }
     ],
     "website": [
@@ -42,8 +42,8 @@
     "topic_relations": {
       "nls": false,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": true,
+      "infrastructure": true
     },
     "parents": [
       {
@@ -180,7 +180,8 @@
     "policies": {},
     "keywords": [
       "dh",
-      "network"
+      "network",
+      "rdm"
     ],
     "comment": ""
   }

@@ -5,8 +5,8 @@
     "record_created_by": "Mueller-Laackman, Jonas",
     "record_modified": [
       {
-        "record_modified_at": null,
-        "record_modified_by": null
+        "record_modified_at": "",
+        "record_modified_by": ""
       }
     ]
   },
@@ -40,8 +40,8 @@
     "topic_relations": {
       "nls": false,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": true
     },
     "parents": [
       {
