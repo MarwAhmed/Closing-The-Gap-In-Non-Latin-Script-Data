@@ -3,8 +3,12 @@
     "uuid": "52ce273e-7935-42fd-82e8-806f6aaa3049",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": "2021-11-23",
-    "record_modified_by": "Kudela, Xenia Monika"
+    "record_modified": [
+      {
+        "record_modified_at": "2021-11-23",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Hill Museum & Manuscript Library",
@@ -15,8 +19,8 @@
     ],
     "date": [
       {
-        "from": "2005",
-        "to": null
+        "from": "",
+        "to": ""
       }
     ],
     "website": [
@@ -102,7 +106,7 @@
         "syr"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "amh",

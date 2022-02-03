@@ -3,18 +3,22 @@
     "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9",
     "record_created": "2021-11-08",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "",
+        "record_modified_by": ""
+      }
+    ]
   },
   "project": {
     "title": "Kalila and Dimna - AnonymClassic",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
         "from": "2018",
-        "to": null
+        "to": ""
       }
     ],
     "website": [
@@ -25,7 +29,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": "https://www.geonames.org/2950159/berlin.html"
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         }
       }
     ],
@@ -44,15 +50,21 @@
         "type": "org",
         "org_name": {
           "text": "FU Berlin",
-          "ref": "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
+          "ref": [
+            "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
+          ]
         },
         "website": [
           "https://www.fu-berlin.de/"
         ],
         "places": [
           {
-            "text": "Berlin",
-            "ref": "https://www.geonames.org/2950159/berlin.html"
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
+            }
           }
         ]
       }
@@ -63,7 +75,9 @@
       {
         "pers_name": {
           "text": "Beatrice Gruendler",
-          "ref": "https://d-nb.info/gnd/111749344X"
+          "ref": [
+            "https://d-nb.info/gnd/111749344X"
+          ]
         },
         "role": 0,
         "website": [
@@ -74,7 +88,7 @@
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [],
     "comment": ""

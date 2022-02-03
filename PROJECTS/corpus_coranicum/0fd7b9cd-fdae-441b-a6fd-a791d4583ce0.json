@@ -3,18 +3,22 @@
     "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "",
+        "record_modified_by": ""
+      }
+    ]
   },
   "project": {
     "title": "Corpus Coranicum",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
         "from": "2007",
-        "to": null
+        "to": ""
       }
     ],
     "website": [
@@ -56,10 +60,12 @@
         ],
         "places": [
           {
-            "text": "Berlin",
-            "ref": [
-              "https://www.geonames.org/2950159/berlin.html"
-            ]
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
+            }
           }
         ]
       },
@@ -76,10 +82,12 @@
         ],
         "places": [
           {
-            "text": "Berlin",
-            "ref": [
-              "https://www.geonames.org/2950159/berlin.html"
-            ]
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
+            }
           }
         ]
       }
@@ -118,9 +126,7 @@
       {
         "pers_name": {
           "text": "Michael Marx",
-          "ref": [
-            null
-          ]
+          "ref": []
         },
         "role": 0,
         "website": [
@@ -136,7 +142,7 @@
         "ger"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ara",

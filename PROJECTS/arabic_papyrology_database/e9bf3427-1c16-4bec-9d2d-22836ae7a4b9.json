@@ -3,18 +3,22 @@
     "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9",
     "record_created": "2021-11-08",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "",
+        "record_modified_by": ""
+      }
+    ]
   },
   "project": {
     "title": "Arabic Papyrology Database",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
         "from": "2004",
-        "to": null
+        "to": ""
       }
     ],
     "website": [
@@ -25,13 +29,17 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": "https://www.geonames.org/2867714/munich.html"
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
         }
       },
       {
         "place_name": {
           "text": "Zürich",
-          "ref": "https://www.geonames.org/7287650/zuerich.html"
+          "ref": [
+            "https://www.geonames.org/7287650/zuerich.html"
+          ]
         }
       }
     ],
@@ -49,15 +57,21 @@
         "type": "org",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
-          "ref": "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
+          "ref": [
+            "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
+          ]
         },
         "website": [
           "https://www.lmu.de/de/index.html"
         ],
         "places": [
           {
-            "text": "Munich",
-            "ref": "https://www.geonames.org/2867714/munich.html"
+            "place_name": {
+              "text": "Munich",
+              "ref": [
+                "https://www.geonames.org/2867714/munich.html"
+              ]
+            }
           }
         ]
       },
@@ -65,15 +79,21 @@
         "type": "org",
         "org_name": {
           "text": "Universität Zürich",
-          "ref": "https://www.geonames.org/6930857/university-of-zuerich.html"
+          "ref": [
+            "https://www.geonames.org/6930857/university-of-zuerich.html"
+          ]
         },
         "website": [
           "https://www.uzh.ch/de.html"
         ],
         "places": [
           {
-            "text": "Zürich",
-            "ref": "https://www.geonames.org/7287650/zuerich.html"
+            "place_name": {
+              "text": "Zürich",
+              "ref": [
+                "https://www.geonames.org/7287650/zuerich.html"
+              ]
+            }
           }
         ]
       }
@@ -90,7 +110,9 @@
       {
         "pers_name": {
           "text": "Andreas Kaplony",
-          "ref": "https://d-nb.info/gnd/115211942"
+          "ref": [
+            "https://d-nb.info/gnd/115211942"
+          ]
         },
         "role": 0,
         "website": [
@@ -101,7 +123,7 @@
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "datebase",

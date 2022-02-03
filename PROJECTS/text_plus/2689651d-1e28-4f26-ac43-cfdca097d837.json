@@ -3,60 +3,149 @@
     "uuid": "2689651d-1e28-4f26-ac43-cfdca097d837",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2022-01-20",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Text plus",
-    "abbr": null,
-    "type": "research",
+    "abbr": "",
+    "type": "association",
     "ref": [],
     "date": [
       {
-        "from": null,
-        "to": null
+        "from": "2021",
+        "to": "2026"
       }
     ],
     "website": [
       "https://www.text-plus.org/"
     ],
     "project_desc": "The Text+ consortium will preserve text- and language-based research data in the long term and enable their broad use in science. The Joint Science Conference has approved Text+ as a consortium of the nationwide initiative to establish a national research data infrastructure (Nationale Forschungsdateninfrastruktur, NFDI). Text+ will officially start in autumn 2021 after several years of preparation and will initially be funded for five years by the German Research Foundation (a press release in German is available at “Links and Downloads”). The Text+ infrastructure is focused on language and text data and will initially concentrate on digital collections, lexical resources and editions. These are of high relevance for all language- and text-based disciplines, especially for linguistics, literary studies, philosophy, classical philology, anthropology, non-European cultures and languages, as well as language- and text-based research in the social, economic, political and historical sciences.",
-    "places": [
-      {
-        "place_name": {
-          "text": "",
-          "ref": []
-        }
-      }
+    "places": [],
+    "lang": [
+      "eng",
+      "ger"
     ],
-    "lang": [],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": false,
+      "dh": false,
+      "rdm": true,
+      "infrastructure": true
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "Leibniz-Institut für Deutsche Sprache",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.443960.c"
+          ]
         },
-        "website": [],
+        "website": [
+          "http://www1.ids-mannheim.de"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Mannheim",
+              "ref": [
+                "https://www.geonames.org/2873891/mannheim.html"
+              ]
             }
           }
         ]
       },
       {
-        "type": "project",
-        "title": "",
-        "uuid": ""
+        "type": "org",
+        "org_name": {
+          "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.420264.6"
+          ]
+        },
+        "website": [
+          "http://www.bbaw.de"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Deutsche Nationalbibliothek",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.424174.0"
+          ]
+        },
+        "website": [
+          "http://www.dnb.de"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Frankfurt am Main",
+              "ref": [
+                "https://www.geonames.org/2925533/frankfurt-am-main.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q564783?uselang=de"
+          ]
+        },
+        "website": [
+          "https://www.sub.uni-goettingen.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Göttingen",
+              "ref": [
+                "https://www.geonames.org/2918632/goettingen.html"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q320642"
+          ]
+        },
+        "website": [
+          "https://www.awk.nrw/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Düsseldorf",
+              "ref": [
+                "https://www.geonames.org/2934246/duesseldorf.html"
+              ]
+            }
+          }
+        ]
       }
     ],
     "children": [],
@@ -64,19 +153,25 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
-          "ref": []
+          "text": "Klemm, Verena",
+          "ref": [
+            "https://d-nb.info/gnd/172189101"
+          ]
         },
-        "role": null,
-        "website": []
+        "role": 1,
+        "website": [
+          "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-verena-klemm-kuhn"
+        ]
       }
     ],
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
-    "keywords": [],
+    "keywords": [
+      "research_data_infrastructure"
+    ],
     "comment": ""
   }
 }

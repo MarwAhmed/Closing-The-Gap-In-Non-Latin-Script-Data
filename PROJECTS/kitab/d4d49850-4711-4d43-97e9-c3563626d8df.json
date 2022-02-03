@@ -3,12 +3,16 @@
     "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": "2021-11-23",
-    "record_modified_by": "Kudela, Xenia Monika"
+    "record_modified": [
+      {
+        "record_modified_at": "2021-11-23",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Kitab",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -97,9 +101,7 @@
       {
         "pers_name": {
           "text": "Romanov, Maxim",
-          "ref": [
-            null
-          ]
+          "ref": []
         },
         "role": 1,
         "website": [
@@ -112,7 +114,7 @@
         "ara"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ara",

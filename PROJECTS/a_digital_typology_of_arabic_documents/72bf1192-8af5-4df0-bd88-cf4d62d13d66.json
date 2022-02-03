@@ -3,18 +3,22 @@
     "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66",
     "record_created": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "",
+        "record_modified_by": ""
+      }
+    ]
   },
   "project": {
     "title": "A Digital Typology of Arabic Documents",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
-        "from": null,
-        "to": null
+        "from": "",
+        "to": ""
       }
     ],
     "website": [
@@ -25,7 +29,9 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": "https://www.geonames.org/2867714/munich.html"
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
         }
       }
     ],
@@ -43,15 +49,21 @@
         "type": "org",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
-          "ref": "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
+          "ref": [
+            "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
+          ]
         },
         "website": [
           "https://www.lmu.de/de/index.html"
         ],
         "places": [
           {
-            "text": "Munich",
-            "ref": "https://www.geonames.org/2867714/munich.html"
+            "place_name": {
+              "text": "Munich",
+              "ref": [
+                "https://www.geonames.org/2867714/munich.html"
+              ]
+            }
           }
         ]
       },
@@ -67,7 +79,9 @@
       {
         "pers_name": {
           "text": "Andreas Kaplony",
-          "ref": "https://d-nb.info/gnd/115211942"
+          "ref": [
+            "https://d-nb.info/gnd/115211942"
+          ]
         },
         "role": 0,
         "website": [
@@ -78,7 +92,7 @@
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [],
     "comment": "This project does not have it us own website. It is mentioned only in Kaplony´s website as his contribution to the partent project."

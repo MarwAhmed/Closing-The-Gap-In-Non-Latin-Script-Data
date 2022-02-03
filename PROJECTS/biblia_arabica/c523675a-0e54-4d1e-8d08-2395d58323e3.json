@@ -3,12 +3,16 @@
     "uuid": "c523675a-0e54-4d1e-8d08-2395d58323e3",
     "record_created": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "",
+        "record_modified_by": ""
+      }
+    ]
   },
   "project": {
     "title": "Biblia Arabica",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -70,10 +74,12 @@
         ],
         "places": [
           {
-            "text": "Berlin",
-            "ref": [
-              "https://www.geonames.org/2950159/berlin.html"
-            ]
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
+            }
           }
         ]
       },
@@ -90,10 +96,12 @@
         ],
         "places": [
           {
-            "text": "Tel Aviv",
-            "ref": [
-              "https://www.geonames.org/293397/tel-aviv.html"
-            ]
+            "place_name": {
+              "text": "Tel Aviv",
+              "ref": [
+                "https://www.geonames.org/293397/tel-aviv.html"
+              ]
+            }
           }
         ]
       },
@@ -110,10 +118,12 @@
         ],
         "places": [
           {
-            "text": "Munich",
-            "ref": [
-              "https://www.geonames.org/2867714/munich.html"
-            ]
+            "place_name": {
+              "text": "Munich",
+              "ref": [
+                "https://www.geonames.org/2867714/munich.html"
+              ]
+            }
           }
         ]
       }
@@ -139,7 +149,7 @@
         "ara"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "ara",

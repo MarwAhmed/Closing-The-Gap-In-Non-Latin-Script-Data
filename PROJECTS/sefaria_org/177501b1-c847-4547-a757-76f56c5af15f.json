@@ -3,18 +3,24 @@
     "uuid": "177501b1-c847-4547-a757-76f56c5af15f",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2022-01-19",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Sefaria",
-    "abbr": null,
-    "type": "research",
-    "ref": [],
+    "abbr": "",
+    "type": "organisation",
+    "ref": [
+      "https://www.wikidata.org/wiki/Q33424604"
+    ],
     "date": [
       {
-        "from": null,
-        "to": null
+        "from": "",
+        "to": ""
       }
     ],
     "website": [
@@ -24,50 +30,33 @@
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "New York",
+          "ref": [
+            "https://www.geonames.org/5128638/new-york.html"
+          ]
         }
       }
     ],
-    "lang": [],
-    "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
-    },
-    "parents": [
-      {
-        "type": "org",
-        "org_name": {
-          "text": "",
-          "ref": []
-        },
-        "website": [],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": []
-            }
-          }
-        ]
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      }
+    "lang": [
+      "eng",
+      "heb"
     ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": true
+    },
+    "parents": [],
     "children": [],
     "siblings": [],
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Septimus, Daniel",
           "ref": []
         },
-        "role": null,
+        "role": 0,
         "website": []
       }
     ],
@@ -76,10 +65,12 @@
         "heb"
       ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
-      "heb"
+      "heb",
+      "library",
+      "Torah"
     ],
     "comment": ""
   }

@@ -3,18 +3,22 @@
     "uuid": "4a8c71d9-bdf0-4df1-9980-b13fb5b1af3b",
     "record_created": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "",
+        "record_modified_by": ""
+      }
+    ]
   },
   "project": {
     "title": "Arbeitsstelle Kleine Fächer",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
         "from": "2012",
-        "to": null
+        "to": ""
       }
     ],
     "website": [
@@ -54,10 +58,12 @@
         ],
         "places": [
           {
-            "text": "Mainz",
-            "ref": [
-              "https://www.geonames.org/2874224/mainz.html"
-            ]
+            "place_name": {
+              "text": "Mainz",
+              "ref": [
+                "https://www.geonames.org/2874224/mainz.html"
+              ]
+            }
           }
         ]
       }
@@ -68,9 +74,7 @@
       {
         "pers_name": {
           "text": "Uwe Schmidt",
-          "ref": [
-            null
-          ]
+          "ref": []
         },
         "role": 0,
         "website": [
@@ -93,7 +97,7 @@
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [],
     "comment": ""

@@ -3,60 +3,69 @@
     "uuid": "fb67cd77-6bc3-41a8-a84c-05bb2a5d1dd0",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2022-01-20",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
-    "title": "SNAP:DRGN",
-    "abbr": null,
+    "title": "Standards for Networking Ancient Prosopographies: Data and Relations in Greco-Roman Names",
+    "abbr": "SNAP:DRGN",
     "type": "research",
     "ref": [],
     "date": [
       {
-        "from": null,
-        "to": null
+        "from": "2014-01.01",
+        "to": "2015-09-30"
       }
     ],
     "website": [
       "https://snapdrgn.net/"
     ],
-    "project_desc": "NAP:DRGN is building a virtual authority list for ancient people through Linked Data collection of common information from many collaborating projects. The graph will provide: 1. identifiers for all persons who appear in one or more corpora and catalogues; 2. gold standard normalization data for parsing and proofing tools; 3. visualization of ancient persons, names, titles and relationships; 4. research tools for historians; 5. standards and software contributing to the Linked Ancient World Data community.",
+    "project_desc": "SNAP:DRGN is building a virtual authority list for ancient people through Linked Data collection of common information from many collaborating projects. The graph will provide: 1. identifiers for all persons who appear in one or more corpora and catalogues; 2. gold standard normalization data for parsing and proofing tools; 3. visualization of ancient persons, names, titles and relationships; 4. research tools for historians; 5. standards and software contributing to the Linked Ancient World Data community.",
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "London",
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         }
       }
     ],
-    "lang": [],
+    "lang": [
+      "eng"
+    ],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "King's College London",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.13097.3c"
+          ]
         },
-        "website": [],
+        "website": [
+          "https://www.kcl.ac.uk/"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "London",
+              "ref": [
+                "https://www.geonames.org/2643743/london.html"
+              ]
             }
           }
         ]
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
       }
     ],
     "children": [],
@@ -64,17 +73,22 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
-          "ref": []
+          "text": "Bodard, Gabriel",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q65588728"
+          ]
         },
-        "role": null,
-        "website": []
+        "role": 0,
+        "website": [
+          "https://kclpure.kcl.ac.uk/portal/en/persons/gabriel-bodard(953b5feb-fcaf-4fb5-afc3-a31b43df0de6).html",
+          "https://research.sas.ac.uk/institute-icls/staff/880/dr-gabriel-bodard/"
+        ]
       }
     ],
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "antiquity",

@@ -3,12 +3,16 @@
     "uuid": "f86f04d9-e28d-4d1b-8217-03d7594997d2",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": "2021-11-22",
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2021-11-22",
+        "record_modified_by": null
+      }
+    ]
   },
   "project": {
     "title": "FUtureIT",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -41,8 +45,8 @@
     "topic_relations": {
       "nls": false,
       "dh": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": true
     },
     "parents": [
       {
@@ -74,7 +78,7 @@
       {
         "pers_name": {
           "text": "Geukes, Albert",
-          "ref": null
+          "ref": []
         },
         "role": 0,
         "website": [
@@ -85,12 +89,11 @@
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
-      "digitalisation",
-      "standard_it_service",
-      "workplace"
+      "infrastructure",
+      "standard_it_service"
     ],
     "comment": ""
   }

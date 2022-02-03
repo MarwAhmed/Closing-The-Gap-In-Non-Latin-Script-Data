@@ -3,12 +3,16 @@
     "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c",
     "record_created": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2022-01-31",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
@@ -20,63 +24,85 @@
     "website": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/beta-masaheft.html"
     ],
-    "project_desc": "",
+    "project_desc": "‘Manuscripts of Ethiopia and Eritrea’ aims at creating a comprehensive research environment for the description of the written heritage of Christian Ethiopia and Eritrea. At its core there is a digital XML-based platform on Gǝʿǝz manuscripts collecting information on texts, various physical elements, colophons and notes, but also institutions, authors, owners, and scribes. Digital images are supplied wherever possible, with some of the texts and passages edited and available additionally in textual form. The hypercatalogue/portal interoperability with other online repositories allows search from one central place across all the existing platforms. The users are able to perform varied queries on texts, authors, scribes, and codicological elements for most known Ethiopic manuscripts. Both manuscripts preserved in western libraries and those still in Ethiopia and Eritrea are incorporated, as far as they are available.",
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         }
       }
     ],
-    "lang": [],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "Universität Hamburg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.9026.d"
+          ]
         },
-        "website": [],
+        "website": [
+          "http://www.uni-hamburg.de/"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Hamburg",
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
             }
           }
         ]
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
       }
     ],
     "children": [],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Understanding Written Artefacts",
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
-          "text": "",
-          "ref": []
+          "text": "Bausi, Alessandro",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q62559559"
+          ]
         },
-        "role": null,
-        "website": []
+        "role": 0,
+        "website": [
+          "https://www.aai.uni-hamburg.de/afrika/personen/bausi.html"
+        ]
       }
     ],
     "research_data": {
-      "lang": []
+      "lang": [
+        "gez"
+      ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
-    "keywords": [],
+    "keywords": [
+      "bibliographic database",
+      "gez",
+      "repertory_of_manuscripts"
+    ],
     "comment": ""
   }
 }

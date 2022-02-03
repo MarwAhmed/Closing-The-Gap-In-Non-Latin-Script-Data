@@ -3,18 +3,22 @@
     "uuid": "6c5643df-bfb8-48e8-a7c6-473146cf497d",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": "2021-11-23",
-    "record_modified_by": "Kudela, Xenia Monika"
+    "record_modified": [
+      {
+        "record_modified_at": "2021-11-23",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "KompetenzwerkD",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
-        "from": "2020",
-        "to": null
+        "from": "",
+        "to": ""
       }
     ],
     "website": [
@@ -38,8 +42,8 @@
     "topic_relations": {
       "nls": false,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": true,
+      "infrastructure": true
     },
     "parents": [
       {
@@ -172,11 +176,12 @@
     "research_data": {
       "lang": []
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
     "keywords": [
       "dh",
-      "network"
+      "network",
+      "rdm"
     ],
     "comment": ""
   }

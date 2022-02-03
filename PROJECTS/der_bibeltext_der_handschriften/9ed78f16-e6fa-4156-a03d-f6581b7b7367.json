@@ -3,18 +3,22 @@
     "uuid": "9ed78f16-e6fa-4156-a03d-f6581b7b7367",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": null,
-    "record_modified_by": null
+    "record_modified": [
+      {
+        "record_modified_at": "2022-01-31",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Der Bibeltext der Handschriften mit babylonisch-jemenitischer Punktation: Erfassung der Textvarianten",
-    "abbr": null,
+    "abbr": "",
     "type": "research",
     "ref": [],
     "date": [
       {
-        "from": null,
-        "to": null
+        "from": "2015",
+        "to": "2020"
       }
     ],
     "website": [
@@ -24,39 +28,45 @@
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "Heidelberg",
+          "ref": [
+            "https://www.geonames.org/2907911/heidelberg.html"
+          ]
         }
       }
     ],
-    "lang": [],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "Hochschule für Jüdische Studien",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.461653.3"
+          ]
         },
-        "website": [],
+        "website": [
+          "http://www.hfjs.eu"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Heidelberg",
+              "ref": [
+                "https://www.geonames.org/2907911/heidelberg.html"
+              ]
             }
           }
         ]
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
       }
     ],
     "children": [],
@@ -64,19 +74,29 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
-          "ref": []
+          "text": "Liss, Hanna",
+          "ref": [
+            "https://d-nb.info/gnd/115755853"
+          ]
         },
-        "role": null,
-        "website": []
+        "role": 0,
+        "website": [
+          "http://www.hfjs.eu/hochschule/dozenten/professoren/hliss.html"
+        ]
       }
     ],
     "research_data": {
-      "lang": []
+      "lang": [
+        "heb"
+      ]
     },
-    "technology": {},
+    "stack": {},
     "policies": {},
-    "keywords": [],
+    "keywords": [
+      "bible",
+      "digital_text_collection",
+      "heb"
+    ],
     "comment": ""
   }
 }
