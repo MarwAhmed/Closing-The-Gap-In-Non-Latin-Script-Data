@@ -98,16 +98,14 @@
         ]
       }
     ],
-    "children": [
-      [
-        {
-          "type": "project",
-          "title": "Understanding Written Artefacts",
-          "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
-        }
-      ]
+    "children": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Understanding Written Artefacts",
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+      }
     ],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {
