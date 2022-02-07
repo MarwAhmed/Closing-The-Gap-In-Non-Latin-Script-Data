@@ -3,7 +3,12 @@
     "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760",
     "record_created": "2022-01-17",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": ""
+    "record_modified": [
+      {
+        "record_modified_at": "2022-02-17",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
   },
   "project": {
     "title": "Altägyptisches Wörterbuch",
@@ -12,81 +17,98 @@
     "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "1992",
+        "to": "2012"
       }
     ],
     "website": [
-      "https://aaew.bbaw.de/de",
-      "http://altewelt.bbaw.de/projekte"
+      "https://www.bbaw.de/forschung/altaegyptisches-woerterbuch",
+      "https://aaew.bbaw.de/projekt/arbeitsberichte/altaegyptisches-wb/jahresbericht2004"
     ],
-    "project_desc": "",
+    "project_desc": "In zahlreichen Inschriften auf den Wänden von Tempeln und Gräbern, in religiösen, juristischen und administrativen Texten auf Papyri und Tongefäßen spiegeln sich mehr als 3000 Jahre Sprachgeschichte wider. Zudem gibt diese reiche Textüberlieferung Auskunft über Kultur und Begriffswelt der Menschen des Alten Ägypten. Die Erfassung dieses Materials in einem elektronischen Corpus eröffnet der philologischen, linguistischen und kulturwissenschaftlichen Forschung vollkommen neuartige Möglichkeiten. Als Dokumentation von Wortschatz und Wortgebrauch bildet es den Schlüssel zum Verständnis der ägyptischen Texte und Kultur. Das Corpus ist im Internet öffentlich zugänglich; es wird ständig aktualisiert. Ausgefeilte Suchfunktionen erlauben es nicht nur Ägyptologen, die gewaltige Materialmenge mit Gewinn zu nutzen, sondern eröffnen auch allen kulturhistorisch Interessierten einen Einblick in die Lebenswelt Altägyptens.",
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         }
       }
     ],
-    "lang": [],
+    "lang": [
+      "ger"
+    ],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
-      "rdm": null,
-      "infrastructure": null
+      "nls": true,
+      "dh": true,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.420264.6"
+          ]
         },
-        "website": [],
+        "website": [
+          "https://www.bbaw.de/"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
             }
           }
         ]
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      },
-      {
-        "type": "org",
-        "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
-        },
-        "uuid": ""
       }
     ],
     "children": [],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Corpus Coranicum",
+        "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
+      },
+      {
+        "type": "project",
+        "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
+        "uuid": ""
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
-          "text": "",
-          "ref": []
+          "text": "Seidlmayer, Stephan Johannes",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q2343850"
+          ]
         },
-        "role": "",
-        "website": []
+        "role": 0,
+        "website": [
+          "https://www.geschkult.fu-berlin.de/en/e/aegyptologie/institut/mitarbeiter/Professoren-und-Professorinnen/seidlmayer/index.html"
+        ]
       }
     ],
     "research_data": {
-      "lang": []
+      "lang": [
+        "cop"
+      ]
     },
-    "stack": null,
+    "stack": {},
     "policies": {},
-    "keywords": [],
+    "keywords": [
+      "ancient egyptian",
+      "celt",
+      "cop",
+      "digital_dictionary"
+    ],
     "comment": ""
   }
 }

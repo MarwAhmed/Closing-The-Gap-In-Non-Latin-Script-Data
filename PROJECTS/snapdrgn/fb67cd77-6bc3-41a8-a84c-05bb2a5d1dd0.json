@@ -41,8 +41,8 @@
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "rdm": false,
-      "infrastructure": false
+      "rdm": true,
+      "infrastructure": true
     },
     "parents": [
       {
@@ -92,7 +92,8 @@
     "policies": {},
     "keywords": [
       "antiquity",
-      "authorityfiles"
+      "authorityfiles",
+      "virtual_authority_list"
     ],
     "comment": ""
   }

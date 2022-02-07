@@ -7,6 +7,10 @@
       {
         "record_modified_at": "2021-11-25",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_at": "2022-02-07",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -65,8 +69,8 @@
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": true,
+      "infrastructure": true
     },
     "parents": [
       {
@@ -186,7 +190,6 @@
     "keywords": [
       "ara",
       "databank",
-      "datanbank",
       "digitalization",
       "library",
       "manuscripts",

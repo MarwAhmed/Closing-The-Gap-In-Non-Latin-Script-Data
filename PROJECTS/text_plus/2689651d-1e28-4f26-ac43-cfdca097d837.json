@@ -170,7 +170,10 @@
     "stack": {},
     "policies": {},
     "keywords": [
-      "research_data_infrastructure"
+      "consortium",
+      "language_based_research_data",
+      "research_data_infrastructure",
+      "text_based_research_data"
     ],
     "comment": ""
   }
