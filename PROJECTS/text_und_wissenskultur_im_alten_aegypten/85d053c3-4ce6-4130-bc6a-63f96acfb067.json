@@ -1,0 +1,136 @@
+{
+  "record_metadata": {
+    "uuid": "85d053c3-4ce6-4130-bc6a-63f96acfb067",
+    "record_created": "2022-02-09",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_at": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
+    "abbr": "",
+    "type": "",
+    "ref": [
+      ""
+    ],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "website": [
+      ""
+    ],
+    "project_desc": "",
+    "places": [
+      {
+        "place_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        }
+      }
+    ],
+    "lang": [
+      ""
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": true,
+      "infrastructure": true
+    },
+    "parents": [
+      {
+        "type": "",
+        "org_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        },
+        "website": [
+          ""
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": [
+                ""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "",
+        "title": "",
+        "ref": [
+          ""
+        ],
+        "website": [
+          ""
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": [
+                ""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "",
+        "title": "",
+        "uuid": ""
+      },
+      {
+        "type": "",
+        "org_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        },
+        "uuid": ""
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        },
+        "role": 0,
+        "website": [
+          ""
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        ""
+      ]
+    },
+    "stack": {},
+    "policies": {},
+    "keywords": [
+      ""
+    ],
+    "comment": ""
+  }
+}
