@@ -79,7 +79,7 @@
       {
         "type": "project",
         "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
-        "uuid": ""
+        "uuid": "85d053c3-4ce6-4130-bc6a-63f96acfb067"
       }
     ],
     "contacts": [
@@ -104,7 +104,7 @@
     "stack": {},
     "policies": {},
     "keywords": [
-      "ancient egyptian",
+      "ancient_egyptian",
       "celt",
       "cop",
       "digital_dictionary"
