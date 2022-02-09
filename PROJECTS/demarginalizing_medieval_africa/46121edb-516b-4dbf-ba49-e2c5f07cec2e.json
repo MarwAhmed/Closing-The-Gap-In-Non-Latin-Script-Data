@@ -24,7 +24,7 @@
     "website": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/demarginalizing-medieval-africa.html"
     ],
-    "project_desc": "The ITIESE project has been supported by an AHRC-DFG grant (ref. no. AH/V002910/1). It intends to shed new light on the art, history, and culture of the Ethiopian Empire during a period going from the rise of a new dynasty which claimed to descend from the biblical King Solomon in 1270 to its near collapse in 1527, through a series of collaborations with libraries and institutions across the world, and to set up a platform for exchange between scholars working on the history of manuscript illumination – with a particular focus on the Oriental Orthodox traditions of the Armenian, Coptic, and the Syriac worlds – and on the Christian arts of Ethiopia and Eritrea",
+    "project_desc": "",
     "places": [
       {
         "place_name": {
@@ -104,6 +104,26 @@
         "type": "project",
         "title": "Understanding Written Artefacts",
         "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+      },
+      {
+        "type": "project",
+        "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sexteenth Century",
+        "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e"
+      },
+      {
+        "type": "project",
+        "title": "Script Styles versus Dialect and Language: A Case for Songhay in Islamic Manuscripts of Timbuktu and Jenne",
+        "uuid": "96c7995f-dfc8-489c-baf3-c4347b67c6db"
+      },
+      {
+        "type": "project",
+        "title": "The Persian Documents from al-Ḥaram al-Šarīf",
+        "uuid": "c0d5f0ed-cd33-4224-bcc9-d386f23b6446"
+      },
+      {
+        "type": "project",
+        "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
+        "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
       }
     ],
     "contacts": [

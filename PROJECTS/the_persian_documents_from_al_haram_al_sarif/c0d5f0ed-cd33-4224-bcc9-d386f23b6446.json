@@ -24,7 +24,7 @@
     "website": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/persian-documents.html"
     ],
-    "project_desc": "This project investigates 76 medieval Islamic legal and administrative documents on paper produced in fourteenth-century Northwest Iran. Written mainly in Persian, these documents became entangled at some stage with a much larger corpus of over 900 Arabic documents drawn up in fourteenth-century Mamluk Jerusalem. The larger corpus was ‘discovered’ in separate batches since the 1970s in locked drawers of the Islamic Museum in Jerusalem, and numerous documents remain uncatalogued. Precisely when and how this major medieval Islamic documentary corpus, including the Persian documents, entered the collections of the Islamic Museum in Jerusalem (founded in 1927) is unclear. The Islamic Museum itself is located in the southwest corner of the Temple Mount or al-Ḥaram al-Sharīf in Arabic, next to the Al-Aqṣā Mosque. It occupies the halls of two historic buildings, the al-Maghāriba congregational mosque and a second building which probably dates back to the Crusader or the Ayyubid period or both.",
+    "project_desc": "",
     "places": [
       {
         "place_name": {
@@ -84,6 +84,16 @@
         "type": "project",
         "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
         "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
+      },
+      {
+        "type": "project",
+        "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sexteenth Century",
+        "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e"
+      },
+      {
+        "type": "project",
+        "title": "Script Styles versus Dialect and Language: A Case for Songhay in Islamic Manuscripts of Timbuktu and Jenne",
+        "uuid": "96c7995f-dfc8-489c-baf3-c4347b67c6db"
       }
     ],
     "contacts": [
