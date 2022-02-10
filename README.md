@@ -2,9 +2,9 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Closing-the-Gap-in-NLS-DH/Projects/graphs/commit-activity)
 
 
-[![Generic badge](https://img.shields.io/badge/IndexScheme-v0.1.1-blue.svg)](#indexscheme)
-[![Generic badge](https://img.shields.io/badge/ProjectsScheme-v0.1.1-blue.svg)](#projectsscheme)
-[![Generic badge](https://img.shields.io/badge/ResourcesScheme-v0.1.0-blue.svg)](#resourcesscheme)
+[![Generic badge](https://img.shields.io/badge/IndexSchema-v0.1.1-blue.svg)](#indexschema)
+[![Generic badge](https://img.shields.io/badge/ProjectsSchema-v0.1.2-blue.svg)](#projectsschema)
+[![Generic badge](https://img.shields.io/badge/ResourcesSchema-v0.1.0-blue.svg)](#resourcesschema)
 
 # Closing the Gap in Non-Latin Script Data
 
@@ -23,15 +23,15 @@ Jonas Müller-Laackman
 
 [@Orcid](https://orcid.org/0000-0003-2279-6751)
 
-## Contribution / Scheme Documentation
+## Contribution / Schema Documentation
 
-In case you want to participate in collecting material for the collection of resources and projects, please follow this scheme.
+In case you want to participate in collecting material for the collection of resources and projects, please follow this schema.
 
-The scheme underlies continuous development. Existing entries are going to be automatically updated to newer versions of the schemes as far as possible. In case of issues, the creator or last editor will be contacted.
+The schema underlies continuous development. Existing entries are going to be automatically updated to newer versions of the schemas as far as possible. In case of issues, the creator or last editor will be contacted.
 
-Feel free to discuss the scheme in the GitHub issues.
+Feel free to discuss the schema in the GitHub issues.
 
-### <a id="indexscheme"></a>JSON Scheme for Project Index / UUID Dictionary (`v0.1.1`)
+### <a id="indexschema"></a>JSON Schema for Project Index / UUID Dictionary (`v0.1.1`)
 
 ```javascript
 {
@@ -45,13 +45,13 @@ Feel free to discuss the scheme in the GitHub issues.
 }
 ```
 
-### <a id="projectsscheme"></a>JSON Scheme for Projects (`v0.1.1`)
+### <a id="projectsschema"></a>JSON Schema for Projects (`v0.1.2`)
 
 The JSON-file is to be put in a folder with a simplified, machine-readable name of the project's title and added to the project-index.
 
 ```javascript
 {
-  "scheme_version": "0.1.1",
+  "schema_version": "0.1.2",
   "record_metadata": {
     // Universally Unique Identifier for each project 
     "uuid": "",
@@ -88,7 +88,7 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
       }
     ],
     // Array of project websites
-    "website": [
+    "websites": [
       ""
     ],
     // Description of the project
@@ -132,7 +132,7 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
           ]
         },
         // Array of Websites
-        "website": [
+        "websites": [
           ""
         ],
         // Array of Locations
@@ -163,7 +163,7 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
           ""
         ],
         // Array of Websites
-        "website": [
+        "websites": [
           ""
         ],
         // Array of Locations
@@ -226,7 +226,7 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
         // 3 = Contractor or Honorar staff
         "role": 0,
         // Array of institutional and/or personal websites
-        "website": [
+        "websites": [
           ""
         ]           
       }         
@@ -252,7 +252,7 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
 }
 ```
 
-### <a id="resourcesscheme"></a>JSON Scheme for Resources (`v0.1.1`)
+### <a id="resourcesschema"></a>JSON Schema for Resources (`v0.1.1`)
 
 ```javascript
 {
@@ -268,7 +268,7 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
   "tags": [
     "#tag",
   ],
-  // __Optional__: Provide relation between frameworks and their languages. Array of Objects with the same scheme as parent.
+  // __Optional__: Provide relation between frameworks and their languages. Array of Objects with the same schema as parent.
   "frameworks": [],
   // Credit for collecting.
   "collected_by": {

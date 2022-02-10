@@ -1,5 +1,5 @@
 {
-  "scheme_version": "0.1.1",
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "",
     "record_created": "",
@@ -24,7 +24,7 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
       ""
     ],
     "project_desc": "",
@@ -56,7 +56,7 @@
             ""
           ]
         },
-        "website": [
+        "websites": [
           ""
         ],
         "places":[
@@ -78,7 +78,7 @@
         "ref": [
           ""
         ],
-        "website": [
+        "websites": [
           ""
         ],
         "places":[
@@ -119,7 +119,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           ""
         ]           
       }         
