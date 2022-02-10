@@ -273,8 +273,9 @@
           "description": "List of keywords to describe the project, including all relevant languages in ISO-639-2",
           "type": "array",
           "items": {
-            "description": "Stick to lowercase, avoid whitespace or use lowdash (_) instead of whitespace when needed",
-            "type": "string"
+            "description": "Stick to lowercase, avoid whitespace or use lowerdash (_) instead of whitespace when needed",
+            "type": "string",
+            "pattern": "^(?!.*[A-Z _-]).*"
           }
         },
         "comment": {
