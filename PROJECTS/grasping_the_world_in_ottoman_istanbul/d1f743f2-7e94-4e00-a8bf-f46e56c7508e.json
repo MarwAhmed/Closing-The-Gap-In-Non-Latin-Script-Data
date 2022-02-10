@@ -24,7 +24,7 @@
     "website": [
       "https://www.csmc.uni-hamburg.de/written-artefacts/field-d/rfd04.html"
     ],
-    "project_desc": "The project examines geographic literature in sixteenth-century Istanbul, addressing two questions: How were world views negotiated through cartographic depictions in a period involving political and cultural shifts? What role did geographic literature play at the court and for the elites in Istanbul? Due to the cultural and political expansion of the Ottoman Empire in the sixteenth century, Istanbul witnessed an unprecedented entanglement in cartographic conventions. As Istanbul became the hub for manuscripts, scholars and artists, the elites began circulating Arabic and Persian geographic works dating from the tenth century onwards, European contributions such as Ortelius’ (d. 1598) atlas Theatrum Orbis Terrarum, as well as new Ottoman literature dealing with the empire or the New World. By adapting trends from miniature painting, artists and cartographers transformed representations of the world and its marvels, which resulted in a visual discourse illustrating various world views. In putting this visual discourse center stage for the first time, the project asks how artists and cartographers received, negotiated and transformed geographic knowledge through images. Moreover, by reconstructing the circulation of geographic manuscripts and their readership, the project investigates who engaged in this discourse and what role geographic literature played within the canon of knowledge. By blending Islamic codicology with historical cartography, the project aims at grasping how artefacts shaped geographic knowledge. In building a comprehensive online database of geographic manuscripts and their illustrations, the project will allow for future comparative studies relating to other periods, both inside and outside the Islamicate world.",
+    "project_desc": "",
     "places": [
       {
         "place_name": {
@@ -79,6 +79,21 @@
         "type": "project",
         "title": "Script Styles versus Dialect and Language: A Case for Songhay in Islamic Manuscripts of Timbuktu and Jenne",
         "uuid": "96c7995f-dfc8-489c-baf3-c4347b67c6db"
+      },
+      {
+        "type": "project",
+        "title": "The Persian Documents from al-Ḥaram al-Šarīf",
+        "uuid": "c0d5f0ed-cd33-4224-bcc9-d386f23b6446"
+      },
+      {
+        "type": "project",
+        "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
+        "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
+      },
+      {
+        "type": "project",
+        "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
+        "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
       }
     ],
     "contacts": [

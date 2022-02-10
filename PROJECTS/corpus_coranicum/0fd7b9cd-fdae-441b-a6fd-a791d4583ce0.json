@@ -24,7 +24,7 @@
     "website": [
       "https://corpuscoranicum.de/"
     ],
-    "project_desc": "The project offers systematic access to early Qur'anic manuscripts with images and transliterated text. In parallel, a catalogue of variant readings included in the works of the Islamic scholarly tradition is produced. Based on textual history, the project creates a chronological commentary using methods of literary studies and refering to relevant texts from Antiquity and Late Antiquity. These source texts are accessible in the database 'Texts from the environment of the Qur'an' (TEQ). The development of the first Muslim community is reconstructed for the first time as the interaction between the Prophet and the first addressees in Mecca and Medina.",
+    "project_desc": "",
     "places": [
       {
         "place_name": {
@@ -96,6 +96,11 @@
     "siblings": [
       {
         "type": "project",
+        "title": "Altägyptisches Wörterbuch",
+        "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760"
+      },
+      {
+        "type": "project",
         "title": "Coranica",
         "uuid": "5f57a071-60c1-4fd2-b191-8fa8d15d70bb"
       },
@@ -108,6 +113,11 @@
         "type": "project",
         "title": "Paleocoran",
         "uuid": "d5448b02-b57f-429d-9553-637cc2add035"
+      },
+      {
+        "type": "project",
+        "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
+        "uuid": "85d053c3-4ce6-4130-bc6a-63f96acfb067"
       }
     ],
     "contacts": [

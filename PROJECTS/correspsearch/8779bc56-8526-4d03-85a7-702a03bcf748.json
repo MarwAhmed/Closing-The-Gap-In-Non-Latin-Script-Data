@@ -1,29 +1,30 @@
 {
   "record_metadata": {
-    "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760",
-    "record_created": "2022-01-17",
+    "uuid": "8779bc56-8526-4d03-85a7-702a03bcf748",
+    "record_created": "2022-02-09",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-02-17",
-        "record_modified_by": "Kudela, Xenia Monika"
+        "record_modified_at": "",
+        "record_modified_by": ""
       }
     ]
   },
   "project": {
-    "title": "Altägyptisches Wörterbuch",
+    "title": "CorrespSearch",
     "abbr": "",
     "type": "project",
-    "ref": [],
+    "ref": [
+      ""
+    ],
     "date": [
       {
-        "from": "1992",
-        "to": "2012"
+        "from": "2017",
+        "to": ""
       }
     ],
     "website": [
-      "https://www.bbaw.de/forschung/altaegyptisches-woerterbuch",
-      "https://aaew.bbaw.de/projekt/arbeitsberichte/altaegyptisches-wb/jahresbericht2004"
+      "https://correspsearch.net/de/start.html"
     ],
     "project_desc": "",
     "places": [
@@ -37,13 +38,14 @@
       }
     ],
     "lang": [
+      "eng",
       "ger"
     ],
     "topic_relations": {
-      "nls": true,
+      "nls": false,
       "dh": true,
-      "rdm": false,
-      "infrastructure": false
+      "rdm": true,
+      "infrastructure": true
     },
     "parents": [
       {
@@ -70,44 +72,34 @@
       }
     ],
     "children": [],
-    "siblings": [
-      {
-        "type": "project",
-        "title": "Corpus Coranicum",
-        "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
-      },
-      {
-        "type": "project",
-        "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
-        "uuid": "85d053c3-4ce6-4130-bc6a-63f96acfb067"
-      }
-    ],
+    "siblings": [],
     "contacts": [
       {
         "pers_name": {
-          "text": "Seidlmayer, Stephan Johannes",
+          "text": "Dumont, Stefan",
           "ref": [
-            "https://www.wikidata.org/wiki/Q2343850"
+            "https://d-nb.info/gnd/1034877364"
           ]
         },
-        "role": 0,
+        "role": 1,
         "website": [
-          "https://www.geschkult.fu-berlin.de/en/e/aegyptologie/institut/mitarbeiter/Professoren-und-Professorinnen/seidlmayer/index.html"
+          "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/dumont-stefan"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "cop"
+        "ger"
       ]
     },
     "stack": {},
     "policies": {},
     "keywords": [
-      "ancient_egyptian",
-      "celt",
-      "cop",
-      "digital_dictionary"
+      "digital_letter_indexes",
+      "digital_edition",
+      "ger",
+      "letters",
+      "webservice"
     ],
     "comment": ""
   }

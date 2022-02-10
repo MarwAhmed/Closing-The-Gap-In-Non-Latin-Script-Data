@@ -12,7 +12,7 @@
   },
   "project": {
     "title": "Open Encyclopedia System",
-    "abbr": "",
+    "abbr": "OES",
     "type": "research",
     "ref": [],
     "date": [
@@ -24,7 +24,7 @@
     "website": [
       "https://www.open-encyclopedia-system.org"
     ],
-    "project_desc": "Gemeinsam mit dem Friedrich-Meinecke-Institut der Freien Universität Berlin und der Bayerischen Staatsbibliothek München ist im Rahmen des von der DFG geförderten Projektes \"1914-1918-online. International Encyclopedia of the First World War\" eine frei verfügbare, englischsprachige Online-Enzyklopädie über den Ersten Weltkrieg entstanden. Aufbauend auf den Erfahrungen des Projektes „1914-1918-online“ werden neue Verfahren und Werkzeuge zur Erstellung, Publikation und Pflege von wissenschaftlichen Sammelwerken ausgebaut und um zusätzliche Funktionalitäten ergänzt. Zentrales Ziel des neuen Projektes ist die Entwicklung einer standardisierten Plattform Open Encyclopedia System (OES) zur Erstellung und für den Betrieb von – vorrangig geistes- und sozialwissenschaftlichen – Online-Enzyklopädien, die als Open-Source-Software verfügbar gemacht werden soll.",
+    "project_desc": "",
     "places": [
       {
         "place_name": {
@@ -50,8 +50,8 @@
     "topic_relations": {
       "nls": false,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": true
     },
     "parents": [
       {

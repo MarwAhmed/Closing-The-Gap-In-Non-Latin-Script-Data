@@ -24,7 +24,7 @@
     "website": [
       "https://www.csmc.uni-hamburg.de/written-artefacts/field-d/rfd14.html"
     ],
-    "project_desc": "Songhay is a cover term for a complex of dialect varieties and several languages spoken along the middle Niger River in Mali, Niger, Benin, Burkina Faso, Nigeria and in nomadic and oasis offshoots in Mali, Niger and Algeria. Unlike its spoken varieties, written Songhay is almost unstudied because the scholars did not notice that Islamic manuscripts of Timbuktu, Jenne and other centres of Muslim education in Mali contained Songhay written between the lines of Arabic texts. Recent findings proved the existence of extensive Songhay annotations – often used alongside the other languages – in Arabic manuscripts. We do not know what variety of Songhay is represented in the annotations, but we see noticeable differences between Timbuktu and Jenne manuscripts, especially in the use of script styles and languages. To understand what motivated the scribes’ choices of visual and linguistic components of writing, this interdisciplinary international project will run a comparative study of the Timbuktu and Jenne manuscripts with a focus on Songhay. For the first time in the West African context, this study will correlate multilingualism with script style variation and will thus investigate how a complex content has been transmitted and formatted into multiple linguistic and visual layers.",
+    "project_desc": "",
     "places": [
       {
         "place_name": {
@@ -79,6 +79,21 @@
         "type": "project",
         "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sexteenth Century",
         "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e"
+      },
+      {
+        "type": "project",
+        "title": "The Persian Documents from al-Ḥaram al-Šarīf",
+        "uuid": "c0d5f0ed-cd33-4224-bcc9-d386f23b6446"
+      },
+      {
+        "type": "project",
+        "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
+        "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
+      },
+      {
+        "type": "project",
+        "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
+        "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
       }
     ],
     "contacts": [
