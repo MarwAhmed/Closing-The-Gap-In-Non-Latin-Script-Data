@@ -45,12 +45,13 @@ Feel free to discuss the scheme in the GitHub issues.
 }
 ```
 
-### <a id="projectsscheme"></a>JSON Scheme for Projects (`v0.1.0`)
+### <a id="projectsscheme"></a>JSON Scheme for Projects (`v0.1.1`)
 
 The JSON-file is to be put in a folder with a simplified, machine-readable name of the project's title and added to the project-index.
 
 ```javascript
 {
+  "scheme_version": "0.1.1",
   "record_metadata": {
     // Universally Unique Identifier for each project 
     "uuid": "",
@@ -146,7 +147,10 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
               ]
             }
           }
-        ]
+        ],
+        // __Optional__ notation for deeper parent hierarchies or parent siblings
+        "siblings": [],
+        "parents": [],
       },       
       // 2. if of type ( research | meta ) and no UUID is given:
       {

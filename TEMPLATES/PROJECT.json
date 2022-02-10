@@ -1,4 +1,5 @@
 {
+  "scheme_version": "0.1.1",
   "record_metadata": {
     "uuid": "",
     "record_created": "",
@@ -67,7 +68,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "",
