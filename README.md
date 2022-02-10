@@ -3,7 +3,7 @@
 
 
 [![Generic badge](https://img.shields.io/badge/IndexScheme-v0.1.1-blue.svg)](#indexscheme)
-[![Generic badge](https://img.shields.io/badge/ProjectsScheme-v0.1.0-blue.svg)](#projectsscheme)
+[![Generic badge](https://img.shields.io/badge/ProjectsScheme-v0.1.1-blue.svg)](#projectsscheme)
 [![Generic badge](https://img.shields.io/badge/ResourcesScheme-v0.1.0-blue.svg)](#resourcesscheme)
 
 # Closing the Gap in Non-Latin Script Data
