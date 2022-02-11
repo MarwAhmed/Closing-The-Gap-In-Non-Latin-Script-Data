@@ -9,15 +9,12 @@ on:
       - master
 
 jobs:
-  validate_configurations:
+  verify-json-validation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Validate Json schema
-        uses: snapcart/json-schema-validator@v1.0.0
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          json_schema: /SCHEMATA/project.schema.json
-          json_path_pattern: .*project.schema.json$
-          send_comment: true
-          clear_comments: true
+      - uses: actions/checkout@v1
+      - name: Validate JSON
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: /SCHEMATA/project.schema.json
+          INPUT_JSONS: /PROJECTS/**/
