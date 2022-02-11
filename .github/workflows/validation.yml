@@ -16,5 +16,5 @@ jobs:
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
-          INPUT_SCHEMA: ../../SCHEMATA/project.schema.json
-          INPUT_JSONS: ../../PROJECTS/**/
+          INPUT_SCHEMA: /SCHEMATA/project.schema.json
+          INPUT_JSONS: /PROJECTS/**/
