@@ -94,11 +94,7 @@
         },
         "ref": {
           "description": "List of Authority file URIs: http(s)://...",
-          "type": "array",
-          "items": {
-            "type": "string",
-            "pattern": "http(s?):\\/\\/"
-          }
+          "$ref": "#/definitions/uri"
         },
         "date": {
           "description": "List of active terms: YYYY-MM-DD",
@@ -108,22 +104,18 @@
             "properties": {
               "from": {
                 "type": "string",
-                "pattern": "\\d\\.\\d\\.\\d"
+                "default": "\\d{4}(-\\d{2})?(-\\d{2})?"
               },
               "to": {
                 "type": "string",
-                "pattern": "\\d\\.\\d\\.\\d"
+                "default": "\\d{4}(-\\d{2})?(-\\d{2})?"
               }
             }
           }
         },
         "websites": {
           "description": "List of project websites: http(s)://...",
-          "type": "array",
-          "items": {
-            "type": "string",
-            "pattern": "http(s?):\\/\\/"
-          }
+          "$ref": "#/definitions/uri"
         },
         "project_desc": {
           "description": "Short description of the project",
@@ -131,31 +123,7 @@
         },
         "places": {
           "description": "Location(s) of the project",
-          "type": "array",
-          "items": {
-            "type": "object",
-            "required": ["place_name"],
-            "properties": {
-              "place_name": {
-                "type": "object",
-                "required": ["text"],
-                "properties": {
-                  "text": {
-                    "description": "Name of the place",
-                    "type": "string"
-                  },
-                  "ref": {
-                    "description": "List of Authority file URIs",
-                    "type": "array",
-                    "items": {
-                      "type": "string",
-                      "pattern": "http(s?):\\/\\/"
-                    }
-                  }
-                }
-              }
-            }
-          }
+          "$ref": "#/definitions/places"
         },
         "lang": {
           "description": "List of languages used in the project's presentation (website, flyer, ...) in ISO-639-2",
@@ -194,13 +162,16 @@
           }
         },
         "parents": {
-          "description": "To be added later"
+          "description": "Entities that are superordinated to the project",
+          "$ref": "#/definitions/relatives"
         },
         "siblings": {
-          "description": "To be added later"
+          "descriptions": "Partner projects",
+          "$ref": "#/definitions/relatives"
         },
         "children": {
-          "description": "To be added later"
+          "descriptions": "Subprojects of the project",
+          "$ref": "#/definitions/relatives"
         },
         "contacts": {
           "description": "Main contact(s) of the project",
@@ -222,11 +193,7 @@
                   },
                   "ref": {
                     "description": "List of Authority file URIs",
-                    "type": "array",
-                    "items": {
-                      "type": "string",
-                      "pattern": "http(s?):\\/\\/"
-                    }
+                    "$ref": "#/definitions/uri"
                   }
                 }
               },
@@ -237,11 +204,7 @@
               },
               "websites": {
                 "description": "List of institutional and/or personal websites: http(s)://...",
-                "type": "array",
-                "items": {
-                  "type": "string",
-                  "pattern": "http(s?):\\/\\/"
-                }
+                "$ref": "#/definitions/uri"
               }
             }
           }
@@ -275,13 +238,167 @@
           "items": {
             "description": "Stick to lowercase, avoid whitespace or use lowerdash (_) instead of whitespace when needed",
             "type": "string",
-            "pattern": "^(?!.*[A-Z _-]).*"
+            "pattern": "^(?!.*[A-Z -]).*"
           }
         },
         "comment": {
           "description": "Comment on the entry, the project or field for any information that doesn't fit anywhere else",
           "type": "string"
         }
+      }
+    }
+  },
+  "definitions": {
+    "places": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["place_name"],
+        "properties": {
+          "place_name": {
+            "type": "object",
+            "required": ["text"],
+            "properties": {
+              "text": {
+                "description": "Name of the place",
+                "type": "string"
+              },
+              "ref": {
+                "description": "List of Authority file URIs",
+                "$ref": "#/definitions/uri"
+              }
+            }
+          }
+        }
+      }
+    },
+    "org_name": {
+      "type": "object",
+      "required": ["text"],
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "ref": {
+          "$ref": "#/definitions/uri"
+        }
+      }
+    },
+    "uri": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "http(s?):\\/\\/"
+      }
+    },
+    "relatives": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "description": "If the entity is an organisation or association without a uuid",
+            "type": "object",
+            "required": [
+              "type",
+              "org_name"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "default": ["organisation", "association"]
+              },
+              "org_name": {
+                "$ref": "#/definitions/org_name"
+              },
+              "websites": {
+                "$ref": "#/definitions/uri"
+              },
+              "places": {
+                "$ref": "#/definitions/places"
+              },
+              "parents": {
+                "$ref": "#/definitions/relatives"
+              },
+              "siblings": {
+                "$ref": "#/definitions/relatives"
+              }
+            }
+          },
+          {
+            "description": "If the entity is an project without a uuid",
+            "type": "object",
+            "required": [
+              "type",
+              "title"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "default": ["research", "meta"]
+              },
+              "title": {
+                "type": "string"
+              },
+              "ref": {
+                "$ref": "#/definitions/uri"
+              },
+              "websites": {
+                "$ref": "#/definitions/uri"
+              },
+              "places": {
+                "$ref": "#/definitions/places"
+              },
+              "parents": {
+                "$ref": "#/definitions/relatives"
+              },
+              "siblings": {
+                "$ref": "#/definitions/relatives"
+              }
+            }
+          },
+          {
+            "description": "If the entity is an organisation or association with a uuid",
+            "type": "object",
+            "required": [
+              "type",
+              "title",
+              "uuid"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["meta", "research"]
+              },
+              "title": {
+                "type": "string"
+              },
+              "uuid": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "description": "If the entity is an organisation or association with a uuid",
+            "type": "object",
+            "required": [
+              "type",
+              "org_name",
+              "uuid"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["organisation", "association"]
+              },
+              "org_name": {
+                "$ref": "#/definitions/org_name"
+              },
+              "uuid": {
+                "type": "string"
+              }
+            }
+          }
+        ]
       }
     }
   }

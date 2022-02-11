@@ -63,7 +63,7 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
     "record_modified": [
       {
         // YYYY-MM-DD
-        "record_modified_at": "",
+        "record_modified_on": "",
         // Name of the record's last editor: Surname, Forename
         "record_modified_by": ""
       }
