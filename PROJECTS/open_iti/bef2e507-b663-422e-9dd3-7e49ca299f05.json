@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2021-11-25",
+        "record_modified_on": "2021-11-25",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -21,7 +22,7 @@
         "to": "2021-12"
       }
     ],
-    "website": [
+    "websites": [
       "https://alraqmiyyat.github.io/OpenITI/",
       "https://github.com/OpenITI"
     ],

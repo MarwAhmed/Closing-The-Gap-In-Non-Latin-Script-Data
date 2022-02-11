@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "b583a2f6-22bb-4ddb-8639-c9a9aa7b511b",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-01-24",
+        "record_modified_on": "2022-01-24",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -25,7 +26,7 @@
         "to": "2019"
       }
     ],
-    "website": [
+    "websites": [
       "https://www.topoi.org"
     ],
     "project_desc": "",

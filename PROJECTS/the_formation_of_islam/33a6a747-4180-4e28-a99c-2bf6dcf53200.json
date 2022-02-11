@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "33a6a747-4180-4e28-a99c-2bf6dcf53200",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-01-24",
+        "record_modified_on": "2022-01-24",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -21,7 +22,7 @@
         "to": "2015"
       }
     ],
-    "website": [
+    "websites": [
       "https://www.universiteitleiden.nl/en/research/research-projects/humanities/the-formation-of-islam-the-view-from-below#tab-1"
     ],
     "project_desc": "",

@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "85590bb4-4b9a-49c9-8e41-d548a7d234e1",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "",
+        "record_modified_on": "",
         "record_modified_by": ""
       }
     ]
@@ -21,7 +22,7 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
       "https://github.com/Hist-ME"
     ],
     "project_desc": "",

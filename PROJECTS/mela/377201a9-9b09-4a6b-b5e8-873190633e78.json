@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "377201a9-9b09-4a6b-b5e8-873190633e78",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-02-02",
+        "record_modified_on": "2022-02-02",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -23,7 +24,7 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
       "https://www.mela.us/"
     ],
     "project_desc": "",

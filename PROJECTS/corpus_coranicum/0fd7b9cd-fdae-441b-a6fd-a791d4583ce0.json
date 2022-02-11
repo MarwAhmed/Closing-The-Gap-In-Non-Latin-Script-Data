@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "",
+        "record_modified_on": "",
         "record_modified_by": ""
       }
     ]
@@ -21,7 +22,7 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
       "https://corpuscoranicum.de/"
     ],
     "project_desc": "",

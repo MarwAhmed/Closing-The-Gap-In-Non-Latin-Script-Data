@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "96c7995f-dfc8-489c-baf3-c4347b67c6db",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-01-19",
+        "record_modified_on": "2022-01-19",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -21,7 +22,7 @@
         "to": "2023"
       }
     ],
-    "website": [
+    "websites": [
       "https://www.csmc.uni-hamburg.de/written-artefacts/field-d/rfd14.html"
     ],
     "project_desc": "",

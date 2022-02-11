@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "f87c6596-0ce3-4f2e-8ec5-ea5d17253bba",
     "record_created": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "",
+        "record_modified_on": "",
         "record_modified_by": ""
       }
     ]
@@ -21,7 +22,7 @@
         "to": "2021"
       }
     ],
-    "website": [
+    "websites": [
       "https://www.fu-berlin.de/sites/ub/ueber-uns/wandel/index.html"
     ],
     "project_desc": "",

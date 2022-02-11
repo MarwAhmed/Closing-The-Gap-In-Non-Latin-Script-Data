@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "fb67cd77-6bc3-41a8-a84c-05bb2a5d1dd0",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-01-20",
+        "record_modified_on": "2022-01-20",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -21,7 +22,7 @@
         "to": "2015-09-30"
       }
     ],
-    "website": [
+    "websites": [
       "https://snapdrgn.net/"
     ],
     "project_desc": "",

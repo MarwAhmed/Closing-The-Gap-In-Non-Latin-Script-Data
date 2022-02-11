@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-01-31",
+        "record_modified_on": "2022-01-31",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -21,7 +22,7 @@
         "to": "2024"
       }
     ],
-    "website": [
+    "websites": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/demarginalizing-medieval-africa.html"
     ],
     "project_desc": "",

@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "c523675a-0e54-4d1e-8d08-2395d58323e3",
     "record_created": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "",
+        "record_modified_on": "",
         "record_modified_by": ""
       }
     ]
@@ -21,7 +22,7 @@
         "to": "2018"
       }
     ],
-    "website": [
+    "websites": [
       "https://biblia-arabica.com/"
     ],
     "project_desc": "",

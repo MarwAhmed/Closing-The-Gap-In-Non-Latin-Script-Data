@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "5f3c2fbb-ca17-41c9-acdb-d3e147869400",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-01-26",
+        "record_modified_on": "2022-01-26",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -21,7 +22,7 @@
         "to": "2021"
       }
     ],
-    "website": [
+    "websites": [
       "https://usaybia.net/"
     ],
     "project_desc": "",

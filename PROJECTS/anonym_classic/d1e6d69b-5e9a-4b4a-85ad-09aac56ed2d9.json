@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9",
     "record_created": "2021-11-08",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "",
+        "record_modified_on": "",
         "record_modified_by": ""
       }
     ]
@@ -21,7 +22,7 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
       "https://www.geschkult.fu-berlin.de/en/e/kalila-wa-dimna/index.html"
     ],
     "project_desc": "",

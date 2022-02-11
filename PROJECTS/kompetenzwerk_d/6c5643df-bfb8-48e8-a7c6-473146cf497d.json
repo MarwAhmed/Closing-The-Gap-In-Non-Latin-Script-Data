@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "6c5643df-bfb8-48e8-a7c6-473146cf497d",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2021-11-23",
+        "record_modified_on": "2021-11-23",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -21,7 +22,7 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
       "https://www.saw-leipzig.de/de/akademie-digital/akademie-digital/kompetenzwerkd-saechsisches-forschungszentrum-und-kompetenznetzwerk-fuer-digitale-geisteswissenschaften-und-kulturelles-erbe",
       "https://kompetenzwerkd.github.io/infoportal/"
     ],

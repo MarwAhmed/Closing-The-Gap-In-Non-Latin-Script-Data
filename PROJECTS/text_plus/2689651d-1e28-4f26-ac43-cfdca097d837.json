@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "2689651d-1e28-4f26-ac43-cfdca097d837",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-01-20",
+        "record_modified_on": "2022-01-20",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -21,7 +22,7 @@
         "to": "2026"
       }
     ],
-    "website": [
+    "websites": [
       "https://www.text-plus.org/"
     ],
     "project_desc": "",

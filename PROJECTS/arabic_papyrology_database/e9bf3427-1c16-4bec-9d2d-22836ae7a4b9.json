@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.2",
   "record_metadata": {
     "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9",
     "record_created": "2021-11-08",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "",
+        "record_modified_on": "",
         "record_modified_by": ""
       }
     ]
@@ -21,7 +22,7 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
       "https://www.apd.gwi.uni-muenchen.de/apd/about.jsp"
     ],
     "project_desc": "",
