@@ -4,10 +4,9 @@ on:
   pull_request:
     branches:
       - master
-name: Pull request workflow
+    
 jobs:
   validate_configurations:
-    name: Validate configurations
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
