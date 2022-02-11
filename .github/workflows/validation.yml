@@ -1,33 +1,19 @@
-# This is a basic workflow to help you get started with Actions
-
-name: Validate Project JSONs
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master ]
   pull_request:
-    branches: [ master ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+    branches:
+      - master
+name: Pull request workflow
 jobs:
-  # This workflow contains a single job called "build"
-  verify-json-validation:
-    # The type of runner that the job will run on
+  validate_configurations:
+    name: Validate configurations
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v1
-
-      # Runs a single command using the runners shell
-      - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest   
-        env:
-            INPUT_SCHEMA: /SCHEMATA/project.schema.json
-            INPUT_JSONS: /PROJECTS/**/
+      - uses: actions/checkout@v2
+      - name: Validate Json schema
+        uses: snapcart/json-schema-validator@v1.0.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          json_schema: /SCHEMATA/project.schema.json
+          json_path_pattern: .*project.schema.json$
+          send_comment: true
+          clear_comments: true
