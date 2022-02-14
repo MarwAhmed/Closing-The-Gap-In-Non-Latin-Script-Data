@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-02-14",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -25,8 +25,16 @@
     "websites": [
       "https://www.naher-osten.lmu.de/apd"
     ],
-    "project_desc": "",
+    "project_desc": "The latest phase of the project Arabic Papyrology Database (APD). Its aim is the creation of digital diplomatic charts for structuring formulaic and layout features of Arabic documents.",
     "places": [
+      {
+        "place_name": {
+          "text": "Basel",
+          "ref": [
+            "https://www.geonames.org/2661604/basel.html"
+          ]
+        }
+      },
       {
         "place_name": {
           "text": "Munich",
@@ -42,27 +50,27 @@
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "org",
         "org_name": {
-          "text": "Ludwig-Maximilians-Universität Munich",
+          "text": "Universität Basel",
           "ref": [
-            "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
+            "https://www.grid.ac/institutes/grid.6612.3"
           ]
         },
         "websites": [
-          "https://www.lmu.de/de/index.html"
+          "https://www.unibas.ch/de"
         ],
         "places": [
           {
             "place_name": {
-              "text": "Munich",
+              "text": "Basel",
               "ref": [
-                "https://www.geonames.org/2867714/munich.html"
+                "https://www.geonames.org/2661604/basel.html"
               ]
             }
           }
@@ -90,16 +98,25 @@
         },
         "role": 0,
         "websites": [
+          "https://altegeschichte.philhist.unibas.ch/de/forschung/forschungsprojekte/ancient-history-goes-digital/arabic-papyrology/",
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": []
+      "lang": [
+        "ara"
+      ]
     },
     "stack": {},
     "policies": {},
-    "keywords": [],
-    "comment": "This project does not have it us own website. It is mentioned only in Kaplony´s website as his contribution to the partent project."
+    "keywords": [
+      "ara",
+      "digital_edition",
+      "manuscripts",
+      "papyrology",
+      "pre-modern_arabic"
+    ],
+    "comment": ""
   }
 }
