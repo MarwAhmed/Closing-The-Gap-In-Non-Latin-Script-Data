@@ -14,7 +14,7 @@
   "project": {
     "title": "Script Styles versus Dialect and Language: A Case for Songhay in Islamic Manuscripts of Timbuktu and Jenne",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -73,9 +73,7 @@
       {
         "type": "project",
         "title": "Understanding Written Artefacts",
-        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213",
-        "parents": [],
-        "siblings": []
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
       }
     ],
     "children": [],

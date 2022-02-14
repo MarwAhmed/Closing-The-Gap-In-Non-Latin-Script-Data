@@ -14,7 +14,7 @@
   "project": {
     "title": "Averroes Edition",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -106,9 +106,7 @@
       {
         "type": "project",
         "title": "Averrois Opera (Corpus Philosophorum Medii Aevi)",
-        "uuid": "9662a35d-fb57-4f20-b450-0eba8670a822",
-        "parents": [],
-        "siblings": []
+        "uuid": "9662a35d-fb57-4f20-b450-0eba8670a822"
       }
     ],
     "children": [],

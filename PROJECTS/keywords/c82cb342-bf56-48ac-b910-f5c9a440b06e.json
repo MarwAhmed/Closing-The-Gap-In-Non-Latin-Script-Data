@@ -14,7 +14,7 @@
   "project": {
     "title": "Keywords",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -61,9 +61,7 @@
       {
         "type": "project",
         "title": "",
-        "uuid": "",
-        "parents": [],
-        "siblings": []
+        "uuid": ""
       }
     ],
     "children": [],

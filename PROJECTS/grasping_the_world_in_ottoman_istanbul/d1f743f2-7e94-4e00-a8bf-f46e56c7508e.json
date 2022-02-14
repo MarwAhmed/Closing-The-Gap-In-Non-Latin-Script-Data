@@ -14,7 +14,7 @@
   "project": {
     "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sexteenth Century",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -73,9 +73,7 @@
       {
         "type": "project",
         "title": "Understanding Written Artefacts",
-        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213",
-        "parents": [],
-        "siblings": []
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
       }
     ],
     "children": [],

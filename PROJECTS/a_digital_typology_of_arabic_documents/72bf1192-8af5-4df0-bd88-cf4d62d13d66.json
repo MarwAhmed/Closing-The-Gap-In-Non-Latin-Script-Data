@@ -14,7 +14,7 @@
   "project": {
     "title": "A Digital Typology of Arabic Documents",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -81,9 +81,7 @@
       {
         "type": "project",
         "title": "Arabic Papyrology Database",
-        "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9",
-        "parents": [],
-        "siblings": []
+        "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9"
       }
     ],
     "children": [],
@@ -115,7 +113,7 @@
       "digital_edition",
       "manuscripts",
       "papyrology",
-      "pre-modern_arabic"
+      "pre_modern_arabic"
     ],
     "comment": ""
   }

@@ -14,7 +14,7 @@
   "project": {
     "title": "Historical Middle East Data Alliance",
     "abbr": "Hist-ME",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -63,9 +63,7 @@
       {
         "type": "project",
         "title": "",
-        "uuid": "",
-        "parents": [],
-        "siblings": []
+        "uuid": ""
       }
     ],
     "children": [],

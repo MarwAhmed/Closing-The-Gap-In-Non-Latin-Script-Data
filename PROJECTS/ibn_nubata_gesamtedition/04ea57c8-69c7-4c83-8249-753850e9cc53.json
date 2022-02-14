@@ -14,7 +14,7 @@
   "project": {
     "title": "DFG-Langfristvorhaben Gesamtedition des Werkes von Ibn Nubata Al-Misri",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -49,9 +49,7 @@
       {
         "type": "project",
         "title": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
-        "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83",
-        "parents": [],
-        "siblings": []
+        "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83"
       },
       {
         "type": "org",
