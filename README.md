@@ -3,7 +3,7 @@
 
 
 [![Generic badge](https://img.shields.io/badge/IndexSchema-v0.1.1-blue.svg)](#indexschema)
-[![Generic badge](https://img.shields.io/badge/ProjectsSchema-v0.1.2-blue.svg)](#projectsschema)
+[![Generic badge](https://img.shields.io/badge/ProjectsSchema-v0.1.3-blue.svg)](#projectsschema)
 [![Generic badge](https://img.shields.io/badge/ResourcesSchema-v0.1.0-blue.svg)](#resourcesschema)
 
 # Closing the Gap in Non-Latin Script Data
@@ -45,7 +45,7 @@ Feel free to discuss the schema in the GitHub issues.
 }
 ```
 
-### <a id="projectsschema"></a>JSON Schema for Projects (`v0.1.2`)
+### <a id="projectsschema"></a>JSON Schema for Projects (`v0.1.3`)
 
 The JSON-file is to be put in a folder with a simplified, machine-readable name of the project's title and added to the project-index.
 
@@ -74,7 +74,7 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
     "title": "",
     // Abbreviation if applicable
     "abbr": "",
-    // Type of the project: organisation | association | research | meta
+    // Type of the project: organisation | project
     "type": "",
     // Array of Authority file URIs 
     "ref": [
@@ -119,10 +119,9 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
     },
     "parents": [
       // For each parent-project
-      // 1. if of type ( organisation |association ) and no UUID is given:
+      // 1. if organisation and no UUID is given:
       {
-        // organisation | association
-        "type": "",
+        "type": "organisation",
         "org_name": { 
           // name of the organisation
           "text": "", 
@@ -148,14 +147,14 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
             }
           }
         ],
-        // __Optional__ notation for deeper parent hierarchies or parent siblings
+        // __Optional__ notation for deeper relation hierarchies
         "siblings": [],
         "parents": [],
+        "children": []
       },       
-      // 2. if of type ( research | meta ) and no UUID is given:
+      // 2. if project and no UUID is given:
       {
-        // research | meta
-        "type": "",
+        "type": "project",
         // name of the project
         "title": "",
         // Array of Authority file URIs 
@@ -178,21 +177,23 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
               ]
             }
           }
-        ]
+        ],
+        // __Optional__ notation for deeper relation hierarchies
+        "siblings": [],
+        "parents": [],
+        "children": []
       },   
-      // 3. if of type ( research | meta ) and has a UUID:
+      // 3. if project and has a UUID:
       {
-        // research | meta
-        "type": "",
+        "type": "project",
         // Official title of the project
         "title": "",
         // UUID of the project
         "uuid": ""
       },
-      // 4. if of type ( organisation | association ) and has a UUID:
+      // 4. if organisation and has a UUID:
       {
-        // organisation | association
-        "type": "",
+        "type": "organisation",
         "org_name": {
           // name of the organisation
           "text": "",
