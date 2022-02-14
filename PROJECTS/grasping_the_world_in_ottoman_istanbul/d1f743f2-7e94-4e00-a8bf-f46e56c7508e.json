@@ -47,30 +47,6 @@
     },
     "parents": [
       {
-        "type": "org",
-        "org_name": {
-          "text": "Universität Hamburg",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.9026.d"
-          ]
-        },
-        "websites": [
-          "http://www.uni-hamburg.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Hamburg",
-              "ref": [
-                "https://www.geonames.org/2911298/hamburg.html"
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": []
-      },
-      {
         "type": "project",
         "title": "Understanding Written Artefacts",
         "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"

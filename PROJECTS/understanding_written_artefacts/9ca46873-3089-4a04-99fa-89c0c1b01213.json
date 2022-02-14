@@ -6,7 +6,7 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "2022-01-26",
+        "record_modified_on": "2022-02-14",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -57,13 +57,11 @@
       {
         "type": "org",
         "org_name": {
-          "text": "Universität Hamburg",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.9026.d"
-          ]
+          "text": "Centre for the Study of Manuscript Cultures",
+          "ref": []
         },
         "websites": [
-          "http://www.uni-hamburg.de/"
+          "https://www.csmc.uni-hamburg.de/"
         ],
         "places": [
           {
@@ -75,7 +73,30 @@
             }
           }
         ],
-        "parents": [],
+        "parents": [
+          {
+            "type": "org",
+            "org_name": {
+              "text": "Universität Hamburg",
+              "ref": [
+                "https://www.grid.ac/institutes/grid.9026.d"
+              ]
+            },
+            "website": [
+              "http://www.uni-hamburg.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Hamburg",
+                  "ref": [
+                    "https://www.geonames.org/2911298/hamburg.html"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
         "siblings": []
       },
       {

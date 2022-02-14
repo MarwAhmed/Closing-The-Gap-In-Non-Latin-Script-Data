@@ -50,13 +50,82 @@
       {
         "type": "org",
         "org_name": {
-          "text": "Universität Hamburg",
+          "text": "Centre for the Study of Manuscript Cultures",
+          "ref": []
+        },
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Hamburg",
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [
+          {
+            "type": "org",
+            "org_name": {
+              "text": "Universität Hamburg",
+              "ref": [
+                "https://www.grid.ac/institutes/grid.9026.d"
+              ]
+            },
+            "website": [
+              "http://www.uni-hamburg.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Hamburg",
+                  "ref": [
+                    "https://www.geonames.org/2911298/hamburg.html"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "siblings": []
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Helmut-Schmidt-Universität",
           "ref": [
-            "https://www.grid.ac/institutes/grid.9026.d"
+            "https://www.grid.ac/institutes/grid.49096.32"
           ]
         },
         "websites": [
-          "http://www.uni-hamburg.de/"
+          "https://www.hsu-hh.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Hamburg",
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": []
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Technische Universität Hamburg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.6884.2"
+          ]
+        },
+        "websites": [
+          "http://www.tuhh.de"
         ],
         "places": [
           {
