@@ -14,7 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Validate JSON
-        uses: nhalstead/validate-json-action@0.1.3
-        env:
-          INPUT_SCHEMA: /SCHEMATA/project.schema.json
-          INPUT_JSONS: /PROJECTS/**
+        uses: Closing-the-Gap-in-NLS-DH/project-validator
+        with:
+          input_folder: '/PROJECTS/**'  
