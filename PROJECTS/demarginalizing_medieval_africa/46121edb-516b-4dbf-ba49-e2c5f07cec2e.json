@@ -62,7 +62,7 @@
             "https://www.grid.ac/institutes/grid.9026.d"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.uni-hamburg.de/"
         ],
         "places": [
@@ -74,7 +74,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -84,7 +86,7 @@
             "https://www.grid.ac/institutes/grid.83440.3b"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.ucl.ac.uk"
         ],
         "places": [
@@ -96,7 +98,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

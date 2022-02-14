@@ -53,7 +53,7 @@
             "https://www.grid.ac/institutes/grid.264755.7"
           ]
         },
-        "website": [
+        "websites": [
           "https://codhr.dh.tamu.edu/",
           "https://www.tamu.edu/"
         ],
@@ -66,7 +66,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -76,7 +78,7 @@
             "https://www.grid.ac/institutes/grid.152326.1"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.vanderbilt.edu/"
         ],
         "places": [
@@ -88,7 +90,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -98,7 +102,7 @@
             "https://www.grid.ac/institutes/grid.16750.35"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.princeton.edu/"
         ],
         "places": [
@@ -110,7 +114,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -120,7 +126,7 @@
             "https://www.grid.ac/institutes/grid.259670.f"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.marquette.edu"
         ],
         "places": [
@@ -132,7 +138,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -142,7 +150,7 @@
             "https://www.grid.ac/institutes/grid.137628.9"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.nyu.edu"
         ],
         "places": [
@@ -154,7 +162,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -164,7 +174,7 @@
             "https://www.grid.ac/institutes/grid.498567.1"
           ]
         },
-        "website": [
+        "websites": [
           "https://bethmardutho.org/library/"
         ],
         "places": [
@@ -176,7 +186,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

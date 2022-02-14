@@ -55,7 +55,7 @@
             "https://www.grid.ac/institutes/grid.450127.5"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.irht.cnrs.fr/"
         ],
         "places": [
@@ -67,7 +67,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

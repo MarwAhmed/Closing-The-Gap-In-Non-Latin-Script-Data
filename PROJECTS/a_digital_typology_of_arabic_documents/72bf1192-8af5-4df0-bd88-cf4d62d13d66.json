@@ -54,7 +54,7 @@
             "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.lmu.de/de/index.html"
         ],
         "places": [
@@ -66,12 +66,16 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "project",
         "title": "Arabic Papyrology Database",
-        "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9"
+        "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9",
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

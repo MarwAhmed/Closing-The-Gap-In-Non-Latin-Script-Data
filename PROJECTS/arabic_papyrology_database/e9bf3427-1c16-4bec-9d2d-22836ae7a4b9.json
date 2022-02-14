@@ -62,7 +62,7 @@
             "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.lmu.de/de/index.html"
         ],
         "places": [
@@ -74,7 +74,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -84,7 +86,7 @@
             "https://www.geonames.org/6930857/university-of-zuerich.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.uzh.ch/de.html"
         ],
         "places": [
@@ -96,7 +98,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [

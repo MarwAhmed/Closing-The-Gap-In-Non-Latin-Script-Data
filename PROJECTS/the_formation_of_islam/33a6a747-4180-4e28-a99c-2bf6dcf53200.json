@@ -54,7 +54,7 @@
             "https://www.grid.ac/institutes/grid.5132.5"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.leiden.edu"
         ],
         "places": [
@@ -66,7 +66,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

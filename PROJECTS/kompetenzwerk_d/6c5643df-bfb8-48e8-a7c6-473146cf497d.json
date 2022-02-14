@@ -55,7 +55,7 @@
             "https://www.grid.ac/institutes/grid.461800.b"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.saw-leipzig.de/de/aktuelles"
         ],
         "places": [
@@ -67,7 +67,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -77,7 +79,7 @@
             "https://www.grid.ac/institutes/grid.505969.6"
           ]
         },
-        "website": [
+        "websites": [
           "https://leibniz-gwzo.de/de"
         ],
         "places": [
@@ -89,7 +91,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -99,7 +103,7 @@
             "https://www.grid.ac/institutes/grid.505963.c"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.dubnow.de/"
         ],
         "places": [
@@ -111,7 +115,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -121,7 +127,7 @@
             "https://www.grid.ac/institutes/grid.461669.a"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.isgv.de/"
         ],
         "places": [
@@ -133,7 +139,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -143,7 +151,7 @@
             "https://www.grid.ac/institutes/grid.462837.c"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.serbski-institut.de/de/home/"
         ],
         "places": [
@@ -155,7 +163,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

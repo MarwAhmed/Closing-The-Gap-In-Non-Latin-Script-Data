@@ -64,7 +64,7 @@
             "https://www.grid.ac/institutes/grid.420264.6"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.bbaw.de/"
         ],
         "places": [
@@ -76,7 +76,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -86,7 +88,7 @@
             "https://www.grid.ac/institutes/grid.410533.0"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.college-de-france.fr/site/college/index.htm"
         ],
         "places": [
@@ -98,7 +100,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

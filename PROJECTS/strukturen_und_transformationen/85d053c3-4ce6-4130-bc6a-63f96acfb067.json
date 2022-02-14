@@ -14,7 +14,7 @@
   "project": {
     "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
     "abbr": "",
-    "type": "project",
+    "type": "research",
     "ref": [],
     "date": [
       {
@@ -63,7 +63,7 @@
             "https://www.grid.ac/institutes/grid.420264.6"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.bbaw.de/"
         ],
         "places": [
@@ -75,7 +75,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -85,7 +87,7 @@
             "https://www.grid.ac/institutes/grid.461800.b"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.saw-leipzig.de/"
         ],
         "places": [
@@ -97,7 +99,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

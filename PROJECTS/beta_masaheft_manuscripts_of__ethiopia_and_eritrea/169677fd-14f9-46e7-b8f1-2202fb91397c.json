@@ -55,7 +55,7 @@
             "https://www.grid.ac/institutes/grid.9026.d"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.uni-hamburg.de/"
         ],
         "places": [
@@ -67,7 +67,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

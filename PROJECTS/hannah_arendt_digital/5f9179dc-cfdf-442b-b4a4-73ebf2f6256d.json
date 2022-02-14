@@ -56,7 +56,7 @@
             "https://www.grid.ac/institutes/grid.14095.39"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.fu-berlin.de/"
         ],
         "places": [
@@ -68,7 +68,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

@@ -62,7 +62,7 @@
             "https://www.grid.ac/institutes/grid.9026.d"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.uni-hamburg.de/"
         ],
         "places": [
@@ -74,7 +74,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -84,7 +86,7 @@
             "https://www.grid.ac/institutes/grid.49096.32"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.hsu-hh.de/"
         ],
         "places": [
@@ -96,7 +98,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -106,7 +110,7 @@
             "https://www.grid.ac/institutes/grid.6884.2"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.tuhh.de"
         ],
         "places": [
@@ -118,7 +122,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -128,7 +134,7 @@
             "https://www.grid.ac/institutes/grid.4562.5"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.uni-luebeck.de"
         ],
         "places": [
@@ -140,7 +146,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [

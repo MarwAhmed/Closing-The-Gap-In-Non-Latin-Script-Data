@@ -14,7 +14,7 @@
   "project": {
     "title": "Altägyptisches Wörterbuch",
     "abbr": "",
-    "type": "project",
+    "type": "research",
     "ref": [],
     "date": [
       {
@@ -55,7 +55,7 @@
             "https://www.grid.ac/institutes/grid.420264.6"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.bbaw.de/"
         ],
         "places": [
@@ -67,7 +67,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

@@ -55,7 +55,7 @@
             "https://www.grid.ac/institutes/grid.5252.0"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.lmu.de/de/index.html"
         ],
         "places": [
@@ -67,7 +67,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

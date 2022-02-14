@@ -65,7 +65,7 @@
             "https://www.grid.ac/institutes/grid.420264.6"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.bbaw.de/"
         ],
         "places": [
@@ -77,7 +77,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -87,7 +89,7 @@
             "https://www.wikidata.org/wiki/Q337526"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.aibl.fr/?lang=fr"
         ],
         "places": [
@@ -99,7 +101,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

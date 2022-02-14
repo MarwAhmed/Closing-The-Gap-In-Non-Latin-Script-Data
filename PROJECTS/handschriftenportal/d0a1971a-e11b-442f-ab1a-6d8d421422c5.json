@@ -79,7 +79,7 @@
             "https://www.grid.ac/institutes/grid.461943.d"
           ]
         },
-        "website": [
+        "websites": [
           "http://staatsbibliothek-berlin.de/"
         ],
         "places": [
@@ -91,7 +91,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -101,7 +103,7 @@
             "https://www.grid.ac/institutes/grid.9647.c"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.ub.uni-leipzig.de/start/"
         ],
         "places": [
@@ -113,7 +115,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -123,7 +127,7 @@
             "https://www.grid.ac/institutes/grid.432478.e"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.bsb-muenchen.de/"
         ],
         "places": [
@@ -135,7 +139,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -145,7 +151,7 @@
             "https://www.grid.ac/institutes/grid.461604.1"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.hab.de/"
         ],
         "places": [
@@ -157,7 +163,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

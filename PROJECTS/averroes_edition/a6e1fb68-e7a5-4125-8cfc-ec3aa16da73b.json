@@ -63,7 +63,7 @@
             "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.awk.nrw.de/startseite.html"
         ],
         "places": [
@@ -75,7 +75,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -85,7 +87,7 @@
             "https://www.geonames.org/6947535/universitaet-zu-koeln.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://thomasinstitut.uni-koeln.de/"
         ],
         "places": [
@@ -97,12 +99,16 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "project",
         "title": "Averrois Opera (Corpus Philosophorum Medii Aevi)",
-        "uuid": "9662a35d-fb57-4f20-b450-0eba8670a822"
+        "uuid": "9662a35d-fb57-4f20-b450-0eba8670a822",
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

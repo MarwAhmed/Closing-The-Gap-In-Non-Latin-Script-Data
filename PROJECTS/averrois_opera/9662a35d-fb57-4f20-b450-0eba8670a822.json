@@ -68,7 +68,7 @@
           "text": "Academy of the Arabic Language",
           "ref": null
         },
-        "website": [
+        "websites": [
           "http://www.arabicacademy.org.eg/"
         ],
         "places": [
@@ -80,7 +80,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -90,7 +92,7 @@
             "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.awk.nrw.de/startseite.html"
         ],
         "places": [
@@ -102,7 +104,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -112,7 +116,7 @@
             "https://www.grid.ac/institutes/grid.453493.c"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.academy.ac.il/english.aspx"
         ],
         "places": [
@@ -124,7 +128,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [

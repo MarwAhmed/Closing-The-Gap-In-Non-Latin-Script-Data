@@ -70,7 +70,7 @@
             "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.fu-berlin.de/"
         ],
         "places": [
@@ -82,7 +82,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -92,7 +94,7 @@
             "https://www.geonames.org/6941120/tel-aviv-university.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://english.tau.ac.il/"
         ],
         "places": [
@@ -104,7 +106,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -114,7 +118,7 @@
             "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.lmu.de/de/index.html"
         ],
         "places": [
@@ -126,7 +130,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

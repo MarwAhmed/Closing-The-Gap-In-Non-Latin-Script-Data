@@ -55,7 +55,7 @@
             "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.fu-berlin.de/"
         ],
         "places": [
@@ -67,7 +67,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

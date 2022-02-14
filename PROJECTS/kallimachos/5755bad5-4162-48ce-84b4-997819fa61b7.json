@@ -58,7 +58,7 @@
             "https://www.grid.ac/institutes/grid.8379.5"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.uni-wuerzburg.de/startseite/"
         ],
         "places": [
@@ -70,7 +70,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

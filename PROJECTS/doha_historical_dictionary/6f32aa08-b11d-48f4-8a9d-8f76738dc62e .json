@@ -54,7 +54,7 @@
             "https://www.wikidata.org/wiki/Q12192828"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.dohainstitute.edu.qa/en/pages/default.aspx"
         ],
         "places": [
@@ -66,7 +66,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -76,7 +78,7 @@
             "https://www.wikidata.org/wiki/Q23418976"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.dohainstitute.org/en/Pages/index.aspx"
         ],
         "places": [
@@ -88,7 +90,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

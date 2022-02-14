@@ -55,7 +55,7 @@
             "https://www.grid.ac/institutes/grid.461653.3"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.hfjs.eu"
         ],
         "places": [
@@ -67,7 +67,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

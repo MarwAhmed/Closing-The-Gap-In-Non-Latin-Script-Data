@@ -54,7 +54,7 @@
             "https://www.wikidata.org/wiki/Q4690953"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.aku.edu/Pages/united-kingdom.aspx",
           "https://www.aku.edu/Pages/home.aspx"
         ],
@@ -75,7 +75,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

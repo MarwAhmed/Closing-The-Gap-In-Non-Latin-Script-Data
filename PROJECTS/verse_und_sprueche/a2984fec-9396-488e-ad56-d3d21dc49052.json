@@ -55,7 +55,7 @@
             "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.fu-berlin.de/"
         ],
         "places": [
@@ -67,13 +67,15 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "research",
         "title": "Episteme in Bewegung - Wissenstransfer von der Alten Welt bis in die Frühe Neuzeit",
         "ref": [],
-        "website": [
+        "websites": [
           "https://www.sfb-episteme.de/"
         ],
         "places": [
@@ -85,7 +87,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

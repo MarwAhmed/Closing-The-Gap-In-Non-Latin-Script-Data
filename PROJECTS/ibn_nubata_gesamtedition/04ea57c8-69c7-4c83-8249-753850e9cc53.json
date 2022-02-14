@@ -49,7 +49,9 @@
       {
         "type": "project",
         "title": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
-        "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83"
+        "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83",
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -59,7 +61,7 @@
             "https://d-nb.info/gnd/36175-6"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.uni-muenster.de"
         ],
         "places": [
@@ -71,7 +73,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

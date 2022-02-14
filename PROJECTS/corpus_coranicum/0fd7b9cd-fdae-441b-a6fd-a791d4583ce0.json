@@ -56,7 +56,7 @@
             "https://www.grid.ac/institutes/grid.420264.6"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.bbaw.de/"
         ],
         "places": [
@@ -68,7 +68,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -78,7 +80,7 @@
             "https://www.wikidata.org/wiki/Q1662834"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.akademienunion.de/"
         ],
         "places": [
@@ -90,7 +92,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

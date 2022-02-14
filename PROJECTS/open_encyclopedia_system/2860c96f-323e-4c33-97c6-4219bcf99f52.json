@@ -63,7 +63,7 @@
             "https://www.grid.ac/institutes/grid.14095.39"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.fu-berlin.de/"
         ],
         "places": [
@@ -75,7 +75,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -85,7 +87,7 @@
             "https://www.grid.ac/institutes/grid.432478.e"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.bsb-muenchen.de/"
         ],
         "places": [
@@ -97,7 +99,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

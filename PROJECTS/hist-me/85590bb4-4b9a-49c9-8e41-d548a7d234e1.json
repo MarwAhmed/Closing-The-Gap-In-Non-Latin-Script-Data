@@ -48,7 +48,7 @@
           "text": "",
           "ref": []
         },
-        "website": [],
+        "websites": [],
         "places": [
           {
             "place_name": {
@@ -56,12 +56,16 @@
               "ref": []
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "project",
         "title": "",
-        "uuid": ""
+        "uuid": "",
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

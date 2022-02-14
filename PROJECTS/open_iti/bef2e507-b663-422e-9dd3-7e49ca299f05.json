@@ -79,7 +79,7 @@
             "https://www.grid.ac/institutes/grid.164295.d"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.umd.edu/"
         ],
         "places": [
@@ -91,7 +91,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -101,7 +103,7 @@
             "https://www.grid.ac/institutes/grid.9647.c"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.uni-leipzig.de/"
         ],
         "places": [
@@ -113,7 +115,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -123,7 +127,7 @@
             "https://www.wikidata.org/wiki/Q4690953"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.aku.edu/Pages/united-kingdom.aspx",
           "https://www.aku.edu/Pages/home.aspx"
         ],
@@ -144,7 +148,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -154,7 +160,7 @@
             "https://www.grid.ac/institutes/grid.10420.37"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.univie.ac.at/"
         ],
         "places": [
@@ -166,7 +172,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

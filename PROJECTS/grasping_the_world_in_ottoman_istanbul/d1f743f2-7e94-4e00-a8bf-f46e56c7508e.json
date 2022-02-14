@@ -54,7 +54,7 @@
             "https://www.grid.ac/institutes/grid.9026.d"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.uni-hamburg.de/"
         ],
         "places": [
@@ -66,12 +66,16 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "project",
         "title": "Understanding Written Artefacts",
-        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213",
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

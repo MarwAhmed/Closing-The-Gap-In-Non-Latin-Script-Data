@@ -56,7 +56,7 @@
             "https://www.grid.ac/institutes/grid.7468.d"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.hu-berlin.de"
         ],
         "places": [
@@ -68,7 +68,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -76,7 +78,7 @@
           "text": "FU Berlin",
           "ref": "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
         },
-        "website": [
+        "websites": [
           "https://www.fu-berlin.de/"
         ],
         "places": [
@@ -84,7 +86,9 @@
             "text": "Berlin",
             "ref": "https://www.geonames.org/2950159/berlin.html"
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],

@@ -55,7 +55,7 @@
             "https://www.grid.ac/institutes/grid.461800.b"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.saw-leipzig.de/de"
         ],
         "places": [
@@ -67,7 +67,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],
