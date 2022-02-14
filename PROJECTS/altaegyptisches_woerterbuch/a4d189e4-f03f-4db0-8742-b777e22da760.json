@@ -50,13 +50,11 @@
       {
         "type": "org",
         "org_name": {
-          "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.420264.6"
-          ]
+          "text": "Zentrum Grundlagenforschung Alte Welt",
+          "ref": []
         },
         "websites": [
-          "https://www.bbaw.de/"
+          "https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"
         ],
         "places": [
           {
@@ -68,7 +66,30 @@
             }
           }
         ],
-        "parents": [],
+        "parents": [
+          {
+            "type": "org",
+            "org_name": {
+              "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
+              "ref": [
+                "https://www.grid.ac/institutes/grid.420264.6"
+              ]
+            },
+            "website": [
+              "https://www.bbaw.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Berlin",
+                  "ref": [
+                    "https://www.geonames.org/2950159/berlin.html"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
         "siblings": []
       }
     ],
