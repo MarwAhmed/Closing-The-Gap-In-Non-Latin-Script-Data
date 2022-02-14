@@ -51,7 +51,7 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
 
 ```javascript
 {
-  "schema_version": "0.1.2",
+  "schema_version": "0.1.3",
   "record_metadata": {
     // Universally Unique Identifier for each project 
     "uuid": "",
