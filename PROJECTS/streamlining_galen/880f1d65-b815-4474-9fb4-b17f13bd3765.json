@@ -82,7 +82,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://warwick.ac.uk/fac/arts/classics/intranets/staff/simonswain/"
         ]
       },
@@ -94,7 +94,7 @@
           ]
         },
         "role": 1,
-        "website": [
+        "websites": [
           "http://www2.warwick.ac.uk/fac/arts/classics/staff/vagelpohl/"
         ]
       }

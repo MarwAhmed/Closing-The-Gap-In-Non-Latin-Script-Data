@@ -82,7 +82,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://www.fu-berlin.de/sites/ub/ueber-uns/team/riesenweber/index.html"
         ]
       },
@@ -92,7 +92,7 @@
           "ref": []
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://www.fu-berlin.de/sites/ub/ueber-uns/team/lee/index.html"
         ]
       }

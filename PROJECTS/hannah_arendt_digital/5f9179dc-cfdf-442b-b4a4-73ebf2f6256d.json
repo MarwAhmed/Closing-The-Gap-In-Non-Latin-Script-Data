@@ -84,7 +84,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://as.vanderbilt.edu/german-russian-studies/bio/barbara-hahn/?who=barbara-hahn"
         ]
       },
@@ -94,7 +94,7 @@
           "ref": []
         },
         "role": 1,
-        "website": [
+        "websites": [
           "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/bgrote.html"
         ]
       }
