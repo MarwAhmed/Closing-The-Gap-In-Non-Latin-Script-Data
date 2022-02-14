@@ -16,4 +16,4 @@ jobs:
       - name: Validate JSON
         uses: Closing-the-Gap-in-NLS-DH/project-validator@main
         with:
-          input_folder: '/PROJECTS/**'  
+          input_folder: '/PROJECTS'  
