@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-02-14",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -15,9 +15,7 @@
     "title": "CorrespSearch",
     "abbr": "",
     "type": "research",
-    "ref": [
-      ""
-    ],
+    "ref": [],
     "date": [
       {
         "from": "2017",
@@ -27,7 +25,7 @@
     "websites": [
       "https://correspsearch.net/de/start.html"
     ],
-    "project_desc": "",
+    "project_desc": "Development of a web service which offers an extensive collection of letter editions for research objectives. It enables to search through the indexes of digital and printed editions based on sender, receiver, place or date. ",
     "places": [
       {
         "place_name": {
