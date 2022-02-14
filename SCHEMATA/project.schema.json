@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/Closing-the-Gap-in-NLS-DH/PROJECTS/SCHEMATA/0.1.2/project.schema.json",
   "title": "Project",
   "description": "Project that in some way deals with either Digital Humanities, Research Data Management, Non-Latin Script or Infrastructure",
@@ -83,13 +83,11 @@
           "type": "string"
         },
         "type": {
-          "description": "Type of the project: (organisation|association|research|meta)",
+          "description": "Type of the project: (organisation|project)",
           "type": "string",
           "enum": [
             "organisation",
-            "association",
-            "research",
-            "meta"
+            "project"
           ]
         },
         "ref": {
@@ -296,7 +294,7 @@
       "items": {
         "anyOf": [
           {
-            "description": "If the entity is an organisation or association without a uuid",
+            "description": "If the entity is an organisation without a uuid",
             "type": "object",
             "required": [
               "type",
@@ -305,7 +303,7 @@
             "properties": {
               "type": {
                 "type": "string",
-                "default": ["organisation", "association"]
+                "enum": "organisation"
               },
               "org_name": {
                 "$ref": "#/definitions/org_name"
@@ -321,6 +319,9 @@
               },
               "siblings": {
                 "$ref": "#/definitions/relatives"
+              },
+              "children": {
+                "$ref": "#/definitions/relatives"
               }
             }
           },
@@ -334,7 +335,7 @@
             "properties": {
               "type": {
                 "type": "string",
-                "default": ["research", "meta"]
+                "enum": "project"
               },
               "title": {
                 "type": "string"
@@ -353,11 +354,14 @@
               },
               "siblings": {
                 "$ref": "#/definitions/relatives"
+              },
+              "children": {
+                "$ref": "#/definitions/relatives"
               }
             }
           },
           {
-            "description": "If the entity is an organisation or association with a uuid",
+            "description": "If the entity is a project with a uuid",
             "type": "object",
             "required": [
               "type",
@@ -367,7 +371,7 @@
             "properties": {
               "type": {
                 "type": "string",
-                "enum": ["meta", "research"]
+                "enum": "project"
               },
               "title": {
                 "type": "string"
@@ -378,7 +382,7 @@
             }
           },
           {
-            "description": "If the entity is an organisation or association with a uuid",
+            "description": "If the entity is an organisation with a uuid",
             "type": "object",
             "required": [
               "type",
@@ -388,7 +392,7 @@
             "properties": {
               "type": {
                 "type": "string",
-                "enum": ["organisation", "association"]
+                "enum": "organisation"
               },
               "org_name": {
                 "$ref": "#/definitions/org_name"
