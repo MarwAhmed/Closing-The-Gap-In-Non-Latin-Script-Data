@@ -6,14 +6,14 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-02-14",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
     "title": "Arabic Papyrology Database",
-    "abbr": "",
+    "abbr": "ADP",
     "type": "research",
     "ref": [],
     "date": [
@@ -23,9 +23,10 @@
       }
     ],
     "websites": [
+      "https://www.naher-osten.uni-muenchen.de/forschung/papyrologie/apd/index.html",
       "https://www.apd.gwi.uni-muenchen.de/apd/about.jsp"
     ],
-    "project_desc": "",
+    "project_desc": "The Arabic Papyrology database is a digital compilation of pre-modern Arabic manuscripts written between 7th and 16th century CE. It comprises a total of 13286 documents which can be search by their metadata and content. ",
     "places": [
       {
         "place_name": {
@@ -50,8 +51,8 @@
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -126,15 +127,19 @@
       }
     ],
     "research_data": {
-      "lang": []
+      "lang": [
+        "ara"
+      ]
     },
     "stack": {},
     "policies": {},
     "keywords": [
+      "ara",
       "datebase",
-      "lexicon",
-      "manuscript",
-      "pre-modern"
+      "digital_edition",
+      "manuscripts",
+      "papyrology",
+      "pre-modern_arabic"
     ],
     "comment": ""
   }
