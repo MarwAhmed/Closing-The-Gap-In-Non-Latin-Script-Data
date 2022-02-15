@@ -17,4 +17,4 @@ jobs:
         uses: Closing-the-Gap-in-NLS-DH/project-validator@main
         with:
           input_folder: ${{ github.workspace }}/PROJECTS
-          schema: ${{ github.workspace }}/SCHEMATA/projects.schema.json 
+          input_schema: ${{ github.workspace }}/SCHEMATA/project.schema.json 
