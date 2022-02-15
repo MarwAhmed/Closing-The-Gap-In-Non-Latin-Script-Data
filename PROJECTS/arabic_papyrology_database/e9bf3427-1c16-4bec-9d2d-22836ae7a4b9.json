@@ -1,19 +1,20 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9",
     "record_created": "2021-11-08",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-02-14",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
     "title": "Arabic Papyrology Database",
-    "abbr": "",
-    "type": "research",
+    "abbr": "ADP",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,10 +22,11 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
+      "https://www.naher-osten.uni-muenchen.de/forschung/papyrologie/apd/index.html",
       "https://www.apd.gwi.uni-muenchen.de/apd/about.jsp"
     ],
-    "project_desc": "",
+    "project_desc": "The Arabic Papyrology database is a digital compilation of pre-modern Arabic manuscripts written between 7th and 16th century CE. It comprises a total of 13286 documents which can be search by their metadata and content. ",
     "places": [
       {
         "place_name": {
@@ -49,8 +51,8 @@
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -61,7 +63,7 @@
             "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.lmu.de/de/index.html"
         ],
         "places": [
@@ -73,7 +75,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -83,7 +87,7 @@
             "https://www.geonames.org/6930857/university-of-zuerich.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.uzh.ch/de.html"
         ],
         "places": [
@@ -95,7 +99,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [
@@ -115,21 +121,25 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": []
+      "lang": [
+        "ara"
+      ]
     },
     "stack": {},
     "policies": {},
     "keywords": [
+      "ara",
       "datebase",
-      "lexicon",
-      "manuscript",
-      "pre-modern"
+      "digital_edition",
+      "manuscripts",
+      "papyrology",
+      "pre-modern_arabic"
     ],
     "comment": ""
   }

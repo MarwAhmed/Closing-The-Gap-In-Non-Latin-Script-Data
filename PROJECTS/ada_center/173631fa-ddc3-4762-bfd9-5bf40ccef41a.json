@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "173631fa-ddc3-4762-bfd9-5bf40ccef41a",
     "record_created": "2021-10-29",
     "record_created_by": "Mueller-Laackman, Jonas",
     "record_modified": [
       {
-        "record_modified_at": "",
+        "record_modified_on": "",
         "record_modified_by": ""
       }
     ]
@@ -13,7 +14,7 @@
   "project": {
     "title": "Ada Lovelace Center for Digital Humanities",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,7 +22,7 @@
         "to": ""
       }
     ],
-    "website": [],
+    "websites": [],
     "project_desc": "",
     "places": [
       {
@@ -52,7 +53,7 @@
             "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.fu-berlin.de/"
         ],
         "places": [
@@ -64,7 +65,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],
@@ -78,7 +81,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://persoenlichewebsite"
         ]
       }

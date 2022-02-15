@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "c82cb342-bf56-48ac-b910-f5c9a440b06e",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2021-11-23",
+        "record_modified_on": "2021-11-23",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -13,7 +14,7 @@
   "project": {
     "title": "Keywords",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,7 +22,7 @@
         "to": ""
       }
     ],
-    "website": [],
+    "websites": [],
     "project_desc": "",
     "places": [
       {
@@ -45,7 +46,7 @@
           "text": "",
           "ref": []
         },
-        "website": [],
+        "websites": [],
         "places": [
           {
             "place_name": {
@@ -53,7 +54,9 @@
               "ref": []
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "project",
@@ -70,7 +73,7 @@
           "ref": []
         },
         "role": null,
-        "website": []
+        "websites": []
       }
     ],
     "research_data": {

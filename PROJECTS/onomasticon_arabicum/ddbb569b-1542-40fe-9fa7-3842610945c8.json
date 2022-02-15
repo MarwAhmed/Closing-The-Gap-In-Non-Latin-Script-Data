@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "ddbb569b-1542-40fe-9fa7-3842610945c8",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2021-11-25",
+        "record_modified_on": "2021-11-25",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -13,7 +14,7 @@
   "project": {
     "title": "Onmasticon Arabicum",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,7 +22,7 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
       "https://onomasticon.irht.cnrs.fr"
     ],
     "project_desc": "",
@@ -54,7 +55,7 @@
             "https://www.grid.ac/institutes/grid.450127.5"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.irht.cnrs.fr/"
         ],
         "places": [
@@ -66,7 +67,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],
@@ -78,7 +81,7 @@
           "ref": []
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://www.irht.cnrs.fr/fr/annuaire/muller-christian",
           "https://www.universiteitleiden.nl/en/news/2019/03/meet-our-spring-fellow-christian-muller"
         ]
@@ -91,7 +94,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://www.irht.cnrs.fr/fr/annuaire/roiland-muriel"
         ]
       }

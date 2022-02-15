@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "a6e1fb68-e7a5-4125-8cfc-ec3aa16da73b",
     "record_created": "2021-11-08",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "",
+        "record_modified_on": "",
         "record_modified_by": ""
       }
     ]
@@ -13,7 +14,7 @@
   "project": {
     "title": "Averroes Edition",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,7 +22,7 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
       "https://averroes.uni-koeln.de/project/about/"
     ],
     "project_desc": "",
@@ -62,7 +63,7 @@
             "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.awk.nrw.de/startseite.html"
         ],
         "places": [
@@ -74,7 +75,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -84,7 +87,7 @@
             "https://www.geonames.org/6947535/universitaet-zu-koeln.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://thomasinstitut.uni-koeln.de/"
         ],
         "places": [
@@ -96,7 +99,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "project",
@@ -113,7 +118,7 @@
           "ref": []
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://thomasinstitut.uni-koeln.de/mitarbeiterinnen/david-wirmer"
         ]
       }

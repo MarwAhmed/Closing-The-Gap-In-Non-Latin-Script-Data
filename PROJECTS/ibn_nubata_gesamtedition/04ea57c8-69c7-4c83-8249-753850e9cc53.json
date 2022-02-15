@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "",
+        "record_modified_on": "",
         "record_modified_by": ""
       }
     ]
@@ -13,7 +14,7 @@
   "project": {
     "title": "DFG-Langfristvorhaben Gesamtedition des Werkes von Ibn Nubata Al-Misri",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,7 +22,7 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
       "https://www.uni-muenster.de/ALEA/"
     ],
     "project_desc": "",
@@ -58,7 +59,7 @@
             "https://d-nb.info/gnd/36175-6"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.uni-muenster.de"
         ],
         "places": [
@@ -70,7 +71,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],
@@ -84,7 +87,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
         ]
       }

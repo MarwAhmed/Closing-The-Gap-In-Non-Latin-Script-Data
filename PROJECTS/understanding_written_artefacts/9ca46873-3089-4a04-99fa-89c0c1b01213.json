@@ -1,11 +1,16 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-01-26",
+        "record_modified_on": "2022-01-26",
+        "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-02-14",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -13,7 +18,7 @@
   "project": {
     "title": "Understanding Written Artefacts",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,7 +26,7 @@
         "to": "2025"
       }
     ],
-    "website": [
+    "websites": [
       "https://www.csmc.uni-hamburg.de/written-artefacts/"
     ],
     "project_desc": "",
@@ -56,13 +61,11 @@
       {
         "type": "org",
         "org_name": {
-          "text": "Universität Hamburg",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.9026.d"
-          ]
+          "text": "Centre for the Study of Manuscript Cultures",
+          "ref": []
         },
-        "website": [
-          "http://www.uni-hamburg.de/"
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/"
         ],
         "places": [
           {
@@ -73,7 +76,32 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [
+          {
+            "type": "org",
+            "org_name": {
+              "text": "Universität Hamburg",
+              "ref": [
+                "https://www.grid.ac/institutes/grid.9026.d"
+              ]
+            },
+            "website": [
+              "http://www.uni-hamburg.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Hamburg",
+                  "ref": [
+                    "https://www.geonames.org/2911298/hamburg.html"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "siblings": []
       },
       {
         "type": "org",
@@ -83,7 +111,7 @@
             "https://www.grid.ac/institutes/grid.49096.32"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.hsu-hh.de/"
         ],
         "places": [
@@ -95,7 +123,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -105,7 +135,7 @@
             "https://www.grid.ac/institutes/grid.6884.2"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.tuhh.de"
         ],
         "places": [
@@ -117,7 +147,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -127,7 +159,7 @@
             "https://www.grid.ac/institutes/grid.4562.5"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.uni-luebeck.de"
         ],
         "places": [
@@ -139,7 +171,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [
@@ -180,7 +214,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://www.aai.uni-hamburg.de/afrika/personen/bausi.html"
         ]
       }

@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "5f9179dc-cfdf-442b-b4a4-73ebf2f6256d",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2021-11-23",
+        "record_modified_on": "2021-11-23",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -13,7 +14,7 @@
   "project": {
     "title": "Hannah Arendt Digital",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,7 +22,7 @@
         "to": "2023-2"
       }
     ],
-    "website": [
+    "websites": [
       "https://hannah-arendt-edition.net/index.html",
       "https://www.arendteditionprojekt.de/en/projekt/General-Information/index.html"
     ],
@@ -55,7 +56,7 @@
             "https://www.grid.ac/institutes/grid.14095.39"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.fu-berlin.de/"
         ],
         "places": [
@@ -67,7 +68,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],
@@ -81,7 +84,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://as.vanderbilt.edu/german-russian-studies/bio/barbara-hahn/?who=barbara-hahn"
         ]
       },
@@ -91,7 +94,7 @@
           "ref": []
         },
         "role": 1,
-        "website": [
+        "websites": [
           "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/bgrote.html"
         ]
       }

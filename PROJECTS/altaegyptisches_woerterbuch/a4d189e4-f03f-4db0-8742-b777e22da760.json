@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760",
     "record_created": "2022-01-17",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-02-17",
+        "record_modified_on": "2022-02-17",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -21,7 +22,7 @@
         "to": "2012"
       }
     ],
-    "website": [
+    "websites": [
       "https://www.bbaw.de/forschung/altaegyptisches-woerterbuch",
       "https://aaew.bbaw.de/projekt/arbeitsberichte/altaegyptisches-wb/jahresbericht2004"
     ],
@@ -49,13 +50,11 @@
       {
         "type": "org",
         "org_name": {
-          "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.420264.6"
-          ]
+          "text": "Zentrum Grundlagenforschung Alte Welt",
+          "ref": []
         },
-        "website": [
-          "https://www.bbaw.de/"
+        "websites": [
+          "https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"
         ],
         "places": [
           {
@@ -66,7 +65,32 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [
+          {
+            "type": "org",
+            "org_name": {
+              "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
+              "ref": [
+                "https://www.grid.ac/institutes/grid.420264.6"
+              ]
+            },
+            "website": [
+              "https://www.bbaw.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Berlin",
+                  "ref": [
+                    "https://www.geonames.org/2950159/berlin.html"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "siblings": []
       }
     ],
     "children": [],
@@ -91,7 +115,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://www.geschkult.fu-berlin.de/en/e/aegyptologie/institut/mitarbeiter/Professoren-und-Professorinnen/seidlmayer/index.html"
         ]
       }

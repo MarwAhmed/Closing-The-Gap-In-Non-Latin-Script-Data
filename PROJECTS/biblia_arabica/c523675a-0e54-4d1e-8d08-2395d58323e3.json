@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "c523675a-0e54-4d1e-8d08-2395d58323e3",
     "record_created": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "",
+        "record_modified_on": "",
         "record_modified_by": ""
       }
     ]
@@ -13,7 +14,7 @@
   "project": {
     "title": "Biblia Arabica",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,7 +22,7 @@
         "to": "2018"
       }
     ],
-    "website": [
+    "websites": [
       "https://biblia-arabica.com/"
     ],
     "project_desc": "",
@@ -69,7 +70,7 @@
             "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.fu-berlin.de/"
         ],
         "places": [
@@ -81,7 +82,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -91,7 +94,7 @@
             "https://www.geonames.org/6941120/tel-aviv-university.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://english.tau.ac.il/"
         ],
         "places": [
@@ -103,7 +106,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -113,7 +118,7 @@
             "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.html"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.lmu.de/de/index.html"
         ],
         "places": [
@@ -125,7 +130,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],
@@ -139,7 +146,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
         ]
       }

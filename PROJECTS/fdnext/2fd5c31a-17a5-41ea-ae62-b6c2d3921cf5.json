@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2021-11-22",
+        "record_modified_on": "2021-11-22",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -13,7 +14,7 @@
   "project": {
     "title": "FDNext",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,7 +22,7 @@
         "to": "2023"
       }
     ],
-    "website": [
+    "websites": [
       "https://www.forschungsdaten.org/index.php/FDNext"
     ],
     "project_desc": "",
@@ -77,7 +78,7 @@
             "https://www.grid.ac/institutes/grid.7468.d"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.hu-berlin.de/de"
         ],
         "places": [
@@ -89,7 +90,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -99,7 +102,7 @@
             "https://www.grid.ac/institutes/grid.14095.39"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.fu-berlin.de/"
         ],
         "places": [
@@ -111,7 +114,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -121,7 +126,7 @@
             "https://www.grid.ac/institutes/grid.6734.6"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.tu.berlin/"
         ],
         "places": [
@@ -133,7 +138,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -143,7 +150,7 @@
             "https://www.grid.ac/institutes/grid.11348.3f"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.uni-potsdam.de/de/"
         ],
         "places": [
@@ -155,7 +162,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -165,7 +174,7 @@
             "https://www.grid.ac/institutes/grid.33018.39"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.europa-uni.de/en/index.html"
         ],
         "places": [
@@ -177,7 +186,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       },
       {
         "type": "org",
@@ -187,7 +198,7 @@
             "https://www.grid.ac/institutes/grid.8842.6"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.b-tu.de/"
         ],
         "places": [
@@ -199,7 +210,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],
@@ -213,7 +226,7 @@
           ]
         },
         "role": 1,
-        "website": [
+        "websites": [
           "https://www.researchgate.net/profile/Simon-Schmiederer"
         ]
       }

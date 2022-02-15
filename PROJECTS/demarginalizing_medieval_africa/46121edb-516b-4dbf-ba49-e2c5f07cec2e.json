@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e",
     "record_created": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-01-31",
+        "record_modified_on": "2022-01-31",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -13,7 +14,7 @@
   "project": {
     "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
     "abbr": "ITIESE",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,7 +22,7 @@
         "to": "2024"
       }
     ],
-    "website": [
+    "websites": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/demarginalizing-medieval-africa.html"
     ],
     "project_desc": "",
@@ -56,13 +57,11 @@
       {
         "type": "org",
         "org_name": {
-          "text": "Universität Hamburg",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.9026.d"
-          ]
+          "text": "Centre for the Study of Manuscript Cultures",
+          "ref": []
         },
-        "website": [
-          "http://www.uni-hamburg.de/"
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/"
         ],
         "places": [
           {
@@ -73,17 +72,90 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [
+          {
+            "type": "org",
+            "org_name": {
+              "text": "Universität Hamburg",
+              "ref": [
+                "https://www.grid.ac/institutes/grid.9026.d"
+              ]
+            },
+            "website": [
+              "http://www.uni-hamburg.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Hamburg",
+                  "ref": [
+                    "https://www.geonames.org/2911298/hamburg.html"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "siblings": []
       },
       {
         "type": "org",
         "org_name": {
-          "text": "University College Londong",
+          "text": "Helmut-Schmidt-Universität",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.49096.32"
+          ]
+        },
+        "websites": [
+          "https://www.hsu-hh.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Hamburg",
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": []
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "Technische Universität Hamburg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.6884.2"
+          ]
+        },
+        "websites": [
+          "http://www.tuhh.de"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Hamburg",
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": []
+      },
+      {
+        "type": "org",
+        "org_name": {
+          "text": "University College London",
           "ref": [
             "https://www.grid.ac/institutes/grid.83440.3b"
           ]
         },
-        "website": [
+        "websites": [
           "http://www.ucl.ac.uk"
         ],
         "places": [
@@ -95,7 +167,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],
@@ -135,7 +209,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://www.aai.uni-hamburg.de/afrika/personen/bausi.html"
         ]
       }

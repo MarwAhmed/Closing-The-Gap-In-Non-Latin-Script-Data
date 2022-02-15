@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "",
+        "record_modified_on": "",
         "record_modified_by": ""
       }
     ]
@@ -13,7 +14,7 @@
   "project": {
     "title": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
     "abbr": "ALEA",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,7 +22,7 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
       "https://www.uni-muenster.de/ALEA/"
     ],
     "project_desc": "",
@@ -53,7 +54,7 @@
             "https://d-nb.info/gnd/36175-6"
           ]
         },
-        "website": [
+        "websites": [
           "https://www.uni-muenster.de"
         ],
         "places": [
@@ -65,7 +66,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [
@@ -85,7 +88,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
         ]
       }

@@ -1,11 +1,12 @@
 {
+  "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "880f1d65-b815-4474-9fb4-b17f13bd3765",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_at": "2022-01-20",
+        "record_modified_on": "2022-01-20",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -13,7 +14,7 @@
   "project": {
     "title": "Streamlining Galen",
     "abbr": "",
-    "type": "research",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -21,7 +22,7 @@
         "to": ""
       }
     ],
-    "website": [
+    "websites": [
       "https://warwick.ac.uk/fac/arts/classics/research/dept_projects/streamlininggalen/"
     ],
     "project_desc": "",
@@ -53,7 +54,7 @@
             "https://www.grid.ac/institutes/grid.7372.1"
           ]
         },
-        "website": [
+        "websites": [
           "http://www2.warwick.ac.uk/"
         ],
         "places": [
@@ -65,7 +66,9 @@
               ]
             }
           }
-        ]
+        ],
+        "parents": [],
+        "siblings": []
       }
     ],
     "children": [],
@@ -79,7 +82,7 @@
           ]
         },
         "role": 0,
-        "website": [
+        "websites": [
           "https://warwick.ac.uk/fac/arts/classics/intranets/staff/simonswain/"
         ]
       },
@@ -91,7 +94,7 @@
           ]
         },
         "role": 1,
-        "website": [
+        "websites": [
           "http://www2.warwick.ac.uk/fac/arts/classics/staff/vagelpohl/"
         ]
       }
