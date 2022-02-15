@@ -16,5 +16,4 @@ jobs:
       - name: Validate JSON
         uses: Closing-the-Gap-in-NLS-DH/project-validator@main
         with:
-          input_folder: ${{ github.workspace }}/PROJECTS
-          input_schema: ${{ github.workspace }}/SCHEMATA/project.schema.json 
+          workspace: ${{ github.workspace }}
