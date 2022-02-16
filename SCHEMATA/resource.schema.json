@@ -1,0 +1,111 @@
+{
+  "$id": "http://github.com/Closing-the-Gap-in-NLS-DH/Resources/SCHEMATA/resource.schema.json#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Resources",
+  "description": "List of useful resources",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "last_modified",
+        "last_modified_by"
+      ],
+      "properties": {
+        "schema_version": {
+          "description": "Version of the used JSON schema",
+          "type": "string",
+          "default": "\\d\\.\\d\\.\\d"
+        },
+        "last_modified": {
+          "description": "Date of last modification: YYYY-MM-DD",
+          "type": "string",
+          "default": "\\d{4}-\\d{2}-\\d{2}"
+        },
+        "last_modified_by": {
+          "description": "Name of last Editor",
+          "type": "string"
+        }
+      }
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "label",
+          "comment",
+          "ref",
+          "tags",
+          "collected_by"
+        ],
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "label": {
+            "description": "Label of the resource",
+            "type": "string"
+          },
+          "comment": {
+            "description": "Short comment on what the resource does/is about",
+            "type": "string"
+          },
+          "ref": {
+            "description": "URL of the resource",
+            "type": "string",
+            "pattern": "http(s?):\\/\\/"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "description": "Lowercase tags with preceding #, use lowerdash for whitespace",
+              "type": "string",
+              "pattern": "^#(?!.*[A-Z -]).*"
+            }
+          },
+          "collected_by": {
+            "description": "Array of people, who added the entry",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name"],
+              "properties": {
+                "name": {
+                  "description": "Name of the person, who added the resource to the collection",
+                  "type": "string"
+                },
+                "ref": {
+                  "description": "URI or URL, e.g. to a website or authority file",
+                  "type": "string",
+                  "pattern": "http(s?):\\/\\/"
+                }
+              }
+            }
+          },
+          "edited_by": {
+            "description": "Array of people, who edited the entry",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name"],
+              "properties": {
+                "name": {
+                  "description": "Name of the person, who modified the resource",
+                  "type": "string"
+                },
+                "ref": {
+                  "description": "URI or URL, e.g. to a website or authority file",
+                  "type": "string",
+                  "pattern": "http(s?):\\/\\/"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
