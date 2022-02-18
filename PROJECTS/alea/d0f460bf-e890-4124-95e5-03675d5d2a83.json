@@ -71,14 +71,14 @@
         "siblings": []
       }
     ],
-    "children": [
+    "children": [],
+    "siblings": [
       {
         "type": "project",
         "title": "DFG-Langfristvorhaben Gesamtedition des Werkes von Ibn Nubata Al-Misri",
         "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53"
       }
     ],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {
