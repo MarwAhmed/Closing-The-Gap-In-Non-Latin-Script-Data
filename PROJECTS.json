@@ -7,6 +7,10 @@
     "title": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
     "path": "/PROJECTS/alea/"
   },
+  "a4d189e4-f03f-4db0-8742-b777e22da760": {
+    "title": "Altägyptisches Wörterbuch",
+    "path": "/PROJECTS/altaegyptisches_woerterbuch/"
+  },
   "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9": {
     "title": "Kalila and Dimna - AnonymClassic",
     "path": "/PROJECTS/anonym_classic/"
@@ -23,9 +27,25 @@
     "title": "ARCHES",
     "path": "/PROJECTS/arches/"
   },
+  "3992a23d-8426-4b73-8b30-844e471e76e2": {
+    "title": "Study of Averroes’s Long Commentary on the Physics in Hebrew and Latin Transmission",
+    "path": "/PROJECTS/averroes_commentary_on_the_physics_in_hebrew_and_latin_transmission/"
+  },
+  "7c7438e6-4172-4059-ad60-54a6d0d61f7c": {
+    "title": "Critical Edition of the Fragmentary Latin Translation of Averroes’s Commentary on De Partibus Animalium and De Generatione Animalium",
+    "path": "/PROJECTS/averroes_de_partibus_animalium_and_de_generatione_animalium/"
+  },
   "a6e1fb68-e7a5-4125-8cfc-ec3aa16da73b": {
     "title": "Averroes Edition",
     "path": "/PROJECTS/averroes_edition/"
+  },
+  "c3e206ec-9989-4500-ac20-4126e35871f2": {
+    "title": "Critical Edition of Ibn Bāğğa’s Commentary on Aristotle’s De generatione et corruptione",
+    "path": "/PROJECTS/averroes_ibn_baggas_commentary_on_aristotles_de_generatione_et_corruptione/"
+  },
+  "f24e806a-0777-4690-b148-1b35ab3745e2": {
+    "title": "Critical Edition of Ibn Bāǧǧa’s Commentary on Aristotle’s Physics",
+    "path": "/PROJECTS/averroes_ibn_baggas_commentary_on_aristotles_physics/"
   },
   "9662a35d-fb57-4f20-b450-0eba8670a822": {
     "title": "Averrois Opera (Corpus Philosophorum Medii Aevi)",
@@ -62,6 +82,10 @@
   "1c38b421-95a2-4b2b-becf-119f36721a07": {
     "title": "Corpus Masoreticum",
     "path": "/PROJECTS/corpus_masoreticum/"
+  },
+  "8779bc56-8526-4d03-85a7-702a03bcf748": {
+    "title": "CorrespSearch",
+    "path": "/PROJECTS/correspsearch/"
   },
   "46121edb-516b-4dbf-ba49-e2c5f07cec2e": {
     "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
@@ -135,6 +159,10 @@
     "title": "Kitab",
     "path": "/PROJECTS/kitab/"
   },
+  "01ac0c0c-b09c-40cf-a75f-42e540b67c2f": {
+    "title": "KOHD Digital",
+    "path": "/PROJECTS/kohd_digital/"
+  },
   "6c5643df-bfb8-48e8-a7c6-473146cf497d": {
     "title": "KompetenzwerkD",
     "path": "/PROJECTS/kompetenzwerk_d/"
@@ -184,12 +212,16 @@
     "path": "/PROJECTS/sefaria_org/"
   },
   "fb67cd77-6bc3-41a8-a84c-05bb2a5d1dd0": {
-    "title": "SNAP:DRGN",
+    "title": "Standards for Networking Ancient Prosopographies: Data and Relations in Greco-Roman Names",
     "path": "/PROJECTS/snapdrgn/"
   },
   "880f1d65-b815-4474-9fb4-b17f13bd3765": {
     "title": "Streamlining Galen",
     "path": "/PROJECTS/streamlining_galen/"
+  },
+  "85d053c3-4ce6-4130-bc6a-63f96acfb067": {
+    "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
+    "path": "/PROJECTS/strukturen_und_transformationen/"
   },
   "fdda3e43-e15b-4c64-a99d-924f37152cc9": {
     "title": "Syriaca.org: The Syriac Reference Portal",
@@ -224,7 +256,7 @@
     "path": "/PROJECTS/verse_und_sprueche/"
   },
   "5f3c2fbb-ca17-41c9-acdb-d3e147869400": {
-    "title": "Wissensgemeinschaften",
+    "title": "Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s \"History of the Physicians\"",
     "path": "/PROJECTS/wissensgemeinschaften/"
   }
 }
