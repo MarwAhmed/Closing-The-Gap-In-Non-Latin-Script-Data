@@ -1,0 +1,143 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "c3e206ec-9989-4500-ac20-4126e35871f2",
+    "record_created": "2022-02-21",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Critical Edition of Ibn Bāğğa’s Commentary on Aristotle’s De generatione et corruptione",
+    "abbr": "",
+    "type": "",
+    "ref": [
+      ""
+    ],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://averroes.uni-koeln.de/edition/current-editions/"
+    ],
+    "project_desc": "",
+    "places": [
+      {
+        "place_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        }
+      }
+    ],
+    "lang": [
+      ""
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "rdm": true,
+      "infrastructure": true
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        },
+        "websites": [
+          ""
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": [
+                ""
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "project",
+        "title": "",
+        "ref": [
+          ""
+        ],
+        "websites": [
+          ""
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": [
+                ""
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "project",
+        "title": "",
+        "uuid": ""
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        },
+        "uuid": ""
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        },
+        "role": 0,
+        "websites": [
+          ""
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        ""
+      ]
+    },
+    "stack": {},
+    "policies": {},
+    "keywords": [
+      ""
+    ],
+    "comment": ""
+  }
+}
