@@ -4,7 +4,7 @@ on:
   pull_request:
     branches:
       - master
-      - ${{ github.ref_name	}}
+      - ${{ github.head_ref	}}
   workflow_dispatch:
     branches:
       - master
