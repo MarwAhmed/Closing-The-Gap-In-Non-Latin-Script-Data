@@ -58,7 +58,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "die Berlin-Brandenburgische Akademie der Wissenschaften",
           "ref": [
@@ -82,7 +82,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Académie des Inscriptions et Belles-Lettres Paris",
           "ref": [

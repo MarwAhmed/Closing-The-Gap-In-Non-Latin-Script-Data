@@ -49,7 +49,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "College of Saint Benedict & Saint John's University",
           "ref": [

@@ -39,7 +39,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Leibniz-Institut für Deutsche Sprache",
           "ref": [
@@ -63,7 +63,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
           "ref": [
@@ -87,7 +87,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Deutsche Nationalbibliothek",
           "ref": [
@@ -111,7 +111,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
           "ref": [
@@ -135,7 +135,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste",
           "ref": [

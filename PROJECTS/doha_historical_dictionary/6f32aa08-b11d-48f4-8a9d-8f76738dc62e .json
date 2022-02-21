@@ -47,7 +47,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Arab Center for Research and Policy Studies",
           "ref": [
@@ -71,7 +71,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Doha Institute for Graduate Studies",
           "ref": [

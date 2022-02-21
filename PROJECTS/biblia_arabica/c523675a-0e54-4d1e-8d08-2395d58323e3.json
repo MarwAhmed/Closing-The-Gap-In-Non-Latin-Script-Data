@@ -63,7 +63,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "FU Berlin",
           "ref": [
@@ -87,7 +87,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Tel Aviv University",
           "ref": [
@@ -111,7 +111,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
           "ref": [

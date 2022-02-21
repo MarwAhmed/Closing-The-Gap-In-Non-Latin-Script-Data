@@ -71,7 +71,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
           "ref": [
@@ -95,7 +95,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -119,7 +119,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Technische Universität Berlin",
           "ref": [
@@ -143,7 +143,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Universität Potsdam",
           "ref": [
@@ -167,7 +167,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Europa-Universität Viadrina Frankfurt (Oder)",
           "ref": [
@@ -191,7 +191,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Brandenburgische Technische Universität Cottbus-Senftenberg",
           "ref": [

@@ -75,7 +75,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Staatsbibliothek zu Berlin",
           "ref": [
@@ -99,7 +99,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Universität Erfurt",
           "ref": [
@@ -123,7 +123,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Leipzig University (LU)",
           "ref": [
@@ -147,7 +147,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Bayerische Staatsbibliothek",
           "ref": [

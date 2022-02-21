@@ -56,7 +56,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste ",
           "ref": [
@@ -80,7 +80,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Universität zu Köln",
           "ref": [

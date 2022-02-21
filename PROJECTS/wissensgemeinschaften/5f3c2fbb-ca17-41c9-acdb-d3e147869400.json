@@ -48,7 +48,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität in Munich",
           "ref": [

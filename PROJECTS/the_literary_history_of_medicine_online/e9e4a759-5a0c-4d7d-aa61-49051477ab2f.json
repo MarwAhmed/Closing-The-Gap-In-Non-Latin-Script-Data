@@ -55,7 +55,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Warwick University",
           "ref": [
@@ -79,7 +79,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "University of Oxford",
           "ref": [

@@ -45,7 +45,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Center of Digital Humanities Research - Texas A&M University",
           "ref": [
@@ -71,7 +71,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Vanderbilt University",
           "ref": [
@@ -95,7 +95,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Princeton University",
           "ref": [
@@ -119,7 +119,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Marquette University",
           "ref": [
@@ -143,7 +143,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "New York University",
           "ref": [
@@ -167,7 +167,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Beth Mardutho Research Library",
           "ref": [

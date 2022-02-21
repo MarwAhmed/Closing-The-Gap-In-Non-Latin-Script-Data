@@ -63,7 +63,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Academy of the Arabic Language",
           "ref": null
@@ -85,7 +85,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste",
           "ref": [
@@ -109,7 +109,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Israel Academy of Sciences and Humanities",
           "ref": [
