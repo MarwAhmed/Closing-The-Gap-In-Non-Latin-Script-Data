@@ -58,30 +58,6 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste ",
-          "ref": [
-            "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html"
-          ]
-        },
-        "websites": [
-          "https://www.awk.nrw.de/startseite.html"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Düsseldorf",
-              "ref": [
-                "https://www.geonames.org/2934246/duesseldorf.html"
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": []
-      },
-      {
-        "type": "organisation",
-        "org_name": {
           "text": "Universität zu Köln",
           "ref": [
             "https://www.geonames.org/6947535/universitaet-zu-koeln.html"
@@ -101,7 +77,8 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
         "type": "project",
