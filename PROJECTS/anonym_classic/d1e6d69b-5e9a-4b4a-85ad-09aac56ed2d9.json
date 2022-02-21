@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-02-18",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -18,14 +18,14 @@
     "ref": [],
     "date": [
       {
-        "from": "2018",
-        "to": ""
+        "from": "2018-01-01",
+        "to": "31-12-2022"
       }
     ],
     "websites": [
       "https://www.geschkult.fu-berlin.de/en/e/kalila-wa-dimna/index.html"
     ],
-    "project_desc": "",
+    "project_desc": "Anonym Classic is the first ever comprehensive study of Kalila and Dimna, one of the most important text of premodern world literature which passed from Hinduism and Buddhism via Islam to Christianity. Its Arabic versions constitute a source of all further translations into European languages and are also the main focus of the project, which analyses the transmission processes of the work from India to Europe with Arabic as cultural bridge. ",
     "places": [
       {
         "place_name": {
@@ -48,7 +48,7 @@
     },
     "parents": [
       {
-        "type": "organisation",
+        "type": "org",
         "org_name": {
           "text": "FU Berlin",
           "ref": [

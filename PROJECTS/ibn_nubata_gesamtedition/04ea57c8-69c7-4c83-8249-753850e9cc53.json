@@ -47,11 +47,6 @@
     },
     "parents": [
       {
-        "type": "project",
-        "title": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
-        "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83"
-      },
-      {
         "type": "org",
         "org_name": {
           "text": "WWU Münster",
@@ -77,7 +72,13 @@
       }
     ],
     "children": [],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Arabische Literatur und Rhetorik Elfhundert bis Achtzehnhundert",
+        "uuid": "d0f460bf-e890-4124-95e5-03675d5d2a83"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {

@@ -55,7 +55,7 @@
     },
     "parents": [
       {
-        "type": "organisation",
+        "type": "org",
         "org_name": {
           "text": "Universität Basel",
           "ref": [

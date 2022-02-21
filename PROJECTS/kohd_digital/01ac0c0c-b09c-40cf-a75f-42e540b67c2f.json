@@ -2,12 +2,12 @@
   "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "01ac0c0c-b09c-40cf-a75f-42e540b67c2f",
-    "record_created": "2022-02-2022",
+    "record_created": "2022-02-14",
     "record_created_by": "Kudela, Monkia Xenia",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-02-18",
+        "record_modified_by": "Kudela, Monkia Xenia"
       }
     ]
   },
@@ -22,90 +22,77 @@
         "to": ""
       }
     ],
-    "websites": null,
-    "project_desc": "KOHD Digital is a databank of KODH (Die Katalogisierung der Orientalischen Handschriften in Deutschland) – a research project KOHD that aims at systematizing not yet cataloged manuscripts from various German libraries. Previously all texts were published in printed catalogues but since 2016 they appear mostly online in KHOD Digital databank.",
+    "websites": [
+      "https://orient-mss.kohd.adw-goe.de/content/index.xml"
+    ],
+    "project_desc": "KOHD Digital is a databank of KODH (Die Katalogisierung der Orientalischen Handschriften in Deutschland) – a research project that aims at systematizing not yet cataloged manuscripts from various German libraries. Previously all texts were published in printed catalogues but since 2016 they appear mostly online in KHOD Digital databank.",
     "places": [
       {
         "place_name": {
-          "text": "",
+          "text": "Göttingen",
           "ref": [
-            ""
+            "https://www.geonames.org/2918632/goettingen.html"
           ]
         }
       }
     ],
     "lang": [
-      ""
+      "eng",
+      "ger"
     ],
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "rdm": true,
-      "infrastructure": true
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
-        },
+        "type": "project",
+        "title": "Katalogisierung der Orientalischen Handschriften in Deutschland (KOHD)",
+        "ref": [],
         "websites": [
-          ""
+          "https://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/kohd/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "",
+              "text": "Göttingen",
               "ref": [
-                ""
+                "https://www.geonames.org/2918632/goettingen.html"
               ]
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          ""
-        ],
-        "places": [
+        "parents": [
           {
-            "place_name": {
-              "text": "",
+            "type": "organisation",
+            "org_name": {
+              "text": "Akademie der Wissenschaften zu Göttingen",
               "ref": [
-                ""
+                "https://www.grid.ac/institutes/grid.461599.6"
               ]
-            }
+            },
+            "websites": [
+              "https://adw-goe.de"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Göttingen",
+                  "ref": [
+                    "https://www.geonames.org/2918632/goettingen.html"
+                  ]
+                }
+              }
+            ],
+            "parents": [],
+            "siblings": [],
+            "children": []
           }
         ],
-        "parents": [],
         "siblings": [],
         "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
-        },
-        "uuid": ""
       }
     ],
     "children": [],
@@ -113,26 +100,42 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Seidensticker, Tilman",
           "ref": [
-            ""
+            "https://d-nb.info/gnd/131508415"
           ]
         },
         "role": 0,
         "websites": [
-          ""
+          "https://www.gw.uni-jena.de/seidensticker-tilman"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        ""
+        "san",
+        "otk",
+        "tam",
+        "khm",
+        "tib",
+        "per",
+        "ara",
+        "cop"
       ]
     },
     "stack": {},
     "policies": {},
     "keywords": [
-      ""
+      "ara",
+      "cop",
+      "databank",
+      "khm",
+      "manuscripts",
+      "otk",
+      "per",
+      "san",
+      "tam",
+      "tib"
     ],
     "comment": ""
   }
