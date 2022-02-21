@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-02.21",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -19,13 +19,13 @@
     "date": [
       {
         "from": "2019",
-        "to": ""
+        "to": "2024"
       }
     ],
     "websites": [
       "https://www.naher-osten.uni-muenchen.de/forschung/arches-projekt/index.html"
     ],
-    "project_desc": "",
+    "project_desc": "The main objective of this project is the identification and cataloguing of Arabic and Judaeo-Arabic manuscripts related to Bible exegesis and translation, known as the Firkovitch Collection. The series contains approximately 2700 manuscripts dating back to the Golden Age of Arabic lands (between 9th and 13th centuries), which provide an extraordinary window to the intellectual and religious life of the Jewish communities living in those areas in that time. The metadata of the manuscripts will be made accessible for further research. ",
     "places": [
       {
         "place_name": {
@@ -50,8 +50,8 @@
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -145,13 +145,19 @@
     ],
     "research_data": {
       "lang": [
-        "heb"
+        "heb",
+        "ara"
       ]
     },
     "stack": {},
     "policies": {},
     "keywords": [
-      "heb"
+      "ara",
+      "bible",
+      "catalogue",
+      "catalogue_of_manuscripts",
+      "heb",
+      "manuscripts"
     ],
     "comment": ""
   }

@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-02-21",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -18,14 +18,14 @@
     "ref": [],
     "date": [
       {
-        "from": "2012",
+        "from": "2005",
         "to": ""
       }
     ],
     "websites": [
       "https://www.kleinefaecher.de/kartierung/arbeitsstelle-kleine-faecher.html"
     ],
-    "project_desc": "",
+    "project_desc": "This project focuses on “small subjects” or less known fields of study in German universities. Its main objective it to collect data about the current situation of small subjects in Germany as well as its documentation.",
     "places": [
       {
         "place_name": {
@@ -42,8 +42,8 @@
     "topic_relations": {
       "nls": false,
       "dh": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -98,11 +98,17 @@
       }
     ],
     "research_data": {
-      "lang": []
+      "lang": [
+        "ger"
+      ]
     },
     "stack": {},
     "policies": {},
-    "keywords": [],
+    "keywords": [
+      "ger",
+      "german_university",
+      "small_fiels_of_study"
+    ],
     "comment": ""
   }
 }
