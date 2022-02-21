@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-01-21",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -19,13 +19,13 @@
     "date": [
       {
         "from": "2016",
-        "to": ""
+        "to": "2041"
       }
     ],
     "websites": [
       "https://averroes.uni-koeln.de/project/about/"
     ],
-    "project_desc": "",
+    "project_desc": "The project´s main goal is to generate a trilingual critical edition of all commentaries by Ibn Rušd (Averroes) on Aristotle´s Physics, which are the synthesis of the late antique and Arabic reception of Greek philosophy. Next to the Arabic commentaries the edition will also contain their Latin and Hebrew translations.",
     "places": [
       {
         "place_name": {
@@ -51,8 +51,8 @@
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -133,10 +133,13 @@
     "stack": {},
     "policies": {},
     "keywords": [
-      "Averroes",
       "ara",
+      "averroes",
+      "digital_edition",
       "heb",
-      "lat"
+      "lat",
+      "manuscripts",
+      "philosophy"
     ],
     "comment": ""
   }
