@@ -22,7 +22,7 @@
         "to": ""
       }
     ],
-    "websites": null,
+    "websites": [],
     "project_desc": "",
     "places": [
       {
@@ -41,7 +41,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "",
           "ref": []
@@ -56,7 +56,8 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
         "type": "project",

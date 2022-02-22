@@ -22,7 +22,7 @@
         "to": "2024"
       }
     ],
-    "websites": null,
+    "websites": [],
     "project_desc": "",
     "places": [
       {
@@ -46,7 +46,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "FU Berlin",
           "ref": [
@@ -67,7 +67,8 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       }
     ],
     "children": [],

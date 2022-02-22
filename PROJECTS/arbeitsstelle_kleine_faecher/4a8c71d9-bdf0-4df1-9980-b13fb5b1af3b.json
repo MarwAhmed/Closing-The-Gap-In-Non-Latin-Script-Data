@@ -47,7 +47,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Johannes Gutenberg-Universität Mainz",
           "ref": [
@@ -68,7 +68,8 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       }
     ],
     "children": [],

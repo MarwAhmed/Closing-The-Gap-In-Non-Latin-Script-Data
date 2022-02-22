@@ -1,68 +1,70 @@
 {
   "schema_version": "0.1.3",
   "record_metadata": {
-    "uuid": "6f32aa08-b11d-48f4-8a9d-8f76738dc62e ",
-    "record_created": "2021-11-12",
+    "uuid": "7c7438e6-4172-4059-ad60-54a6d0d61f7c",
+    "record_created": "2022-02-21",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "2021-11-22",
-        "record_modified_by": "Kudela, Xenia Monika"
+        "record_modified_on": "",
+        "record_modified_by": ""
       }
     ]
   },
   "project": {
-    "title": "Doha Historical Dictionary (معجم الدوحة التأريخي للغة العربية)",
+    "title": "Critical Edition of the Fragmentary Latin Translation of Averroes’s Commentary on De Partibus Animalium and De Generatione Animalium",
     "abbr": "",
-    "type": "project",
-    "ref": [],
+    "type": "",
+    "ref": [
+      ""
+    ],
     "date": [
       {
-        "from": "2013-05-23",
-        "to": "2028"
+        "from": "",
+        "to": ""
       }
     ],
     "websites": [
-      "https://dohadictionary.org/"
+      "https://averroes.uni-koeln.de/edition/current-editions/"
     ],
     "project_desc": "",
     "places": [
       {
         "place_name": {
-          "text": "Doha",
+          "text": "",
           "ref": [
-            "https://www.geonames.org/2643743/london.html"
+            ""
           ]
         }
       }
     ],
     "lang": [
-      "ara"
+      ""
     ],
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": true,
+      "infrastructure": true
     },
     "parents": [
       {
         "type": "organisation",
         "org_name": {
-          "text": "Arab Center for Research and Policy Studies",
+          "text": "",
           "ref": [
-            "https://www.wikidata.org/wiki/Q12192828"
+            ""
           ]
         },
         "websites": [
-          "https://www.dohainstitute.edu.qa/en/pages/default.aspx"
+          ""
         ],
         "places": [
           {
             "place_name": {
-              "text": "Doha",
+              "text": "",
               "ref": [
-                "https://www.geonames.org/2643743/london.html"
+                ""
               ]
             }
           }
@@ -72,22 +74,20 @@
         "children": []
       },
       {
-        "type": "organisation",
-        "org_name": {
-          "text": "Doha Institute for Graduate Studies",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q23418976"
-          ]
-        },
+        "type": "project",
+        "title": "",
+        "ref": [
+          ""
+        ],
         "websites": [
-          "https://www.dohainstitute.org/en/Pages/index.aspx"
+          ""
         ],
         "places": [
           {
             "place_name": {
-              "text": "Doha",
+              "text": "",
               "ref": [
-                "https://www.geonames.org/2643743/london.html"
+                ""
               ]
             }
           }
@@ -95,6 +95,21 @@
         "parents": [],
         "siblings": [],
         "children": []
+      },
+      {
+        "type": "project",
+        "title": "",
+        "uuid": ""
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        },
+        "uuid": ""
       }
     ],
     "children": [],
@@ -102,27 +117,26 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Baalbaki, Ramzi",
+          "text": "",
           "ref": [
-            "https://www.wikidata.org/wiki/Q19664932"
+            ""
           ]
         },
         "role": 0,
         "websites": [
-          "https://www.aub.edu.lb/fas/arabic/Pages/Ramzi-Baalbaki-par.aspx"
+          ""
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "ara"
+        ""
       ]
     },
     "stack": {},
     "policies": {},
     "keywords": [
-      "ara",
-      "dictionary"
+      ""
     ],
     "comment": ""
   }

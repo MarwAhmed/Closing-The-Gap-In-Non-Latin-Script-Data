@@ -47,7 +47,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
           "ref": [
@@ -69,7 +69,8 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       }
     ],
     "children": [],

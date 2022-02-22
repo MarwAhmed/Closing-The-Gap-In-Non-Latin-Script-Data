@@ -48,7 +48,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
           "ref": [
@@ -69,10 +69,11 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Leibniz-Institut für Geschichte und Kultur des östlichen Europa e.V.",
           "ref": [
@@ -93,10 +94,11 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "das Leibniz-Institut für jüdische Geschichte und Kultur – Simon Dubnow e.V",
           "ref": [
@@ -117,10 +119,11 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Institut für Sächsische Geschichte und Volkskunde e.V",
           "ref": [
@@ -141,10 +144,11 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Sorbische Institut e.V. / serbski institut z.t.",
           "ref": [
@@ -165,7 +169,8 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       }
     ],
     "children": [],

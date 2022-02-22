@@ -55,7 +55,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
           "ref": [
@@ -76,10 +76,11 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "The Hebrew University of Jerusalem",
           "ref": [
@@ -100,7 +101,8 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       }
     ],
     "children": [],

@@ -48,7 +48,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Institut de Recherche et d'Histoire des Textes (IRHT)",
           "ref": [
@@ -69,7 +69,8 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       }
     ],
     "children": [],

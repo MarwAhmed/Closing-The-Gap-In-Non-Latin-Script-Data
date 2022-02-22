@@ -56,7 +56,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -77,10 +77,11 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Bayerische Staatsbibliothek",
           "ref": [
@@ -101,7 +102,8 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       }
     ],
     "children": [],

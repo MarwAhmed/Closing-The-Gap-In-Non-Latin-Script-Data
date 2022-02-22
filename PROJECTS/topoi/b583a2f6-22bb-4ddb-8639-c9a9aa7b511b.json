@@ -49,7 +49,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
           "ref": [
@@ -70,10 +70,11 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "FU Berlin",
           "ref": "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
@@ -88,7 +89,8 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       }
     ],
     "children": [],

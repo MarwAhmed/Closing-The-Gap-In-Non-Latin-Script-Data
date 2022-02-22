@@ -48,7 +48,7 @@
     },
     "parents": [
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Centre for the Study of Manuscript Cultures",
           "ref": []
@@ -93,7 +93,7 @@
         "siblings": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Helmut-Schmidt-Universität",
           "ref": [
@@ -114,10 +114,11 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
-        "type": "org",
+        "type": "organisation",
         "org_name": {
           "text": "Technische Universität Hamburg",
           "ref": [
@@ -138,7 +139,8 @@
           }
         ],
         "parents": [],
-        "siblings": []
+        "siblings": [],
+        "children": []
       }
     ],
     "children": [],
