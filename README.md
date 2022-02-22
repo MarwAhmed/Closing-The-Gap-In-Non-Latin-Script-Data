@@ -3,7 +3,7 @@
 
 
 [![Generic badge](https://img.shields.io/badge/IndexSchema-v0.1.1-blue.svg)](#indexschema)
-[![Generic badge](https://img.shields.io/badge/ProjectsSchema-v0.1.3-blue.svg)](#projectsschema)
+[![Generic badge](https://img.shields.io/badge/ProjectsSchema-v0.1.4-blue.svg)](#projectsschema)
 [![Generic badge](https://img.shields.io/badge/ResourcesSchema-v0.1.0-blue.svg)](#resourcesschema)
 
 # Closing the Gap in Non-Latin Script Data
@@ -45,13 +45,13 @@ Feel free to discuss the schema in the GitHub issues.
 }
 ```
 
-### <a id="projectsschema"></a>JSON Schema for Projects (`v0.1.3`)
+### <a id="projectsschema"></a>JSON Schema for Projects (`v0.1.4`)
 
 The JSON-file is to be put in a folder with a simplified, machine-readable name of the project's title and added to the project-index.
 
 ```javascript
 {
-  "schema_version": "0.1.3",
+  "schema_version": "0.1.4",
   "record_metadata": {
     // Universally Unique Identifier for each project 
     "uuid": "",

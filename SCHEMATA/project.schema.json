@@ -13,7 +13,7 @@
     "schema_version": {
       "description": "Version of the used JSON schema",
       "type": "string",
-      "default": "\\d\\.\\d\\.\\d"
+      "default": "0.1.4"
     },
     "record_metadata": {
       "description": "Metadata of the record file",
@@ -138,7 +138,8 @@
             "nls",
             "dh",
             "rdm",
-            "infrastructure"
+            "infrastructure",
+            "meta"
           ],
           "properties": {
             "nls": {
@@ -147,6 +148,10 @@
             },
             "dh": {
               "description": "Is the project related to Digital Humanities in general?",
+              "type": ["boolean", "null"]
+            },
+            "meta": {
+              "description": "Is the project a meta project?",
               "type": ["boolean", "null"]
             },
             "rdm": {
