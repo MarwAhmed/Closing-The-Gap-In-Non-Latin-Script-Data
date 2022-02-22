@@ -6,18 +6,16 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-02-22",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
     "title": "Critical Edition of Ibn Bāǧǧa’s Commentary on Aristotle’s Physics",
     "abbr": "",
-    "type": "",
-    "ref": [
-      ""
-    ],
+    "type": "project",
+    "ref": [],
     "date": [
       {
         "from": "",
@@ -27,116 +25,79 @@
     "websites": [
       "https://averroes.uni-koeln.de/edition/current-editions/"
     ],
-    "project_desc": "",
+    "project_desc": "Ibn Bāǧǧa´s commentaries provide an exposition of the content of Aristotle´s “Physics”, which is partly incomplete. They also had a decisive impact on Averroes´s commentaries on the same work. The project´s objective is a critical edition of Ibn Bāǧǧa´s commentaries, the study of their genesis and structure as well as their first ever presentation in form of a complete and reliable text.",
     "places": [
       {
         "place_name": {
-          "text": "",
+          "text": "Köln",
           "ref": [
-            ""
+            "https://www.geonames.org/2886242/koeln.html"
           ]
         }
       }
     ],
     "lang": [
-      ""
+      "eng"
     ],
     "topic_relations": {
       "nls": true,
-      "dh": true,
-      "rdm": true,
-      "infrastructure": true
+      "dh": null,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
-        },
-        "websites": [
-          ""
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": [
-                ""
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
         "type": "project",
-        "title": "",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          ""
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": [
-                ""
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
-        },
-        "uuid": ""
+        "title": "Averroes Edition",
+        "uuid": "a6e1fb68-e7a5-4125-8cfc-ec3aa16da73b"
       }
     ],
     "children": [],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Study of Averroes’s Long Commentary on the Physics in Hebrew and Latin Transmission",
+        "uuid": "3992a23d-8426-4b73-8b30-844e471e76e2"
+      },
+      {
+        "type": "project",
+        "title": "Critical Edition of Ibn Bāğğa’s Commentary on Aristotle’s De generatione et corruptione",
+        "uuid": "c3e206ec-9989-4500-ac20-4126e35871f2"
+      },
+      {
+        "type": "project",
+        "title": "Critical Edition of the Fragmentary Latin Translation of Averroes’s Commentary on De Partibus Animalium and De Generatione Animalium",
+        "uuid": "7c7438e6-4172-4059-ad60-54a6d0d61f7c"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Cherif Zahar, Farah ",
           "ref": [
-            ""
+            "http://viaf.org/viaf/209127583"
           ]
         },
-        "role": 0,
+        "role": 1,
         "websites": [
-          ""
+          "https://philosophie.univ-paris8.fr/Farah-CHERIF-ZAHAR"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        ""
+        "ara"
       ]
     },
     "stack": {},
     "policies": {},
     "keywords": [
-      ""
+      "ara",
+      "aristotele",
+      "commentary",
+      "critical_edition",
+      "ibn_bagga",
+      "manuscripts"
     ],
     "comment": ""
   }
