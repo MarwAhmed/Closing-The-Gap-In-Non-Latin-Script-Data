@@ -114,6 +114,7 @@ The JSON-file is to be put in a folder with a simplified, machine-readable name 
       // If no information is available: null, otherwise: true | false
       "nls": true, // Is the project related to Non-Latin Scripts?
       "dh": true, // Is the project related to Digital Humanities?
+      "meta": true, // Is the project a meta project?
       "rdm": true, // Is the project related to Research Data Management?
       "infrastructure": true // Is the project related to infrastructure?
     },
