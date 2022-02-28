@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.3",
   "record_metadata": {
-    "uuid": "7c7438e6-4172-4059-ad60-54a6d0d61f7c",
+    "uuid": "c3e206ec-9989-4500-ac20-4126e35871f2",
     "record_created": "2022-02-21",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
@@ -12,7 +12,7 @@
     ]
   },
   "project": {
-    "title": "Critical Edition of the Fragmentary Latin Translation of Averroes’s Commentary on De Partibus Animalium and De Generatione Animalium",
+    "title": "Critical Edition of Ibn Bāğğa’s Commentary on Aristotle’s De generatione et corruptione",
     "abbr": "",
     "type": "project",
     "ref": [],
@@ -25,7 +25,7 @@
     "websites": [
       "https://averroes.uni-koeln.de/edition/current-editions/"
     ],
-    "project_desc": "The project aims at proving inside in Averroes´s lost commentary on Aristotle´s De partibus animalium and De generatione animalium by editing its Latin translation together with a study of work´s transmission into Hebrew.",
+    "project_desc": "This project focuses on Ibn Bāğğa’s Commentary on Aristotle’s “De generatione et corruption” which, eclipsed by the subsequent commentaries of Averroes, received scant attention, even though the importance of Ibn Bāğğa’s influence on the thought of the latter is undeniable. The objective of the project is a critical edition of Ibn Bāğğa’s commentaries, who not only follows Aristotle but also presents different examples and develops ideas of his own.",
     "places": [
       {
         "place_name": {
@@ -61,8 +61,8 @@
       },
       {
         "type": "project",
-        "title": "Critical Edition of Ibn Bāğğa’s Commentary on Aristotle’s De generatione et corruptione",
-        "uuid": "c3e206ec-9989-4500-ac20-4126e35871f2"
+        "title": "Critical Edition of the Fragmentary Latin Translation of Averroes’s Commentary on De Partibus Animalium and De Generatione Animalium",
+        "uuid": "7c7438e6-4172-4059-ad60-54a6d0d61f7c"
       },
       {
         "type": "project",
@@ -73,42 +73,30 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Clesse, Grégory",
+          "text": "La Martire, Corrado",
           "ref": [
-            "http://viaf.org/processed/SUDOC%7C235746401"
-          ]
-        },
-        "role": 1,
-        "websites": []
-      },
-      {
-        "pers_name": {
-          "text": "Visi, Tamás",
-          "ref": [
-            "https://d-nb.info/gnd/1052000452"
+            "https://d-nb.info/gnd/118137412X"
           ]
         },
         "role": 1,
         "websites": [
-          "https://thomasinstitut.uni-koeln.de/en/mitarbeiterinnen/tamas-visi"
+          "https://thomasinstitut.uni-koeln.de/index.php?id=11981"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "heb",
-        "lat"
+        "ara"
       ]
     },
     "stack": {},
     "policies": {},
     "keywords": [
+      "ara",
       "aristotele",
-      "averroes",
       "commentary",
       "critical_edition",
-      "heb",
-      "lat",
+      "ibn_bagga",
       "manuscripts"
     ],
     "comment": ""

@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-02-22",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -25,7 +25,7 @@
     "websites": [
       "https://www.uni-muenster.de/ALEA/"
     ],
-    "project_desc": "",
+    "project_desc": "The main focus of ALEA project is the Arabic literature and rhetoric form the time between 11th and 18th century, which until now was regarded as a period of cultural and intellectual stagnation in the Middle East. Against this claim the researchers of ALEA project try to demonstrate that this period has not only produced a huge variety of fascinating texts but also hosted a vibrant literary life. In that they question the established concept of decadence and criticize it as scientifically wrong and moreover, as having impact on Arabic countries until these day.",
     "places": [
       {
         "place_name": {
@@ -42,8 +42,8 @@
     "topic_relations": {
       "nls": true,
       "dh": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -95,11 +95,18 @@
       }
     ],
     "research_data": {
-      "lang": []
+      "lang": [
+        "ara"
+      ]
     },
     "stack": {},
     "policies": {},
-    "keywords": [],
-    "comment": ""
+    "keywords": [
+      "11th_to_18th_century",
+      "ara",
+      "arabic_literature",
+      "edition"
+    ],
+    "comment": "The project is concluded. The published volumes are available by open access at https://www.nomos-elibrary.de/"
   }
 }
