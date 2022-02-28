@@ -14,104 +14,94 @@
   "project": {
     "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
     "abbr": "",
-    "type": "",
-    "ref": [
-      ""
-    ],
+    "type": "project",
+    "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2017",
+        "to": "2029"
       }
     ],
     "websites": [
       "https://gepris.dfg.de/gepris/projekt/344888349?context=projekt&task=showDetail&id=344888349&",
       "https://www.gw.uni-hamburg.de/forschung/universitaere-schwerpunkte/manuscript-cultures.html"
     ],
-    "project_desc": "",
+    "project_desc": "This project is dedicated to research on manuscripts produced in African languages written in Arabic script (Ajami). The main focus of the study is the collection of rescued manuscripts form Timbutku currently hosted in Bamako. The project aims at their historical and linguistic analyses, in-depth cataloguing, and establishment of a foundation for the interdisciplinary field of Ajami Studies.",
     "places": [
       {
         "place_name": {
-          "text": "",
+          "text": "Bamako",
           "ref": [
-            ""
+            "https://www.geonames.org/2460596/bamako.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
           ]
         }
       }
     ],
     "lang": [
-      ""
+      "eng",
+      "fre",
+      "ger"
     ],
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "meta": true,
-      "rdm": true,
-      "infrastructure": true
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "organisation",
         "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
+          "text": "Centre for the Study of Manuscript Cultures",
+          "ref": []
         },
         "websites": [
-          ""
+          "https://www.csmc.uni-hamburg.de/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "",
+              "text": "Hamburg",
               "ref": [
-                ""
+                "https://www.geonames.org/2911298/hamburg.html"
               ]
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          ""
-        ],
-        "places": [
+        "parents": [
           {
-            "place_name": {
-              "text": "",
+            "type": "org",
+            "org_name": {
+              "text": "Universität Hamburg",
               "ref": [
-                ""
+                "https://www.grid.ac/institutes/grid.9026.d"
               ]
-            }
+            },
+            "website": [
+              "http://www.uni-hamburg.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Hamburg",
+                  "ref": [
+                    "https://www.geonames.org/2911298/hamburg.html"
+                  ]
+                }
+              }
+            ]
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
-        },
-        "uuid": ""
+        "siblings": []
       }
     ],
     "children": [],
@@ -119,26 +109,33 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Bondarev, Dmitry",
           "ref": [
-            ""
+            "https://d-nb.info/gnd/1185835431"
           ]
         },
         "role": 0,
         "websites": [
-          ""
+          "https://www.csmc.uni-hamburg.de/about/people/bondarev.html"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        ""
+        "snk",
+        "mku"
       ]
     },
     "stack": {},
     "policies": {},
     "keywords": [
-      ""
+      "african_languages",
+      "ajami",
+      "catalogue",
+      "mali",
+      "manuscripts",
+      "mku",
+      "snk"
     ],
     "comment": ""
   }
