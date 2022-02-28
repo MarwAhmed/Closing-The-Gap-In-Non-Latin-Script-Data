@@ -133,8 +133,9 @@
         ""
       ]
     },
-    "stack": {},
-    "policies": {},
+    "stack": {
+    },
+    "policies": [],
     "keywords": [
       ""
     ],
