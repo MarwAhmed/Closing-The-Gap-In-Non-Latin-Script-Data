@@ -12,7 +12,7 @@ The project aims to facilitate research in Digital Humanities projects dealing w
 
 This repository contains metadata information on projects and useful resources that can be loosely associated to the field of Digital Humanities and Non-Latin-Script-based research. This project is particularly interested in the situation of (digital) Arabic Studies and related fields.
 
-GUI is in development.
+GUI (in development): https://m-l-d-h.github.io/closing-the-gap-in-nls-data/
 
 ## Contact
 Jonas Müller-Laackman
