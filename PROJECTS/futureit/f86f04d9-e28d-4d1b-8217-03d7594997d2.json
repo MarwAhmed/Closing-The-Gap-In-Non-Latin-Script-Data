@@ -46,6 +46,7 @@
     "topic_relations": {
       "nls": false,
       "dh": false,
+      "meta": false,
       "rdm": false,
       "infrastructure": true
     },

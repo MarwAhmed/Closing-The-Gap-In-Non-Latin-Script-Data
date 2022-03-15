@@ -6,14 +6,14 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-02-18",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
-    "title": "Biblia Arabica",
-    "abbr": "",
+    "title": "Biblia Arabica: The Bible in Arabic among Jews, Christians and Muslims",
+    "abbr": "Biblia Arabica",
     "type": "project",
     "ref": [],
     "date": [
@@ -25,7 +25,7 @@
     "websites": [
       "https://biblia-arabica.com/"
     ],
-    "project_desc": "",
+    "project_desc": "Biblia Arabica serves as a research consortium with focus on Arabic translations of Hebrew, Aramaic, Syriac, Greek and Coptic Bible versions. It examines their stylistic and didactic features, vocabulary, scripts and strategies, as well as the mutual religious and cultural influences between the different religious communities, which were reinforced by the translation movements. The project attempts to set methodological standards on this field of study, charts countless manuscripts from across the globe and analyses different method of translation form the various source languages.",
     "places": [
       {
         "place_name": {
@@ -58,8 +58,9 @@
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "rdm": null,
-      "infrastructure": null
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -163,7 +164,9 @@
     "policies": {},
     "keywords": [
       "ara",
-      "bible"
+      "bible",
+      "manuscripts",
+      "translation"
     ],
     "comment": ""
   }

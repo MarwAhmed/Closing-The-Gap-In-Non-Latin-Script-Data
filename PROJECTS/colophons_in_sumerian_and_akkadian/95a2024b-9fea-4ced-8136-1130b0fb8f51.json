@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "95a2024b-9fea-4ced-8136-1130b0fb8f51",
+    "record_created": "2022-02-28",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "2022-03-02",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
+  },
+  "project": {
+    "title": "Colophons in Sumerian and Akkadian Literary Manuscripts from 3rd and 2nd Millennium BCE Mesopotamia",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2022"
+      }
+    ],
+    "websites": [
+      "https://www.csmc.uni-hamburg.de/written-artefacts/field-d/rfd05.html"
+    ],
+    "project_desc": "The focus of this project are colophons of Sumerian and Akkadian manuscripts dating back to 3rd and 2nd millennium BC, which until now have been neglected in manuscript studies. The objective is to create a database containing a catalogue of respective manuscripts and an edition of the extant colophons. It should serve as solid base for the study of scribal practices in an ancient Mesopotamia and the relevance of colophons in its cultural history.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "project",
+        "title": "Understanding Written Artefacts",
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Jáka-Sövegjártó, Szilvia",
+          "ref": [
+            "https://d-nb.info/gnd/1156345170"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/about/people/soevegjarto.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "sux",
+        "akk"
+      ]
+    },
+    "stack": {},
+    "policies": {},
+    "keywords": [
+      "akk",
+      "colophons",
+      "database",
+      "manuscripts",
+      "sux"
+    ],
+    "comment": ""
+  }
+}
