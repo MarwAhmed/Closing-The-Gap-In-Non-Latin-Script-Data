@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2022-01-31",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-03-28",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -25,7 +29,7 @@
     "websites": [
       "http://www.hfjs.eu//abc/projekte.babylonisch-jemenitische-bibeltext-Tradition.html"
     ],
-    "project_desc": "",
+    "project_desc": "This project is dedicated to the complete collection and computerization of textual variants of the Biblical manuscripts of the Babylonian and Yemenite tradition. The variants will be compered with other ancient textual witnesses and classified in their historical context. The analyses of the hitherto unexplored material will open a new perspective for the reconstruction of the biblical text history.",
     "places": [
       {
         "place_name": {
@@ -99,7 +103,8 @@
     "policies": {},
     "keywords": [
       "bible",
-      "digital_text_collection",
+      "biblical_text_history",
+      "digitl_edition",
       "heb"
     ],
     "comment": ""
