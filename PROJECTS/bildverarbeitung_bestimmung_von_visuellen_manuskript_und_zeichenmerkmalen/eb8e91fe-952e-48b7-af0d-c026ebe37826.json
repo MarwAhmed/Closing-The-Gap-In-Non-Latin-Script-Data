@@ -6,139 +6,133 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-03-29",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
     "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
     "abbr": "",
-    "type": "",
-    "ref": [
-      ""
-    ],
+    "type": "project",
+    "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2015",
+        "to": "2019"
       }
     ],
     "websites": [
       "https://www.manuscript-cultures.uni-hamburg.de/Poster/Z03_A4_P2.pdf",
       "https://www.manuscript-cultures.uni-hamburg.de/Projekte_p2.html"
     ],
-    "project_desc": "",
+    "project_desc": "This project is intended to support the research programme of the SFB (Sonderforschungsbereich for Manuscript Cultures in Asia, Africa and Europe) by piloting and further development of the Advanced Manuscript Analysis Portal  (AMAP), a web-based platform offering self-usable toolbox for humanists and facilitating communication between experts, as well as by development of innovative image processing methods.",
     "places": [
       {
         "place_name": {
-          "text": "",
+          "text": "Hamburg",
           "ref": [
-            ""
+            "https://www.geonames.org/2911298/hamburg.html"
           ]
         }
       }
     ],
     "lang": [
-      ""
+      "eng",
+      "ger"
     ],
     "topic_relations": {
-      "nls": true,
+      "nls": false,
       "dh": true,
-      "meta": true,
-      "rdm": true,
+      "meta": false,
+      "rdm": false,
       "infrastructure": true
     },
     "parents": [
       {
         "type": "organisation",
         "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
+          "text": "Centre for the Study of Manuscript Cultures",
+          "ref": []
         },
         "websites": [
-          ""
+          "https://www.csmc.uni-hamburg.de/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "",
+              "text": "Hamburg",
               "ref": [
-                ""
+                "https://www.geonames.org/2911298/hamburg.html"
               ]
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          ""
-        ],
-        "places": [
+        "parents": [
           {
-            "place_name": {
-              "text": "",
+            "type": "org",
+            "org_name": {
+              "text": "Universität Hamburg",
               "ref": [
-                ""
+                "https://www.grid.ac/institutes/grid.9026.d"
               ]
-            }
+            },
+            "website": [
+              "http://www.uni-hamburg.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Hamburg",
+                  "ref": [
+                    "https://www.geonames.org/2911298/hamburg.html"
+                  ]
+                }
+              }
+            ]
           }
         ],
-        "parents": [],
         "siblings": [],
         "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
-        },
-        "uuid": ""
       }
     ],
     "children": [],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
+        "uuid": "892b783d-1788-451f-9efd-1c58bfb4b064"
+      },
+      {
+        "type": "project",
+        "title": "Datenrepositorium Manuskriptkulturen",
+        "uuid": "894dcf0c-7295-4fb8-b4ba-866a5ebe3310"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Stiehl, Hans Siegfried",
           "ref": [
-            ""
+            "https://www.wikidata.org/wiki/Q102416616"
           ]
         },
         "role": 0,
         "websites": [
-          ""
+          "https://www.csmc.uni-hamburg.de/about/people/stiehl.html",
+          "https://www.inf.uni-hamburg.de/en/inst/ab/bv/team/stiehl.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        ""
-      ]
+      "lang": []
     },
     "stack": {},
     "policies": {},
     "keywords": [
-      ""
+      "image_processing",
+      "ip",
+      "manuscripts"
     ],
     "comment": ""
   }

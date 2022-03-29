@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2011",
+        "record_modified_by": "2019"
       }
     ]
   },
@@ -115,7 +115,18 @@
       }
     ],
     "children": [],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Datenrepositorium Manuskriptkulturen",
+        "uuid": "894dcf0c-7295-4fb8-b4ba-866a5ebe3310"
+      },
+      {
+        "type": "project",
+        "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
+        "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
