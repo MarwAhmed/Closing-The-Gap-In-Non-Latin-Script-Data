@@ -6,112 +6,94 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "2011",
-        "record_modified_by": "2019"
+        "record_modified_on": "2022-03-29",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
     "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
     "abbr": "",
-    "type": "",
-    "ref": [
-      ""
-    ],
+    "type": "project",
+    "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2011",
+        "to": "2019"
       }
     ],
     "websites": [
       "https://www.manuscript-cultures.uni-hamburg.de/Poster/Z01_A4_P2.pdf",
       "https://www.manuscript-cultures.uni-hamburg.de/Projekte_p2.html"
     ],
-    "project_desc": "",
+    "project_desc": "This project supports the research programme of the SFB (Sonderforschungsbereich for Manuscript Cultures in Asia, Africa and Europe) by making available and further development of modern technologies that help to recover scripts that are not longer readable for the human eye due to organic deterioration or conscious interventions.",
     "places": [
       {
         "place_name": {
-          "text": "",
+          "text": "Hamburg",
           "ref": [
-            ""
+            "https://www.geonames.org/2911298/hamburg.html"
           ]
         }
       }
     ],
     "lang": [
-      ""
+      "eng",
+      "ger"
     ],
     "topic_relations": {
-      "nls": true,
+      "nls": false,
       "dh": true,
-      "meta": true,
-      "rdm": true,
+      "meta": false,
+      "rdm": false,
       "infrastructure": true
     },
     "parents": [
       {
         "type": "organisation",
         "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
+          "text": "Centre for the Study of Manuscript Cultures",
+          "ref": []
         },
         "websites": [
-          ""
+          "https://www.csmc.uni-hamburg.de/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "",
+              "text": "Hamburg",
               "ref": [
-                ""
+                "https://www.geonames.org/2911298/hamburg.html"
               ]
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          ""
-        ],
-        "places": [
+        "parents": [
           {
-            "place_name": {
-              "text": "",
+            "type": "org",
+            "org_name": {
+              "text": "Universität Hamburg",
               "ref": [
-                ""
+                "https://www.grid.ac/institutes/grid.9026.d"
               ]
-            }
+            },
+            "website": [
+              "http://www.uni-hamburg.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Hamburg",
+                  "ref": [
+                    "https://www.geonames.org/2911298/hamburg.html"
+                  ]
+                }
+              }
+            ]
           }
         ],
-        "parents": [],
         "siblings": [],
         "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
-        },
-        "uuid": ""
       }
     ],
     "children": [],
@@ -130,26 +112,29 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Brockmann, Christian",
           "ref": [
-            ""
+            "https://d-nb.info/gnd/137576218"
           ]
         },
         "role": 0,
         "websites": [
-          ""
+          "https://www.csmc.uni-hamburg.de/about/people/brockmann.html",
+          "https://www.slm.uni-hamburg.de/igrlatphil/personen/brockmann.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        ""
-      ]
+      "lang": []
     },
     "stack": {},
     "policies": {},
     "keywords": [
-      ""
+      "manuscript",
+      "manuscript_recovery",
+      "manuscript_research",
+      "manuscripts",
+      "research software"
     ],
     "comment": ""
   }
