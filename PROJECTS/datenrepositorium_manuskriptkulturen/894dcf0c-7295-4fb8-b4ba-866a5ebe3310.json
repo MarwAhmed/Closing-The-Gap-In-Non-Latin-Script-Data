@@ -6,22 +6,20 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-03-28",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
     "title": "Datenrepositorium Manuskriptkulturen",
-    "abbr": "",
-    "type": "",
-    "ref": [
-      ""
-    ],
+    "abbr": "This project was dedicated to the systematic securing and long-term use of all research data relevant for SFB (Sonderforschungsbereich for Manuscript Cultures in Asia, Africa and Europe). As result a centralized data repository was created for all the all the sub-projects of SBF synchronizing them with the administration and freeing them of the tasks of securing data and of developing specific tools. Next to the collection of all the data of SFB the created infrastructure helps to optimize manuscript research by making all manuscripts available in one place, offering the possibility to annotate documents, to write glossaries and to make results available to the public as well as by supporting the graduate college on using e-learning.",
+    "type": "project",
+    "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2015",
+        "to": "2019"
       }
     ],
     "websites": [
@@ -32,20 +30,21 @@
     "places": [
       {
         "place_name": {
-          "text": "",
+          "text": "Hamburg",
           "ref": [
-            ""
+            "https://www.geonames.org/2911298/hamburg.html"
           ]
         }
       }
     ],
     "lang": [
-      ""
+      "eng",
+      "ger"
     ],
     "topic_relations": {
-      "nls": true,
-      "dh": true,
-      "meta": true,
+      "nls": false,
+      "dh": false,
+      "meta": false,
       "rdm": true,
       "infrastructure": true
     },
@@ -53,65 +52,48 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
+          "text": "Centre for the Study of Manuscript Cultures",
+          "ref": []
         },
         "websites": [
-          ""
+          "https://www.csmc.uni-hamburg.de/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "",
+              "text": "Hamburg",
               "ref": [
-                ""
+                "https://www.geonames.org/2911298/hamburg.html"
               ]
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          ""
-        ],
-        "places": [
+        "parents": [
           {
-            "place_name": {
-              "text": "",
+            "type": "org",
+            "org_name": {
+              "text": "Universität Hamburg",
               "ref": [
-                ""
+                "https://www.grid.ac/institutes/grid.9026.d"
               ]
-            }
+            },
+            "website": [
+              "http://www.uni-hamburg.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Hamburg",
+                  "ref": [
+                    "https://www.geonames.org/2911298/hamburg.html"
+                  ]
+                }
+              }
+            ]
           }
         ],
-        "parents": [],
         "siblings": [],
         "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
-        },
-        "uuid": ""
       }
     ],
     "children": [],
@@ -119,26 +101,32 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Friedrich, Michael",
           "ref": [
-            ""
+            "https://d-nb.info/gnd/1106567749"
           ]
         },
         "role": 0,
         "websites": [
-          ""
+          "https://www.aai.uni-hamburg.de/china/personen/friedrich.html"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        ""
+        "eng",
+        "ger"
       ]
     },
     "stack": {},
     "policies": {},
     "keywords": [
-      ""
+      "eng",
+      "ger",
+      "infrastructure",
+      "manuscript_research",
+      "repository",
+      "research_data_management"
     ],
     "comment": ""
   }
