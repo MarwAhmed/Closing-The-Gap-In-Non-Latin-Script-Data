@@ -6,66 +6,66 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-03-31",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
     "title": "Project for the digitisation and online presentation of Arabic, Persian, and Turkish manuscripts at Leipzig University Library",
     "abbr": "",
-    "type": "",
-    "ref": [
-      ""
-    ],
+    "type": "project",
+    "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2012-10",
+        "to": "2015-01"
       }
     ],
     "websites": [
       "https://www.islamic-manuscripts.net/content/index.xml?XSL.lastPage.SESSION=/content/index.xml&lang=de"
     ],
-    "project_desc": "",
+    "project_desc": "In this project all the remaining Arabic, Persian and Turkish manuscripts at Leipzig University Library that have not been yet catalogued  and digitized in previous projects (Refaiya and Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig) will be made accessible online until 2015.",
     "places": [
       {
         "place_name": {
-          "text": "",
+          "text": "Leipzig",
           "ref": [
-            ""
+            "https://www.geonames.org/2879139/leipzig.html"
           ]
         }
       }
     ],
     "lang": [
-      ""
+      "ara",
+      "eng",
+      "ger"
     ],
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "meta": true,
-      "rdm": true,
-      "infrastructure": true
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "organisation",
         "org_name": {
-          "text": "",
+          "text": "Universität Leipzig",
           "ref": [
-            ""
+            "https://www.grid.ac/institutes/grid.9647.c"
           ]
         },
         "websites": [
-          ""
+          "https://www.uni-leipzig.de/en/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "",
+              "text": "Leipzig",
               "ref": [
-                ""
+                "https://www.geonames.org/2879139/leipzig.html"
               ]
             }
           }
@@ -73,44 +73,6 @@
         "parents": [],
         "siblings": [],
         "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          ""
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": [
-                ""
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
-        },
-        "uuid": ""
       }
     ],
     "children": [],
@@ -129,26 +91,33 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Verena Klemm-Kuhn",
           "ref": [
-            ""
+            "https://www.wikidata.org/wiki/Q5675690"
           ]
         },
         "role": 0,
         "websites": [
-          ""
+          "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-verena-klemm-kuhn"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        ""
+        "ara",
+        "per",
+        "tur"
       ]
     },
     "stack": {},
     "policies": [],
     "keywords": [
-      ""
+      "ara",
+      "catalogue",
+      "digital_edition",
+      "manuscripts",
+      "per",
+      "tur"
     ],
     "comment": ""
   }
