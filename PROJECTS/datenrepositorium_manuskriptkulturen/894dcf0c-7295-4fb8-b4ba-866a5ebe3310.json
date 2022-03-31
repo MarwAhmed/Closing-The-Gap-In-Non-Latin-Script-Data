@@ -43,7 +43,7 @@
     ],
     "topic_relations": {
       "nls": false,
-      "dh": false,
+      "dh": true,
       "meta": false,
       "rdm": true,
       "infrastructure": true
@@ -97,7 +97,18 @@
       }
     ],
     "children": [],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
+        "uuid": "892b783d-1788-451f-9efd-1c58bfb4b064"
+      },
+      {
+        "type": "project",
+        "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
+        "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {

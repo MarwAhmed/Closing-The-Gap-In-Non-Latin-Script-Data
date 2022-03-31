@@ -107,6 +107,14 @@
     "title": "Der Bibeltext der Handschriften mit babylonisch-jemenitischer Punktation: Erfassung der Textvarianten",
     "path": "/PROJECTS/der_bibeltext_der_handschriften/"
   },
+  "0a75cf74-9cbe-4ce2-9799-ee16dcc1e88e": {
+    "title": "Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig",
+    "path": "/PROJECTS/digitalisierung_der_handschriften_ubl_1/"
+  },
+  "cad00fa7-09a1-4df1-a08b-4ab5b2a48703": {
+    "title": "Project for the digitisation and online presentation of Arabic, Persian, and Turkish manuscripts at Leipzig University Library",
+    "path": "/PROJECTS/digitalisierung_der_handschriften_ubl_2/"
+  },
   "e9ddf49e-4dc1-4f1c-ac73-ba0883cdd5d2": {
     "title": "The Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
     "path": "/PROJECTS/digi_pal/"
@@ -222,6 +230,10 @@
   "99718590-5e1e-4a64-bf84-6e2213ad1836": {
     "title": "Qumran Digital: Text und Lexikon",
     "path": "/PROJECTS/qumran_digital_text_und_lexikon/"
+  },
+  "38e6dfb4-730a-4a80-8090-4b7ea551b3c7": {
+    "title": "Datenbankgestützte Erfassung, Erforschung und digitale Präsentation der Familienbibliothek Refaiya",
+    "path": "/PROJECTS/refaiya/"
   },
   "9513964d-3509-462e-9d64-c47fd3922459": {
     "title": "Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer",
