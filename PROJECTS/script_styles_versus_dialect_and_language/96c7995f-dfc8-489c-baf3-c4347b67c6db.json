@@ -104,11 +104,11 @@
     "stack": {},
     "policies": {},
     "keywords": [
-      "Islamic manuscripts",
-      "Songhay",
-      "Timbuktu",
+      "islamic_manuscripts",
       "manuscripts",
-      "son"
+      "son",
+      "songhay",
+      "timbuktu"
     ],
     "comment": ""
   }

@@ -78,7 +78,9 @@
         "type": "organisation",
         "org_name": {
           "text": "FU Berlin",
-          "ref": "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
+          "ref": [
+            "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
+          ]
         },
         "websites": [
           "https://www.fu-berlin.de/"
