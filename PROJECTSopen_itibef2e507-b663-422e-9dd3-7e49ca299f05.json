@@ -1,0 +1,222 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05",
+    "record_created": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "2021-11-25",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
+  },
+  "project": {
+    "title": "Open Islamicate Texts Initiative",
+    "abbr": "OpenITI",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2019-09",
+        "to": "2021-12"
+      }
+    ],
+    "websites": [
+      "https://alraqmiyyat.github.io/OpenITI/",
+      "https://github.com/OpenITI"
+    ],
+    "project_desc": "",
+    "places": [
+      {
+        "place_name": {
+          "text": "College Park",
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "London",
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": true
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Maryland, College Park",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.164295.d"
+          ]
+        },
+        "websites": [
+          "https://www.umd.edu/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "College Park",
+              "ref": [
+                "https://www.geonames.org/4351977/college-park.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Leipzig University (LU)",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.9647.c"
+          ]
+        },
+        "websites": [
+          "https://www.uni-leipzig.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Leipzig",
+              "ref": [
+                "https://www.geonames.org/2879139/leipzig.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "The Aga Khan University (International)",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q4690953"
+          ]
+        },
+        "websites": [
+          "https://www.aku.edu/Pages/united-kingdom.aspx",
+          "https://www.aku.edu/Pages/home.aspx"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Karachi",
+              "ref": [
+                "https://www.geonames.org/1174872/karachi.html"
+              ]
+            }
+          },
+          {
+            "place_name": {
+              "text": "London",
+              "ref": [
+                "https://www.geonames.org/2643743/london.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Vienna",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.10420.37"
+          ]
+        },
+        "websites": [
+          "https://www.univie.ac.at/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Vienna",
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Kitab",
+        "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Romanov, Maxim",
+          "ref": []
+        },
+        "role": 1,
+        "websites": [
+          "http://www.dh.uni-leipzig.de/wo/maxim-romanov/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "per"
+      ]
+    },
+    "stack": {},
+    "policies": {},
+    "keywords": [
+      "ara",
+      "corpus",
+      "dh",
+      "multilingualdh",
+      "per"
+    ],
+    "comment": ""
+  }
+}

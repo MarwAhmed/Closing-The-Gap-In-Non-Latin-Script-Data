@@ -1,0 +1,117 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836",
+    "record_created": "2022-03-28",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Qumran Digital: Text und Lexikon",
+    "abbr": "Qurman",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2021",
+        "to": "2033"
+      }
+    ],
+    "websites": [
+      "http://www.qwb.adw-goettingen.gwdg.de/index.html",
+      "https://gepris.dfg.de/gepris/projekt/465277421?context=projekt&task=showDetail&id=465277421&"
+    ],
+    "project_desc": "The main objective of this project it to elaborate a philological dictionary of a complete vocabulary the Dead Sea Scrolls, famous manuscripts contacting over 1000 biblical and nonbiblical text in Hebrew and Aramaic languages dating back to period between 3 c. BC and 2 AD.  The materials will be edited morphologically, etymologically and semantically and mad openly accessible for public.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Göttingen",
+          "ref": [
+            "https://www.geonames.org/2918632/goettingen.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Akademie der Wissenschaften zu Göttingen",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.461599.6"
+          ]
+        },
+        "websites": [
+          "https://adw-goe.de"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Göttingen",
+              "ref": [
+                "https://www.geonames.org/2918632/goettingen.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Scripta Qumranica Electronica",
+        "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Kratz, Reinhard G.",
+          "ref": [
+            "https://d-nb.info/gnd/115412700"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.uni-goettingen.de/de/56085.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "arc",
+        "heb"
+      ]
+    },
+    "stack": {},
+    "policies": [],
+    "keywords": [
+      "arc",
+      "dead_sea_scrolls",
+      "dictionary",
+      "digital_dictionary",
+      "heb",
+      "qumran"
+    ],
+    "comment": ""
+  }
+}

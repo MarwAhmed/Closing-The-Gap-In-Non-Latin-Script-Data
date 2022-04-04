@@ -1,0 +1,121 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "38e6dfb4-730a-4a80-8090-4b7ea551b3c7",
+    "record_created": "2022-03-29",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "2022-03-31",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
+  },
+  "project": {
+    "title": "Datenbankgestützte Erfassung, Erforschung und digitale Präsentation der Familienbibliothek Refaiya",
+    "abbr": "Refaiya",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2008",
+        "to": "2013"
+      }
+    ],
+    "websites": [
+      "https://www.refaiya.uni-leipzig.de/content/index.xml"
+    ],
+    "project_desc": "This project is dedicated to digital presentation, cataloguing and research on the private Arabic-Islamic library of the Damascene Rifā'ī family. The Refaiya library contains 488 carefully preserved volumes which can be seen as a cultural archive of a traditional Islamic culture of scholarship, knowledge, and books handed down over several centuries until it was purchased by a Prussian Consul and Arabist  Johann Gottfried Wetzstein in 19th century. The trilingual database (English, German and Arabic) will make the manuscripts accessible internationally, including the Islamic world. The digital recording of the texts is based on a database created in the project >Pilot Project for a database-supported indexing and digital presentation of the recently acquired Arab, Turkish and Persian manuscripts at the University of Leipzig<",
+    "places": [
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "ara",
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Universität Leipzig",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.9647.c"
+          ]
+        },
+        "websites": [
+          "https://www.uni-leipzig.de/en/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Leipzig",
+              "ref": [
+                "https://www.geonames.org/2879139/leipzig.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Project for the digitisation and online presentation of Arabic, Persian, and Turkish manuscripts at Leipzig University Library",
+        "uuid": "cad00fa7-09a1-4df1-a08b-4ab5b2a48703"
+      },
+      {
+        "type": "project",
+        "title": "Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig",
+        "uuid": "0a75cf74-9cbe-4ce2-9799-ee16dcc1e88e"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Verena Klemm-Kuhn",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5675690"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-verena-klemm-kuhn"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ]
+    },
+    "stack": {},
+    "policies": [],
+    "keywords": [
+      "ara",
+      "catalogue",
+      "digital_edition",
+      "manuscripts",
+      "refaiya_library"
+    ],
+    "comment": ""
+  }
+}

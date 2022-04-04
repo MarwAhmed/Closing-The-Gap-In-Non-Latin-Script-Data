@@ -1,29 +1,33 @@
 {
   "schema_version": "0.1.3",
   "record_metadata": {
-    "uuid": "a2984fec-9396-488e-ad56-d3d21dc49052",
+    "uuid": "b583a2f6-22bb-4ddb-8639-c9a9aa7b511b",
     "record_created": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "2022-01-26",
+        "record_modified_on": "2022-01-24",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
-    "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
-    "abbr": "",
+    "title": "Topoi. The Formation and Transformation of Space and Knowledge in Ancient Civilizations",
+    "abbr": "TOPOI",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2007",
+        "to": "2012"
+      },
+      {
+        "from": "2012",
+        "to": "2019"
       }
     ],
     "websites": [
-      "https://www.sfb-episteme.de/teilprojekte/handeln/C10/index.html"
+      "https://www.topoi.org"
     ],
     "project_desc": "",
     "places": [
@@ -36,10 +40,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "ger"
-    ],
+    "lang": [],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -51,13 +52,13 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "FU Berlin",
+          "text": "Humboldt-Universität zu Berlin",
           "ref": [
-            "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
+            "https://www.grid.ac/institutes/grid.7468.d"
           ]
         },
         "websites": [
-          "https://www.fu-berlin.de/"
+          "https://www.hu-berlin.de"
         ],
         "places": [
           {
@@ -74,20 +75,20 @@
         "children": []
       },
       {
-        "type": "project",
-        "title": "Episteme in Bewegung - Wissenstransfer von der Alten Welt bis in die Frühe Neuzeit",
-        "ref": [],
+        "type": "organisation",
+        "org_name": {
+          "text": "FU Berlin",
+          "ref": [
+            "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
+          ]
+        },
         "websites": [
-          "https://www.sfb-episteme.de/"
+          "https://www.fu-berlin.de/"
         ],
         "places": [
           {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
+            "text": "Berlin",
+            "ref": "https://www.geonames.org/2950159/berlin.html"
           }
         ],
         "parents": [],
@@ -100,32 +101,26 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Beatrice Gruendler",
+          "text": "Meyer, Michael",
           "ref": [
-            "https://d-nb.info/gnd/111749344X"
+            "https://www.wikidata.org/wiki/Q1928613"
           ]
         },
         "role": 0,
         "websites": [
-          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Gruendler/"
+          "https://www.geschkult.fu-berlin.de/e/praehist/institut/Mitarbeiterinnen-und-Mitarbeiter/Professoren/Meyer.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "gre",
-        "syr"
-      ]
+      "lang": []
     },
     "stack": {},
     "policies": {},
     "keywords": [
-      "ara",
-      "gre",
-      "micro-texts",
-      "sprueche",
-      "syr"
+      "ancient_cultures",
+      "excellence_cluster",
+      "research_network"
     ],
     "comment": ""
   }

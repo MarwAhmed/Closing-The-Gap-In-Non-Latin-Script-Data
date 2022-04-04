@@ -1,0 +1,173 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "c523675a-0e54-4d1e-8d08-2395d58323e3",
+    "record_created": "2021-11-11",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "2022-02-18",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
+  },
+  "project": {
+    "title": "Biblia Arabica: The Bible in Arabic among Jews, Christians and Muslims",
+    "abbr": "Biblia Arabica",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2012",
+        "to": "2018"
+      }
+    ],
+    "websites": [
+      "https://biblia-arabica.com/"
+    ],
+    "project_desc": "Biblia Arabica serves as a research consortium with focus on Arabic translations of Hebrew, Aramaic, Syriac, Greek and Coptic Bible versions. It examines their stylistic and didactic features, vocabulary, scripts and strategies, as well as the mutual religious and cultural influences between the different religious communities, which were reinforced by the translation movements. The project attempts to set methodological standards on this field of study, charts countless manuscripts from across the globe and analyses different method of translation form the various source languages.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Tel Aviv",
+          "ref": [
+            "https://www.geonames.org/293397/tel-aviv.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Munich",
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "FU Berlin",
+          "ref": [
+            "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
+          ]
+        },
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Tel Aviv University",
+          "ref": [
+            "https://www.geonames.org/6941120/tel-aviv-university.html"
+          ]
+        },
+        "websites": [
+          "https://english.tau.ac.il/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Tel Aviv",
+              "ref": [
+                "https://www.geonames.org/293397/tel-aviv.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Ludwig-Maximilians-Universität Munich",
+          "ref": [
+            "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.html"
+          ]
+        },
+        "websites": [
+          "https://www.lmu.de/de/index.html"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Munich",
+              "ref": [
+                "https://www.geonames.org/2867714/munich.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Ronny Vollandt",
+          "ref": [
+            "https://d-nb.info/gnd/1173742050"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ]
+    },
+    "stack": {},
+    "policies": {},
+    "keywords": [
+      "ara",
+      "bible",
+      "manuscripts",
+      "translation"
+    ],
+    "comment": ""
+  }
+}

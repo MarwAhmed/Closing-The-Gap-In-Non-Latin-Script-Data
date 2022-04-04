@@ -1,51 +1,50 @@
 {
   "schema_version": "0.1.3",
   "record_metadata": {
-    "uuid": "a2984fec-9396-488e-ad56-d3d21dc49052",
-    "record_created": "2021-11-01",
+    "uuid": "f87c6596-0ce3-4f2e-8ec5-ea5d17253bba",
+    "record_created": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "2022-01-26",
+        "record_modified_on": "2022-03-01",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
-    "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
+    "title": "Change Projekt - Wandel@FU-Bib",
     "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2019",
+        "to": "2021"
       }
     ],
     "websites": [
-      "https://www.sfb-episteme.de/teilprojekte/handeln/C10/index.html"
+      "https://www.fu-berlin.de/sites/ub/ueber-uns/wandel/index.html"
     ],
-    "project_desc": "",
+    "project_desc": "The Change Project´s objective was to reorganize and optimize library infrastructure at FU Berlin.  Within the two years of its activity the project´s team worked at improving connection and communication between university libraries and CeDiS (Centre for Digital Systems), simplifying structures, enhancing user orientation and service quality as well as increasing general efficiency and ability to manage future challenges.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
           "ref": [
-            "http://www.geonames.org/2950159/berlin.html"
+            "https://www.geonames.org/2950159/berlin.html"
           ]
         }
       }
     ],
     "lang": [
-      "eng",
       "ger"
     ],
     "topic_relations": {
-      "nls": true,
-      "dh": true,
+      "nls": false,
+      "dh": false,
       "meta": false,
       "rdm": false,
-      "infrastructure": false
+      "infrastructure": true
     },
     "parents": [
       {
@@ -72,27 +71,6 @@
         "parents": [],
         "siblings": [],
         "children": []
-      },
-      {
-        "type": "project",
-        "title": "Episteme in Bewegung - Wissenstransfer von der Alten Welt bis in die Frühe Neuzeit",
-        "ref": [],
-        "websites": [
-          "https://www.sfb-episteme.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
       }
     ],
     "children": [],
@@ -100,32 +78,38 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Beatrice Gruendler",
+          "text": "Christina Riesenweber",
           "ref": [
-            "https://d-nb.info/gnd/111749344X"
+            "https://www.wikidata.org/wiki/Q57684019"
           ]
         },
         "role": 0,
         "websites": [
-          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Gruendler/"
+          "https://www.fu-berlin.de/sites/ub/ueber-uns/team/riesenweber/index.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Martin Lee",
+          "ref": []
+        },
+        "role": 0,
+        "websites": [
+          "https://www.fu-berlin.de/sites/ub/ueber-uns/team/lee/index.html"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "ara",
-        "gre",
-        "syr"
+        "ger"
       ]
     },
     "stack": {},
     "policies": {},
     "keywords": [
-      "ara",
-      "gre",
-      "micro-texts",
-      "sprueche",
-      "syr"
+      "ger",
+      "infrastructure",
+      "library"
     ],
     "comment": ""
   }

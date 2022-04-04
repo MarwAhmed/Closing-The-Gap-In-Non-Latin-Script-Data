@@ -1,0 +1,167 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "ce6e74fb-c872-4ab4-a6f2-908232d0099a",
+    "record_created": "2021-11-08",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "2022-02.21",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
+  },
+  "project": {
+    "title": "ARCHES",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2024"
+      }
+    ],
+    "websites": [
+      "https://www.naher-osten.uni-muenchen.de/forschung/arches-projekt/index.html"
+    ],
+    "project_desc": "The main objective of this project is the identification and cataloguing of Arabic and Judaeo-Arabic manuscripts related to Bible exegesis and translation, known as the Firkovitch Collection. The series contains approximately 2700 manuscripts dating back to the Golden Age of Arabic lands (between 9th and 13th centuries), which provide an extraordinary window to the intellectual and religious life of the Jewish communities living in those areas in that time. The metadata of the manuscripts will be made accessible for further research. ",
+    "places": [
+      {
+        "place_name": {
+          "text": "Munich",
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Jerusalem",
+          "ref": [
+            "https://www.geonames.org/293198/jerusalem.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Ludwig-Maximilians-Universität Munich",
+          "ref": [
+            "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
+          ]
+        },
+        "websites": [
+          "https://www.lmu.de/de/index.html"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Munich",
+              "ref": [
+                "https://www.geonames.org/2867714/munich.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "The Hebrew University of Jerusalem",
+          "ref": [
+            "https://www.geonames.org/11608742/the-hebrew-university-of-jerusalem.html"
+          ]
+        },
+        "websites": [
+          "https://en.huji.ac.il/en"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Jerusalem",
+              "ref": [
+                "https://www.geonames.org/293198/jerusalem.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Ronny Vollandt",
+          "ref": [
+            "https://d-nb.info/gnd/1173742050"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.htmll"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Miriam Goldstein",
+          "ref": [
+            "https://d-nb.info/gnd/1019351853"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://en.arabic-lang.huji.ac.il/people/miriam-goldstein"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "David Sklare",
+          "ref": [
+            "https://d-nb.info/gnd/1158385684"
+          ]
+        },
+        "role": 1,
+        "websites": [
+          "https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/david-sklare/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "heb",
+        "ara"
+      ]
+    },
+    "stack": {},
+    "policies": {},
+    "keywords": [
+      "ara",
+      "bible",
+      "catalogue",
+      "catalogue_of_manuscripts",
+      "heb",
+      "manuscripts"
+    ],
+    "comment": ""
+  }
+}

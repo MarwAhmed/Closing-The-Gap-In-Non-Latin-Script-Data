@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "85590bb4-4b9a-49c9-8e41-d548a7d234e1",
+    "record_created": "2021-11-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Historical Middle East Data Alliance",
+    "abbr": "Hist-ME",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://github.com/Hist-ME"
+    ],
+    "project_desc": "",
+    "places": [
+      {
+        "place_name": {
+          "text": "",
+          "ref": []
+        }
+      }
+    ],
+    "lang": [],
+    "topic_relations": {
+      "nls": null,
+      "dh": null,
+      "meta": false,
+      "rdm": null,
+      "infrastructure": null
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "",
+          "ref": []
+        },
+        "websites": [],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": []
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "project",
+        "title": "",
+        "uuid": ""
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": []
+        },
+        "role": null,
+        "websites": []
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "stack": {},
+    "policies": {},
+    "keywords": [],
+    "comment": ""
+  }
+}

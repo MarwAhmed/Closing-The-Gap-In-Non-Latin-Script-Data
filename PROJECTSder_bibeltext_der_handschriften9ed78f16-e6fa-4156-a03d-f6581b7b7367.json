@@ -1,0 +1,112 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "9ed78f16-e6fa-4156-a03d-f6581b7b7367",
+    "record_created": "2021-11-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "2022-01-31",
+        "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-03-28",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
+  },
+  "project": {
+    "title": "Der Bibeltext der Handschriften mit babylonisch-jemenitischer Punktation: Erfassung der Textvarianten",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2015",
+        "to": "2020"
+      }
+    ],
+    "websites": [
+      "http://www.hfjs.eu//abc/projekte.babylonisch-jemenitische-bibeltext-Tradition.html"
+    ],
+    "project_desc": "This project is dedicated to the complete collection and computerization of textual variants of the Biblical manuscripts of the Babylonian and Yemenite tradition. The variants will be compered with other ancient textual witnesses and classified in their historical context. The analyses of the hitherto unexplored material will open a new perspective for the reconstruction of the biblical text history.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Heidelberg",
+          "ref": [
+            "https://www.geonames.org/2907911/heidelberg.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Hochschule für Jüdische Studien",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.461653.3"
+          ]
+        },
+        "websites": [
+          "http://www.hfjs.eu"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Heidelberg",
+              "ref": [
+                "https://www.geonames.org/2907911/heidelberg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Liss, Hanna",
+          "ref": [
+            "https://d-nb.info/gnd/115755853"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "http://www.hfjs.eu/hochschule/dozenten/professoren/hliss.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "heb"
+      ]
+    },
+    "stack": {},
+    "policies": {},
+    "keywords": [
+      "bible",
+      "biblical_text_history",
+      "digitl_edition",
+      "heb"
+    ],
+    "comment": ""
+  }
+}

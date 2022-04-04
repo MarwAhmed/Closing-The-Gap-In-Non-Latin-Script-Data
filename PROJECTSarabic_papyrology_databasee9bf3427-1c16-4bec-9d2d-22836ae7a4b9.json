@@ -1,0 +1,149 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9",
+    "record_created": "2021-11-08",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "2022-02-14",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
+  },
+  "project": {
+    "title": "Arabic Papyrology Database",
+    "abbr": "ADP",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2004",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://www.naher-osten.uni-muenchen.de/forschung/papyrologie/apd/index.html",
+      "https://www.apd.gwi.uni-muenchen.de/apd/about.jsp"
+    ],
+    "project_desc": "The Arabic Papyrology database is a digital compilation of pre-modern Arabic manuscripts written between 7th and 16th century CE. It comprises a total of 13286 documents which can be search by their metadata and content. ",
+    "places": [
+      {
+        "place_name": {
+          "text": "Munich",
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Zürich",
+          "ref": [
+            "https://www.geonames.org/7287650/zuerich.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Ludwig-Maximilians-Universität Munich",
+          "ref": [
+            "https://www.geonames.org/6544574/ludwig-maximilians-universitaet.htmll"
+          ]
+        },
+        "websites": [
+          "https://www.lmu.de/de/index.html"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Munich",
+              "ref": [
+                "https://www.geonames.org/2867714/munich.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Universität Zürich",
+          "ref": [
+            "https://www.geonames.org/6930857/university-of-zuerich.html"
+          ]
+        },
+        "websites": [
+          "https://www.uzh.ch/de.html"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Zürich",
+              "ref": [
+                "https://www.geonames.org/7287650/zuerich.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [
+      {
+        "type": "project",
+        "title": "A Digital Typology of Arabic Documents",
+        "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66"
+      }
+    ],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Andreas Kaplony",
+          "ref": [
+            "https://d-nb.info/gnd/115211942"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ]
+    },
+    "stack": {},
+    "policies": {},
+    "keywords": [
+      "ara",
+      "datebase",
+      "digital_edition",
+      "manuscripts",
+      "papyrology",
+      "pre_modern_arabic"
+    ],
+    "comment": ""
+  }
+}
