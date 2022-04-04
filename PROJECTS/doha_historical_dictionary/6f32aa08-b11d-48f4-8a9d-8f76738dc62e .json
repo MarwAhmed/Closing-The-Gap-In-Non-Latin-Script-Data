@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2021-11-22",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-04-04",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -25,7 +29,7 @@
     "websites": [
       "https://dohadictionary.org/"
     ],
-    "project_desc": "",
+    "project_desc": "This project aims to create a historical dictionary of Arabic language. The entries will follow changes in usage and meaning of each word from its first documented record until approximately 200 years AH / 820 AD (first phase of the project).",
     "places": [
       {
         "place_name": {
@@ -43,8 +47,8 @@
       "nls": true,
       "dh": true,
       "meta": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -123,7 +127,8 @@
     "policies": {},
     "keywords": [
       "ara",
-      "dictionary"
+      "dictionary",
+      "historical_dictionary"
     ],
     "comment": ""
   }
