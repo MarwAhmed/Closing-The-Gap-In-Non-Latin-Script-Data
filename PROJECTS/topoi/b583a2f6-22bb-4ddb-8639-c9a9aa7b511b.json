@@ -87,10 +87,12 @@
         ],
         "places": [
           {
-            "text": "Berlin",
-            "ref": [
-              "https://www.geonames.org/2950159/berlin.html"
-            ]
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
           }
         ],
         "parents": [],
