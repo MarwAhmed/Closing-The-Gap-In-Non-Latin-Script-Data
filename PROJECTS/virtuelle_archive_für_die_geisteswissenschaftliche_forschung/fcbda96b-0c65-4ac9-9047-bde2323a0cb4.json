@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "fcbda96b-0c65-4ac9-9047-bde2323a0cb4",
+    "record_created": "2022-04-05",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Virtuelle Archive für die geisteswissenschaftliche Forschung",
+    "abbr": "",
+    "type": "project",
+    "ref": [
+      ""
+    ],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://www.saw-leipzig.de/de/projekte/virtuelle-archive"
+    ],
+    "project_desc": "",
+    "places": [
+      {
+        "place_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        }
+      }
+    ],
+    "lang": [
+      ""
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": true,
+      "rdm": true,
+      "infrastructure": true
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        },
+        "websites": [
+          ""
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": [
+                ""
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "project",
+        "title": "",
+        "ref": [
+          ""
+        ],
+        "websites": [
+          ""
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": [
+                ""
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "project",
+        "title": "",
+        "uuid": ""
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        },
+        "uuid": ""
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        },
+        "role": 0,
+        "websites": [
+          ""
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        ""
+      ]
+    },
+    "stack": {},
+    "policies": [],
+    "keywords": [
+      ""
+    ],
+    "comment": ""
+  }
+}
