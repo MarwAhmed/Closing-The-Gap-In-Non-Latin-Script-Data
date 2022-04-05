@@ -25,7 +25,7 @@
     "websites": [
       "https://www.saw-leipzig.de/de/projekte/publikationsdienst-fuer-wissenschaftliche-datenmodelle-und-vokabulare-sax-fdm-fokusprojekt"
     ],
-    "project_desc": "",
+    "project_desc": "The purpose of this project is to standardize and optimize Research Data Management (RDM) in Humanities. The expected output is a new RDM service, which will allow to publish and document different data models in a uniform way. The is a part of SaxFDM initiative dedicated to RDM optimization on a level of Saxony state.",
     "places": [
       {
         "place_name": {
@@ -116,7 +116,8 @@
     "stack": {},
     "policies": [],
     "keywords": [
-      ""
+      "fdm",
+      "rdm"
     ],
     "comment": "The project is still ongoing (as of 05.04.2022)"
   }
