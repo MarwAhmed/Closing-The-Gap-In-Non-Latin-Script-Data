@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2021-11-22",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022_04-05",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -29,7 +33,7 @@
     "websites": [
       "https://www.fu-berlin.de/sites/futureit/index.html"
     ],
-    "project_desc": "",
+    "project_desc": "This project is dedicated to optimization of the existing IT structures at the FU Berlin. The aim is to establish a standardized IT-service that will foster the cooperation between members of IT-stuff at the FU and at the same time enhance individual IT solutions. The project will also ensure flexibility, quality and efficiency of the FU IT Systems in coping with future challenges.",
     "places": [
       {
         "place_name": {
@@ -98,7 +102,7 @@
     "policies": {},
     "keywords": [
       "infrastructure",
-      "standard_it_service"
+      "it_services"
     ],
     "comment": ""
   }
