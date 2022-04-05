@@ -1,0 +1,123 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "3c5fd869-4651-414c-a0f1-b1254712b689",
+    "record_created": "2022-04-05",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "SaxFDM-Fokusprojekt: Publikationsdienst für wissenschaftliche Datenmodelle und Vokabulare",
+    "abbr": "PUDEL",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://www.saw-leipzig.de/de/projekte/publikationsdienst-fuer-wissenschaftliche-datenmodelle-und-vokabulare-sax-fdm-fokusprojekt"
+    ],
+    "project_desc": "",
+    "places": [
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": true,
+      "meta": false,
+      "rdm": true,
+      "infrastructure": true
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.461800.b"
+          ]
+        },
+        "websites": [
+          "https://www.saw-leipzig.de/de"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Leipzig",
+              "ref": [
+                "https://www.geonames.org/2879139/leipzig.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "project",
+        "title": "Forschungsdatenmanagement in Sachsen (SaxFDM)",
+        "ref": [],
+        "websites": [
+          "https://saxfdm.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Saxony",
+              "ref": [
+                "http://www.geonames.org/2842566/saxony.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Wiesmeth, Hans",
+          "ref": [
+            "https://d-nb.info/gnd/109432703"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.saw-leipzig.de/de/mitglieder/wiesmethh"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "stack": {},
+    "policies": [],
+    "keywords": [
+      ""
+    ],
+    "comment": "The project is still ongoing (as of 05.04.2022)"
+  }
+}
