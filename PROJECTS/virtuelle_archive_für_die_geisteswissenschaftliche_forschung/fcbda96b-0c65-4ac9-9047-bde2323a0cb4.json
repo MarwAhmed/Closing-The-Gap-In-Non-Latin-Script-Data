@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-04-08",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -15,57 +15,55 @@
     "title": "Virtuelle Archive für die geisteswissenschaftliche Forschung",
     "abbr": "",
     "type": "project",
-    "ref": [
-      ""
-    ],
+    "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2017-05",
+        "to": "2020-01"
       }
     ],
     "websites": [
       "https://www.saw-leipzig.de/de/projekte/virtuelle-archive"
     ],
-    "project_desc": "",
+    "project_desc": "In this project is a cooperation of seven research institutions in Saxony (see project’s website) coordinated by Sächsische Akademie der Wisschenschaften (SAW). The institutions will exchange their expertise in the Digital Humanities in order to optimize research data management in human sciences. The focus of this projects lies on technical, legal and formal standardization of research data, long term archiving and accessibility.",
     "places": [
       {
         "place_name": {
-          "text": "",
+          "text": "Saxony",
           "ref": [
-            ""
+            "http://www.geonames.org/2842566/saxony.html"
           ]
         }
       }
     ],
     "lang": [
-      ""
+      "ger"
     ],
     "topic_relations": {
-      "nls": true,
+      "nls": false,
       "dh": true,
-      "meta": true,
+      "meta": false,
       "rdm": true,
-      "infrastructure": true
+      "infrastructure": false
     },
     "parents": [
       {
         "type": "organisation",
         "org_name": {
-          "text": "",
+          "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
           "ref": [
-            ""
+            "https://www.grid.ac/institutes/grid.461800.b"
           ]
         },
         "websites": [
-          ""
+          "https://www.saw-leipzig.de/de"
         ],
         "places": [
           {
             "place_name": {
-              "text": "",
+              "text": "Leipzig",
               "ref": [
-                ""
+                "https://www.geonames.org/2879139/leipzig.html"
               ]
             }
           }
@@ -73,44 +71,6 @@
         "parents": [],
         "siblings": [],
         "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          ""
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": [
-                ""
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": [
-            ""
-          ]
-        },
-        "uuid": ""
       }
     ],
     "children": [],
@@ -118,26 +78,24 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Wiesmeth, Hans",
           "ref": [
-            ""
+            "https://d-nb.info/gnd/109432703"
           ]
         },
         "role": 0,
         "websites": [
-          ""
+          "https://www.saw-leipzig.de/de/mitglieder/wiesmethh"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        ""
-      ]
+      "lang": []
     },
     "stack": {},
     "policies": [],
     "keywords": [
-      ""
+      "rdm"
     ],
     "comment": ""
   }
