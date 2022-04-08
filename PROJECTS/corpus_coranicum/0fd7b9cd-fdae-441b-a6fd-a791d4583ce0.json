@@ -152,7 +152,7 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Angelika Neuwirth",
+          "text": "Neuwirth, Angelika",
           "ref": [
             "https://d-nb.info/gnd/108800083"
           ]
@@ -164,7 +164,7 @@
       },
       {
         "pers_name": {
-          "text": "Michael Marx",
+          "text": "Marx, Michael",
           "ref": []
         },
         "role": 0,
