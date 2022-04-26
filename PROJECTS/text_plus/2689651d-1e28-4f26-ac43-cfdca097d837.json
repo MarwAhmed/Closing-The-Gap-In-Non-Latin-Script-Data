@@ -14,7 +14,7 @@
   "project": {
     "title": "Text plus",
     "abbr": "",
-    "type": "organisation ",
+    "type": "organisation",
     "ref": [],
     "date": [
       {
@@ -42,120 +42,20 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "Leibniz-Institut für Deutsche Sprache",
+          "text": "Die Nationale Forschungsdateninfrastruktur (NFDI)",
           "ref": [
-            "https://www.grid.ac/institutes/grid.443960.c"
+            "https://www.wikidata.org/wiki/Q105757481"
           ]
         },
         "websites": [
-          "http://www1.ids-mannheim.de"
+          "https://www.nfdi.de/verein/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "Mannheim",
+              "text": "Karlsruhe",
               "ref": [
-                "https://www.geonames.org/2873891/mannheim.html"
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.420264.6"
-          ]
-        },
-        "websites": [
-          "http://www.bbaw.de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "Deutsche Nationalbibliothek",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.424174.0"
-          ]
-        },
-        "websites": [
-          "http://www.dnb.de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Frankfurt am Main",
-              "ref": [
-                "https://www.geonames.org/2925533/frankfurt-am-main.html"
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q564783?uselang=de"
-          ]
-        },
-        "websites": [
-          "https://www.sub.uni-goettingen.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Göttingen",
-              "ref": [
-                "https://www.geonames.org/2918632/goettingen.html"
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q320642"
-          ]
-        },
-        "websites": [
-          "https://www.awk.nrw/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Düsseldorf",
-              "ref": [
-                "https://www.geonames.org/2934246/duesseldorf.html"
+                "https://www.geonames.org/2892794/karlsruhe.html"
               ]
             }
           }

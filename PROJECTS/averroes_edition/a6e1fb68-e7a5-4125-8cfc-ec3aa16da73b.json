@@ -116,7 +116,7 @@
         ],
         "parents": [
           {
-            "type": "org",
+            "type": "organisation",
             "org_name": {
               "text": "Academy of the Arabic Language",
               "ref": []
@@ -136,7 +136,7 @@
             ]
           },
           {
-            "type": "org",
+            "type": "organisation",
             "org_name": {
               "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste",
               "ref": [
@@ -158,7 +158,7 @@
             ]
           },
           {
-            "type": "org",
+            "type": "organisation",
             "org_name": {
               "text": "Israel Academy of Sciences and Humanities",
               "ref": [
@@ -210,7 +210,7 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "David Wirmer",
+          "text": "Wirmer, David",
           "ref": []
         },
         "role": 0,

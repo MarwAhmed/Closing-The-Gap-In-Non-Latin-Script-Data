@@ -18,8 +18,8 @@
     "ref": [],
     "date": [
       {
-        "from": 2016,
-        "to": ""
+        "from": "2016",
+        "to": "2022"
       }
     ],
     "websites": [
@@ -114,14 +114,14 @@
     ],
     "research_data": {
       "lang": [
-        "san",
-        "otk",
-        "tam",
-        "khm",
-        "tib",
-        "per",
         "ara",
-        "cop"
+        "cop",
+        "khm",
+        "otk",
+        "per",
+        "san",
+        "tam",
+        "tib"
       ]
     },
     "stack": {},

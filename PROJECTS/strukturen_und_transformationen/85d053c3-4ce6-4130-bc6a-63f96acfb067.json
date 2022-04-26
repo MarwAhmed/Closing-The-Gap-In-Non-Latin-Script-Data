@@ -77,7 +77,7 @@
         ],
         "parents": [
           {
-            "type": "org",
+            "type": "organisation",
             "org_name": {
               "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
               "ref": [
@@ -99,7 +99,8 @@
             ]
           }
         ],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
         "type": "organisation",
@@ -143,7 +144,7 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Richter,Tonio Sebastian",
+          "text": "Richter, Tonio Sebastian",
           "ref": [
             "https://d-nb.info/gnd/142266140"
           ]

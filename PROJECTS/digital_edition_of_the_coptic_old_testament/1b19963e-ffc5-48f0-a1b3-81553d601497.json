@@ -1,0 +1,108 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497",
+    "record_created": "2022-04-05",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2015",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://coptot.manuscriptroom.com/",
+      "https://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/koptisches-altes-testament/"
+    ],
+    "project_desc": "In this long-term project the objective is to digitally reconstruct the Coptic Old Testament composed in an extinct Coptic dialect – Sahidic. Due to multiple acquisitions by western travelers and scholars the vast majority of manuscripts are now scattered in various institutions in Europe and North America, what until now made the complete edition of this texts impossible. Equipped in new technologies of digital scholarship the project will aim at overcoming this challenge by recreating the Coptic Old Testament in a form of an online-database which will contain photos and descriptions of catalogued manuscripts or their fragments, as well as their English, German and Arabic translations. It will also develop a system of digital tool for research on Coptic Bible and Coptic literature.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Göttingen",
+          "ref": [
+            "https://www.geonames.org/2918632/goettingen.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Akademie der Wissenschaften zu Göttingen",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.461599.6"
+          ]
+        },
+        "websites": [
+          "https://adw-goe.de"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Göttingen",
+              "ref": [
+                "https://www.geonames.org/2918632/goettingen.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Feder, Frank ",
+          "ref": [
+            "https://d-nb.info/gnd/1162448369"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/koptisches-altes-testament/mitarbeiter/frank-feder/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "cop"
+      ]
+    },
+    "stack": {},
+    "policies": [],
+    "keywords": [
+      "cop",
+      "digital_edition",
+      "old_testament"
+    ],
+    "comment": ""
+  }
+}

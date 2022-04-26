@@ -90,7 +90,7 @@
       },
       {
         "pers_name": {
-          "text": "Vagelpohl,Uwe ",
+          "text": "Vagelpohl, Uwe",
           "ref": [
             "https://d-nb.info/gnd/1066384339"
           ]
@@ -109,10 +109,11 @@
     "stack": {},
     "policies": {},
     "keywords": [
-      "Galen",
-      "ancient Greek medicine",
+      "ancient_greek_medicine",
       "ara",
-      "medieval Arabic medicine,"
+      "galen",
+      "medicine",
+      "medieval_arabic_medicine"
     ],
     "comment": ""
   }

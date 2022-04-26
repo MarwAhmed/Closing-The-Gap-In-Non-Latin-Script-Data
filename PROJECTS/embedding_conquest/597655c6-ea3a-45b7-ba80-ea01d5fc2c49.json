@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2021-11-22",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-04-05",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -19,14 +23,15 @@
     "date": [
       {
         "from": "2017",
-        "to": "2021"
+        "to": "2022"
       }
     ],
     "websites": [
+      "https://www.universiteitleiden.nl/en/research/research-projects/humanities/embedding-conquest#tab-1",
       "https://emco.hcommons.org/",
       "https://cordis.europa.eu/project/id/683194/de"
     ],
-    "project_desc": "",
+    "project_desc": "Until recently the history of the early Muslim conquests and the first centuries of the Islamic Empire was reconstructed in reliance on Arabic sources composed centuries after the conquests and shaped by political interests at their time of writing. This has created a false impression of the characteristics of Muslim rule. Nowadays however, new sources contemporary to the conquests are becoming increasingly available. This project will incorporate all available documents reflecting Muslim rule from the first 400 years of Islam, in order to reconstruct the system of social relations that embedded the transformations and to critically advance our understanding of this world-historical event.",
     "places": [
       {
         "place_name": {
@@ -42,10 +47,10 @@
     ],
     "topic_relations": {
       "nls": true,
-      "dh": true,
+      "dh": false,
       "meta": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -99,7 +104,8 @@
     "policies": {},
     "keywords": [
       "ara",
-      "letters",
+      "early_islamic_empire",
+      "manuscript_research",
       "papyri"
     ],
     "comment": "According to the ERC website the project finisches in December 2022"

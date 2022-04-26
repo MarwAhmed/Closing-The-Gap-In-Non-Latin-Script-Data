@@ -73,7 +73,7 @@
         ],
         "parents": [
           {
-            "type": "org",
+            "type": "organisation",
             "org_name": {
               "text": "Universität Hamburg",
               "ref": [
@@ -95,7 +95,8 @@
             ]
           }
         ],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
         "type": "organisation",

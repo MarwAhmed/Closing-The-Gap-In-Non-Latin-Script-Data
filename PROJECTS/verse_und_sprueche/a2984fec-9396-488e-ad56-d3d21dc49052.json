@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2022-01-26",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-04-08",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -18,8 +22,8 @@
     "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2020",
+        "to": "2024"
       }
     ],
     "websites": [
@@ -74,7 +78,7 @@
         "children": []
       },
       {
-        "type": "research",
+        "type": "project",
         "title": "Episteme in Bewegung - Wissenstransfer von der Alten Welt bis in die Frühe Neuzeit",
         "ref": [],
         "websites": [
@@ -95,12 +99,18 @@
         "children": []
       }
     ],
-    "children": [],
+    "children": [
+      {
+        "type": "project",
+        "title": "Glossarion",
+        "uuid": "ee6404e6-57f0-4e11-bb4a-1bbd13b08cb7"
+      }
+    ],
     "siblings": [],
     "contacts": [
       {
         "pers_name": {
-          "text": "Beatrice Gruendler",
+          "text": "Gruendler, Beatrice",
           "ref": [
             "https://d-nb.info/gnd/111749344X"
           ]
@@ -123,7 +133,7 @@
     "keywords": [
       "ara",
       "gre",
-      "micro-texts",
+      "micro_texts",
       "sprueche",
       "syr"
     ],

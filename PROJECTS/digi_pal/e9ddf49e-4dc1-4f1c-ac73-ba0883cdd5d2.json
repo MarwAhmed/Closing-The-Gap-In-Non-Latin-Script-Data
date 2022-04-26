@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-04-04",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -25,7 +25,7 @@
     "websites": [
       "http://www.digipal.eu/"
     ],
-    "project_desc": "",
+    "project_desc": "The main objective of this project is to create a database and an innovative resource for the study of medieval manuscripts, mostly produced in England in the 11th century. The database is designed to felicitate and optimize the research by implementation of digital technology (digital photographs, characterization of handwriting, annotation, etc.).",
     "places": [
       {
         "place_name": {
@@ -43,8 +43,8 @@
       "nls": false,
       "dh": true,
       "meta": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": true,
+      "infrastructure": true
     },
     "parents": [
       {
@@ -97,10 +97,12 @@
     "stack": {},
     "policies": {},
     "keywords": [
+      "datebase",
       "eng",
-      "europe",
+      "england",
       "manuscripts",
-      "middleages"
+      "medieval_handwriting",
+      "resource"
     ],
     "comment": ""
   }

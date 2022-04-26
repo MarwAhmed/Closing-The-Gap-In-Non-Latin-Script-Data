@@ -111,7 +111,7 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Ronny Vollandt",
+          "text": "Vollandt, Ronny",
           "ref": [
             "https://d-nb.info/gnd/1173742050"
           ]
@@ -123,7 +123,7 @@
       },
       {
         "pers_name": {
-          "text": "Miriam Goldstein",
+          "text": "Goldstein, Miriam",
           "ref": [
             "https://d-nb.info/gnd/1019351853"
           ]
@@ -135,7 +135,7 @@
       },
       {
         "pers_name": {
-          "text": "David Sklare",
+          "text": "Sklare, David",
           "ref": [
             "https://d-nb.info/gnd/1158385684"
           ]
@@ -148,8 +148,8 @@
     ],
     "research_data": {
       "lang": [
-        "heb",
-        "ara"
+        "ara",
+        "heb"
       ]
     },
     "stack": {},

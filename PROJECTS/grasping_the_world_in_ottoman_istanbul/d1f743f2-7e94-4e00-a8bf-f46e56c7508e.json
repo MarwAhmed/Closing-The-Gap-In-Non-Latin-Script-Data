@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2022-01-31",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-04-08",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -25,7 +29,7 @@
     "websites": [
       "https://www.csmc.uni-hamburg.de/written-artefacts/field-d/rfd04.html"
     ],
-    "project_desc": "",
+    "project_desc": "This project examines how geographical literature in sixteenth-century Istanbul was impacted by the vast cultural and political expiation of the Ottoman Empire in that time. As the city became a new center for scholarship and art, the elites began circulating Arabic and Persian geographical manuscripts. The project asks how this exchange was received by artists and cartographers who in turn negotiated and transformed geographic knowledge through images. Besides that, the project will also build a comprehensive online database of geographic manuscripts and their illustrations.",
     "places": [
       {
         "place_name": {
@@ -89,7 +93,7 @@
             "https://d-nb.info/gnd/1195099657"
           ]
         },
-        "role": 1,
+        "role": 0,
         "websites": [
           "https://www.aai.uni-hamburg.de/voror/personen/danilenko.html",
           "https://www.bgsmcs.fu-berlin.de/about/alumni_doctoral_fellows/nadja_danilenko.html"
@@ -108,10 +112,10 @@
     "policies": {},
     "keywords": [
       "ara",
+      "database",
       "geographic_manuscripts",
       "historical_cartography",
       "lat",
-      "online_database",
       "per",
       "tur"
     ],

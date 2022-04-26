@@ -79,7 +79,7 @@
         ],
         "parents": [
           {
-            "type": "org",
+            "type": "organisation",
             "org_name": {
               "text": "Universität Hamburg",
               "ref": [
@@ -101,7 +101,8 @@
             ]
           }
         ],
-        "siblings": []
+        "siblings": [],
+        "children": []
       }
     ],
     "children": [],
@@ -122,8 +123,8 @@
     ],
     "research_data": {
       "lang": [
-        "snk",
-        "mku"
+        "mku",
+        "snk"
       ]
     },
     "stack": {},

@@ -70,7 +70,7 @@
         ],
         "parents": [
           {
-            "type": "org",
+            "type": "organisation",
             "org_name": {
               "text": "Universität Hamburg",
               "ref": [
@@ -134,7 +134,7 @@
       "manuscript_recovery",
       "manuscript_research",
       "manuscripts",
-      "research software"
+      "research_software"
     ],
     "comment": ""
   }

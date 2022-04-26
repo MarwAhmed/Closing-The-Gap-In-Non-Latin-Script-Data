@@ -70,7 +70,7 @@
         ],
         "parents": [
           {
-            "type": "org",
+            "type": "organisation",
             "org_name": {
               "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
               "ref": [
@@ -92,7 +92,8 @@
             ]
           }
         ],
-        "siblings": []
+        "siblings": [],
+        "children": []
       },
       {
         "type": "organisation",
@@ -151,7 +152,7 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Angelika Neuwirth",
+          "text": "Neuwirth, Angelika",
           "ref": [
             "https://d-nb.info/gnd/108800083"
           ]
@@ -163,7 +164,7 @@
       },
       {
         "pers_name": {
-          "text": "Michael Marx",
+          "text": "Marx, Michael",
           "ref": []
         },
         "role": 0,

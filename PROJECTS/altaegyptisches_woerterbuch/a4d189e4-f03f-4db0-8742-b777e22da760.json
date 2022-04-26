@@ -68,7 +68,7 @@
         ],
         "parents": [
           {
-            "type": "org",
+            "type": "organisation",
             "org_name": {
               "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
               "ref": [
@@ -90,7 +90,8 @@
             ]
           }
         ],
-        "siblings": []
+        "siblings": [],
+        "children": []
       }
     ],
     "children": [],

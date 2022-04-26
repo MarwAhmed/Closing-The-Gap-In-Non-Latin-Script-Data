@@ -1,0 +1,102 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "fcbda96b-0c65-4ac9-9047-bde2323a0cb4",
+    "record_created": "2022-04-05",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "2022-04-08",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
+  },
+  "project": {
+    "title": "Virtuelle Archive für die geisteswissenschaftliche Forschung",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2017-05",
+        "to": "2020-01"
+      }
+    ],
+    "websites": [
+      "https://www.saw-leipzig.de/de/projekte/virtuelle-archive"
+    ],
+    "project_desc": "In this project is a cooperation of seven research institutions in Saxony (see project’s website) coordinated by Sächsische Akademie der Wisschenschaften (SAW). The institutions will exchange their expertise in the Digital Humanities in order to optimize research data management in human sciences. The focus of this projects lies on technical, legal and formal standardization of research data, long term archiving and accessibility.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Saxony",
+          "ref": [
+            "http://www.geonames.org/2842566/saxony.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": true,
+      "meta": false,
+      "rdm": true,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.461800.b"
+          ]
+        },
+        "websites": [
+          "https://www.saw-leipzig.de/de"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Leipzig",
+              "ref": [
+                "https://www.geonames.org/2879139/leipzig.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Wiesmeth, Hans",
+          "ref": [
+            "https://d-nb.info/gnd/109432703"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.saw-leipzig.de/de/mitglieder/wiesmethh"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": []
+    },
+    "stack": {},
+    "policies": [],
+    "keywords": [
+      "rdm"
+    ],
+    "comment": ""
+  }
+}

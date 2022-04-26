@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2022-02-02",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-04-08",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -23,7 +27,7 @@
       }
     ],
     "websites": [],
-    "project_desc": "",
+    "project_desc": "This project’s objective is to develop an integrative database for the results of the research project >Verses and Sayings< (Verse und Sprüche).",
     "places": [
       {
         "place_name": {
@@ -43,66 +47,36 @@
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": false
+      "infrastructure": true
     },
     "parents": [
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "FU Berlin",
-          "ref": [
-            "https://www.geonames.org/8623763/university-library-freie-universitaet-berlin.html"
-          ]
-        },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      }
-    ],
-    "children": [],
-    "siblings": [
       {
         "type": "project",
         "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
         "uuid": "a2984fec-9396-488e-ad56-d3d21dc49052"
       }
     ],
+    "children": [],
+    "siblings": [],
     "contacts": [
       {
         "pers_name": {
-          "text": "Beatrice Gruendler",
-          "ref": [
-            "https://d-nb.info/gnd/111749344X"
-          ]
+          "text": "Grote, Brigitte",
+          "ref": []
         },
-        "role": 0,
+        "role": 1,
         "websites": [
-          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Gruendler/"
+          "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/bgrote.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ]
+      "lang": []
     },
     "stack": {},
     "policies": {},
     "keywords": [
-      "ara"
+      "database"
     ],
     "comment": ""
   }
