@@ -6,7 +6,11 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "2021-11_23",
+        "record_modified_on": "2021-11-23",
+        "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-04-26",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -24,9 +28,9 @@
     ],
     "websites": [
       "https://www.bbaw.de/forschung/irankoran",
-      "https://corpuscoranicum.de/about/index/sure/1/vers/1"
+      "https://corpuscoranicum.de/de/about"
     ],
-    "project_desc": "",
+    "project_desc": "This project is dedicated to the study of early Quranic manuscripts from Iran with the central question of which kind of deviations in the text of the Quran, as it was fixed in the 10th century, are historically verifiable. The project will develop an online catalogue of all Quranic manuscripts held in the National Museum of Iran and other collections, create transliterations of Arabic text from selected pages and date the parament with radiocarbon measurement. All these steps will be followed by analysis of the selected texts in order to verify the deviation from the canonical readings.",
     "places": [
       {
         "place_name": {
@@ -98,12 +102,16 @@
     ],
     "research_data": {
       "lang": [
+        "ara",
         "per"
       ]
     },
     "stack": {},
     "policies": {},
     "keywords": [
+      "ara",
+      "catalogue",
+      "digital_edition",
       "manuscripts",
       "per",
       "quran"
