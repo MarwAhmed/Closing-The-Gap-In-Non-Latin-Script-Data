@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-04-26",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -23,9 +23,10 @@
       }
     ],
     "websites": [
-      "https://www.uni-muenster.de/ALEA/"
+      "https://www.uni-muenster.de/ALEA/",
+      "https://gepris.dfg.de/gepris/projekt/423723105?language=en"
     ],
-    "project_desc": "",
+    "project_desc": "Against the concept of the decline of Islamic cultures after the 11th century it becomes apparent that this period witnessed vast literal and cultural developments. One of these is a major impact of the most important poet of Mamluk era, Ibn Nubātah, on the Arabic literature for the centuries after him. The aim of this project is a complete digital edition of his diwan and twelve other works, most of with are available only in bad prints. Due to many revisions and rewritings made by the author the editing of his works is a great challenge. In order to represent his poetry correctly the edition will contain may versions of the poems enabling their comparison.",
     "places": [
       {
         "place_name": {
@@ -43,8 +44,8 @@
       "nls": true,
       "dh": true,
       "meta": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -96,11 +97,16 @@
       }
     ],
     "research_data": {
-      "lang": []
+      "lang": [
+        "ara"
+      ]
     },
     "stack": {},
     "policies": {},
-    "keywords": [],
+    "keywords": [
+      "ara",
+      "digital_edition"
+    ],
     "comment": ""
   }
 }

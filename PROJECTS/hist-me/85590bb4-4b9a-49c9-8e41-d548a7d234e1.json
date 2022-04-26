@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-04-26",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -25,7 +25,7 @@
     "websites": [
       "https://github.com/Hist-ME"
     ],
-    "project_desc": "",
+    "project_desc": "An informal alliance for exchanging research data related to the historical Middle East.",
     "places": [
       {
         "place_name": {
@@ -36,48 +36,71 @@
     ],
     "lang": [],
     "topic_relations": {
-      "nls": null,
-      "dh": null,
+      "nls": true,
+      "dh": true,
       "meta": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": true,
+      "infrastructure": false
     },
-    "parents": [
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": []
-        },
-        "websites": [],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": []
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      }
-    ],
+    "parents": [],
     "children": [],
     "siblings": [],
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Grossner, Karl",
+          "ref": [
+            "http://viaf.org/viaf/308232467/#Grossner,_Karl,_1950-"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://digitalhumanities.stanford.edu/users/karl-grossner"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Gibson, Nathan",
+          "ref": [
+            "http://viaf.org/viaf/59147905242279092527/#Gibson,_Nathan_P."
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Beers, Theo",
           "ref": []
         },
         "role": 0,
-        "websites": []
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Wissenschaftliche-Mitarbeiterinnen-und-Mitarbeiter-_Drittmittel_/beers/index.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Beers, Theo",
+          "ref": []
+        },
+        "role": 0,
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Wissenschaftliche-Mitarbeiterinnen-und-Mitarbeiter-_Drittmittel_/beers/index.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Grallert, Till",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q110952396"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/personen/till-grallert"
+        ]
       }
     ],
     "research_data": {
@@ -85,7 +108,9 @@
     },
     "stack": {},
     "policies": {},
-    "keywords": [],
+    "keywords": [
+      "rdm"
+    ],
     "comment": ""
   }
 }

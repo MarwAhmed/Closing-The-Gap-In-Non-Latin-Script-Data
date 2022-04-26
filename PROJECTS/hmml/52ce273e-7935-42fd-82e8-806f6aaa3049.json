@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2021-11-23",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-04-26",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -25,9 +29,9 @@
       }
     ],
     "websites": [
-      "https://hmml.org/"
+      "https://hmml.org"
     ],
-    "project_desc": "",
+    "project_desc": "HMML is an enterprise of saving and cataloguing manuscripts from all across the globe. It´s history reaches back to the 1960s when first repository of manuscripts´ photographs in form of microfilms was initiated at the Saint John´s University. Nowadays HMML archives approximately 300,000 manuscripts containing more than 70 languages. In 2015 the library launched its online platform of digitalized manuscripts to make them available for public and further research.",
     "places": [
       {
         "place_name": {
@@ -45,8 +49,8 @@
       "nls": true,
       "dh": true,
       "meta": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -117,9 +121,8 @@
       "amh",
       "ara",
       "arm",
-      "authorityfiles",
       "bam",
-      "digitization",
+      "digitized_manuscripts",
       "ful",
       "ger",
       "gez",

@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2021-11-23",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-04-26",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -19,14 +23,14 @@
     "date": [
       {
         "from": "2020-2",
-        "to": "2023-2"
+        "to": ""
       }
     ],
     "websites": [
       "https://hannah-arendt-edition.net/index.html",
       "https://www.arendteditionprojekt.de/en/projekt/General-Information/index.html"
     ],
-    "project_desc": "",
+    "project_desc": "The objective of this long-term project is a first ever complete hybrid (print and online) edition of all Arendt´s published and und unpublished works in their original languages. The digital edition offers commentaries and additional information about each text in the corpus as well as diverse search options. The project enables a new approach to the development of stile and thought of the author and her practice of writing between and across languages and audiences.",
     "places": [
       {
         "place_name": {
@@ -45,8 +49,8 @@
       "nls": false,
       "dh": true,
       "meta": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -112,12 +116,13 @@
     "stack": {},
     "policies": {},
     "keywords": [
-      "digitaledition",
+      "complete_works",
+      "digital_edition",
       "eng",
       "fre",
       "ger",
       "yid"
     ],
-    "comment": "The project is currently in the first funding phase which should be extended into sustain funding after 2023"
+    "comment": "Long-term project"
   }
 }
