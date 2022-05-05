@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2021-11-23",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-04-05",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -26,7 +30,7 @@
       "https://www.saw-leipzig.de/de/akademie-digital/akademie-digital/kompetenzwerkd-saechsisches-forschungszentrum-und-kompetenznetzwerk-fuer-digitale-geisteswissenschaften-und-kulturelles-erbe",
       "https://kompetenzwerkd.github.io/infoportal/"
     ],
-    "project_desc": "",
+    "project_desc": "KompetenzwerkD is a research center for the Digital Humanities for various extramural research institutes in Saxony (see the project´s website). The objectives is to enhance the cooperation and exchange between the local institutes, implementation of Open Data Policy promotion and further development of digital methods in humanitic research.",
     "places": [
       {
         "place_name": {
@@ -197,6 +201,7 @@
     "policies": {},
     "keywords": [
       "dh",
+      "dh_center",
       "network",
       "rdm"
     ],
