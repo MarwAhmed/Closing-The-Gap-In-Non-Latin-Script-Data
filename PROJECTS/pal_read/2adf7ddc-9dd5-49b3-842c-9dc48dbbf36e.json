@@ -8,12 +8,16 @@
       {
         "record_modified_on": "2021-11-25",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-05-05",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
-    "title": " PalREAD",
-    "abbr": "",
+    "title": "Country of Words: Reading and Reception of Palestinian Literature from 1948 to the Present",
+    "abbr": "PalREAD",
     "type": "project",
     "ref": [],
     "date": [
@@ -25,7 +29,7 @@
     "websites": [
       "https://www.geschkult.fu-berlin.de/en/e/palread/index.html"
     ],
-    "project_desc": "",
+    "project_desc": "PalREAD is a project dedicated to Palestinian Literature from 1948 to the present which aims to find new ways to account for literary production of a displaced population. It elaborates new methodology of literary analyses that challenges and lies outside conventional conceptions of the nation-state and adopts an interdisciplinary and transmedial approach that embeds literary production into a wider cultural web of intersecting media and genres. The outputs of the projects will be made accessible in form an online platform.",
     "places": [
       {
         "place_name": {
@@ -41,8 +45,8 @@
       "nls": true,
       "dh": true,
       "meta": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
