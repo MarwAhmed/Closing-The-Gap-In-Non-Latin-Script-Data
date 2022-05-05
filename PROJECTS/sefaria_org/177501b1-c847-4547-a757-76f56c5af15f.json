@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2022-01-19",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-05-05",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -27,7 +31,7 @@
     "websites": [
       "https://www.sefaria.org/texts"
     ],
-    "project_desc": "",
+    "project_desc": "Sefaria in a non-profit organization which assembles a free-living library of Jewish texts and their interconnections, in Hebrew and in translation. The texts are available in a digital form with interactive interfaces allowing more people to engage with textual treasures and tradition.",
     "places": [
       {
         "place_name": {
@@ -47,7 +51,7 @@
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": true
+      "infrastructure": false
     },
     "parents": [],
     "children": [],
