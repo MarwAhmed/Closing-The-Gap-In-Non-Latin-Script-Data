@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2021-11-23",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-05-05",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -25,7 +29,7 @@
     "websites": [
       "https://www.bbaw.de/forschung/paleocoran"
     ],
-    "project_desc": "",
+    "project_desc": "PALEOCORAN examines Quranic manuscripts that once belonged to the ʿAmr Ibn al-ʿĀs Mosque in al-Fusṭāṭ (Old-Cairo) - one of the most significant Quranic Libraries - and are now scattered across the globe. The main objective of the project is to reconstruct the library and to make the manuscripts available digitally.",
     "places": [
       {
         "place_name": {
@@ -53,8 +57,8 @@
       "nls": true,
       "dh": true,
       "meta": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
