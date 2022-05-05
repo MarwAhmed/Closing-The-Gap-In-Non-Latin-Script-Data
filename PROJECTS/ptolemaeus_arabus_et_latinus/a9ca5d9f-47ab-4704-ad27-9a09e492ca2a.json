@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2022-01-17",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-05_05",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -26,7 +30,7 @@
       "https://ptolemaeus.badw.de/start",
       "https://badw.de/forschungseinrichtung/forschungsvorhaben.html?tx_badwdb_projects%5Baction%5D=show&tx_badwdb_projects%5Bcontroller%5D=Projects&tx_badwdb_projects%5Bproject_id%5D=100&cHash=ffb2790d003b9abde6b3b1c6da4a55b3"
     ],
-    "project_desc": "",
+    "project_desc": "Ptolemaeus Arabus et Latinus (PAL) is a long-term project dedicated to the edition and study of the Arabic and Latin versions of Ptolemy’s astronomical and astrological texts and related material. The manuscripts are being made available in an online database containing catalogues of Arabic and Latin works, their images, searchable transcriptions and a Greek-Arabic-Latin-English glossary of astronomical and astrological terms.",
     "places": [
       {
         "place_name": {
@@ -135,6 +139,8 @@
     "keywords": [
       "ara",
       "lat",
+      "manuscripts",
+      "manuscripts_catalogue",
       "ptolemy"
     ],
     "comment": ""
