@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2022-01-20",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-05-06",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -25,7 +29,7 @@
     "websites": [
       "https://snapdrgn.net/"
     ],
-    "project_desc": "",
+    "project_desc": "SNAP:DRGNis aims to address the problem of linking together large collections of datasets containing information about historical persons names and person-like entities. For this reason it builds a virtual authority list for ancient people through Linked Data collection of common information from many collaborating projects.",
     "places": [
       {
         "place_name": {
@@ -43,8 +47,8 @@
       "nls": true,
       "dh": true,
       "meta": false,
-      "rdm": true,
-      "infrastructure": true
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -97,7 +101,7 @@
     "policies": {},
     "keywords": [
       "antiquity",
-      "authorityfiles",
+      "authority_files",
       "virtual_authority_list"
     ],
     "comment": ""
