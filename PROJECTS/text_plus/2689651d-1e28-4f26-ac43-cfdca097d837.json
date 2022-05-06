@@ -8,12 +8,16 @@
       {
         "record_modified_on": "2022-01-20",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-05-06",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
     "title": "Text plus",
-    "abbr": "",
+    "abbr": "Text+ is a consortium with the objective to establish a national research data infrastructure. It will preserve text- and language-based research data in the long term and enable their broad use in science.",
     "type": "organisation",
     "ref": [],
     "date": [

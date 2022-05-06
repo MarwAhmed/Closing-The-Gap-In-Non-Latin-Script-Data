@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2021-01-24",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-05-06",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -25,7 +29,7 @@
     "websites": [
       "https://scholarlyeditions.brill.com/lhom/"
     ],
-    "project_desc": "",
+    "project_desc": "A Literary History of Medicine Online offers a digital edition of The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ written by a famous Syrian physician Ibn Abī Uṣaybiʿah (d. 1270) along with its annotated English translation.",
     "places": [
       {
         "place_name": {
@@ -144,6 +148,7 @@
     "keywords": [
       "ara",
       "digital_edition",
+      "history_of_medicine",
       "ibn_abi_usaybia"
     ],
     "comment": ""

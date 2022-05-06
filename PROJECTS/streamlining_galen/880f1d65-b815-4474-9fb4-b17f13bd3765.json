@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2022-01-20",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-05-06",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -18,14 +22,14 @@
     "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2019",
+        "to": "2024"
       }
     ],
     "websites": [
       "https://warwick.ac.uk/fac/arts/classics/research/dept_projects/streamlininggalen/"
     ],
-    "project_desc": "",
+    "project_desc": "This project is dedicated to study of influence that Galen´s works had on Islamic medicine after their translation into Arabic between 8th and 10th century. The focus of the research lies on the Arabic summaries of Galen which served as primary learning tools for medical students and doctors. The main output of the project will be a comprehensive survey of Arabic Galenic summaries and a digital corpus of selected texts. Project members will analyze and compare them with each other and with the Galen treatises in Arabic translation that formed the basis of the summaries.",
     "places": [
       {
         "place_name": {

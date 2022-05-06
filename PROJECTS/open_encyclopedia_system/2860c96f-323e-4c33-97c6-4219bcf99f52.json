@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2021-11-25",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-05-05",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -23,9 +27,10 @@
       }
     ],
     "websites": [
-      "https://www.open-encyclopedia-system.org"
+      "https://www.open-encyclopedia-system.org",
+      "https://www.cedis.fu-berlin.de/services/projektentwicklung/abgeschlossen/oes/index.html"
     ],
-    "project_desc": "",
+    "project_desc": "OES is a standardized publishing platform for humanities and social sciences. Contrary to existing academic encyclopedias the OES taps into the full potential of e-publishing by adding new solutions to the already available options: it offers flexible workflows, configurable participation models, various options for customizing the peer review process and features that facilitate the engagement and management of a community.",
     "places": [
       {
         "place_name": {
@@ -129,7 +134,7 @@
     "keywords": [
       "encyclopedia",
       "opensource",
-      "software"
+      "publishing_platform"
     ],
     "comment": ""
   }

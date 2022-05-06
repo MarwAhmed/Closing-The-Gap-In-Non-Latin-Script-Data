@@ -8,6 +8,10 @@
       {
         "record_modified_on": "2021-11-25",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-05-05",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -26,7 +30,7 @@
       "https://alraqmiyyat.github.io/OpenITI/",
       "https://github.com/OpenITI"
     ],
-    "project_desc": "",
+    "project_desc": "Open ITI is a multi-institutional project which aims to construct the first machine-actionable scholarly corpus of premodern Islamicate texts in Arabic, Persian and other languages of the Islamic world. This new textual infrastructure will enhance the implementation of new forms of macro textual and digital scholarship in the inter-related fields of Islamic, Persian, and Arabic Studies",
     "places": [
       {
         "place_name": {
@@ -69,7 +73,7 @@
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": true
+      "infrastructure": false
     },
     "parents": [
       {
@@ -214,7 +218,7 @@
       "ara",
       "corpus",
       "dh",
-      "multilingualdh",
+      "multilingual_dh",
       "per"
     ],
     "comment": ""

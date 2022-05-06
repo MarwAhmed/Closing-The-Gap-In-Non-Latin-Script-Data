@@ -8,12 +8,16 @@
       {
         "record_modified_on": "2021-11-25",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2021-05-05",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
-    "title": "MAJLIS",
-    "abbr": "",
+    "title": "MAJLIS. The Transformation of Jewish Literature in Arabic in the Islamicate World",
+    "abbr": "MAJLIS",
     "type": "project",
     "ref": [],
     "date": [
@@ -25,7 +29,7 @@
     "websites": [
       "https://www.naher-osten.uni-muenchen.de/forschung/majlis/index.html"
     ],
-    "project_desc": "",
+    "project_desc": "This project is dedicated to the hitherto under-researched Judaeo-Arabic literature from the period between the 9th and the 11th century. The overall aim is to explore how the adoption of Arabic language and Arabic intellectual tradition influenced the Jewish literary creativity in this period. The project will proceed by applying state-of-the-art digital tools to analyze manuscripts, trace changes in the Jewish literature, identify the dominant scholars and to compare the Judaeo-Arabic literature with non-Jewish literary traditions of the time.",
     "places": [
       {
         "place_name": {
@@ -43,8 +47,8 @@
       "nls": true,
       "dh": true,
       "meta": false,
-      "rdm": null,
-      "infrastructure": null
+      "rdm": false,
+      "infrastructure": false
     },
     "parents": [
       {
@@ -99,7 +103,10 @@
     "policies": {},
     "keywords": [
       "ara",
-      "jewish_literature"
+      "jewish_literature",
+      "judaeo_arabic_literature",
+      "manuscripts",
+      "pre_modernity"
     ],
     "comment": ""
   }

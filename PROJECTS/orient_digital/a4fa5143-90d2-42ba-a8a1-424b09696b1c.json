@@ -12,12 +12,16 @@
       {
         "record_modified_on": "2022-02-07",
         "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-05-05",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
   "project": {
     "title": "Orient-Digital",
-    "abbr": "",
+    "abbr": "Orient-Digital is a union catalogue and a portal for oriental manuscripts kept in Germany. It will contain the metadata of Arabic, Persian, and Ottoman-Turkish manuscripts from more than 25 cooperating institutions and will provide links to the digitized manuscripts that are available online.",
     "type": "project",
     "ref": [],
     "date": [
@@ -27,7 +31,8 @@
       }
     ],
     "websites": [
-      "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/projekte/dfg-projekt-orient-digital"
+      "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/projekte/dfg-projekt-orient-digital",
+      "http://www.orient-digital.de/content/index.xml"
     ],
     "project_desc": "",
     "places": [
@@ -71,7 +76,7 @@
       "nls": true,
       "dh": true,
       "meta": false,
-      "rdm": true,
+      "rdm": false,
       "infrastructure": true
     },
     "parents": [
