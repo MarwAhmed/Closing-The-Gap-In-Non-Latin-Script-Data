@@ -6,8 +6,8 @@
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-05-06",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -25,7 +25,7 @@
     "websites": [
       "https://syriaca.org/index.html"
     ],
-    "project_desc": "",
+    "project_desc": "Syriaca.org is a portal intended to document and preserve Syriac cultural heritage. It serves as an online hub (cyberinfrastructure) to assist research in the field of Syriac studies and to compile and organize core data related to the study of Syriac sources. The publications of Syriaca.org combine emerging methods of the Digital Huminites with traditional scholarship in history and philology, new digital tools are created for widely disseminating this data and facilitating further research.",
     "places": [
       {
         "place_name": {
@@ -42,7 +42,7 @@
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": false
+      "infrastructure": true
     },
     "parents": [
       {
@@ -220,7 +220,10 @@
     "stack": {},
     "policies": {},
     "keywords": [
-      "syr"
+      "cultural_heritage",
+      "syr",
+      "syriac_heritage",
+      "syriac_reference_portal"
     ],
     "comment": ""
   }
