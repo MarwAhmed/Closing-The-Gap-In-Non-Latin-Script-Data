@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8",
+    "record_created": "2022-05-09",
+    "record_created_by": "",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "CLARIN. EUROPEAN RESEARCH INFRASTRUCTURE FOR LANGUAGE RESOURCES AND TECHNOLOGY",
+    "abbr": "CLARIN",
+    "type": "organisation",
+    "ref": [
+      "https://www.wikidata.org/wiki/Q2986825"
+    ],
+    "date": [
+      {
+        "from": "2012",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://www.clarin.eu/"
+    ],
+    "project_desc": "CLARIN (Common Language Resources and Technology Infrastructure) is a pan-European infrastructure which provides access to digital language data and advanced tools to discover, annotate, analyze or combine this data via a network of European repositories. The infrastructure mainly serves for purposes of social sciences and humanities.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Utrecht",
+          "ref": [
+            "https://www.geonames.org/2745912/utrecht.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": false,
+      "meta": false,
+      "rdm": true,
+      "infrastructure": true
+    },
+    "parents": [],
+    "children": [],
+    "siblings": [],
+    "contacts": [],
+    "research_data": {
+      "lang": []
+    },
+    "stack": {},
+    "policies": [],
+    "keywords": [
+      "digital_language_data",
+      "language_resources",
+      "research_infrastructure"
+    ],
+    "comment": ""
+  }
+}
