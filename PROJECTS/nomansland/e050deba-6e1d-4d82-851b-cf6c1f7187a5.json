@@ -1,0 +1,112 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "e050deba-6e1d-4d82-851b-cf6c1f7187a5",
+    "record_created": "2022-05-10",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "NoMansLand: Nomads' Manuscripts Landscape",
+    "abbr": "NoMansLand",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020-01-01",
+        "to": "2022-12-31"
+      }
+    ],
+    "websites": [
+      "https://www.oeaw.ac.at/acdh/projects/nomansland-nomads-manuscripts-landscape",
+      "https://www.oeaw.ac.at/en/iran/research/manuscript-cultures/nomads-manuscripts-landscape/"
+    ],
+    "project_desc": "The focus of this projects lies on Iranian and Central Asian societies in the period between the 13th and 15th century which witnessed nomadic conquest after the rise of Chinggis Khan. The process of transculturation and interaction between the sedentary Muslim conquered and nomadic conqueror is documented in largely unstudied manuscripts from that period, which will be explored and analyzed in the course of this project. The technical side of the project will be responsible for developing and implementing an independent Analytical Database of Islamic Manuscripts which will serve both as a digital repository of manuscripts and an analytical tool that will allow users to do wider research on Islamic and Eurasian studies.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Österreichische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.4299.6"
+          ]
+        },
+        "websites": [
+          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Vienna",
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "De Nicola, Bruno",
+          "ref": [
+            "https://d-nb.info/gnd/1081572116"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.oeaw.ac.at/en/iran/institute/staff/research-staff/bruno-de-nicola#c50728"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "per"
+      ]
+    },
+    "stack": {},
+    "policies": [],
+    "keywords": [
+      "ara",
+      "central_asia",
+      "history",
+      "manuscript_research",
+      "manuscripts",
+      "per"
+    ],
+    "comment": ""
+  }
+}
