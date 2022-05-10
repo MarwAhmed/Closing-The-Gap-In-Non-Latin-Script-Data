@@ -1,0 +1,114 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "70944a30-3932-46bb-8c3f-410a48d9e0b9",
+    "record_created": "2022-05-09",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "HUNAYNNET",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2016",
+        "to": "2021"
+      }
+    ],
+    "websites": [
+      "https://hunaynnet.oeaw.ac.at/",
+      "https://cordis.europa.eu/project/id/679083/de"
+    ],
+    "project_desc": "This project is a first ever attempt to compile a digital trilingual and linguistically annotated parallel corpus of Greek classical scientific and philosophical literature and the Syriac and Arabic translations thereof. Besides an online lexicography the database is enhanced by a linguistic corpus management system providing advanced search tools which help to compare and analyze the texts in all three languages.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Österreichische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.4299.6"
+          ]
+        },
+        "websites": [
+          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Vienna",
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Kessel, Grigory",
+          "ref": [
+            "https://d-nb.info/gnd/1069608009"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.oeaw.ac.at/fileadmin/Institute/imafo/pdf/forschung/byzanzforschung/Staff/CV_GrigoryKessel_de.pdf",
+          "https://www.ias.edu/scholars/grigory-kessel"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "gre",
+        "syr"
+      ]
+    },
+    "stack": {},
+    "policies": [],
+    "keywords": [
+      "ara",
+      "corpus_linguistics",
+      "gre",
+      "syr",
+      "translation",
+      "trilingual_corpus"
+    ],
+    "comment": ""
+  }
+}
