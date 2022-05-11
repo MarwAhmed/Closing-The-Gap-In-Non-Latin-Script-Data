@@ -4,6 +4,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Noto+Sans:wght@100&display=swap');
 
 body {
   background-color: #2E4A61;
@@ -11,11 +12,11 @@ body {
 
 .head {
   color: #fff;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .text-comfortaa {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .nav {
