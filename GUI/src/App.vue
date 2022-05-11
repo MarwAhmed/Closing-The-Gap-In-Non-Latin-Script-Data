@@ -1,121 +1,82 @@
 <template>
   <div class="flex flex-wrap">
     <div class="head w-full text-left p-5">
-      <h1 class="text-5xl">
+      <h1 class="text-5xl ml-3">
         {{ title }}
       </h1>
-      <h2 class="text-2xl ml-1 mt-4">
+      <h2 class="text-2xl ml-3 mt-4">
         {{ subtitle }}
       </h2>
     </div>
-    <div class="nav w-full">
+    <div class="nav w-full pl-3">
       <div class="nav-item float-left py-3 ml-5 text-xl">Projects</div>
       <div class="nav-item float-left py-3 ml-3 text-xl">About</div>
     </div>
     <div>
-      <div class="box rounded-2xl m-4">
-        <div class="content p-4 pb-7 flex flex-row">
-          <div class="left w-auto max-w-sm">
-            <div class="text-3xl text-left">Header</div>
-            <div class="text-left w-full">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
-            <div class="tagrow flex flex-row">
-              <div class="bubble rounded-full px-4 mr-1">tag1</div>
-              <div class="bubble rounded-full px-4">tag2</div>
-            </div>
-          </div>
-          <div class="right w-auto max-w-lg">
-            <div class="codebox text-left p-5 ml-5 rounded-tr-lg">
-              <code>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              </code>
-            </div>
-          </div>
-        </div>
-        <div class="footer rounded-b-2xl h-8 pl-4 flex flex-row">
-          <div class="icon rounded-full w-8 h-8 border-2 mr-1">
-            <div class="icon-text">a</div>
-          </div>
-          <div class="icon rounded-full w-8 h-8 border-2 mr-1">
-            <div class="icon-text">a</div>
-          </div>
-          <div class="icon rounded-full w-8 h-8 border-2 mr-1">
-            <div class="icon-text">a</div>
-          </div>
-        </div>
-      </div>
+      <router-view></router-view>
     </div>
   </div>
 </template>
 
 <script>
+import { ref } from 'vue';
+
 export default {
-  name: 'App',
-  components: {
-  },
-  data() {
+  setup() {
+    const title = ref('Closing the Gap');
+    const subtitle = ref('in Non-Latin Script Data');
+
     return {
-      title: 'Closing the GAP',
-      subtitle: 'in Non-Latin Script Data',
-    }
-  }
-}
+      title,
+      subtitle
+    };
+  },
+  provide: {
+    // more languages can be added for different format options, yet existing:
+    // - ara
+    rtlCharset: /[\u0600-\u06FF]/,
+    utfSort: (arr) => {
+      // defines, at which position the letter shall occur. Although not perfect, this might provide a more equal visibility of Arabic next to Latin
+      // more languages can be added in the same way. If not, content in that languages is likely to be appended at the bottom.
+      const dictAra = {
+        ا: 'A',
+        ع: 'ʿ',
+        ب: 'B',
+        د: 'D',
+        ض: 'D',
+        ظ: 'D',
+        ذ: 'D',
+        ت: 'T',
+        ث: 'T',
+        ط: 'T',
+        ز: 'Z',
+        ر: 'R',
+        س: 'S',
+        ش: 'S',
+        ص: 'S',
+        غ: 'G',
+        ج: 'G',
+        ف: 'F',
+        ق: 'Q',
+        ك: 'K',
+        ل: 'L',
+        م: 'M',
+        ن: 'N',
+        ه: 'H',
+        ح: 'H',
+        خ: 'H',
+        و: 'U',
+        ي: 'I',
+      };
+      arr.sort((a, b) => {
+        const newA = (Object.keys(dictAra).includes(a)) ? dictAra[a] : a;
+        const newB = (Object.keys(dictAra).includes(b)) ? dictAra[b] : b;
+        if (newA > newB) return 1;
+        if (newA < newB) return -1;
+        return 0;
+      });
+      return arr;
+    },
+  },
+};
 </script>
-
-<style>
-body {
-  background-color: #2E4A61;
-}
-
-.head {
-  color: #fff;
-  font-family: 'Comfortaa', cursive;
-}
-
-.nav {
-  background-color: #F29559;
-  color: #202C39;
-}
-
-.box {
-  background-color: #B8B08D;
-}
-
-.box .footer {
-  background-color: #202C39;
-}
-
-.icon {
-  background-color: #F29559;
-  position: relative;
-  top: -50%;
-  border-color: #202C39;
-}
-
-.icon-text {
-}
-
-.bubble {
-  background-color: #F2D492;
-}
-
-.codebox {
-  background-color: #000;
-  color: #fff;
-}
-
-.nav-item {
-}
-.nav-item:hover {
-  color: #F2D492;
-  cursor: pointer;
-}
-
-#app {
-  font-family: Noto Sans, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
