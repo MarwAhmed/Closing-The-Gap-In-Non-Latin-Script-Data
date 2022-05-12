@@ -27,7 +27,6 @@ export default defineComponent({
     type: String,
   },
   setup(props) {
-    console.log(props.type)
     const now = new Date().getTime();
     const isArabic = inject('rtlCharset').test(props.label);
     return {

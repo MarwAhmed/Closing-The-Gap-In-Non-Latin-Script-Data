@@ -1,24 +1,25 @@
 <template>
-  <ul class="flex flex-wrap">
-    <li class="bubble rounded-full px-4 mr-1"
-      v-for="(t, tKey) in tagList.sort()"
+  <ul class="tag-container flex flex-wrap text-sm border-2 rounded-xl p-3 m-4">
+    <li class="bg-brightblue rounded-full px-4 mr-1 mb-1"
+      v-for="(t, tKey) in taglist"
       v-bind:key="tKey"
     >
-      <router-link :to="{ name: path, params: { tag: t.substring(1) } }">{{ t }}</router-link>
+      #{{ t }}
       <!--<a v-bind:href="`/${path}${t.replace('#', '/')}`">{{ t }}</a>-->
     </li>
   </ul>
 </template>
 
 <script>
-import { Options, Vue } from 'vue-class-component';
+import { defineComponent } from 'vue';
 
-@Options({
-  props: {
-    tagList: Array,
-    path: String,
+export default defineComponent({
+  components: {
   },
-})
-export default class ResourceItem extends Vue {
-}
+  props: {
+    taglist: Array,
+  },
+  setup() {
+  },
+});
 </script>

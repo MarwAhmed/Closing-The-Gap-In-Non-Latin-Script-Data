@@ -28,6 +28,10 @@ body {
   background-color: #B8B08D;
 }
 
+.tag-container {
+  border-color: #b8b08d;
+}
+
 .box .footer {
   background-color: #202C39;
 }

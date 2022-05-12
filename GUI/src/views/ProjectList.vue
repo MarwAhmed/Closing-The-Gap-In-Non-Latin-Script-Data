@@ -1,5 +1,8 @@
 <template>
   <div class="flex flex-wrap m-5">
+    <tag-list
+      :taglist="tags"
+    />
     <project-item
       v-for="project in projectList"
       :key="project._id"
@@ -58,10 +61,12 @@ import {
 } from 'vue-router';
 import axios from 'axios';
 import projectItem from '@/components/ProjectItems.vue';
+import tagList from '@/components/TagList.vue';
 
 export default defineComponent({
   components: {
     projectItem,
+    tagList,
   },
   setup() {
     const projectList = ref([]);
@@ -84,15 +89,21 @@ export default defineComponent({
                   project: responseProject.data.project,
                   source: `https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master${responseIndex.data[key].path}${key}.json`,
                 });
+                responseProject.data.project.keywords.map((tag) => {
+                  if (!tags.value.includes(tag)) tags.value.push(tag);
+                });
+                projectList.value.sort((a, b) => {
+                  if (a.project.title.toLowerCase() > b.project.title.toLowerCase()) return 1;
+                  if (a.project.title.toLowerCase() < b.project.title.toLowerCase()) return -1;
+                  return 0;
+                });
                 return null;
               });
-            projectList.value.sort((a, b) => {
-              if (a.project.title.toLowerCase() > b.project.title.toLowerCase()) return 1;
-              if (a.project.title.toLowerCase() < b.project.title.toLowerCase()) return -1;
-              return 0;
-            });
             return null;
           });
+        }).then(() => {
+          console.log('finished');
+          console.log(tags.value);
         });
     };
 
