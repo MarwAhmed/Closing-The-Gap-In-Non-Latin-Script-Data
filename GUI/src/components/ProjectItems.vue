@@ -98,6 +98,10 @@
         :href="source"
         type="git"
       />
+      <div
+        v-if="metadata.record_modified[metadata.record_modified.length - 1].record_modified_on"
+        class="text-sm bright-text mt-1 absolute right-5"
+      >Last edit: {{ metadata.record_modified[metadata.record_modified.length - 1].record_modified_on }} </div>
     </div>
   </div>
 </div>

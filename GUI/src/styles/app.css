@@ -29,7 +29,9 @@ body {
 }
 
 .tag-container {
-  border-color: #b8b08d;
+  background-color: #b8b08d;
+  border-color: #202C39;
+  cursor: pointer;
 }
 
 .box .footer {
@@ -75,6 +77,14 @@ body {
 .bg-darkblue {
   background-color: #202C39;
   color: #B8B08D;
+}
+.bright-text {
+  color: #B8B08D;
+}
+
+.button {
+  cursor:pointer;
+  border-color: #202C39;
 }
 
 a:hover {
