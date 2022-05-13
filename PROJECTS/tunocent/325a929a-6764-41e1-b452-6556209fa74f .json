@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.3",
   "record_metadata": {
-    "uuid": "e9cb8ab1-2d2c-4cc3-a44d-a793220a8638",
-    "record_created": "2022-05-09",
+    "uuid": "325a929a-6764-41e1-b452-6556209fa74f ",
+    "record_created": "2022-05-12",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,21 +12,21 @@
     ]
   },
   "project": {
-    "title": "WIBARAB: What is Bedouin-Type Arabic'?",
-    "abbr": "WIBARAB",
+    "title": "TUNOCENT",
+    "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2021-10-01",
-        "to": "2026-09-30"
+        "from": "2019-04-01",
+        "to": "2023-03-31"
       }
     ],
     "websites": [
-      "https://wibarab.acdh.oeaw.ac.at/",
-      "https://www.oeaw.ac.at/acdh/projects/wibarab-what-is-bedouin-type-arabic"
+      "https://tunocent.acdh.oeaw.ac.at/",
+      "https://www.oeaw.ac.at/acdh/projects/tunocent"
     ],
-    "project_desc": "This project is dedicated to the study of Bedouin- Arabic dialects from cross the whole Arabic-speaking region. The project will collect new data through fieldwork in Saudi Arabia, Jordan, Sudan and Morocco, among other countries and publish the outputs in a database that will allow for efficient cross-dialectal comparisons, particularly with regard to phonological, morphological, syntactical, phraseological and lexical features.",
+    "project_desc": "This project studies the hitherto almost unknown Arabic varieties spoken in parts of Tunisia. Firstly, the team members will record and collect the linguistic data through fieldwork. In the second phase of the project selected dialects will be sketched and two varieties representing the main dialectal areas described in detail. Finlay a digital and fully searchable corpus of transcribed and translated narrative and ethnographic texts and conversations will be developed. The project will build on an existing research infrastructure for Arabic variations, which has been established at the Austrian Academy of Sciences over the recent years such as VICAV, TUNICO and ARCHE.",
     "places": [
       {
         "place_name": {
@@ -38,8 +38,7 @@
       }
     ],
     "lang": [
-      "eng",
-      "ger"
+      "eng"
     ],
     "topic_relations": {
       "nls": true,
@@ -105,14 +104,14 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Procházka, Stephan",
+          "text": "Mörth, Karlheinz",
           "ref": [
-            "https://d-nb.info/gnd/136441688"
+            "http://viaf.org/viaf/8110691/#M%C3%B6rth,_Karlheinz."
           ]
         },
         "role": 0,
         "websites": [
-          "https://orientalistik.univie.ac.at/ueber-uns/personal/detailansicht-personal/user/prochas8/inum/1073/backpid/86555/"
+          "https://www.oeaw.ac.at/acdh/team/current-team/karlheinz-moerth"
         ]
       }
     ],
@@ -125,9 +124,10 @@
     "policies": [],
     "keywords": [
       "ara",
-      "bedouin_arabic",
-      "corpora",
-      "language_variation"
+      "language_resources",
+      "language_variation",
+      "linguistics",
+      "tunesia"
     ],
     "comment": ""
   }

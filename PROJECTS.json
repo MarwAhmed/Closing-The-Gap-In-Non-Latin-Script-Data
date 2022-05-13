@@ -76,7 +76,7 @@
     "path": "/PROJECTS/change_projekt/"
   },
   "7e14a810-7d07-4e60-96eb-01fccf9323e8": {
-    "title": "CLARIN. EUROPEAN RESEARCH INFRASTRUCTURE FOR LANGUAGE RESOURCES AND TECHNOLOGY",
+    "title": "CLARIN - European Research Infrastructure for Language Resources and Technology",
     "path": "/PROJECTS/clarin/"
   },
   "95a2024b-9fea-4ced-8136-1130b0fb8f51": {
@@ -219,6 +219,10 @@
     "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
     "path": "/PROJECTS/methoden_der_manuskriptanalyse_zur_wiedergewinnung_verlorener_schrift/"
   },
+  "e050deba-6e1d-4d82-851b-cf6c1f7187a5": {
+    "title": "NoMansLand: Nomads' Manuscripts Landscape",
+    "path": "/PROJECTS/nomansland/"
+  },
   "ddbb569b-1542-40fe-9fa7-3842610945c8": {
     "title": "Onmasticon Arabicum",
     "path": "/PROJECTS/onomasticon_arabicum/"
@@ -267,6 +271,10 @@
     "title": "Sefaria",
     "path": "/PROJECTS/sefaria_org/"
   },
+  "68422d65-ccba-4dcb-8a0e-bd4f3f9e1dc9": {
+    "title": "Shawi",
+    "path": "/PROJECTS/shawi/"
+  },
   "fb67cd77-6bc3-41a8-a84c-05bb2a5d1dd0": {
     "title": "Standards for Networking Ancient Prosopographies: Data and Relations in Greco-Roman Names",
     "path": "/PROJECTS/snapdrgn/"
@@ -303,6 +311,10 @@
     "title": "Topoi. The Formation and Transformation of Space and Knowledge in Ancient Civilizations",
     "path": "/PROJECTS/topoi/"
   },
+  "325a929a-6764-41e1-b452-6556209fa74f ": {
+    "title": "TUNOCENT",
+    "path": "/PROJECTS/tunocent/"
+  },
   "9ca46873-3089-4a04-99fa-89c0c1b01213": {
     "title": "Understanding Written Artefacts",
     "path": "/PROJECTS/understanding_written_artefacts/"
@@ -311,12 +323,16 @@
     "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
     "path": "/PROJECTS/verse_und_sprueche/"
   },
+  "8f343a28-a873-449c-b359-efcfab7d1201": {
+    "title": "Vienna Corpus of Arabic Varieties",
+    "path": "/PROJECTS/vicav/"
+  },
   "fcbda96b-0c65-4ac9-9047-bde2323a0cb4": {
     "title": "Virtuelle Archive für die geisteswissenschaftliche Forschung",
     "path": "/PROJECTS/virtuelle_archive_für_die_geisteswissenschaftliche_forschung/"
   },
   "e9cb8ab1-2d2c-4cc3-a44d-a793220a8638": {
-    "title": "WIBARAB: WHAT IS BEDOUIN-TYPE ARABIC?",
+    "title": "WIBARAB: What is Bedouin-Type Arabic'?",
     "path": "/PROJECTS/wibarab/"
   },
   "5f3c2fbb-ca17-41c9-acdb-d3e147869400": {

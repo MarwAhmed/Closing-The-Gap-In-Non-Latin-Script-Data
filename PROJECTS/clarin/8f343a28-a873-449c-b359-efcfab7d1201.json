@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.3",
   "record_metadata": {
-    "uuid": "e9cb8ab1-2d2c-4cc3-a44d-a793220a8638",
-    "record_created": "2022-05-09",
+    "uuid": "8f343a28-a873-449c-b359-efcfab7d1201",
+    "record_created": "2022-05-12",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,21 +12,21 @@
     ]
   },
   "project": {
-    "title": "WIBARAB: What is Bedouin-Type Arabic'?",
-    "abbr": "WIBARAB",
+    "title": "Vienna Corpus of Arabic Varieties",
+    "abbr": "VICAV",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2021-10-01",
-        "to": "2026-09-30"
+        "from": "2013-01-01",
+        "to": "2028-12-31"
       }
     ],
     "websites": [
-      "https://wibarab.acdh.oeaw.ac.at/",
-      "https://www.oeaw.ac.at/acdh/projects/wibarab-what-is-bedouin-type-arabic"
+      "https://vicav.acdh.oeaw.ac.at/#map=[biblMarkers,.*,geo]&1=[textQuery,vicavMission,MISSION,open]&2=[textQuery,vicavNews,NEWS,open]",
+      "https://www.oeaw.ac.at/acdh/projects/vicav"
     ],
-    "project_desc": "This project is dedicated to the study of Bedouin- Arabic dialects from cross the whole Arabic-speaking region. The project will collect new data through fieldwork in Saudi Arabia, Jordan, Sudan and Morocco, among other countries and publish the outputs in a database that will allow for efficient cross-dialectal comparisons, particularly with regard to phonological, morphological, syntactical, phraseological and lexical features.",
+    "project_desc": "This project hast two main purposes: firstly, it serves as a virtual research platform for Arabic dialectology, secondly, as a test bed for newly developed text technological methodologies and tools. In doing so, it gathers varying digital language resources for a number of different localities and offers information on the research history, available literature, salient grammatical features etc. of the particular variety. VICAV also makes accessible bibliographies, dictionaries, glossaries, and different types of transcribed texts. The project aims at providing a platform of exchange for a scientific community which is increasingly producing digital data but still lacks the infrastructure to make it widely available.",
     "places": [
       {
         "place_name": {
@@ -38,15 +38,14 @@
       }
     ],
     "lang": [
-      "eng",
-      "ger"
+      "eng"
     ],
     "topic_relations": {
       "nls": true,
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": false
+      "infrastructure": true
     },
     "parents": [
       {
@@ -98,6 +97,33 @@
         "parents": [],
         "siblings": [],
         "children": []
+      },
+      {
+        "type": "project",
+        "title": "CLARIN_AT",
+        "ref": [],
+        "websites": [
+          "https://digital-humanities.at/de/dha/clariah-at"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Vienna",
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
+            }
+          }
+        ],
+        "parents": [
+          {
+            "type": "project",
+            "title": "CLARIN - European Research Infrastructure for Language Resources and Technology",
+            "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8"
+          }
+        ],
+        "siblings": [],
+        "children": []
       }
     ],
     "children": [],
@@ -105,14 +131,14 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Procházka, Stephan",
+          "text": "Mörth, Karlheinz",
           "ref": [
-            "https://d-nb.info/gnd/136441688"
+            "http://viaf.org/viaf/8110691/#M%C3%B6rth,_Karlheinz."
           ]
         },
         "role": 0,
         "websites": [
-          "https://orientalistik.univie.ac.at/ueber-uns/personal/detailansicht-personal/user/prochas8/inum/1073/backpid/86555/"
+          "https://www.oeaw.ac.at/acdh/team/current-team/karlheinz-moerth"
         ]
       }
     ],
@@ -125,8 +151,10 @@
     "policies": [],
     "keywords": [
       "ara",
-      "bedouin_arabic",
+      "arabic_dialects",
       "corpora",
+      "corpus_linguistics",
+      "language_resources",
       "language_variation"
     ],
     "comment": ""

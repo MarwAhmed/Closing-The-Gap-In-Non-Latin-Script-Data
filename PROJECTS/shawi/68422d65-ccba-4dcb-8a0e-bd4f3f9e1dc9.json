@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.3",
   "record_metadata": {
-    "uuid": "e9cb8ab1-2d2c-4cc3-a44d-a793220a8638",
-    "record_created": "2022-05-09",
+    "uuid": "68422d65-ccba-4dcb-8a0e-bd4f3f9e1dc9",
+    "record_created": "2022-05-10",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,21 +12,20 @@
     ]
   },
   "project": {
-    "title": "WIBARAB: What is Bedouin-Type Arabic'?",
-    "abbr": "WIBARAB",
+    "title": "Shawi",
+    "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2021-10-01",
-        "to": "2026-09-30"
+        "from": "2021-02-01",
+        "to": "2025-02-28"
       }
     ],
     "websites": [
-      "https://wibarab.acdh.oeaw.ac.at/",
-      "https://www.oeaw.ac.at/acdh/projects/wibarab-what-is-bedouin-type-arabic"
+      "https://www.oeaw.ac.at/acdh/projects/shawi"
     ],
-    "project_desc": "This project is dedicated to the study of Bedouin- Arabic dialects from cross the whole Arabic-speaking region. The project will collect new data through fieldwork in Saudi Arabia, Jordan, Sudan and Morocco, among other countries and publish the outputs in a database that will allow for efficient cross-dialectal comparisons, particularly with regard to phonological, morphological, syntactical, phraseological and lexical features.",
+    "project_desc": "This project focuses on the Arabic dialects of the so-called Shawi-type spoken by small cattle breeding Bedouin tribes in various regions of the Fertile Crescent. The main objective is to create a text corpus of this dialects based on audio recordings, to provide a comprehensive grammar and a digital dictionary. The basis of these contributions is new linguistic data gathered from the field from speakers living in the Harran-Urfa region of Southeastern Turkey, Syria and Iran.",
     "places": [
       {
         "place_name": {
@@ -125,9 +124,12 @@
     "policies": [],
     "keywords": [
       "ara",
-      "bedouin_arabic",
+      "arabic_dialects",
       "corpora",
-      "language_variation"
+      "elexicography",
+      "language_variation",
+      "linguistics",
+      "shawi"
     ],
     "comment": ""
   }
