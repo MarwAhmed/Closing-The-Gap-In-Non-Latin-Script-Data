@@ -1,0 +1,184 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "79462111-75a7-4fa0-8e11-9d424293a074",
+    "record_created": "2022-05-17",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Linguistic dynamics in the Greater Tunis Area: a corpus-based approach (TUNICO)",
+    "abbr": "TUNICO",
+    "type": "project",
+    "ref": [
+      ""
+    ],
+    "date": [
+      {
+        "from": "2013-08-01",
+        "to": "2016-12-31"
+      }
+    ],
+    "websites": [
+      "https://tunico.acdh.oeaw.ac.at/project.html",
+      "https://www.oeaw.ac.at/acdh/projects/completed-projects/tunico"
+    ],
+    "project_desc": "The focus of this project lies on the Arabic dialect spoken in the Tunisian capital. It investigates the linguistic dynamics caused by recent demographic changes in the metropolitan area of Tunis and its intention is to gather data through field recordings made with young speakers who were born in Tunis but descended from parents who arrived to the capital from other regions. Based on this data two digital language resources were created: a corpus of unmonitored speech that contains both conversations and narratives and a dictionary based on this corpus and on previously published resources.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Österreichische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.4299.6"
+          ]
+        },
+        "websites": [
+          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Vienna",
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Mörth, Karlheinz",
+          "ref": [
+            "http://viaf.org/viaf/8110691/#M%C3%B6rth,_Karlheinz."
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.oeaw.ac.at/acdh/team/current-team/karlheinz-moerth"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ],
+      "publications": {
+        "access": {
+          "open": 0.0,
+          "closed": 100.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "label": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "label": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "ara",
+      "corpus_linguistics",
+      "digital_dictionary ",
+      "language_resources",
+      "language_variation"
+    ],
+    "comment": ""
+  }
+}
