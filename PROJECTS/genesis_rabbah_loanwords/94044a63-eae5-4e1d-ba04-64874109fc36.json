@@ -35,6 +35,14 @@
             "https://www.geonames.org/2761369/vienna.html"
           ]
         }
+      },
+      {
+        "place_name": {
+          "text": "Salzburg",
+          "ref": [
+            "https://www.geonames.org/2766824/salzburg.html"
+          ]
+        }
       }
     ],
     "lang": [
