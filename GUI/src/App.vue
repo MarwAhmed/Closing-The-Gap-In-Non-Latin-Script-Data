@@ -13,9 +13,11 @@
         v-for="(item, key) in nav"
         :key="key"
         class="nav-item float-left py-3 ml-5 text-xl"
-      >{{ item.label }}</div>
+      >
+        <router-link :to="item.link">{{ item.label }}</router-link>
+      </div>
     </div>
-    <div>
+    <div class="w-full">
       <router-view></router-view>
     </div>
   </div>
@@ -31,13 +33,20 @@ export default {
     const nav = ref([
       {
         label: 'Projects',
+        link: '/',
+      },
+      {
+        label: 'Map',
+        link: '/map',
       },
       {
         label: 'Initiatives',
+        link: '/initiatives',
       },
       {
         label: 'About',
-      }
+        link: '/about',
+      },
     ]);
 
     return {

@@ -1,5 +1,5 @@
 <template>
-<div class="w-auto mx-4">
+<div class="w-auto mx-4 mb-2">
   <div
     class="tag-container rounded-t-xl pointer px-5 py-2 mb-0"
     :class="(collapsed) ? 'rounded-b-xl' : ''"
@@ -17,21 +17,12 @@
     v-if="!collapsed"
     class="tag-container flex flex-wrap text-sm rounded-b-xl p-3 mt-0"
   >
-  <!--
     <tag-bubble
       v-for="(cat, key) in categories"
       :key="key"
       :label="cat.label"
       :link="cat.link"
-      :small="true"
-    />
-    -->
-    <tag-bubble
-      v-for="(tag, key) in taglist"
-      :key="key"
-      :label="tag"
-      :link="tag"
-      target="tag"
+      target="cat"
       :small="true"
     />
   </div>
@@ -40,9 +31,7 @@
 
 <script>
 import { defineComponent, ref } from 'vue';
-import {
-  useRoute,
-} from 'vue-router';
+import { useRoute } from 'vue-router';
 import TagBubble from './TagBubble.vue';
 
 export default defineComponent({
@@ -53,13 +42,37 @@ export default defineComponent({
     taglist: Array,
   },
   setup() {
-    const collapse_btn = ref('List of Keywords');
+    const collapse_btn = ref('Categories');
     const route = useRoute();
-    let collapsed = ref((route.params.tag && route.params.tag != '') ? false : true);
+    let collapsed = ref((route.params.cat && route.params.cat != '') ? false : true);
+
+    const categories = ref([
+      {
+        label: 'Digital Humanities',
+        link: 'dh'
+      },
+      {
+        label: 'Non-Latin Script',
+        link: 'nls'
+      },
+      {
+        label: 'Research Data Management',
+        link: 'rdm'
+      },
+      {
+        label: 'Infrastructure',
+        link: 'infrastructure'
+      },
+      {
+        label: 'Meta',
+        link: 'meta'
+      }
+    ])
 
     return {
       collapse_btn,
       collapsed,
+      categories,
     }
   },
 });
