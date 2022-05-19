@@ -33,6 +33,10 @@
           "ref": [
             "http://www.geonames.org/2852458/potsdam.html"
           ]
+        },
+        "coordinates": {
+          "lat": "52.39886",
+          "lng": "13.06566"
         }
       }
     ],

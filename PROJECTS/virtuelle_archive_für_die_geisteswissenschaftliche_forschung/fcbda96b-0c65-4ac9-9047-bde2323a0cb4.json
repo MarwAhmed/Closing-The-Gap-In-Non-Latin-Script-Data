@@ -33,6 +33,10 @@
           "ref": [
             "http://www.geonames.org/2842566/saxony.html"
           ]
+        },
+        "coordinates": {
+          "lat": "51",
+          "lng": "13.25"
         }
       }
     ],

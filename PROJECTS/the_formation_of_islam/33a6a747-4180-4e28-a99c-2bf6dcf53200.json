@@ -37,6 +37,10 @@
           "ref": [
             "https://www.geonames.org/2751773/leiden.html"
           ]
+        },
+        "coordinates": {
+          "lat": "52.15833",
+          "lng": "4.49306"
         }
       }
     ],

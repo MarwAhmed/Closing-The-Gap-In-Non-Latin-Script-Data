@@ -34,6 +34,10 @@
           "ref": [
             "https://www.geonames.org/2761369/vienna.html"
           ]
+        },
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
         }
       },
       {
@@ -42,6 +46,10 @@
           "ref": [
             "https://www.geonames.org/2766824/salzburg.html"
           ]
+        },
+        "coordinates": {
+          "lat": "47.79941",
+          "lng": "13.04399"
         }
       }
     ],

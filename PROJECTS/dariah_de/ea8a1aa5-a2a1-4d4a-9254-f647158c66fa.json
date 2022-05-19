@@ -1,9 +1,9 @@
 {
   "schema_version": "0.1.3",
   "record_metadata": {
-    "uuid": "",
-    "record_created": "",
-    "record_created_by": "",
+    "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa",
+    "record_created": "2022-05-19",
+    "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
         "record_modified_on": "",
@@ -12,43 +12,44 @@
     ]
   },
   "project": {
-    "title": "",
-    "abbr": "",
-    "type": "",
+    "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
+    "abbr": "DARIAH-DE",
+    "type": "organisation",
     "ref": [
-      ""
+      "https://www.wikidata.org/wiki/Q55520740"
     ],
     "date": [
       {
-        "from": "",
+        "from": "2011",
         "to": ""
       }
     ],
     "websites": [
-      ""
+      "https://www.wikidata.org/wiki/Q55520740"
     ],
-    "project_desc": "",
+    "project_desc": "DARIAH-DE is a member of the pan-European research infrastructure for the arts and humanities. It supports research in the humanities and cultural studies that work with digital methods and procedures with a research infrastructure consisting of four pillars: teaching, research, research data and technical components.",
     "places": [
       {
         "place_name": {
-          "text": "",
+          "text": "Göttingen",
           "ref": [
-            ""
+            "https://www.geonames.org/2918632/goettingen.html"
           ]
         },
         "coordinates": {
-          "lat": "",
-          "lng": ""
+          "lat": "51.53443",
+          "lng": "9.93228"
         }
-      }          
+      }
     ],
     "lang": [
-      ""          
+      "eng",
+      "ger"
     ],
     "topic_relations": {
-      "nls": true,
-      "dh": true,
-      "meta": true,
+      "nls": false,
+      "dh": false,
+      "meta": false,
       "rdm": true,
       "infrastructure": true
     },
@@ -56,65 +57,12 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "",
+          "text": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
           "ref": [
-            ""
+            "https://www.wikidata.org/wiki/Q49103279"
           ]
         },
-        "websites": [
-          ""
-        ],
-        "places":[
-          {
-            "place_name": {
-              "text": "",
-              "ref": [
-                ""
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          ""
-        ],
-        "places":[
-          {
-            "place_name": {
-              "text": "",
-              "ref": [
-                ""
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": [
-              ""
-          ]
-        },
-        "uuid": ""
+        "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb"
       }
     ],
     "children": [],
@@ -122,16 +70,16 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Horstmann, Wolfram",
           "ref": [
-              ""
+            "https://d-nb.info/gnd/129236187"
           ]
         },
         "role": 0,
         "websites": [
-          ""
-        ]           
-      }         
+          "https://www.sub.uni-goettingen.de/kontakt/direktion/dr-wolfram-horstmann/"
+        ]
+      }
     ],
     "research_data": {
       "lang": [
@@ -176,15 +124,16 @@
             }
           ]
         },
-        "refined": {
-        },
-        "final": {
-        }
+        "refined": {},
+        "final": {}
       }
     },
     "stack": {
       "database": [
-        "sql", "xml", "json", "nosql"
+        "sql",
+        "xml",
+        "json",
+        "nosql"
       ],
       "backend": [
         "laravel"
@@ -201,7 +150,9 @@
         }
       ],
       "languages": [
-        "php", "javascript", "python"
+        "php",
+        "javascript",
+        "python"
       ]
     },
     "policies": [
@@ -211,7 +162,8 @@
       }
     ],
     "keywords": [
-      ""
+      "",
+      "research_infrastructure"
     ],
     "comment": ""
   }

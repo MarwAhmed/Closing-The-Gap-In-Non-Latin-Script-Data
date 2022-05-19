@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/2934246/duesseldorf.html"
           ]
+        },
+        "coordinates": {
+          "lat": "51.22172",
+          "lng": "6.77616"
         }
       },
       {
@@ -41,6 +45,10 @@
           "ref": [
             "https://www.geonames.org/2886242/koeln.html"
           ]
+        },
+        "coordinates": {
+          "lat": "50.93333",
+          "lng": "6.95"
         }
       }
     ],

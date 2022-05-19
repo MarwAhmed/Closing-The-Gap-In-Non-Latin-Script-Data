@@ -34,6 +34,10 @@
           "ref": [
             "https://www.geonames.org/2925533/frankfurt-am-main.html"
           ]
+        },
+        "coordinates": {
+          "lat": "50.11552",
+          "lng": "8.68417"
         }
       },
       {
@@ -42,6 +46,10 @@
           "ref": [
             "https://www.geonames.org/2825297/stuttgart.html"
           ]
+        },
+        "coordinates": {
+          "lat": "48.78232",
+          "lng": "9.17702"
         }
       }
     ],

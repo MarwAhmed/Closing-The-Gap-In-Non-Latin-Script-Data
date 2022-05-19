@@ -37,6 +37,10 @@
           "ref": [
             "http://www.geonames.org/2950159/berlin.html"
           ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
         }
       },
       {
@@ -45,6 +49,10 @@
           "ref": [
             "http://www.geonames.org/2852458/potsdam.html"
           ]
+        },
+        "coordinates": {
+          "lat": "52.39886",
+          "lng": "13.06566"
         }
       },
       {
@@ -53,6 +61,10 @@
           "ref": [
             "http://www.geonames.org/2925535/frankfurt-oder.html"
           ]
+        },
+        "coordinates": {
+          "lat": "52.34714",
+          "lng": "14.55062"
         }
       },
       {
@@ -61,6 +73,10 @@
           "ref": [
             "https://www.geonames.org/2939811/cottbus.html"
           ]
+        },
+        "coordinates": {
+          "lat": "51.75769",
+          "lng": "14.32888"
         }
       }
     ],

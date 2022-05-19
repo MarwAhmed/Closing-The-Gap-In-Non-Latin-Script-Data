@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/2661604/basel.html"
           ]
+        },
+        "coordinates": {
+          "lat": "47.55839",
+          "lng": "7.57327"
         }
       },
       {
@@ -41,6 +45,10 @@
           "ref": [
             "https://www.geonames.org/2867714/munich.html"
           ]
+        },
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
         }
       }
     ],

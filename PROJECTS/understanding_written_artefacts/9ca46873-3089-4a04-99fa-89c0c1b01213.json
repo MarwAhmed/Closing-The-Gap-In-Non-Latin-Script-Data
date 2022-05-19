@@ -41,6 +41,10 @@
           "ref": [
             "https://www.geonames.org/2911298/hamburg.html"
           ]
+        },
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
         }
       },
       {
@@ -49,6 +53,10 @@
           "ref": [
             "https://www.geonames.org/2875601/luebeck.html"
           ]
+        },
+        "coordinates": {
+          "lat": "53.86893",
+          "lng": "10.68729"
         }
       }
     ],

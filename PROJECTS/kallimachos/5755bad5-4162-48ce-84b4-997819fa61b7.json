@@ -41,6 +41,10 @@
           "ref": [
             "https://www.geonames.org/2805615/wuerzburg.html"
           ]
+        },
+        "coordinates": {
+          "lat": "49.79391",
+          "lng": "9.95121"
         }
       }
     ],

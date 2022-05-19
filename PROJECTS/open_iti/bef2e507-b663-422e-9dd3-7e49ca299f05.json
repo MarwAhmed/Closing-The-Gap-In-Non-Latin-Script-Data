@@ -38,6 +38,10 @@
           "ref": [
             "https://www.geonames.org/4351977/college-park.html"
           ]
+        },
+        "coordinates": {
+          "lat": "38.98067",
+          "lng": "-76.93692"
         }
       },
       {
@@ -46,6 +50,10 @@
           "ref": [
             "https://www.geonames.org/2879139/leipzig.html"
           ]
+        },
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
         }
       },
       {
@@ -54,6 +62,10 @@
           "ref": [
             "https://www.geonames.org/2643743/london.html"
           ]
+        },
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
         }
       },
       {
@@ -62,6 +74,10 @@
           "ref": [
             "https://www.geonames.org/2761369/vienna.html"
           ]
+        },
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
         }
       }
     ],

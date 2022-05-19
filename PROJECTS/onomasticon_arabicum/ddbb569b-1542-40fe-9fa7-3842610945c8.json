@@ -37,6 +37,10 @@
           "ref": [
             "http://www.geonames.org/2988506/paris.html"
           ]
+        },
+        "coordinates": {
+          "lat": "48.85339",
+          "lng": "2.34864"
         }
       }
     ],

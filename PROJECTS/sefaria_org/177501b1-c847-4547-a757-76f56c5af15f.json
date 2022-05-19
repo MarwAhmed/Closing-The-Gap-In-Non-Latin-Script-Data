@@ -39,6 +39,10 @@
           "ref": [
             "https://www.geonames.org/5128638/new-york.html"
           ]
+        },
+        "coordinates": {
+          "lat": "43.00035",
+          "lng": "-75.4999"
         }
       }
     ],

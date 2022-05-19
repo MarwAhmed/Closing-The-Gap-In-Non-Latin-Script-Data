@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/2874224/mainz.html"
           ]
+        },
+        "coordinates": {
+          "lat": "50.00133",
+          "lng": "8.25865"
         }
       }
     ],

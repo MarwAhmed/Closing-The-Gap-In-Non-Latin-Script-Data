@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/3587265/berlin.html"
           ]
+        },
+        "coordinates": {
+          "lat": "13.51667",
+          "lng": "-88.6"
         }
       }
     ],

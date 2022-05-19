@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/6553087/muenster.html"
           ]
+        },
+        "coordinates": {
+          "lat": "51.95973",
+          "lng": "7.63137"
         }
       }
     ],

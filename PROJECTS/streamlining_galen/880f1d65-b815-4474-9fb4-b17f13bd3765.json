@@ -37,6 +37,10 @@
           "ref": [
             "https://www.geonames.org/2652221/coventry.html"
           ]
+        },
+        "coordinates": {
+          "lat": "52.40656",
+          "lng": "-1.51217"
         }
       }
     ],

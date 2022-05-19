@@ -79,6 +79,10 @@
     "title": "CLARIN - European Research Infrastructure for Language Resources and Technology",
     "path": "/PROJECTS/clarin/"
   },
+  "8f343a28-a873-449c-b359-efcfab7d1201": {
+    "title": "Vienna Corpus of Arabic Varieties",
+    "path": "/PROJECTS/vicav/"
+  },
   "95a2024b-9fea-4ced-8136-1130b0fb8f51": {
     "title": "Colophons in Sumerian and Akkadian Literary Manuscripts from 3rd and 2nd Millennium BCE Mesopotamia",
     "path": "/PROJECTS/colophons_in_sumerian_and_akkadian/"
@@ -102,6 +106,10 @@
   "1ae31b2f-5c67-49a7-9fba-c162b314bbcb": {
     "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
     "path": "/PROJECTS/dariah/"
+  },
+  "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa": {
+    "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
+    "path": "/PROJECTS/dariah_de/"
   },
   "894dcf0c-7295-4fb8-b4ba-866a5ebe3310": {
     "title": "Datenrepositorium Manuskriptkulturen",
@@ -334,10 +342,6 @@
   "a2984fec-9396-488e-ad56-d3d21dc49052": {
     "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
     "path": "/PROJECTS/verse_und_sprueche/"
-  },
-  "8f343a28-a873-449c-b359-efcfab7d1201": {
-    "title": "Vienna Corpus of Arabic Varieties",
-    "path": "/PROJECTS/vicav/"
   },
   "fcbda96b-0c65-4ac9-9047-bde2323a0cb4": {
     "title": "Virtuelle Archive für die geisteswissenschaftliche Forschung",

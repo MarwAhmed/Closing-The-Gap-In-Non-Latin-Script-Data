@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/2643743/london.html"
           ]
+        },
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
         }
       }
     ],

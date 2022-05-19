@@ -33,6 +33,10 @@
         "place_name": {
           "text": "",
           "ref": []
+        },
+        "coordinates": {
+          "lat": "49.79391",
+          "lng": "9.95121"
         }
       }
     ],

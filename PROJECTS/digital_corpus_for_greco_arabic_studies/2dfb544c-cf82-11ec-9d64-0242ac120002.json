@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/4931972/cambridge.html"
           ]
+        },
+        "coordinates": {
+          "lat": "42.3751",
+          "lng": "-71.10561"
         }
       },
       {
@@ -41,6 +45,10 @@
           "ref": [
             "https://www.geonames.org/4943629/medford.html"
           ]
+        },
+        "coordinates": {
+          "lat": "42.41843",
+          "lng": "-71.10616"
         }
       }
     ],

@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/2911522/halle-saale.html"
           ]
+        },
+        "coordinates": {
+          "lat": "51.48158",
+          "lng": "11.97947"
         }
       }
     ],

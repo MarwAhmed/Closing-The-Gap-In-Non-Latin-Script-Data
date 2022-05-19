@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/4644585/nashville.html"
           ]
+        },
+        "coordinates": {
+          "lat": "36.16589",
+          "lng": "-86.78444"
         }
       }
     ],

@@ -35,6 +35,10 @@
           "ref": [
             "http://www.geonames.org/2988506/paris.html"
           ]
+        },
+        "coordinates": {
+          "lat": "48.85339",
+          "lng": "2.34864"
         }
       },
       {
@@ -43,6 +47,10 @@
           "ref": [
             "https://www.geonames.org/2950159/berlin.html"
           ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
         }
       },
       {
@@ -51,6 +59,10 @@
           "ref": [
             "https://www.geonames.org/2964574/dublin.html"
           ]
+        },
+        "coordinates": {
+          "lat": "53.33306",
+          "lng": "-6.24889"
         }
       },
       {
@@ -59,6 +71,10 @@
           "ref": [
             "https://www.geonames.org/2747373/the-hague.html"
           ]
+        },
+        "coordinates": {
+          "lat": "52.07667",
+          "lng": "4.29861"
         }
       }
     ],

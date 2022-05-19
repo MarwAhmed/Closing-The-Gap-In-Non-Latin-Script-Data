@@ -38,6 +38,10 @@
           "ref": [
             "https://www.geonames.org/2879139/leipzig.html"
           ]
+        },
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
         }
       }
     ],

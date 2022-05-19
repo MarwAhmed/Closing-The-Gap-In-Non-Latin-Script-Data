@@ -34,6 +34,10 @@
           "ref": [
             "https://www.geonames.org/2867714/munich.html"
           ]
+        },
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
         }
       },
       {
@@ -42,6 +46,10 @@
           "ref": [
             "https://www.geonames.org/7287650/zuerich.html"
           ]
+        },
+        "coordinates": {
+          "lat": "47.38283",
+          "lng": "8.53071"
         }
       }
     ],

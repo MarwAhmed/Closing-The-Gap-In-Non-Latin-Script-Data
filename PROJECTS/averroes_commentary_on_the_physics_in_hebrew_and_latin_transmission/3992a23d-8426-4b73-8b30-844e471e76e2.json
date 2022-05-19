@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/2886242/koeln.html"
           ]
+        },
+        "coordinates": {
+          "lat": "50.93333",
+          "lng": "6.95"
         }
       }
     ],

@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/2761369/vienna.html"
           ]
+        },
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
         }
       }
     ],

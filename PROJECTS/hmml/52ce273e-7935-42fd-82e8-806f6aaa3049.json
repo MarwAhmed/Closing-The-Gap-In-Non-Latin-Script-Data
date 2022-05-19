@@ -39,6 +39,10 @@
           "ref": [
             "https://www.geonames.org/5021784/collegeville.html"
           ]
+        },
+        "coordinates": {
+          "lat": "45.59441",
+          "lng": "-94.36305"
         }
       }
     ],

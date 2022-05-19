@@ -34,6 +34,10 @@
           "ref": [
             "https://www.geonames.org/2918632/goettingen.html"
           ]
+        },
+        "coordinates": {
+          "lat": "51.53443",
+          "lng": "9.93228"
         }
       },
       {
@@ -42,6 +46,10 @@
           "ref": [
             "https://www.geonames.org/293397/tel-aviv.html"
           ]
+        },
+        "coordinates": {
+          "lat": "32.08088",
+          "lng": "34.78057"
         }
       },
       {
@@ -50,6 +58,10 @@
           "ref": [
             "https://www.geonames.org/281184/jerusalem.html"
           ]
+        },
+        "coordinates": {
+          "lat": "31.76904",
+          "lng": "35.21633"
         }
       },
       {
@@ -58,6 +70,10 @@
           "ref": [
             "https://www.geonames.org/294801/haifa.html"
           ]
+        },
+        "coordinates": {
+          "lat": "32.81841",
+          "lng": "34.9885"
         }
       }
     ],

@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/2867714/munich.html"
           ]
+        },
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
         }
       },
       {
@@ -41,6 +45,10 @@
           "ref": [
             "https://www.geonames.org/293198/jerusalem.html"
           ]
+        },
+        "coordinates": {
+          "lat": "31.75",
+          "lng": "35"
         }
       }
     ],

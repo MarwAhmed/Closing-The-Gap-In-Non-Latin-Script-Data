@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/2950159/berlin.html"
           ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
         }
       },
       {
@@ -41,6 +45,10 @@
           "ref": [
             "https://www.geonames.org/293397/tel-aviv.html"
           ]
+        },
+        "coordinates": {
+          "lat": "32.08088",
+          "lng": "34.78057"
         }
       },
       {
@@ -49,6 +57,10 @@
           "ref": [
             "https://www.geonames.org/2867714/munich.html"
           ]
+        },
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
         }
       }
     ],

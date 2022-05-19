@@ -33,6 +33,10 @@
           "ref": [
             "https://www.geonames.org/2918632/goettingen.html"
           ]
+        },
+        "coordinates": {
+          "lat": "51.53443",
+          "lng": "9.93228"
         }
       }
     ],
