@@ -32,7 +32,11 @@
           "text": "Nashville",
           "ref": [
             "https://www.geonames.org/4644585/nashville.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

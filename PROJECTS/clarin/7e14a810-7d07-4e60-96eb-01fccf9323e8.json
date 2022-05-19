@@ -34,7 +34,11 @@
           "text": "Utrecht",
           "ref": [
             "https://www.geonames.org/2745912/utrecht.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

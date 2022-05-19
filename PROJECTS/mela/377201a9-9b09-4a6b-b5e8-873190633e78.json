@@ -38,7 +38,11 @@
           "text": "US",
           "ref": [
             "https://www.geonames.org/6252001/united-states.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

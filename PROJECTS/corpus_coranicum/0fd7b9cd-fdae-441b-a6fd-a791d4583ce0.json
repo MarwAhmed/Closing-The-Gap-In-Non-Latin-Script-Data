@@ -32,7 +32,11 @@
           "text": "Potsdam",
           "ref": [
             "http://www.geonames.org/2852458/potsdam.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

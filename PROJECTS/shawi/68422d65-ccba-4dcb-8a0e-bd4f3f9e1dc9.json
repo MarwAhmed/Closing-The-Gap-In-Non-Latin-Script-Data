@@ -32,7 +32,11 @@
           "text": "Vienna",
           "ref": [
             "https://www.geonames.org/2761369/vienna.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

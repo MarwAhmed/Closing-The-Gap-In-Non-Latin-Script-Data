@@ -33,7 +33,11 @@
           "text": "Bamako",
           "ref": [
             "https://www.geonames.org/2460596/bamako.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       },
       {
@@ -41,7 +45,11 @@
           "text": "Hamburg",
           "ref": [
             "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

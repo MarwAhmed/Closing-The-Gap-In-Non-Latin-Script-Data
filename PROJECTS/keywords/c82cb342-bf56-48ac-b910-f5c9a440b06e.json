@@ -32,7 +32,11 @@
       {
         "place_name": {
           "text": "",
-          "ref": []
+          "ref": [],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

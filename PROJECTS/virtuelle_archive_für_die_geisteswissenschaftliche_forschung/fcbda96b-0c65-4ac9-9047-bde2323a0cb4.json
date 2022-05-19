@@ -32,7 +32,11 @@
           "text": "Saxony",
           "ref": [
             "http://www.geonames.org/2842566/saxony.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

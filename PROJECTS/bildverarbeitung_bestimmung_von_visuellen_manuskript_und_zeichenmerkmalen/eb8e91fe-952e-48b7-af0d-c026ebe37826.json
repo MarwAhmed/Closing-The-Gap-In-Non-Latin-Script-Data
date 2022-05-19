@@ -33,7 +33,11 @@
           "text": "Hamburg",
           "ref": [
             "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

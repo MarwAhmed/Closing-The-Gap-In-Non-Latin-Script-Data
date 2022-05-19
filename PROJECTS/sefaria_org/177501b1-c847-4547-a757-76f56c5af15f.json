@@ -38,7 +38,11 @@
           "text": "New York",
           "ref": [
             "https://www.geonames.org/5128638/new-york.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

@@ -37,7 +37,11 @@
           "text": "Munich",
           "ref": [
             "https://www.geonames.org/2867714/munich.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       },
       {
@@ -45,7 +49,11 @@
           "text": "Würzburg",
           "ref": [
             "https://www.geonames.org/6556942/wuerzburg.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

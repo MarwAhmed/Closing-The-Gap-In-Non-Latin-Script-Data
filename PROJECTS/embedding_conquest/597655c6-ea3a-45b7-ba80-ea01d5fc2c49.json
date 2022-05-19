@@ -38,7 +38,11 @@
           "text": "Leiden",
           "ref": [
             "https://www.geonames.org/2751773/leiden.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

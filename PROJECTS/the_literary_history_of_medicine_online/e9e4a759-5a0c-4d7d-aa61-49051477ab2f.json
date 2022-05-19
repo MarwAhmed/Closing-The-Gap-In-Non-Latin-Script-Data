@@ -36,7 +36,11 @@
           "text": "Coventry",
           "ref": [
             "https://www.geonames.org/2652221/coventry.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       },
       {
@@ -44,7 +48,11 @@
           "text": "Oxford",
           "ref": [
             "https://www.geonames.org/2640729/oxford.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

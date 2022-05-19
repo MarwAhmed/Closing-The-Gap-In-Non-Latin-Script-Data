@@ -41,7 +41,11 @@
           "text": "Berlin",
           "ref": [
             "http://www.geonames.org/2950159/berlin.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       },
       {
@@ -49,7 +53,11 @@
           "text": "Gotha",
           "ref": [
             "http://www.geonames.org/2918752/gotha.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       },
       {
@@ -57,7 +65,11 @@
           "text": "Leipzig",
           "ref": [
             "https://www.geonames.org/2879139/leipzig.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       },
       {
@@ -65,7 +77,11 @@
           "text": "Munich",
           "ref": [
             "http://www.geonames.org/2867714/munich.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],

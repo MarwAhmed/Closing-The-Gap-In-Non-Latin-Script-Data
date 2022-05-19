@@ -37,7 +37,11 @@
           "text": "Berlin",
           "ref": [
             "http://www.geonames.org/2950159/berlin.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       },
       {
@@ -45,7 +49,11 @@
           "text": "Munich",
           "ref": [
             "http://www.geonames.org/2867714/munich.html"
-          ]
+          ],
+          "coordinates": {
+            "lat": "",
+            "lng": ""
+          }
         }
       }
     ],
