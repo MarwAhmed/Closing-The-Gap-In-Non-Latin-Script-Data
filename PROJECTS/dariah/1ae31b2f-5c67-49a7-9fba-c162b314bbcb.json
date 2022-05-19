@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb",
+    "record_created": "2022-05-19",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
+    "abbr": "DARIAH",
+    "type": "organisation",
+    "ref": [
+      "https://www.wikidata.org/wiki/Q49103279"
+    ],
+    "date": [
+      {
+        "from": "2006",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://www.dariah.eu/"
+    ],
+    "project_desc": "DARIAH is a pan-European research infrastructure with 20 Members, 1 Observer and several Cooperating Partners in six non-member countries. It aims to enhance and support digitally-enabled research and teaching across the arts and humanities. DARIAH is a network of people, expertise, information, knowledge, content, methods, tools and technologies from its member countries.   It develops, maintains and operates an infrastructure in support of ICT-based research practices and sustains researchers in using them to build, analyse and interpret digital resources.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Paris",
+          "ref": [
+            "http://www.geonames.org/2988506/paris.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Dublin",
+          "ref": [
+            "https://www.geonames.org/2964574/dublin.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "The Hague",
+          "ref": [
+            "https://www.geonames.org/2747373/the-hague.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": false,
+      "meta": false,
+      "rdm": true,
+      "infrastructure": true
+    },
+    "parents": [],
+    "children": [
+      {
+        "type": "organisation",
+        "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
+        "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa"
+      }
+    ],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Morselli, Francesca",
+          "ref": [
+            ""
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.dariah.eu/network/we-are-dariah-team"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Scharnhorst, Andrea",
+          "ref": [
+            "https://d-nb.info/gnd/1024345688"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.dariah.eu/network/we-are-dariah-team"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "eng"
+      ],
+      "publications": {
+        "access": {
+          "open": 0.0,
+          "closed": 100.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "label": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "label": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "eng",
+      "research_infrastructure"
+    ],
+    "comment": ""
+  }
+}
