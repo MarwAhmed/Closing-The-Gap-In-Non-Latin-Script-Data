@@ -36,11 +36,11 @@
           "text": "Berlin",
           "ref": [
             "http://www.geonames.org/2950159/berlin.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -48,11 +48,11 @@
           "text": "Paris",
           "ref": [
             "http://www.geonames.org/2988506/paris.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

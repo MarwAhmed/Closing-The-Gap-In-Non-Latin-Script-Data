@@ -32,11 +32,11 @@
           "text": "Mainz",
           "ref": [
             "https://www.geonames.org/2874224/mainz.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

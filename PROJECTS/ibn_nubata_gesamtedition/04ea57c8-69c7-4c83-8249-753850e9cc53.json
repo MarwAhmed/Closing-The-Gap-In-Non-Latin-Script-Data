@@ -33,11 +33,11 @@
           "text": "Münster",
           "ref": [
             "https://www.geonames.org/6553087/muenster.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

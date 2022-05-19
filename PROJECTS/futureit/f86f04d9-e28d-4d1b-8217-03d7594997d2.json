@@ -40,11 +40,11 @@
           "text": "Berlin",
           "ref": [
             "http://www.geonames.org/2950159/berlin.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

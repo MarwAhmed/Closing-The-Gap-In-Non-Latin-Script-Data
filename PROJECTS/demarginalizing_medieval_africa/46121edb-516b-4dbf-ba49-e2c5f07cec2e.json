@@ -36,11 +36,11 @@
           "text": "Hamburg",
           "ref": [
             "https://www.geonames.org/2911298/hamburg.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -48,11 +48,11 @@
           "text": "London",
           "ref": [
             "https://www.geonames.org/2643743/london.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

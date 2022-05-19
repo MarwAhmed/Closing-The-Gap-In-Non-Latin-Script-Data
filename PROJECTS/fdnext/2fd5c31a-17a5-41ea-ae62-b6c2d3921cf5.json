@@ -36,11 +36,11 @@
           "text": "Berlin",
           "ref": [
             "http://www.geonames.org/2950159/berlin.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -48,11 +48,11 @@
           "text": "Potsdam",
           "ref": [
             "http://www.geonames.org/2852458/potsdam.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -60,11 +60,11 @@
           "text": "Frankfurt (Oder)",
           "ref": [
             "http://www.geonames.org/2925535/frankfurt-oder.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -72,11 +72,11 @@
           "text": "Cottbus",
           "ref": [
             "https://www.geonames.org/2939811/cottbus.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

@@ -32,11 +32,11 @@
           "text": "Halle (Saale)",
           "ref": [
             "https://www.geonames.org/2911522/halle-saale.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

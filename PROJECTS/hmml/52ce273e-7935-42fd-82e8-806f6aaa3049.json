@@ -38,11 +38,11 @@
           "text": "Collegeville",
           "ref": [
             "https://www.geonames.org/5021784/collegeville.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

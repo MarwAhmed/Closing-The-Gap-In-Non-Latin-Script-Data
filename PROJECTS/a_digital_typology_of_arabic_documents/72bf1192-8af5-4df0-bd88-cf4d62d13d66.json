@@ -32,11 +32,11 @@
           "text": "Basel",
           "ref": [
             "https://www.geonames.org/2661604/basel.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -44,11 +44,11 @@
           "text": "Munich",
           "ref": [
             "https://www.geonames.org/2867714/munich.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

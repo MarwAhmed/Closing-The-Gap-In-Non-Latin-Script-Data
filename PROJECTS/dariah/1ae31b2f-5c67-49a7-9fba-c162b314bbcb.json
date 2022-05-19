@@ -34,11 +34,11 @@
           "text": "Paris",
           "ref": [
             "http://www.geonames.org/2988506/paris.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -46,11 +46,11 @@
           "text": "Berlin",
           "ref": [
             "https://www.geonames.org/2950159/berlin.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -58,11 +58,11 @@
           "text": "Dublin",
           "ref": [
             "https://www.geonames.org/2964574/dublin.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -70,11 +70,11 @@
           "text": "The Hague",
           "ref": [
             "https://www.geonames.org/2747373/the-hague.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

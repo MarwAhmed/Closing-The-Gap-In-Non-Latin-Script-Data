@@ -36,11 +36,11 @@
           "text": "Coventry",
           "ref": [
             "https://www.geonames.org/2652221/coventry.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

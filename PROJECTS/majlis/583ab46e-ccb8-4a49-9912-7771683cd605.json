@@ -36,11 +36,11 @@
           "text": "Munich",
           "ref": [
             "https://www.geonames.org/2867714/munich.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

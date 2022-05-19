@@ -33,11 +33,11 @@
           "text": "Göttingen",
           "ref": [
             "https://www.geonames.org/2918632/goettingen.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -45,11 +45,11 @@
           "text": "Tel Aviv",
           "ref": [
             "https://www.geonames.org/293397/tel-aviv.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -57,11 +57,11 @@
           "text": "Jerusalem",
           "ref": [
             "https://www.geonames.org/281184/jerusalem.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -69,11 +69,11 @@
           "text": "Haifa",
           "ref": [
             "https://www.geonames.org/294801/haifa.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

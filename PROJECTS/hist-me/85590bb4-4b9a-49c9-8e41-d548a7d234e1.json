@@ -30,11 +30,11 @@
       {
         "place_name": {
           "text": "",
-          "ref": [],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          "ref": []
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

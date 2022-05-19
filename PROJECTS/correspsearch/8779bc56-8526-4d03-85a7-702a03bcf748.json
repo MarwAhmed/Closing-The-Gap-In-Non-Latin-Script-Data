@@ -32,11 +32,11 @@
           "text": "Berlin",
           "ref": [
             "https://www.geonames.org/2950159/berlin.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

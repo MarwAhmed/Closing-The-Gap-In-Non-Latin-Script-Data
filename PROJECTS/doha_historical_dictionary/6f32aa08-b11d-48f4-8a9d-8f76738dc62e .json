@@ -36,11 +36,11 @@
           "text": "Doha",
           "ref": [
             "https://www.geonames.org/2643743/london.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

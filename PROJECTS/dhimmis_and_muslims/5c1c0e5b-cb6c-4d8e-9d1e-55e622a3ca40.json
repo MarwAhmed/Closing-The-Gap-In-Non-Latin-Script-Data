@@ -33,11 +33,11 @@
           "text": "Frankfurt",
           "ref": [
             "https://www.geonames.org/2925533/frankfurt-am-main.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -45,11 +45,11 @@
           "text": "Stuttgart",
           "ref": [
             "https://www.geonames.org/2825297/stuttgart.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

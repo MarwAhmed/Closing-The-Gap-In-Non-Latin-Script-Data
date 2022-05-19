@@ -40,11 +40,11 @@
           "text": "Hamburg",
           "ref": [
             "https://www.geonames.org/2911298/hamburg.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -52,11 +52,11 @@
           "text": "Lübeck",
           "ref": [
             "https://www.geonames.org/2875601/luebeck.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

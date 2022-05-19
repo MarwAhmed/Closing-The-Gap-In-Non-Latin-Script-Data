@@ -34,11 +34,11 @@
           "text": "Göttingen",
           "ref": [
             "https://www.geonames.org/2918632/goettingen.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

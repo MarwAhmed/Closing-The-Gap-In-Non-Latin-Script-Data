@@ -32,11 +32,11 @@
           "text": "Köln",
           "ref": [
             "https://www.geonames.org/2886242/koeln.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

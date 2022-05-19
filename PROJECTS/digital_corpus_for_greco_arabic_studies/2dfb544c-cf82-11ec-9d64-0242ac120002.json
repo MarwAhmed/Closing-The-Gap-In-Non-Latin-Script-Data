@@ -32,11 +32,11 @@
           "text": "Cambridge",
           "ref": [
             "https://www.geonames.org/4931972/cambridge.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -44,11 +44,11 @@
           "text": "Medford",
           "ref": [
             "https://www.geonames.org/4943629/medford.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],

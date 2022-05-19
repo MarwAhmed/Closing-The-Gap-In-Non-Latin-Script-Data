@@ -32,11 +32,11 @@
           "text": "Berlin",
           "ref": [
             "https://www.geonames.org/2950159/berlin.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -44,11 +44,11 @@
           "text": "Tel Aviv",
           "ref": [
             "https://www.geonames.org/293397/tel-aviv.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       },
       {
@@ -56,11 +56,11 @@
           "text": "Munich",
           "ref": [
             "https://www.geonames.org/2867714/munich.html"
-          ],
-          "coordinates": {
-            "lat": "",
-            "lng": ""
-          }
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
       }
     ],
