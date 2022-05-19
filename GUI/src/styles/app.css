@@ -52,6 +52,11 @@ body {
   background-color: #F2D492;
 }
 
+a.bubble:hover {
+  color: #F29559;
+  background-color: #2E4A61;
+}
+
 .codebox {
   background-color: #000;
   color: #fff;
@@ -98,4 +103,9 @@ a:hover {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#map {
+  min-height: 500px;
+  height: 100%;
 }

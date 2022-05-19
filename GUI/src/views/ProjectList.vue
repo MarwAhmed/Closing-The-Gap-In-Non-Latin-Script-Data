@@ -1,8 +1,11 @@
 <template>
   <div class="flex flex-wrap m-5">
-    <tag-list
-      :taglist="tags"
-    />
+    <div class="w-full">
+      <cat-list />
+      <tag-list
+        :taglist="tags"
+      />
+    </div>
     <project-item
       v-for="project in projectList"
       :key="project._id"
@@ -62,11 +65,13 @@ import {
 import axios from 'axios';
 import projectItem from '@/components/ProjectItems.vue';
 import tagList from '@/components/TagList.vue';
+import catList from '@/components/CatList.vue';
 
 export default defineComponent({
   components: {
     projectItem,
     tagList,
+    catList
   },
   setup() {
     const projectList = ref([]);
@@ -74,6 +79,7 @@ export default defineComponent({
     const route = useRoute();
 
     const resetData = () => {
+      tags.value = [];
       projectList.value = [];
     };
 
@@ -83,20 +89,40 @@ export default defineComponent({
           Object.keys(responseIndex.data).map((key) => {
             axios.get(`https://raw.githubusercontent.com/Closing-the-Gap-in-NLS-DH/Projects/master${responseIndex.data[key].path}${key}.json`)
               .then((responseProject) => {
-                projectList.value.push({
-                  _id: key,
-                  metadata: responseProject.data.record_metadata,
-                  project: responseProject.data.project,
-                  source: `https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master${responseIndex.data[key].path}${key}.json`,
-                });
-                responseProject.data.project.keywords.map((tag) => {
-                  if (!tags.value.includes(tag)) tags.value.push(tag);
-                });
-                projectList.value.sort((a, b) => {
-                  if (a.project.title.toLowerCase() > b.project.title.toLowerCase()) return 1;
-                  if (a.project.title.toLowerCase() < b.project.title.toLowerCase()) return -1;
-                  return 0;
-                });
+                if ((route.params.tag && responseProject.data.project.keywords.includes(route.params.tag))
+                  || (route.params.cat && responseProject.data.project.topic_relations[route.params.cat])
+                ) {
+                  projectList.value.push({
+                    _id: key,
+                    metadata: responseProject.data.record_metadata,
+                    project: responseProject.data.project,
+                    source: `https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master${responseIndex.data[key].path}${key}.json`,
+                  });
+                  responseProject.data.project.keywords.map((tag) => {
+                    if (!tags.value.includes(tag)) tags.value.push(tag);
+                  });
+                  projectList.value.sort((a, b) => {
+                    if (a.project.title.toLowerCase() > b.project.title.toLowerCase()) return 1;
+                    if (a.project.title.toLowerCase() < b.project.title.toLowerCase()) return -1;
+                    return 0;
+                  });
+                } else if (!route.params.tag && !route.params.cat) {
+                  projectList.value.push({
+                    _id: key,
+                    metadata: responseProject.data.record_metadata,
+                    project: responseProject.data.project,
+                    source: `https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master${responseIndex.data[key].path}${key}.json`,
+                  });
+                  responseProject.data.project.keywords.map((tag) => {
+                    if (!tags.value.includes(tag)) tags.value.push(tag);
+                  });
+                  projectList.value.sort((a, b) => {
+                    if (a.project.title.toLowerCase() > b.project.title.toLowerCase()) return 1;
+                    if (a.project.title.toLowerCase() < b.project.title.toLowerCase()) return -1;
+                    return 0;
+                  });
+                }
+                
                 return null;
               });
             return null;

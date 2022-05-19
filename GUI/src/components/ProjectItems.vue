@@ -73,6 +73,9 @@
             v-for="(tags, key) in project.keywords"
             :key="key"
             :label="tags"
+            :link="tags"
+            target="tag"
+            :small="true"
           />
         </div>
       </div>
