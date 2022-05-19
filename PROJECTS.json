@@ -99,6 +99,10 @@
     "title": "CorrespSearch",
     "path": "/PROJECTS/correspsearch/"
   },
+  "1ae31b2f-5c67-49a7-9fba-c162b314bbcb": {
+    "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
+    "path": "/PROJECTS/dariah/"
+  },
   "894dcf0c-7295-4fb8-b4ba-866a5ebe3310": {
     "title": "Datenrepositorium Manuskriptkulturen",
     "path": "/PROJECTS/datenrepositorium_manuskriptkulturen/"
@@ -150,6 +154,10 @@
   "f86f04d9-e28d-4d1b-8217-03d7594997d2": {
     "title": "FUtureIT",
     "path": "/PROJECTS/futureit/"
+  },
+  "94044a63-eae5-4e1d-ba04-64874109fc36": {
+    "title": "Genesis Rabbah Loanwords",
+    "path": "/PROJECTS/genesis_rabbah_loanwords/"
   },
   "ee6404e6-57f0-4e11-bb4a-1bbd13b08cb7": {
     "title": "Glossarion",
@@ -311,7 +319,11 @@
     "title": "Topoi. The Formation and Transformation of Space and Knowledge in Ancient Civilizations",
     "path": "/PROJECTS/topoi/"
   },
-  "325a929a-6764-41e1-b452-6556209fa74f ": {
+  "79462111-75a7-4fa0-8e11-9d424293a074": {
+    "title": "Linguistic dynamics in the Greater Tunis Area: a corpus-based approach (TUNICO)",
+    "path": "/PROJECTS/tunico/"
+  },
+  "325a929a-6764-41e1-b452-6556209fa74f": {
     "title": "TUNOCENT",
     "path": "/PROJECTS/tunocent/"
   },

@@ -1,0 +1,250 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "94044a63-eae5-4e1d-ba04-64874109fc36",
+    "record_created": "2022-05-17",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Genesis Rabbah Loanwords",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2018-04-04",
+        "to": "2022-09-30"
+      }
+    ],
+    "websites": [
+      "https://www.oeaw.ac.at/acdh/projects/completed-projects/genr-loanwords",
+      "https://uni-salzburg.elsevierpure.com/de/projects/w%C3%B6rterbuch-der-lehnw%C3%B6rter-im-midrasch-genesis-rabba"
+    ],
+    "project_desc": "This project investigates the predominantly Greek borrowed vocabulary in the Midrash Genesis Rabbah, the earliest rabbinic commentary on the Book of Genesis written in Rabbinic Hebrew and Aramaic. It aims to compile a dictionary in TEI format and the annotation of the loanwords in the corpus for the investigation of issues pertaining to sociolinguistics as well as corpus linguistics.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        }
+      },
+      {
+        "place_name": {
+          "text": "Salzburg",
+          "ref": [
+            "https://www.geonames.org/2766824/salzburg.html"
+          ]
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Österreichische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.4299.6"
+          ]
+        },
+        "websites": [
+          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Vienna",
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Salzburg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7039.d"
+          ]
+        },
+        "websites": [
+          "http://www.uni-salzburg.at/index.php?id=52"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Salzburg",
+              "ref": [
+                "https://www.geonames.org/2766824/salzburg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "WIBARAB: What is Bedouin-Type Arabic'?",
+        "uuid": "e9cb8ab1-2d2c-4cc3-a44d-a793220a8638"
+      },
+      {
+        "type": "project",
+        "title": "Vienna Corpus of Arabic Varieties",
+        "uuid": "8f343a28-a873-449c-b359-efcfab7d1201"
+      },
+      {
+        "type": "project",
+        "title": "Shawi",
+        "uuid": "68422d65-ccba-4dcb-8a0e-bd4f3f9e1dc9"
+      },
+      {
+        "type": "project",
+        "title": "NoMansLand: Nomads' Manuscripts Landscape",
+        "uuid": "e050deba-6e1d-4d82-851b-cf6c1f7187a5"
+      },
+      {
+        "type": "project",
+        "title": "Linguistic dynamics in the Greater Tunis Area: a corpus-based approach (TUNICO)",
+        "uuid": "79462111-75a7-4fa0-8e11-9d424293a074"
+      },
+      {
+        "type": "project",
+        "title": "TUNOCENT",
+        "uuid": "325a929a-6764-41e1-b452-6556209fa74f"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Plietzsch, Susanne",
+          "ref": [
+            "https://d-nb.info/gnd/121776832"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://uni-salzburg.elsevierpure.com/de/persons/susanne-plietzsch-4"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "arc",
+        "gre",
+        "heb"
+      ],
+      "publications": {
+        "access": {
+          "open": 0.0,
+          "closed": 100.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "label": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "label": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "arc",
+      "corpus_linguistics",
+      "digital_dictionary",
+      "gre",
+      "heb",
+      "historical_language"
+    ],
+    "comment": ""
+  }
+}
