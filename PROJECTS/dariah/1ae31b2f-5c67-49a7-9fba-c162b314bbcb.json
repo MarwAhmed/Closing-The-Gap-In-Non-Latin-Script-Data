@@ -92,7 +92,12 @@
     "children": [
       {
         "type": "organisation",
-        "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
+        "org_name": {
+          "text": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q55520740"
+          ]
+        },
         "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa"
       }
     ],
@@ -101,9 +106,7 @@
       {
         "pers_name": {
           "text": "Morselli, Francesca",
-          "ref": [
-            ""
-          ]
+          "ref": []
         },
         "role": 0,
         "websites": [
