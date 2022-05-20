@@ -1,8 +1,10 @@
 <template>
   <div class="w-full">
+    <!--
     <tag-list
       :taglist="tags"
     />
+    -->
     <div id="map" class="w-auto m-5" />
   </div>
 </template>
@@ -19,14 +21,14 @@ import {
   useRoute,
 } from 'vue-router';
 import axios from 'axios';
-import tagList from '@/components/TagList.vue';
+// import tagList from '@/components/TagList.vue';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet.markercluster';
 
 export default defineComponent({
   components: {
-    tagList,
+//    tagList,
   },
   setup() {
     const projectList = ref([]);
@@ -34,12 +36,14 @@ export default defineComponent({
     const route = useRoute();
     let map = null;
     const markers = L.markerClusterGroup();
+    const polylines = L.featureGroup();
     const svgIcon = L.divIcon({
         html: `
       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
       </svg>`,
         className: "",
+        color: '#2E4A61', 
         iconAnchor: [10, 20],
         popupAnchor: [0, -20],
       });
@@ -62,7 +66,41 @@ export default defineComponent({
                   source: `https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master${responseIndex.data[key].path}${key}.json`,
                 });
                 responseProject.data.project.places.map((p) => {
-                  const marker = L.marker([p.coordinates.lat, p.coordinates.lng], { icon: svgIcon });
+                  markers.eachLayer((m) => {
+                    if (m.options.id === responseProject.data.record_metadata.uuid) {
+                      const polyline = L.polyline(
+                        [
+                          m.getLatLng(),
+                          [p.coordinates.lat, p.coordinates.lng]
+                        ], {
+                          id: m.options.id,
+                          opacity: 0.0,
+                          color: '#2E4A61',
+                        });
+                      polylines.addLayer(polyline);
+                    }
+                  });
+                  const marker = L.marker(
+                    [p.coordinates.lat, p.coordinates.lng],
+                    { 
+                      icon: svgIcon,
+                      title: p.place_name.text,
+                      id: responseProject.data.record_metadata.uuid,
+                    }
+                  );
+                  marker.on('click', () => {
+                    polylines.eachLayer((p) => {
+                      if (p.options.id === marker.options.id) {
+                        p.setStyle({
+                          opacity: 0.7
+                        });
+                      } else {
+                        p.setStyle({
+                          opacity: 0
+                        });
+                      }
+                    });
+                  });
                   marker.bindPopup(`
                   <p class="flex flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
@@ -75,7 +113,7 @@ export default defineComponent({
                     <li>Source: <a target="_blank" href="https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master${responseIndex.data[key].path}${key}.json">GitHub</a>
                   `).openPopup();
                   markers.addLayer(marker);
-                })
+                });
 
                 responseProject.data.project.keywords.map((tag) => {
                   if (!tags.value.includes(tag)) tags.value.push(tag);
@@ -99,6 +137,7 @@ export default defineComponent({
       }).addTo(map);
 
       map.addLayer(markers);
+      map.addLayer(polylines);
 
     });
 
