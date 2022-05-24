@@ -101,9 +101,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        ""
-      ],
+      "lang": [],
       "publications": {
         "access": {
           "open": 0.0,
@@ -181,7 +179,6 @@
       }
     ],
     "keywords": [
-      "",
       "digital_language_data",
       "language_resources",
       "research_infrastructure"
