@@ -147,7 +147,13 @@
         "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8"
       }
     ],
-    "children": [],
+    "children": [
+      {
+        "type": "project",
+        "title": "CLARIAH-DE",
+        "uuid": "842dc7b3-020c-47ea-a37e-d5e5aae0bde0"
+      }
+    ],
     "siblings": [],
     "contacts": [
       {
