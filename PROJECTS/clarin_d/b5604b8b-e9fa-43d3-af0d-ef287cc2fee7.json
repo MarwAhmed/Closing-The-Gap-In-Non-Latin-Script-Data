@@ -1,0 +1,252 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "b5604b8b-e9fa-43d3-af0d-ef287cc2fee7",
+    "record_created": "2022-05-24",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "CLARIN-D - European Research Infrastructure for Language Resources and Technology",
+    "abbr": "CLARIN-D",
+    "type": "organisation",
+    "ref": [],
+    "date": [
+      {
+        "from": "2012",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://www.clarin-d.net/en/"
+    ],
+    "project_desc": "CLARIN-D is a research-oriented infrastructure for the Humanities and Social Sciences which supports researchers with accessing, preparing and analyzing of research data based on all language-related resources. It offers information on a wide range of topics, including teaching material, help on data management plans and other, discipline-specific support and makes available tools for Humanities, Cultural and Social Sciences scholars to analyze their research data in different ways. It is a German center of a pan-European research infrastructure CLARIN.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Tübingen",
+          "ref": [
+            "https://www.geonames.org/2820860/tuebingen.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.52266",
+          "lng": "9.05222"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Stuttgart",
+          "ref": [
+            "https://www.geonames.org/2825297/stuttgart.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.78232",
+          "lng": "9.17702"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Mannheim",
+          "ref": [
+            "http://www.geonames.org/2873891/mannheim.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.4891",
+          "lng": "8.46694"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Munich",
+          "ref": [
+            "http://www.geonames.org/2867714/munich.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Saarbrücken",
+          "ref": [
+            "https://www.geonames.org/6551163/saarbruecken-landeshauptstadt.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.23425",
+          "lng": "6.9934"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": false,
+      "meta": false,
+      "rdm": true,
+      "infrastructure": true
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "CLARIN - European Research Infrastructure for Language Resources and Technology",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q2986825"
+          ]
+        },
+        "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8"
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Hinrichs, Erhard",
+          "ref": [
+            "https://d-nb.info/gnd/143840657"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.ids-mannheim.de/digspra/personal/hinrichs/",
+          "https://www.sfs.uni-tuebingen.de/~eh/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [],
+      "publications": {
+        "access": {
+          "open": 0.0,
+          "closed": 100.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "label": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "label": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "digital_language_data",
+      "language_resources",
+      "research_infrastructure"
+    ],
+    "comment": ""
+  }
+}
