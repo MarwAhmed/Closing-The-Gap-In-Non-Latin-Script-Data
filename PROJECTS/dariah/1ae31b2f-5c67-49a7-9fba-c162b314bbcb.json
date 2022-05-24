@@ -99,6 +99,11 @@
           ]
         },
         "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa"
+      },
+      {
+        "type": "project",
+        "title": "Computational Literary Studies Infrastructure (CLS INFRA)",
+        "uuid": "894f2c88-1713-480d-99cd-32d30f3c0ac2"
       }
     ],
     "siblings": [],
