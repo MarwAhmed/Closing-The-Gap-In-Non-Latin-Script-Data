@@ -53,7 +53,13 @@
       "infrastructure": true
     },
     "parents": [],
-    "children": [],
+    "children": [
+      {
+        "type": "project",
+        "title": "CLARIN-D - European Research Infrastructure for Language Resources and Technology",
+        "uuid": "b5604b8b-e9fa-43d3-af0d-ef287cc2fee7"
+      }
+    ],
     "siblings": [],
     "contacts": [],
     "research_data": {
