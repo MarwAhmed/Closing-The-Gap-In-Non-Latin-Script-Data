@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.3",
   "record_metadata": {
-    "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb",
-    "record_created": "2022-05-19",
+    "uuid": "842dc7b3-020c-47ea-a37e-d5e5aae0bde0",
+    "record_created": "2022-05-24",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,74 +12,49 @@
     ]
   },
   "project": {
-    "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
-    "abbr": "DARIAH",
-    "type": "organisation",
-    "ref": [
-      "https://www.wikidata.org/wiki/Q49103279"
-    ],
+    "title": "CLARIAH-DE",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
     "date": [
       {
-        "from": "2006",
-        "to": ""
+        "from": "2019",
+        "to": "2021"
       }
     ],
     "websites": [
-      "https://www.dariah.eu/"
+      "https://www.clariah.de/"
     ],
-    "project_desc": "DARIAH is a pan-European research infrastructure with 20 Members, 1 Observer and several Cooperating Partners in six non-member countries. It aims to enhance and support digitally-enabled research and teaching across the arts and humanities. DARIAH is a network of people, expertise, information, knowledge, content, methods, tools and technologies from its member countries.   It develops, maintains and operates an infrastructure in support of ICT-based research practices and sustains researchers in using them to build, analyse and interpret digital resources.",
+    "project_desc": "CLARIAH-DE is the merger of the two research infrastructure networks CLARIN-D and DARIAH-DE. Over a period of two years, the project will merge the two established research infrastructures. In this way, researchers from the Humanities and cultural sciences will be able to work with complex digital tools and special data sets in a much easier manner.",
     "places": [
       {
         "place_name": {
-          "text": "Paris",
+          "text": "Göttingen",
           "ref": [
-            "http://www.geonames.org/2988506/paris.html"
+            "https://www.geonames.org/2918632/goettingen.html"
           ]
         },
         "coordinates": {
-          "lat": "48.85339",
-          "lng": "2.34864"
+          "lat": "51.53443",
+          "lng": "9.93228"
         }
       },
       {
         "place_name": {
-          "text": "Berlin",
+          "text": "Tübingen",
           "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
+            "https://www.geonames.org/2820860/tuebingen.html"
           ]
         },
         "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Dublin",
-          "ref": [
-            "https://www.geonames.org/2964574/dublin.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "53.33306",
-          "lng": "-6.24889"
-        }
-      },
-      {
-        "place_name": {
-          "text": "The Hague",
-          "ref": [
-            "https://www.geonames.org/2747373/the-hague.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.07667",
-          "lng": "4.29861"
+          "lat": "48.52266",
+          "lng": "9.05222"
         }
       }
     ],
     "lang": [
-      "eng"
+      "eng",
+      "ger"
     ],
     "topic_relations": {
       "nls": false,
@@ -88,8 +63,7 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [],
-    "children": [
+    "parents": [
       {
         "type": "organisation",
         "org_name": {
@@ -101,33 +75,28 @@
         "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa"
       },
       {
-        "type": "project",
-        "title": "Computational Literary Studies Infrastructure (CLS INFRA)",
-        "uuid": "894f2c88-1713-480d-99cd-32d30f3c0ac2"
+        "type": "organisation",
+        "org_name": {
+          "text": "CLARIN-D - European Research Infrastructure for Language Resources and Technology",
+          "ref": []
+        },
+        "uuid": "b5604b8b-e9fa-43d3-af0d-ef287cc2fee7"
       }
     ],
+    "children": [],
     "siblings": [],
     "contacts": [
       {
         "pers_name": {
-          "text": "Morselli, Francesca",
-          "ref": []
-        },
-        "role": 0,
-        "websites": [
-          "https://www.dariah.eu/network/we-are-dariah-team"
-        ]
-      },
-      {
-        "pers_name": {
-          "text": "Scharnhorst, Andrea",
+          "text": "Hinrichs, Erhard",
           "ref": [
-            "https://d-nb.info/gnd/1024345688"
+            "https://d-nb.info/gnd/143840657"
           ]
         },
         "role": 0,
         "websites": [
-          "https://www.dariah.eu/network/we-are-dariah-team"
+          "https://www.ids-mannheim.de/digspra/personal/hinrichs/",
+          "https://www.sfs.uni-tuebingen.de/~eh/"
         ]
       }
     ],
@@ -210,7 +179,8 @@
       }
     ],
     "keywords": [
-      "eng",
+      "digital_language_data",
+      "language_resources",
       "research_infrastructure"
     ],
     "comment": ""

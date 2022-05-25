@@ -65,7 +65,13 @@
         "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb"
       }
     ],
-    "children": [],
+    "children": [
+      {
+        "type": "project",
+        "title": "CLARIAH-DE",
+        "uuid": "842dc7b3-020c-47ea-a37e-d5e5aae0bde0"
+      }
+    ],
     "siblings": [],
     "contacts": [
       {
@@ -160,7 +166,8 @@
       }
     ],
     "keywords": [
-      "",
+      "digital_language_data",
+      "language_resources",
       "research_infrastructure"
     ],
     "comment": ""

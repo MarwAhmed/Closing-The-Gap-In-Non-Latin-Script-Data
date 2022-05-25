@@ -75,13 +75,21 @@
     "title": "Change Projekt - Wandel@FU-Bib",
     "path": "/PROJECTS/change_projekt/"
   },
+  "842dc7b3-020c-47ea-a37e-d5e5aae0bde0": {
+    "title": "CLARIAH-DE",
+    "path": "/PROJECTS/clariah_de/"
+  },
   "7e14a810-7d07-4e60-96eb-01fccf9323e8": {
     "title": "CLARIN - European Research Infrastructure for Language Resources and Technology",
     "path": "/PROJECTS/clarin/"
   },
-  "8f343a28-a873-449c-b359-efcfab7d1201": {
-    "title": "Vienna Corpus of Arabic Varieties",
-    "path": "/PROJECTS/vicav/"
+  "b5604b8b-e9fa-43d3-af0d-ef287cc2fee7": {
+    "title": "CLARIN-D - European Research Infrastructure for Language Resources and Technology",
+    "path": "/PROJECTS/clarin_d/"
+  },
+  "894f2c88-1713-480d-99cd-32d30f3c0ac2": {
+    "title": "Computational Literary Studies Infrastructure (CLS INFRA)",
+    "path": "/PROJECTS/cls_infra/"
   },
   "95a2024b-9fea-4ced-8136-1130b0fb8f51": {
     "title": "Colophons in Sumerian and Akkadian Literary Manuscripts from 3rd and 2nd Millennium BCE Mesopotamia",
@@ -342,6 +350,10 @@
   "a2984fec-9396-488e-ad56-d3d21dc49052": {
     "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
     "path": "/PROJECTS/verse_und_sprueche/"
+  },
+  "8f343a28-a873-449c-b359-efcfab7d1201": {
+    "title": "Vienna Corpus of Arabic Varieties",
+    "path": "/PROJECTS/vicav/"
   },
   "fcbda96b-0c65-4ac9-9047-bde2323a0cb4": {
     "title": "Virtuelle Archive für die geisteswissenschaftliche Forschung",
