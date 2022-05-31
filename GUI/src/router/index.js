@@ -21,9 +21,13 @@ const routes = [
   },
   {
     path: '/map/:tag?',
-    alias: '/',
     name: 'map',
     component: () => import('../views/MapView.vue'),
+  },
+  {
+    path: '/network',
+    name: 'network',
+    component: () => import('../views/NetworkView.vue'),
   },
 ];
 

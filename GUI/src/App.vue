@@ -40,8 +40,8 @@ export default {
         link: '/map',
       },
       {
-        label: 'Initiatives',
-        link: '/initiatives',
+        label: 'Network',
+        link: '/network',
       },
       {
         label: 'About',
