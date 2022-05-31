@@ -507,7 +507,13 @@
       }
     ],
     "children": [],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "DARIAH Reference Curriculum",
+        "uuid": "502131b8-2103-465d-b49c-eaa0ca7d976b"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
