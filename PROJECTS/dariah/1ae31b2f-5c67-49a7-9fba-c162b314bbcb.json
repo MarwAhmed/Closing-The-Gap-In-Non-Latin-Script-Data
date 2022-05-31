@@ -76,6 +76,126 @@
           "lat": "52.07667",
           "lng": "4.29861"
         }
+      },
+      {
+        "place_name": {
+          "text": "Lisbon",
+          "ref": [
+            "https://www.geonames.org/2267057/lisbon.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "38.71667",
+          "lng": "-9.13333"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Rome",
+          "ref": [
+            "https://www.geonames.org/3169070/rome.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "41.89193",
+          "lng": "12.51133"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Cork",
+          "ref": [
+            "https://www.geonames.org/2965140/cork.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.89797",
+          "lng": "-8.47061"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Luxembourg",
+          "ref": [
+            "https://www.geonames.org/2960316/luxembourg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.61167",
+          "lng": "6.13"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Gent",
+          "ref": [
+            "https://www.geonames.org/2797656/gent.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.05",
+          "lng": "3.71667"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Amsterdam",
+          "ref": [
+            "https://www.geonames.org/2759794/amsterdam.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.37403",
+          "lng": "4.88969"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Göttingen",
+          "ref": [
+            "https://www.geonames.org/2918632/goettingen.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.53443",
+          "lng": "9.93228"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Copenhagen",
+          "ref": [
+            "http://www.geonames.org/2618424/kobenhavn.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "55.6711",
+          "lng": "12.56529"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Warsaw",
+          "ref": [
+            "https://www.geonames.org/756135/warsaw.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.22977",
+          "lng": "21.01178"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Prague",
+          "ref": [
+            "https://www.geonames.org/3067696/prague.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "50.08804",
+          "lng": "14.42076"
+        }
       }
     ],
     "lang": [
@@ -88,7 +208,283 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [],
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "French National Centre for Scientific Research",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.4444.0"
+          ]
+        },
+        "websites": [
+          "http://www.cnrs.fr/index.php"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Paris",
+              "ref": [
+                "http://www.geonames.org/2988506/paris.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Universidade Nova de Lisboa",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.10772.33"
+          ]
+        },
+        "websites": [
+          "http://www.unl.pt/en/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Lisbon",
+              "ref": [
+                "https://www.geonames.org/2267057/lisbon.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "National Research Council",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.5326.2"
+          ]
+        },
+        "websites": [
+          "https://www.cnr.it/it"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Rome",
+              "ref": [
+                "https://www.geonames.org/3169070/rome.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University College Cork",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7872.a"
+          ]
+        },
+        "websites": [
+          "http://www.ucc.ie/en/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Cork",
+              "ref": [
+                "https://www.geonames.org/2965140/cork.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Luxembourg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.16008.3f"
+          ]
+        },
+        "websites": [
+          "http://wwwen.uni.lu/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Luxembourg",
+              "ref": [
+                "https://www.geonames.org/2960316/luxembourg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Ghent University",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.5342.0"
+          ]
+        },
+        "websites": [
+          "https://www.ugent.be/en"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Gent",
+              "ref": [
+                "https://www.geonames.org/2797656/gent.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "International Institute of Social History",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.450142.6"
+          ]
+        },
+        "websites": [
+          "https://socialhistory.org/en"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Amsterdam",
+              "ref": [
+                "https://www.geonames.org/2759794/amsterdam.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Göttingen State and University Library",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q564783"
+          ]
+        },
+        "websites": [
+          "https://www.sub.uni-goettingen.de/sub-aktuell/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Göttingen",
+              "ref": [
+                "https://www.geonames.org/2918632/goettingen.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Danish Agency for Science and Higher Education",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.491058.1"
+          ]
+        },
+        "websites": [
+          "https://ufm.dk/en/the-ministry/organisation/danish-agency-for-higher-education-and-science"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Copenhagen",
+              "ref": [
+                "http://www.geonames.org/2618424/kobenhavn.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Warsaw",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.12847.38"
+          ]
+        },
+        "websites": [
+          "http://en.uw.edu.pl/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Warsaw",
+              "ref": [
+                "https://www.geonames.org/756135/warsaw.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Charles University",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.4491.8"
+          ]
+        },
+        "websites": [
+          "https://cuni.cz/UKEN-1.html"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Prague",
+              "ref": [
+                "https://www.geonames.org/3067696/prague.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
     "children": [
       {
         "type": "organisation",
