@@ -13,7 +13,7 @@
     "schema_version": {
       "description": "Version of the used JSON schema",
       "type": "string",
-      "default": "0.1.4"
+      "default": "0.1.5"
     },
     "record_metadata": {
       "description": "Metadata of the record file",
@@ -292,7 +292,67 @@
           }
         },
         "stack": {
-          "description": "To be added in a later version"
+          "type": "object",
+          "description": "Information on the stack used by the project",
+          "properties": {
+            "database": {
+              "type": "array",
+              "description": "List of database systems in use",
+              "items": {
+                "type": "string"
+              }
+            },
+            "backend": {
+              "type": "array",
+              "description": "List of backend technologies in use",
+              "items": {
+                "type": "string"
+              }
+            },
+            "frontend": {
+              "type": "array",
+              "description": "List of frontend technologies in use",
+              "items": {
+                "type": "string"
+              }
+            },
+            "languages": {
+              "type": "array",
+              "description": "List of programming, script and descriptive languages in use",
+              "items": {
+                "type": "string"
+              }
+            },
+            "tools": {
+              "type": "array",
+              "description": "List of tools that are used by the project",
+              "items": {
+                "type": "object",
+                "required": [
+                  "label", "self_developed", "ref"
+                ],
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "description": "Name of the tool"
+                  },
+                  "self_developed": {
+                    "type": "boolean",
+                    "description": "Is the tool developed by the project itself?"
+                  },
+                  "ref": {
+                    "type": "string",
+                    "description": "Refs and URLs to the tool and codebase",
+                    "$ref": "#/definitions/uri"
+                  },
+                  "purpose": {
+                    "type": "string",
+                    "description": "Description of the purpose in the context of the project"
+                  }
+                }
+              }
+            }
+          }
         },
         "keywords": {
           "description": "List of keywords to describe the project, including all relevant languages in ISO-639-2",
