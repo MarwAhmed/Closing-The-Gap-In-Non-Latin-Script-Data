@@ -71,6 +71,10 @@
               "ref": [
                 ""
               ]
+            },
+            "coordinates": {
+              "lat": "",
+              "lng": ""
             }
           }
         ],
@@ -94,6 +98,10 @@
               "ref": [
                 ""
               ]
+            },
+            "coordinates": {
+              "lat": "",
+              "lng": ""
             }
           }
         ],
@@ -166,13 +174,13 @@
             {
               "type": "local",
               "accessibility": "restricted",
-              "label": "folder-based data storage"
+              "description": "folder-based data storage"
             },
             {
               "type": "remote",
               "accessibility": "open",
               "ref": "",
-              "label": "github"
+              "description": "github"
             }
           ]
         },
