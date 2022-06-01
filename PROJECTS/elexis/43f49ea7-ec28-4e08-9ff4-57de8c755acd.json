@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.3",
   "record_metadata": {
-    "uuid": "894f2c88-1713-480d-99cd-32d30f3c0ac2",
-    "record_created": "2022-05-24",
+    "uuid": "43f49ea7-ec28-4e08-9ff4-57de8c755acd",
+    "record_created": "2022-05-31",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,43 +12,45 @@
     ]
   },
   "project": {
-    "title": "Computational Literary Studies Infrastructure (CLS INFRA)",
-    "abbr": "CLS INFRA",
+    "title": "European Lexicographic Infrastructure",
+    "abbr": "ELEXIS",
     "type": "project",
-    "ref": [],
+    "ref": [
+      "https://d-nb.info/gnd/124425259X"
+    ],
     "date": [
       {
-        "from": "2021-03-01",
-        "to": "2025-02-28"
+        "from": "2018-02-01",
+        "to": "2022-07-31"
       }
     ],
     "websites": [
-      "https://clsinfra.io/"
+      "https://elex.is/"
     ],
-    "project_desc": "This project is a partnership of various European research institutions to build a shared resource of high-quality data, tools and knowledge to aid new approaches to studying literature in the digital age. It aims to create an infrastructure which will align the diverse resources of Europe’s multilingual and interconnected literary heritage with each other, with the tools needed to interrogate them, and with a widened base of users.",
+    "project_desc": "ELEXIS is a cooperation project carried out by 17 European partner institutions that aims to develop an infrastructure which will foster cooperation and knowledge exchange between different research communities in lexicography in order to bridge the gap between lesser-resourced languages and those for which advanced experience in e-lexicography exists. ELEXIS will introduce common standards of data management for lexicographic resources and dictionary databases and develop tools and infrastructure which will enhance and harmonize cooperation between European institutions, publishers, universities and communities have been developing dictionaries and/or dictionary data.",
     "places": [
       {
         "place_name": {
-          "text": "Krakow",
+          "text": "Ljubljana",
           "ref": [
-            "https://www.geonames.org/3094802/krakow.html"
+            "https://www.geonames.org/3196359/ljubljana.html"
           ]
         },
         "coordinates": {
-          "lat": "50.06143",
-          "lng": "19.93658"
+          "lat": "46.05108",
+          "lng": "14.50513"
         }
       },
       {
         "place_name": {
-          "text": "Potsdam",
+          "text": "Rome",
           "ref": [
-            "http://www.geonames.org/2852458/potsdam.html"
+            "https://www.geonames.org/3169070/rome.html"
           ]
         },
         "coordinates": {
-          "lat": "52.39886",
-          "lng": "13.06566"
+          "lat": "41.89193",
+          "lng": "12.51133"
         }
       },
       {
@@ -65,6 +67,66 @@
       },
       {
         "place_name": {
+          "text": "Tallinn",
+          "ref": [
+            "https://www.geonames.org/588409/tallinn.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "59.43696",
+          "lng": "24.75353"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Gaillimh",
+          "ref": [
+            "https://www.geonames.org/2964180/gaillimh.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "53.27245",
+          "lng": "-9.05095"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Copenhagen",
+          "ref": [
+            "http://www.geonames.org/2618424/kobenhavn.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "55.6711",
+          "lng": "12.56529"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Leiden",
+          "ref": [
+            "https://www.geonames.org/2751773/leiden.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.15833",
+          "lng": "4.49306"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Sofia",
+          "ref": [
+            "https://www.geonames.org/727011/sofia.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "42.69751",
+          "lng": "23.32415"
+        }
+      },
+      {
+        "place_name": {
           "text": "Madrid",
           "ref": [
             "https://www.geonames.org/3117735/madrid.html"
@@ -77,62 +139,38 @@
       },
       {
         "place_name": {
-          "text": "Lyon",
+          "text": "Brno",
           "ref": [
-            "https://www.geonames.org/2996944/lyon.html"
+            "https://www.geonames.org/3078610/brno.html"
           ]
         },
         "coordinates": {
-          "lat": "45.74846",
-          "lng": "4.84671"
+          "lat": "49.19522",
+          "lng": "16.60796"
         }
       },
       {
         "place_name": {
-          "text": "Berlin",
+          "text": "Tel Aviv",
           "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
+            "https://www.geonames.org/293397/tel-aviv.html"
           ]
         },
         "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
+          "lat": "32.08088",
+          "lng": "34.78057"
         }
       },
       {
         "place_name": {
-          "text": "Prague",
+          "text": "Lisbon",
           "ref": [
-            "https://www.geonames.org/3067696/prague.html"
+            "https://www.geonames.org/2267057/lisbon.html"
           ]
         },
         "coordinates": {
-          "lat": "50.08804",
-          "lng": "14.42076"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Paris",
-          "ref": [
-            "http://www.geonames.org/2988506/paris.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "48.85339",
-          "lng": "2.34864"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Gent",
-          "ref": [
-            "https://www.geonames.org/2797656/gent.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.05",
-          "lng": "3.71667"
+          "lat": "38.71667",
+          "lng": "-9.13333"
         }
       },
       {
@@ -149,14 +187,14 @@
       },
       {
         "place_name": {
-          "text": "Amsterdam",
+          "text": "Budapest",
           "ref": [
-            "https://www.geonames.org/2759794/amsterdam.html"
+            "https://www.geonames.org/3054643/budapest.html"
           ]
         },
         "coordinates": {
-          "lat": "52.37403",
-          "lng": "4.88969"
+          "lat": "47.49835",
+          "lng": "19.04045"
         }
       },
       {
@@ -173,14 +211,14 @@
       },
       {
         "place_name": {
-          "text": "Gaillimh",
+          "text": "Pisa",
           "ref": [
-            "https://www.geonames.org/2964180/gaillimh.html"
+            "https://www.geonames.org/3170647/pisa.html"
           ]
         },
         "coordinates": {
-          "lat": "53.27245",
-          "lng": "-9.05095"
+          "lat": "43.70853",
+          "lng": "10.4036"
         }
       }
     ],
@@ -198,20 +236,20 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "The Institute of the Polish Language of the Polish Academy of Sciences",
+          "text": "Jožef Stefan Institute",
           "ref": [
-            "https://www.grid.ac/institutes/grid.460376.0"
+            "https://www.grid.ac/institutes/grid.11375.31"
           ]
         },
         "websites": [
-          "https://ijp.pan.pl/"
+          "http://www.ijs.si/ijsw"
         ],
         "places": [
           {
             "place_name": {
-              "text": "Krakow",
+              "text": "Ljubljana",
               "ref": [
-                "https://www.geonames.org/3094802/krakow.html"
+                "https://www.geonames.org/3196359/ljubljana.html"
               ]
             }
           }
@@ -223,20 +261,20 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "University of Potsdam",
+          "text": "Sapienza University of Rome",
           "ref": [
-            "https://www.grid.ac/institutes/grid.11348.3f"
+            "https://www.grid.ac/institutes/grid.7841.a"
           ]
         },
         "websites": [
-          "https://www.uni-potsdam.de/en/"
+          "http://www.uniroma1.it/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "Potsdam",
+              "text": "Rome",
               "ref": [
-                "http://www.geonames.org/2852458/potsdam.html"
+                "https://www.geonames.org/3169070/rome.html"
               ]
             }
           }
@@ -273,13 +311,163 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "National University of Distance Education",
+          "text": "Institute of the Estonian Language",
           "ref": [
-            "https://www.grid.ac/institutes/grid.10702.34"
+            "https://www.grid.ac/institutes/grid.454928.6"
           ]
         },
         "websites": [
-          "https://www.uned.es/universidad/inicio.html"
+          "http://en.eki.ee/index.php"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Tallinn",
+              "ref": [
+                "https://www.geonames.org/588409/tallinn.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "National University of Ireland, Galway",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.6142.1"
+          ]
+        },
+        "websites": [
+          "http://www.nuigalway.ie/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Gaillimh",
+              "ref": [
+                "https://www.geonames.org/2964180/gaillimh.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Society for Danish Language and Literature",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q12308333"
+          ]
+        },
+        "websites": [
+          "https://dsl.dk/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Copenhagen",
+              "ref": [
+                "http://www.geonames.org/2618424/kobenhavn.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Copenhagen",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.5254.6"
+          ]
+        },
+        "websites": [
+          "http://www.ku.dk/english/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Copenhagen",
+              "ref": [
+                "http://www.geonames.org/2618424/kobenhavn.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "The Dutch Language Institute",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5200436"
+          ]
+        },
+        "websites": [
+          "https://ivdnt.org/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Leiden",
+              "ref": [
+                "https://www.geonames.org/2751773/leiden.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Institute for Bulgarian Language",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.493346.f"
+          ]
+        },
+        "websites": [
+          "http://ibl.bas.bg/en/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Sofia",
+              "ref": [
+                "https://www.geonames.org/727011/sofia.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Royal Spanish Academy",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.469406.9"
+          ]
+        },
+        "websites": [
+          "http://www.rae.es/"
         ],
         "places": [
           {
@@ -298,105 +486,20 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "École Normale Supérieure de Lyon",
+          "text": "Universidade Nova de Lisboa",
           "ref": [
-            "https://www.grid.ac/institutes/grid.15140.31"
+            "https://www.grid.ac/institutes/grid.10772.33"
           ]
         },
         "websites": [
-          "http://www.ens-lyon.fr/"
+          "http://www.unl.pt/en/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "Lyon",
+              "text": "Lisbon",
               "ref": [
-                "https://www.geonames.org/2996944/lyon.html"
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "Humboldt-Universität zu Berlin",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.7468.d"
-          ]
-        },
-        "websites": [
-          "https://www.hu-berlin.de/?set_language=en&cl=en"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "Charles University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.4491.8"
-          ]
-        },
-        "websites": [
-          "https://cuni.cz/UKEN-1.html"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Prague",
-              "ref": [
-                "https://www.geonames.org/3067696/prague.html"
-              ]
-            }
-          }
-        ],
-        "parents": [],
-        "siblings": [],
-        "children": []
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q49103279"
-          ]
-        },
-        "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb"
-      },
-      {
-        "type": "organisation",
-        "org_name": {
-          "text": "Ghent University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5342.0"
-          ]
-        },
-        "websites": [
-          "https://www.ugent.be/en"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Gent",
-              "ref": [
-                "https://www.geonames.org/2797656/gent.html"
+                "https://www.geonames.org/2267057/lisbon.html"
               ]
             }
           }
@@ -433,20 +536,20 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "Royal Netherlands Academy of Arts and Sciences",
+          "text": "Hungarian Academy of Sciences",
           "ref": [
-            "https://www.grid.ac/institutes/grid.418101.d"
+            "https://www.grid.ac/institutes/grid.5018.c"
           ]
         },
         "websites": [
-          "http://www.knaw.nl/nl"
+          "http://mta.hu/english/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "Amsterdam",
+              "text": "Budapest",
               "ref": [
-                "https://www.geonames.org/2759794/amsterdam.html"
+                "https://www.geonames.org/3054643/budapest.html"
               ]
             }
           }
@@ -483,20 +586,20 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "National University of Ireland, Galway",
+          "text": "Institute for Computational Linguistics “A. Zampolli”",
           "ref": [
-            "https://www.grid.ac/institutes/grid.6142.1"
+            "https://www.grid.ac/institutes/grid.503055.6"
           ]
         },
         "websites": [
-          "http://www.nuigalway.ie/"
+          "http://www.ilc.cnr.it/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "Gaillimh",
+              "text": "Pisa",
               "ref": [
-                "https://www.geonames.org/2964180/gaillimh.html"
+                "https://www.geonames.org/3170647/pisa.html"
               ]
             }
           }
@@ -507,25 +610,18 @@
       }
     ],
     "children": [],
-    "siblings": [
-      {
-        "type": "project",
-        "title": "DARIAH Reference Curriculum",
-        "uuid": "502131b8-2103-465d-b49c-eaa0ca7d976b"
-      }
-    ],
+    "siblings": [],
     "contacts": [
       {
         "pers_name": {
-          "text": "Eder, Maciej",
+          "text": "Krek, Simon",
           "ref": [
-            "https://www.wikidata.org/wiki/Q24649708#sitelinks-wikipedia"
+            "http://viaf.org/viaf/308782046/#Krek,_Simon,__1967-"
           ]
         },
         "role": 0,
         "websites": [
-          "http://maciejeder.org/",
-          "https://ijp.pan.pl/en/pracownicy/maciej-eder/"
+          "https://www.simonkrek.si/en/"
         ]
       }
     ],
@@ -608,11 +704,11 @@
       }
     ],
     "keywords": [
-      "",
-      "digital_literary_studies",
+      "language_resources",
+      "lexicography",
       "research_data_management",
       "research_infrastructure"
     ],
-    "comment": ""
+    "comment": "Some of the partner institutions are private companies which were not included in the list, as the projects focuses only on research institutions"
   }
 }
