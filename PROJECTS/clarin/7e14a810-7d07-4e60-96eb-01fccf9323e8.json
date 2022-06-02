@@ -767,9 +767,9 @@
         "places": [
           {
             "place_name": {
-              "text": "Ljubljana",
+              "text": "Wrocław",
               "ref": [
-                "https://www.geonames.org/3196359/ljubljana.html"
+                "https://www.geonames.org/3081368/wroclaw.html"
               ]
             }
           }
@@ -817,9 +817,9 @@
         "places": [
           {
             "place_name": {
-              "text": "",
+              "text": "Ljubljana",
               "ref": [
-                ""
+                "https://www.geonames.org/3196359/ljubljana.html"
               ]
             }
           }
