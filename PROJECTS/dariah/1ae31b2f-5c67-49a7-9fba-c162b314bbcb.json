@@ -196,6 +196,90 @@
           "lat": "50.08804",
           "lng": "14.42076"
         }
+      },
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Ljubljana",
+          "ref": [
+            "https://www.geonames.org/3196359/ljubljana.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "46.05108",
+          "lng": "14.50513"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Centar",
+          "ref": [
+            "https://www.geonames.org/6618983/centar.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "45.81313",
+          "lng": "15.97753"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Sarajevo",
+          "ref": [
+            "https://www.geonames.org/3191281/sarajevo.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "43.84864",
+          "lng": "18.35644"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Belgrade",
+          "ref": [
+            "https://www.geonames.org/792680/belgrade.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "44.80401",
+          "lng": "20.46513"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Sofia",
+          "ref": [
+            "https://www.geonames.org/727011/sofia.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "42.69751",
+          "lng": "23.32415"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Athens",
+          "ref": [
+            "https://www.geonames.org/264371/athens.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "37.98376",
+          "lng": "23.72784"
+        }
       }
     ],
     "lang": [
@@ -476,6 +560,181 @@
               "text": "Prague",
               "ref": [
                 "https://www.geonames.org/3067696/prague.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Österreichische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.4299.6"
+          ]
+        },
+        "websites": [
+          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Vienna",
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Institute of Contemporary History",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.457134.0"
+          ]
+        },
+        "websites": [
+          "http://www.inz.si/index-en.php"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Ljubljana",
+              "ref": [
+                "https://www.geonames.org/3196359/ljubljana.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Institute of Ethnology and Folklore Research",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.454224.1"
+          ]
+        },
+        "websites": [
+          "http://www.ief.hr/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Centar",
+              "ref": [
+                "https://www.geonames.org/6618983/centar.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Sarajevo",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.11869.37"
+          ]
+        },
+        "websites": [
+          "http://www.unsa.ba/s/index.php"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Sarajevo",
+              "ref": [
+                "https://www.geonames.org/3191281/sarajevo.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Serbian Academy of Sciences and Arts",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.419269.1"
+          ]
+        },
+        "websites": [
+          "http://www.sanu.ac.rs/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Belgrade",
+              "ref": [
+                "https://www.geonames.org/792680/belgrade.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Sofia University",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.11355.33"
+          ]
+        },
+        "websites": [
+          "https://www.uni-sofia.bg/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Sofia",
+              "ref": [
+                "https://www.geonames.org/727011/sofia.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Academy of Athens",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.417593.d"
+          ]
+        },
+        "websites": [
+          "http://www.academyofathens.gr/echome.asp?lang=2"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Athens",
+              "ref": [
+                "https://www.geonames.org/264371/athens.html"
               ]
             }
           }
