@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="md:basis-1/2 lg:basis-1/3">
   <div class="box relative rounded-2xl m-4">
     <div class="content inline-block h-auto relative p-4 pb-7 flex flex-wrap md:flex-row">
       <div class="left w-auto md:max-w-sm">

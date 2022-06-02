@@ -25,6 +25,11 @@ const routes = [
     component: () => import('../views/MapView.vue'),
   },
   {
+    path: '/contribute',
+    name: 'contribute',
+    component: () => import('../views/FormView.vue'),
+  },
+  {
     path: '/network',
     name: 'network',
     component: () => import('../views/NetworkView.vue'),

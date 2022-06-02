@@ -44,6 +44,10 @@ export default {
         link: '/network',
       },
       {
+        label: 'Contribute',
+        link: '/contribute',
+      },
+      {
         label: 'About',
         link: '/about',
       },
