@@ -132,7 +132,7 @@
       "lang": []
     },
     "stack": {},
-    "policies": {},
+    "policies": [],
     "keywords": [
       "image_processing",
       "ip",
