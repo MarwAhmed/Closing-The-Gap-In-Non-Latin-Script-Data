@@ -233,7 +233,7 @@
               "required": [
                 "access", "licensing"
               ],
-              "proterties": {
+              "properties": {
                 "access": {
                   "description": "Percentage of publications that are available open access, closed access or else",
                   "$ref": "#/definitions/access"
