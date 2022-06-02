@@ -280,6 +280,18 @@
           "lat": "37.98376",
           "lng": "23.72784"
         }
+      },
+      {
+        "place_name": {
+          "text": "Limassol",
+          "ref": [
+            "https://www.geonames.org/146384/limassol.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "34.68406",
+          "lng": "33.03794"
+        }
       }
     ],
     "lang": [
@@ -735,6 +747,31 @@
               "text": "Athens",
               "ref": [
                 "https://www.geonames.org/264371/athens.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Cyprus University of Technology",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.15810.3d"
+          ]
+        },
+        "websites": [
+          "http://www.cut.ac.cy/?languageId=2"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Limassol",
+              "ref": [
+                "https://www.geonames.org/146384/limassol.html"
               ]
             }
           }
