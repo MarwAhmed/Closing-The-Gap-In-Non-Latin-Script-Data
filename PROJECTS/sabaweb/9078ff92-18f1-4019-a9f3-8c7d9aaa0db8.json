@@ -1,0 +1,184 @@
+{
+  "schema_version": "0.1.5",
+  "record_metadata": {
+    "uuid": "9078ff92-18f1-4019-a9f3-8c7d9aaa0db8",
+    "record_created": "07-06-2022",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Belegwörterbuch der sabäischen Sprache",
+    "abbr": "Sabaweb",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2012",
+        "to": "2024"
+      }
+    ],
+    "websites": [
+      "http://sabaweb.uni-jena.de/Sabaweb"
+    ],
+    "project_desc": "This long-term project is dedicated to Sabaic language and aims to create a comprehensive dictionary based on a complete database of all known Sabaic inscriptions covering the period from 14th century BC to 6th century AD. The results of the project are available in an open-access online database which is fully searchable for Sabaic roots, words and forms.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Jena",
+          "ref": [
+            "https://www.geonames.org/2895044/jena.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "50.92878",
+          "lng": "11.5899"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "",
+          "ref": [
+            "Friedrich Schiller University Jena"
+          ]
+        },
+        "websites": [
+          "https://www.uni-jena.de/en"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Jena",
+              "ref": [
+                "https://www.geonames.org/2895044/jena.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Nebes, Norbert",
+          "ref": [
+            "https://d-nb.info/gnd/1064027237"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.gw.uni-jena.de/nebes-norbert"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "xsa"
+      ],
+      "publications": {
+        "access": {
+          "open": 0.0,
+          "closed": 100.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "corpus",
+      "online_dictionary",
+      "xsa"
+    ],
+    "comment": ""
+  }
+}

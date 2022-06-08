@@ -40,6 +40,258 @@
           "lat": "52.09083",
           "lng": "5.12222"
         }
+      },
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Leiden",
+          "ref": [
+            "https://www.geonames.org/2751773/leiden.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.15833",
+          "lng": "4.49306"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Sofia",
+          "ref": [
+            "https://www.geonames.org/727011/sofia.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "42.69751",
+          "lng": "23.32415"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Zagreb",
+          "ref": [
+            "https://www.geonames.org/3186886/zagreb.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "45.81444",
+          "lng": "15.97798"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Limassol",
+          "ref": [
+            "https://www.geonames.org/146384/limassol.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "34.68406",
+          "lng": "33.03794"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Prague",
+          "ref": [
+            "https://www.geonames.org/3067696/prague.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "50.08804",
+          "lng": "14.42076"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Copenhagen",
+          "ref": [
+            "http://www.geonames.org/2618424/kobenhavn.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "55.6711",
+          "lng": "12.56529"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Tartu",
+          "ref": [
+            "http://www.geonames.org/588335/tartu.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "58.38062",
+          "lng": "26.72509"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Helsinki",
+          "ref": [
+            "https://www.geonames.org/658225/helsinki.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "60.16952",
+          "lng": "24.93545"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Mannheim",
+          "ref": [
+            "https://www.geonames.org/2873891/mannheim.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.4891",
+          "lng": "8.46694"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Maroúsi",
+          "ref": [
+            "https://www.geonames.org/265243/marousi.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "38.05",
+          "lng": "23.8"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Budapest",
+          "ref": [
+            "https://www.geonames.org/3054643/budapest.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "47.49835",
+          "lng": "19.04045"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Reykjavík",
+          "ref": [
+            "https://www.geonames.org/3413829/reykjavik.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "64.13548",
+          "lng": "-21.89541"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Pisa",
+          "ref": [
+            "https://www.geonames.org/3170647/pisa.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "43.70853",
+          "lng": "10.4036"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Riga",
+          "ref": [
+            "https://www.geonames.org/456172/riga.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "56.946",
+          "lng": "24.10589"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Kaunas",
+          "ref": [
+            "https://www.geonames.org/598316/kaunas.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "54.90272",
+          "lng": "23.90961"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Bergen",
+          "ref": [
+            "https://www.geonames.org/3161732/bergen.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "60.39299",
+          "lng": "5.32415"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Wrocław",
+          "ref": [
+            "https://www.geonames.org/3081368/wroclaw.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.1",
+          "lng": "17.03333"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Lisbon",
+          "ref": [
+            "https://www.geonames.org/2267057/lisbon.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "38.71667",
+          "lng": "-9.13333"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Ljubljana",
+          "ref": [
+            "https://www.geonames.org/3196359/ljubljana.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "46.05108",
+          "lng": "14.50513"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Gothenburg",
+          "ref": [
+            "https://www.geonames.org/2711537/goeteborg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "57.70716",
+          "lng": "11.96679"
+        }
       }
     ],
     "lang": [
@@ -52,7 +304,556 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [],
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Österreichische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.4299.6"
+          ]
+        },
+        "websites": [
+          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Vienna",
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "The Dutch Language Institute",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5200436"
+          ]
+        },
+        "websites": [
+          "https://ivdnt.org/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Leiden",
+              "ref": [
+                "https://www.geonames.org/2751773/leiden.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Bulgarian Academy of Sciences",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.410344.6"
+          ]
+        },
+        "websites": [
+          "http://www.bas.bg/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Sofia",
+              "ref": [
+                "https://www.geonames.org/727011/sofia.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Zagreb",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.4808.4"
+          ]
+        },
+        "websites": [
+          "http://www.unizg.hr/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Zagreb",
+              "ref": [
+                "https://www.geonames.org/3186886/zagreb.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Cyprus University of Technology",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.15810.3d"
+          ]
+        },
+        "websites": [
+          "http://www.cut.ac.cy/?languageId=2"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Limassol",
+              "ref": [
+                "https://www.geonames.org/146384/limassol.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Charles University",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.4491.8"
+          ]
+        },
+        "websites": [
+          "https://cuni.cz/UKEN-1.html"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Prague",
+              "ref": [
+                "https://www.geonames.org/3067696/prague.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Copenhagen",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.5254.6"
+          ]
+        },
+        "websites": [
+          "http://www.ku.dk/english/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Copenhagen",
+              "ref": [
+                "http://www.geonames.org/2618424/kobenhavn.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Center of Estonian Language Resources",
+          "ref": []
+        },
+        "websites": [
+          "https://keeleressursid.ee/en/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Tartu",
+              "ref": [
+                "http://www.geonames.org/588335/tartu.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Helsinki",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7737.4"
+          ]
+        },
+        "websites": [
+          "https://www.helsinki.fi/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Helsinki",
+              "ref": [
+                "https://www.geonames.org/658225/helsinki.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Mannheim",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.5601.2"
+          ]
+        },
+        "websites": [
+          "https://www.uni-mannheim.de/en/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Mannheim",
+              "ref": [
+                "https://www.geonames.org/2873891/mannheim.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Institute for Language and Speech Processing",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.424851.e"
+          ]
+        },
+        "websites": [
+          "http://www.ilsp.gr/en"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Maroúsi",
+              "ref": [
+                "https://www.geonames.org/265243/marousi.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Hungarian Academy of Sciences",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.5018.c"
+          ]
+        },
+        "websites": [
+          "http://mta.hu/english/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Budapest",
+              "ref": [
+                "https://www.geonames.org/3054643/budapest.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Árni Magnússon Institute for Icelandic Studies",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.471011.2"
+          ]
+        },
+        "websites": [
+          "http://www.arnastofnun.is/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Reykjavík",
+              "ref": [
+                "https://www.geonames.org/3413829/reykjavik.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Institute for Computational Linguistics “A. Zampolli”",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.503055.6"
+          ]
+        },
+        "websites": [
+          "http://www.ilc.cnr.it/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Pisa",
+              "ref": [
+                "https://www.geonames.org/3170647/pisa.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Latvia",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.9845.0"
+          ]
+        },
+        "websites": [
+          "https://www.lu.lv"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Riga",
+              "ref": [
+                "https://www.geonames.org/456172/riga.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Vytautas Magnus University",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.19190.30"
+          ]
+        },
+        "websites": [
+          "http://www.vdu.lt/en/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Kaunas",
+              "ref": [
+                "https://www.geonames.org/598316/kaunas.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Utrecht University",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.5477.1"
+          ]
+        },
+        "websites": [
+          "http://www.uu.nl/en"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Utrecht",
+              "ref": [
+                "https://www.geonames.org/2745912/utrecht.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Bergen",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7914.b"
+          ]
+        },
+        "websites": [
+          "http://www.uib.no/en/node/36362"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Bergen",
+              "ref": [
+                "https://www.geonames.org/3161732/bergen.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Wrocław University of Science and Technology",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7005.2"
+          ]
+        },
+        "websites": [
+          "http://www.portal.pwr.wroc.pl"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Wrocław",
+              "ref": [
+                "https://www.geonames.org/3081368/wroclaw.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Lisbon",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.9983.b"
+          ]
+        },
+        "websites": [
+          "http://www.ulisboa.pt/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Lisbon",
+              "ref": [
+                "https://www.geonames.org/2267057/lisbon.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Jožef Stefan Institute",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.11375.31"
+          ]
+        },
+        "websites": [
+          "http://www.ijs.si/ijsw"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Ljubljana",
+              "ref": [
+                "https://www.geonames.org/3196359/ljubljana.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Gothenburg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.8761.8"
+          ]
+        },
+        "websites": [
+          "http://www.gu.se/english"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Gothenburg",
+              "ref": [
+                "https://www.geonames.org/2711537/goeteborg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
     "children": [
       {
         "type": "project",

@@ -27,6 +27,10 @@
     "title": "Arbeitsstelle Kleine Fächer",
     "path": "/PROJECTS/arbeitsstelle_kleine_faecher/"
   },
+  "a0e93701-b975-4760-b3cc-0204f54be3d1": {
+    "title": "ARCHE",
+    "path": "/PROJECTS/arche/"
+  },
   "ce6e74fb-c872-4ab4-a6f2-908232d0099a": {
     "title": "ARCHES",
     "path": "/PROJECTS/arches/"
@@ -294,6 +298,10 @@
   "38e6dfb4-730a-4a80-8090-4b7ea551b3c7": {
     "title": "Datenbankgestützte Erfassung, Erforschung und digitale Präsentation der Familienbibliothek Refaiya",
     "path": "/PROJECTS/refaiya/"
+  },
+  "9078ff92-18f1-4019-a9f3-8c7d9aaa0db8": {
+    "title": "Belegwörterbuch der sabäischen Sprache",
+    "path": "/PROJECTS/sabaweb/"
   },
   "9513964d-3509-462e-9d64-c47fd3922459": {
     "title": "Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer",

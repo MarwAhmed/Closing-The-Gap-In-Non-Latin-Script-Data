@@ -14,7 +14,7 @@
   "project": {
     "title": "Ada Lovelace Center for Digital Humanities",
     "abbr": "ADA",
-    "type": "project",
+    "type": "organisation",
     "ref": [],
     "date": [
       {
@@ -31,12 +31,12 @@
         "place_name": {
           "text": "Berlin",
           "ref": [
-            "https://www.geonames.org/3587265/berlin.html"
+            "https://www.geonames.org/2950159/berlin.html"
           ]
         },
         "coordinates": {
-          "lat": "13.51667",
-          "lng": "-88.6"
+          "lat": "52.52437",
+          "lng": "13.41053"
         }
       }
     ],
@@ -98,7 +98,7 @@
       "lang": []
     },
     "stack": {},
-    "policies": {},
+    "policies": [],
     "keywords": [
       "infrastructure",
       "interdisciplinary_research",
