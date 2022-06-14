@@ -437,7 +437,7 @@
                 "properties": {
                   "type": {
                     "type": "string",
-                    "const": "local"
+                    "const": "remote"
                   },
                   "accessibility": {
                     "type": "string",
