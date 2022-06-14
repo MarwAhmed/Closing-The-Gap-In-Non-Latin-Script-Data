@@ -40,9 +40,7 @@
         }
       }
     ],
-    "lang": [
-      ""
-    ],
+    "lang": [],
     "topic_relations": {
       "nls": true,
       "dh": true,
