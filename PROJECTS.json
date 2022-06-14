@@ -111,6 +111,10 @@
     "title": "Corpus Masoreticum",
     "path": "/PROJECTS/corpus_masoreticum/"
   },
+  "5838a872-ff79-4e68-afff-edd784b0952e": {
+    "title": "Corpus Musicae Ottomanicae",
+    "path": "/PROJECTS/corpus_musicae_ottomanicae/"
+  },
   "8779bc56-8526-4d03-85a7-702a03bcf748": {
     "title": "CorrespSearch",
     "path": "/PROJECTS/correspsearch/"
@@ -159,10 +163,6 @@
     "title": "Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments",
     "path": "/PROJECTS/digital_edition_of_the_coptic_old_testament/"
   },
-  "e9ddf49e-4dc1-4f1c-ac73-ba0883cdd5d2": {
-    "title": "The Digital Resource and Database for Palaeography, Manuscript Studies and Diplomatic",
-    "path": "/PROJECTS/digi_pal/"
-  },
   "6f32aa08-b11d-48f4-8a9d-8f76738dc62e ": {
     "title": "Doha Historical Dictionary (معجم الدوحة التأريخي للغة العربية)",
     "path": "/PROJECTS/doha_historical_dictionary/"
@@ -171,17 +171,9 @@
     "title": "European Lexicographic Infrastructure",
     "path": "/PROJECTS/elexis/"
   },
-  "597655c6-ea3a-45b7-ba80-ea01d5fc2c49": {
-    "title": "Embedding Conquest. Naturalising Muslim Rule in the Early Islamic Empire (600-1000)",
-    "path": "/PROJECTS/embedding_conquest/"
-  },
   "2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5": {
     "title": "FDNext",
     "path": "/PROJECTS/fdnext/"
-  },
-  "f86f04d9-e28d-4d1b-8217-03d7594997d2": {
-    "title": "FUtureIT",
-    "path": "/PROJECTS/futureit/"
   },
   "94044a63-eae5-4e1d-ba04-64874109fc36": {
     "title": "Genesis Rabbah Loanwords",
@@ -254,6 +246,10 @@
   "892b783d-1788-451f-9efd-1c58bfb4b064": {
     "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
     "path": "/PROJECTS/methoden_der_manuskriptanalyse_zur_wiedergewinnung_verlorener_schrift/"
+  },
+  "b37c6bd1-90d3-4718-ab58-fb1d60873186": {
+    "title": "Multilingual Corpus of Annotated Spoken Texts",
+    "path": "/PROJECTS/multi_cast/"
   },
   "e050deba-6e1d-4d82-851b-cf6c1f7187a5": {
     "title": "NoMansLand: Nomads' Manuscripts Landscape",
