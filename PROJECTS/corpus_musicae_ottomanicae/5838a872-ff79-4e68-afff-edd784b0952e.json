@@ -1,0 +1,265 @@
+{
+  "schema_version": "0.1.5",
+  "record_metadata": {
+    "uuid": "5838a872-ff79-4e68-afff-edd784b0952e",
+    "record_created": "2022-14-06",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Corpus Musicae Ottomanicae",
+    "abbr": "CMO",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2015",
+        "to": "2027"
+      }
+    ],
+    "websites": [
+      "https://www.uni-muenster.de/CMO-Edition/cmo/cmo.html",
+      "https://corpus-musicae-ottomanicae.de/content/edition/browse.xml",
+      "https://gepris.dfg.de/gepris/projekt/265450857?context=projekt&task=showDetail&id=265450857&"
+    ],
+    "project_desc": "This long-term project is dedicated to the transcription and critical editing of nineteenth-century sources of Ottoman music written in Hampartsum and staff notations as well as the accompanying song texts. The end results of the project will be made available through a platform which will provide access to the online versions of both music and text editions, as well as the source catalogue, which is a comprehensive database of printed, manuscript and online sources. The materials of the edited corpus represent the multi-ethnic and multi-religious environment of the region and period, containing works of central importance not only for the history of music in Turkey, but also amongst the Greek, Armenian, Jewish and Arab communities of the Ottoman Empire.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Münster",
+          "ref": [
+            "https://www.geonames.org/2867543/muenster.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.96236",
+          "lng": "7.62571"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Bonn",
+          "ref": [
+            "https://www.geonames.org/2946447/bonn.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "50.73438",
+          "lng": "7.09549"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Istanbul",
+          "ref": [
+            "https://www.geonames.org/745044/istanbul.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "41.01384",
+          "lng": "28.94966"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger",
+      "tur"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Münster",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.5949.1"
+          ]
+        },
+        "websites": [
+          "https://www.uni-muenster.de/en/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Münster",
+              "ref": [
+                "https://www.geonames.org/2867543/muenster.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Max Weber Foundation International Humanities",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.469714.9"
+          ]
+        },
+        "websites": [
+          "http://www.maxweberstiftung.de/en/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Bonn",
+              "ref": [
+                "https://www.geonames.org/2946447/bonn.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Orient-Institut Istanbul ",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q15837722"
+          ]
+        },
+        "websites": [
+          "https://www.oiist.org/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Istanbul",
+              "ref": [
+                "https://www.geonames.org/745044/istanbul.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Jäger, Ralf Martin",
+          "ref": [
+            "https://d-nb.info/gnd/122654099"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.uni-muenster.de/CMO-Edition/mitarbeiter/leitung/ralf_martin_jaeger.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "tur"
+      ],
+      "publications": {
+        "access": {
+          "open": 0.0,
+          "closed": 100.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "ara",
+      "corpus",
+      "manuscripts",
+      "music",
+      "songtexts",
+      "tur"
+    ],
+    "comment": ""
+  }
+}
