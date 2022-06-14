@@ -1,0 +1,214 @@
+{
+  "schema_version": "0.1.5",
+  "record_metadata": {
+    "uuid": "b37c6bd1-90d3-4718-ab58-fb1d60873186",
+    "record_created": "2002-06-16",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Multilingual Corpus of Annotated Spoken Texts",
+    "abbr": "Multi-CAST",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2000",
+        "to": "2021"
+      }
+    ],
+    "websites": [
+      "https://multicast.aspra.uni-bamberg.de/#references",
+      "https://www.uni-bamberg.de/aspra/forschung/projekte/multi-cast-multilingual-corpus-of-annotated-spoken-texts/"
+    ],
+    "project_desc": "Mulit_Cast is a collection of annotated texts from a typologically diverse section of 15 languages including endangered once. The corpus is freely accessible via an online platform which provides multiple levels of parallel annotations, time-aligned with audio recordings, chiefly monologic, natural narrative texts from 15 languages, encompassing roughly 25 000 clause units available in multiple file formats, including as EAF files for the linguistic annotation software ELAN, as XML and TSV files, and via the multicastR package for R.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Bamberg",
+          "ref": [
+            "https://www.geonames.org/2952984/bamberg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.89873",
+          "lng": "10.90067"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Bamberg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7359.8"
+          ]
+        },
+        "websites": [
+          "https://www.uni-bamberg.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Bamberg",
+              "ref": [
+                "https://www.geonames.org/2952984/bamberg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Haig, Geoffrey",
+          "ref": [
+            "https://d-nb.info/gnd/1016008090"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.uni-bamberg.de/aspra/team/aktuelles-team/prof-dr-geoffrey-haig/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "atz",
+        "cmn",
+        "dar",
+        "eng",
+        "erk",
+        "gre",
+        "kac",
+        "kgv",
+        "kmr",
+        "per",
+        "tab",
+        "tdn",
+        "tio",
+        "tuh",
+        "vra"
+      ],
+      "publications": {
+        "access": {
+          "open": 0.0,
+          "closed": 100.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "atz",
+      "cmn",
+      "corpus_linguistics",
+      "dar",
+      "eng",
+      "erk",
+      "gre",
+      "kac",
+      "kgv",
+      "kmr",
+      "language_resources",
+      "multilingual_corpus",
+      "per",
+      "tab",
+      "tdn",
+      "tio",
+      "tuh",
+      "vra"
+    ],
+    "comment": ""
+  }
+}
