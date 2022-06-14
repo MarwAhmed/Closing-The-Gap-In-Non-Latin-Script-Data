@@ -109,3 +109,20 @@ a:hover {
   min-height: 500px;
   height: 100%;
 }
+
+#barchart {
+  color: #fff;
+}
+
+.visualbox {
+  overflow-x: scroll;
+}
+
+.stickybox {
+  z-index: 100;
+  background-color: #2E4A61;
+}
+
+.elementcount {
+  color: #fff;
+}

@@ -304,6 +304,159 @@
             </label>
           </div>
         </label>
+        <!-- Parents -->
+        <label
+          class="block col-span-2"
+        >
+          <span>Related projects or organisations</span>
+          <div 
+            class="w-full"
+          >
+            <div
+              class="flex flex-row mr-7 w-full"
+              v-for="(rel, relKey) in project.relations"
+              :key="relKey"
+            >
+              <svg
+                @click="addRelation"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 mr-1 my-auto"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <svg
+                v-if="project.relations.length > 1"
+                @click="project.relations.splice(relKey, 1)"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 mr-1 my-auto"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <div class="border border-black rounded rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2">
+                <label>
+                  <span>Relation Type</span>
+                  <select class="mt-1 block w-full"
+                    v-model="project.relations[relKey].group"
+                  >
+                    <option value="parents">Parent</option>
+                    <option value="siblings">Sibling</option>
+                    <option value="children">Child</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Type</span>
+                  <select class="mt-1 block w-full" v-model="project.relations[relKey].type">
+                    <option value="organisation">Organisation</option>
+                    <option value="project">Project</option>
+                  </select>
+                </label>
+                <label class="col-span-2">
+                  <span>Choose existing {{ rel.type }} or add new entry</span>
+                  <select class="mt-1 block w-full" v-model="project.relations[relKey].existingEntry">
+                    <option value="null">NEW ENTRY</option>
+                    <option
+                      v-for="(p, pKey) in projectList"
+                      :key="pKey"
+                      :value="p.uuid"
+                    >{{ p.title }}</option>
+                  </select>
+                </label>
+                <div class="col-span-2 grid grid-cols-2 gap-2" v-if="project.relations[relKey].existingEntry === 'null'">
+                  <label class="block col-span-2">
+                    <span>Name of the {{ rel.type }}</span>
+                    <input
+                      type="text"
+                      class="mt-1 left w-full"
+                      v-model="project.relations[relKey].title"
+                    />
+                  </label>
+                  <!-- Refs -->
+                  <label
+                    class="block"
+                  >
+                    <span>Authority File URIs of the {{ rel.type.charAt(0).toUpperCase() + rel.type.slice(1) }}</span>
+                    <div
+                      class="flex flex-row"
+                      v-for="(relRef, relRefKey) in rel.refs"
+                      :key="relRefKey"
+                    >
+                      <svg
+                        @click="project.relations[relKey].refs.push('')"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6 mr-1 my-auto"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <svg
+                        v-if="rel.refs.length > 1"
+                        @click="project.relations[relKey].refs.splice(relRefKey, 1)"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6 mr-1 my-auto"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <input
+                        type="text"
+                        class="mt-1 left w-full"
+                        v-model="project.relations[relKey].refs[relRefKey]"
+                      />
+                    </div>
+                  </label>
+                  <!-- Websites -->
+                  <label
+                    class="block"
+                  >
+                    <span>Websites of the {{ rel.type.charAt(0).toUpperCase() + rel.type.slice(1) }}</span>
+                    <div
+                      class="flex flex-row"
+                      v-for="(relWebsite, relWebsiteKey) in rel.websites"
+                      :key="relWebsiteKey"
+                    >
+                      <svg
+                        @click="project.relations[relKey].websites.push('')"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6 mr-1 my-auto"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <svg
+                        v-if="rel.websites.length > 1"
+                        @click="project.relations[relKey].websites.splice(relWebsiteKey, 1)"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6 mr-1 my-auto"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <input
+                        type="text"
+                        class="mt-1 left w-full"
+                        v-model="project.relations[relKey].websites[relWebsiteKey]"
+                      />
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </label>
         <div class="block col-span-2 bubble p-3 rounded-2xl mt-2 button text-center">Generate JSON</div>
       </div>
     </div>
@@ -313,14 +466,36 @@
 <script>
 import {
   defineComponent,
-  reactive
+  reactive,
+  ref
 } from 'vue';
+import axios from 'axios';
 
 export default defineComponent({
   components: {
 //    tagList,
   },
   setup() {
+    const projectList = ref([]);
+    const relationsTemplate = [
+      {
+        group: 'parents',
+        type: 'project',
+        existingEntry: 'null',
+        title: '',
+        refs: [''],
+        websites: [''],
+        places: [
+          {
+            place_name: {
+              text: '',
+              ref: [''],
+            },
+          }
+        ],
+        relations: [],
+      }
+    ];
     const project = reactive({
       type: 'project',
       ref: [''],
@@ -339,11 +514,28 @@ export default defineComponent({
           lng: '',
         },
       }],
+      relations: [...relationsTemplate],
       lang: [''],
     });
 
+    const addRelation = () => {
+      project.relations.push(...relationsTemplate);
+      project.relations[project.relations.length - 1].relations = [...relationsTemplate];
+    };
+
+    axios.get('https://raw.githubusercontent.com/Closing-the-Gap-in-NLS-DH/Projects/master/PROJECTS.json')
+      .then((responseIndex) => {
+        Object.keys(responseIndex.data).map((key) => {
+          projectList.value.push({
+            uuid: key,
+            title: responseIndex.data[key].title,
+          });
+        });
+      }); 
     return {
-      project
+      project,
+      projectList,
+      addRelation
     };
   }
 });

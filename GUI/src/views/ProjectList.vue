@@ -1,11 +1,14 @@
 <template>
   <div class="flex flex-wrap m-5">
-    <div class="w-full">
-      <cat-list />
-      <tag-list
-        :taglist="tags"
-      />
+    <div class="sticky top-0 stickybox rounded-xl w-full py-2">
+      <div class="w-full">
+        <cat-list />
+        <tag-list
+          :taglist="tags"
+        />
+      </div>
     </div>
+    <div class="w-full text-xl m-2 elementcount">{{ projectList.length }} Elements</div>
     <project-item
       v-for="project in projectList"
       :key="project._id"

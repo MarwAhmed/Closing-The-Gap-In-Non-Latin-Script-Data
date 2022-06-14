@@ -1,11 +1,38 @@
 <template>
-  <div class="w-full">
+  <div class="w-full visualbox">
     <!--
     <tag-list
       :taglist="tags"
     />
     -->
-    <div id="networkgraph" class="w-auto m-5" />
+    <h5>Timeline</h5>
+    <p>CAUTION! This timeline only contains projects of which we have gathered dedicated funding periods. Projects with unknown or incomplete funding data are not included.</p>
+    
+    <table class="box">
+      <tr> 
+        <th
+          v-for="(y, yKey) in years"
+          :key="yKey"
+          class="border-l text-xs px-2 pb-1"
+        >{{ y }}</th>
+      </tr>
+      <tr
+        v-for="(p, pKey) in projects"
+        :key="pKey"
+      >
+        <td
+          v-for="(y, yKey) in filteredProjectYears(p, years)"
+          :key="yKey"
+          :colspan="isInFundingPeriod(p, y)"
+          :class="(isInFundingPeriod(p, y) && !p.noDataOnEnding) ? 'bg-darkblue p-2 border-b-1' : 
+            (isInFundingPeriod(p, y) && p.noDataOnEnding) ? 'from-nlsdarkblue bg-gradient-to-r p-2 text-white border-b-1' : 
+            ''"
+          class="m-1 p-0 text-xs border-l"
+        >
+          <span v-if="isInFundingPeriod(p, y)">{{ p.title }}</span>
+        </td>
+      </tr>
+    </table>
   </div>
 </template>
 
@@ -35,6 +62,12 @@ export default defineComponent({
     const network = ref([]);
     const networkLinks = ref([]);
 
+    const years = ref([]);
+    const projects = ref([]);
+
+    let start = new Date().getFullYear();
+    let finish = new Date().getFullYear();
+
     let svg = null;
     const width = 1000;
     const height = 640;
@@ -56,16 +89,59 @@ export default defineComponent({
           Object.keys(responseIndex.data).map((uuid, key) => {
             axios.get(`https://raw.githubusercontent.com/Closing-the-Gap-in-NLS-DH/Projects/master${responseIndex.data[uuid].path}${uuid}.json`)
               .then((responseProject) => {
-                network.value.push({
-                  _n: key,
-                  _key: uuid,
-                  // Need to clean this up
-                  id: key,
-                  _id: responseProject.data.record_metadata.uuid,
-                  project: responseProject.data.project,
-                  source: `https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master${responseIndex.data[uuid].path}${uuid}.json`,
+                const period = [];
+                let noEnding = false;
+                responseProject.data.project.date.map((p) => {
+                  if (p.from !== '') {
+                    let begin = Number(p.from);
+                    let end = -1;
+                    if (begin < start) start = begin;
+                    if (p.to !== '') {
+                      end = Number(p.to);
+                    } else noEnding = true;
+                    if (end > finish) finish = end;
+                    period.push([begin, end]);
+                  }
+                });
+                if (period.length) {
+                  projects.value.push({
+                    title: responseProject.data.project.title,
+                    periods: period,
+                    noDataOnEnding: noEnding,
+                  });
+                }
+              /*
+                const projectPeriods = [];
+                console.log(responseProject.data.project);
+                responseProject.data.project.date.map((p) => {
+                  if (p.from !== '') {
+                    let begin = Number(p.from);
+                    let end = (p.to !== '') ? Number(p.to) : new Date().getFullYear();
+
+                    for (let i =begin; i <= end; i += 1) {
+                      console.log(i);
+                      projectPeriods.push(i);
+                    }
+                  }
                 });
 
+                for (let i = 0; i < projectPeriods.length; i += 1) {
+                  let exists = false;
+                  for (let j = 0; j < years.value.length; j += 1) {
+                    if (projectPeriods[i] === years.value[j].year) {
+                      years.value[j].count += 1;
+                      exists = true;
+                      break;
+                    }
+                  }
+                  if (!exists) {
+                    years.value.push({
+                      year: projectPeriods[i],
+                      count: 1,
+                    });
+                  }
+                }
+                */
                 responseProject.data.project.keywords.map((tag) => {
                   if (!tags.value.includes(tag)) tags.value.push(tag);
                 });
@@ -82,201 +158,52 @@ export default defineComponent({
       return promise;
     };
 
-    loadData().then(() => {
-      console.log('Jetzt');
+    const isInFundingPeriod = (project, year) => {
+      let result = null;
+      project.periods.map(period => {
+        if (year >= period[0] && year < period[1]) {
+          result = period[1] - period[0] + 1;
+        }
+      });
+      return result;
+    };
 
-      network.value.map((p, pKey) => {
-        ['parents', 'children', 'siblings'].map((target) => {
-          p.project[target].map((p2, p2Key) => {
-            if (p2.uuid) {
-              let source = pKey;
-              let target = 0;
-              let i = 0;
-              for (i; i < network.value.length; i += 1) {
-                if (network.value[i]._id === p2.uuid) {
-                  target = i;
-                  break;
-                }
-              }
-              let exists = false;
-              networkLinks.value.map((n, nKey) => {
-                if (
-                  (n.source === source && n.target === target) ||
-                  (n.source === target && n.target === source)
-                ) exists = true;
-              });
-              if (!exists) networkLinks.value.push({
-                id: `${source}_${target}`,
-                source,
-                target
-              });
-            }
-          });
-          /*
-          if (p.project[target] && p.project[target].length > 0) {
-            p.project[target].map((p2) => {
-              network.value.map((targetP, tPKey) => {
-                if (p2.uuid === targetP._key) {
-                  let exists = false;
-                  networkLinks.value.map((l) => {
-                    if (
-                      (key === l.source && tPKey === l.target)
-                      || (key === l.target && tPKey === l.source)
-                    ) {
-                      exists = true;
-                    } 
-                  });
-                  if (!exists) networkLinks.value.push({
-                    source: key, 
-                    target: tPKey,
-                  });
-                }
-              });
-            });
-          } */
+    const filteredProjectYears = (project, years) => {
+      const newYearArr = [...years];
+      const yearsToDel = [];
+      project.periods.map((period, periodKey) => {
+        for (let i = period[0] + 1; i <= period[1]; i += 1) {
+          yearsToDel.push(i);
+        }
+      });
+      yearsToDel.map((y) => {
+        newYearArr.splice(newYearArr.indexOf(y), 1);
+      });
+      if (project.title.includes('Topoi')) console.log(newYearArr)
+      return newYearArr;
+    };
+
+    loadData().then(() => {
+      for (let i = start; i <= finish; i += 1) {
+        years.value.push(i);
+      }
+      projects.value.map((p, i) => {
+        p.periods.map((pp, pi) => {
+          if (pp[1] === -1) projects.value[i].periods[pi][1] = finish;
         });
       });
-
-      console.log(network.value);
-      console.log(networkLinks);
-
-      const svg = d3.select('#networkgraph')
-        .append('svg')
-        .attr('width', width)
-        .attr('height', height)
-
-      const forceNode = d3.forceManyBody().strength(-20);
-      const forceLink = d3.forceLink(networkLinks.value)
-        .id(link => link.id);
-
-      const simulation = d3.forceSimulation(network.value)
-        .force("link", forceLink)
-        .force("charge", forceNode)
-        .force('collision', d3.forceCollide().radius(10))
-        .force("center",  d3.forceCenter(width / 2, height / 2))
-        .on("tick", ticked);
-
-      const nodeElements = svg.append('g')
-        .selectAll('circle')
-        .data(network.value)
-        .enter().append('circle')
-          .attr('r', 10)
-          .attr('fill', 'black')
-/*
-      const textElements = svg.append('g')
-        .selectAll('text')
-        .data(network.value)
-        .enter().append('text')
-          .text(node => node.project.title)
-          .attr('font-size', 15)
-          .attr('dx', 15)
-          .attr('dy', 4);
-*/
-      const linkElements = svg.append('g')
-        .selectAll('line')
-        .data(networkLinks.value)
-        .enter().append('line')
-          .attr('stroke-width', 1)
-          .attr('stroke', '#E5E5E5')
-
-      simulation.on('tick', () => {
-        simulation.nodes(network.value);
-
-        nodeElements
-          .attr('cx', (node) => {
-            return node.x = Math.max(10, Math.min(width - 10, node.x))
-          })
-          .attr('cy', (node) => {
-            return node.y = Math.max(10, Math.min(height - 10, node.y))
-          })
-          /*
-        textElements
-          .attr('x', node => node.x)
-          .attr('y', node => node.y)
-*/
-        linkElements
-          .attr("x1", d => d.source.x)
-          .attr("y1", d => d.source.y)
-          .attr("x2", d => d.target.x)
-          .attr("y2", d => d.target.y);
-      });
-
-      simulation.force('link').link(networkLinks.value)
-
-/*      
-    
-      svg = d3.select("#networkgraph")
-        .append("svg")
-        .attr("width", width)
-        .attr("height", height);
-
-      /* eslint-disable-next-line no-unused-vars */
-      /* const simulation = d3.forceSimulation(network.value)
-        .force('charge', d3.forceManyBody().strength(-10))
-        .force('center', d3.forceCenter(width / 2, height / 2))
-        .force('link', d3.forceLink().distance(100))
-        .on('tick', ticked); --
       
-      const simulation = d3.forceSimulation(network.value)
-        .force('charge', d3.forceManyBody())
-        .force('link', d3.forceLink(networkLinks.value).distance(50))
-        .force('center', d3.forceCenter(300, 300))
-
-        /* eslint-disable-next-line no-unused-vars --
-      const node = svg.selectAll('circle')
-        .data(network.value)
-        .enter()
-        .append('circle')
-        .attr('r', 10)
-        .attr('fill', 'black');
-      
-      const link = svg.selectAll('path.link')
-        .data(networkLinks.value)
-        .enter()
-        .append('line')
-        .attr('class', 'link')
-        .attr('stroke-width', '5')
-        .attr('stroke', 'black');
-
-      const lineGenerator = d3.line();
-      
-      simulation.on('tick', () => {
-        simulation.nodes(network.value);
-        simulation.force(networkLinks.value);
-        node.data(network.value).attr('cx', (d) => {
-          return d.x = Math.max(10, Math.min(width - 10, d.x));
-        })
-        node.attr('cy', (d) => {
-          return d.y = Math.max(10, Math.min(height - 10, d.y));
-        })
-        link
-          .data(networkLinks.value)
-          .enter()
-          .attr('d', (d) => {
-         lineGenerator([
-            [d.source.x, d.source.y], 
-            [d.target.x, d.target.y]
-          ]);
-        })
-      });
-      */
+      console.log(projects.value);
+      //Timeline
     }).catch((e) => {
       console.log(e);
     })
 
-    watchEffect(() => {
-      loadData();
-    });
-
-    watch(route, (to) => {
-      if (!to.hash) {
-        resetData();
-        loadData();
-      }
-    });
-
     return {
-      
+      projects,
+      years,
+      isInFundingPeriod,
+      filteredProjectYears
     };
   }
 });

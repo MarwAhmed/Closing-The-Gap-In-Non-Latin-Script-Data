@@ -42,7 +42,6 @@ export default defineComponent({
             }
           };
         case 'cat': 
-          console.log('Link', props.link);
           return {
             name: 'projectCategories',
             params: {
@@ -53,7 +52,6 @@ export default defineComponent({
       }
     });
 
-    console.log(targetArr);
     return {
       isArabic,
       now,
