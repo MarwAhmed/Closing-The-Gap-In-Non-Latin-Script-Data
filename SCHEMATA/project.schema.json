@@ -252,17 +252,17 @@
               ],
               "properties": {
                 "raw": {
-                  "type": "array",
+                  "type": "object",
                   "description": "Information on raw research data",
                   "$ref": "#/definitions/data"
                 },
                 "refined": {
-                  "type": "array",
+                  "type": "object",
                   "description": "Information on refined research data",
                   "$ref": "#/definitions/data"
                 },
                 "final": {
-                  "type": "array",
+                  "type": "object",
                   "description": "Information on final and publication-ready research data",
                   "$ref": "#/definitions/data"
                 }
