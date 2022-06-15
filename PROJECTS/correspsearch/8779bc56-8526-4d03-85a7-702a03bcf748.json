@@ -95,14 +95,18 @@
       }
     ],
     "research_data": {
-      "lang": [],
+      "lang": [
+        "de", "en"
+      ],
       "publications": {
         "access": {
-          "open": 0.0,
-          "closed": 100.0,
+          "open": 100.0,
+          "closed": 0.0,
           "margin": 0.0
         },
-        "licensing": []
+        "licensing": [
+          "CC-BY 4.0"
+        ]
       },
       "data": {
         "raw": {
@@ -110,23 +114,88 @@
         "refined": {
         },
         "final": {
+          "datatypes": [
+            {
+              "label": "TEI-XML",
+              "licensing": [
+                "CC-BY 4.0"
+              ],
+              "access": {
+                "open": 100.0,
+                "closed": 0.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "remote",
+              "accessibility": "closed",
+              "ref": [],
+              "description": "internal gitlab"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [
+                "https://github.com/correspSearch"
+              ],
+              "description": "github"
+            },
+          ]
         }
       }
     },
     "stack": {
-      "database": [],
-      "backend": [],
-      "frontend": [],
-      "tools": [],
-      "languages": []
+      "database": [
+        "eXist-db"
+      ],
+      "backend": [
+        "elasticSearch"
+      ],
+      "frontend": [
+        "vue", "xslt"
+      ],
+      "tools": [
+        {
+          "label": "csHarvester",
+          "self_developed": true,
+          "ref": "https://github.com/correspSearch/csHarvester",
+          "purpose": "Harvesting and validation of CMIF-files"
+        },
+        {
+          "label": "csIngest",
+          "self_developed": true,
+          "ref": "",
+          "purpose": "Ingest of the CMIF data into elasticSearch"
+        },
+        {
+          "label": "CMIF Creator",
+          "self_developed": true,
+          "ref": "https://github.com/correspSearch/CMIF-Creator",
+          "purpose": "Browser-based CMIF creation"
+        },
+        {
+          "label": "csLink",
+          "self_developed": true,
+          "ref": "https://github.com/correspSearch/csLink",
+          "purpose": "Widget that shows connections in letter networks"
+        },
+      ],
+      "languages": [
+        "xml", "xquery", "javascript", "python", "xslt", "html", "css" 
+      ]
     },
-    "policies": [],
+    "policies": [
+    ],
     "keywords": [
       "digital_edition",
       "digital_letter_indexes",
       "ger",
       "letters",
-      "webservice"
+      "webservice",
+      "cmif",
+      "tei"
     ],
     "comment": ""
   }
