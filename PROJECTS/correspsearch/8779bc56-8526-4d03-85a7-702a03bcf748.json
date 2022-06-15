@@ -13,19 +13,23 @@
   },
   "project": {
     "title": "CorrespSearch",
-    "abbr": "",
+    "abbr": "cS",
     "type": "project",
     "ref": [],
     "date": [
       {
         "from": "2017",
-        "to": ""
+        "to": "2019"
+      },   
+      {
+        "from": "2020",
+        "to": "2022"
       }
     ],
     "websites": [
       "https://correspsearch.net/de/start.html"
     ],
-    "project_desc": "Development of a web service which offers an extensive collection of letter editions for research objectives. It enables to search through the indexes of digital and printed editions based on sender, receiver, place or date. ",
+    "project_desc": "Web service that offers an extensive collection of metadata for letter editions. It enables to search through the indexes of digital and printed editions based on sender, receiver, place or date. ",
     "places": [
       {
         "place_name": {
