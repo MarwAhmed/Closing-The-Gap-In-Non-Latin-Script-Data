@@ -20,7 +20,7 @@
       {
         "from": "2017",
         "to": "2019"
-      },   
+      },
       {
         "from": "2020",
         "to": "2022"
@@ -100,7 +100,8 @@
     ],
     "research_data": {
       "lang": [
-        "de", "en"
+        "de",
+        "en"
       ],
       "publications": {
         "access": {
@@ -113,10 +114,8 @@
         ]
       },
       "data": {
-        "raw": {
-        },
-        "refined": {
-        },
+        "raw": {},
+        "refined": {},
         "final": {
           "datatypes": [
             {
@@ -145,7 +144,7 @@
                 "https://github.com/correspSearch"
               ],
               "description": "github"
-            },
+            }
           ]
         }
       }
@@ -158,7 +157,8 @@
         "elasticSearch"
       ],
       "frontend": [
-        "vue", "xslt"
+        "vue",
+        "xslt"
       ],
       "tools": [
         {
@@ -184,22 +184,29 @@
           "self_developed": true,
           "ref": "https://github.com/correspSearch/csLink",
           "purpose": "Widget that shows connections in letter networks"
-        },
+        }
       ],
       "languages": [
-        "xml", "xquery", "javascript", "python", "xslt", "html", "css" 
+        "xml",
+        "xquery",
+        "javascript",
+        "python",
+        "xslt",
+        "html",
+        "css"
       ]
     },
-    "policies": [
-    ],
+    "policies": [],
     "keywords": [
+      "cmif",
+      "de",
       "digital_edition",
       "digital_letter_indexes",
+      "en",
       "ger",
       "letters",
-      "webservice",
-      "cmif",
-      "tei"
+      "tei",
+      "webservice"
     ],
     "comment": ""
   }

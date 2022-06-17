@@ -1,0 +1,183 @@
+{
+  "schema_version": "0.1.5",
+  "record_metadata": {
+    "uuid": "d0bda69f-d8c4-4521-ab18-af2c097ffcfc",
+    "record_created": "2022-06-16",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Compilation and critical edition of pre-19th century Kurmanji Kurdish",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2014-10",
+        "to": "2016-06"
+      }
+    ],
+    "websites": [
+      "https://www.uni-bamberg.de/aspra/forschung/projekte/compilation-and-critical-edition-of-pre-19th-century-kurmanji-kurdish/"
+    ],
+    "project_desc": "The main purpose of this project is to lay a foundation for serious academic research on the history of Kurdish, which until now is severely hampered due to the lack of written attestation prior to the 15th century. The project will thus compile a selection of 10 Kurdish texts from prior to 1800, transliterated in a standardized format and supplied with English translations and an authoritative critical apparatus. The texts will also be made fully accessible as a digital corpus, accompanied by a concordance, and the resulting two volumes will be published on the open-access portal of the University of Bamberg.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Bamberg",
+          "ref": [
+            "https://www.geonames.org/2952984/bamberg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.89873",
+          "lng": "10.90067"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Bamberg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7359.8"
+          ]
+        },
+        "websites": [
+          "https://www.uni-bamberg.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Bamberg",
+              "ref": [
+                "https://www.geonames.org/2952984/bamberg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Öpengin, Ergin",
+          "ref": [
+            "https://d-nb.info/gnd/1121608140"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.uni-bamberg.de/aspra/team/ehemalige-mitarbeitende/dr-ergin-oepengin/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "kur"
+      ],
+      "publications": {
+        "access": {
+          "open": 0.0,
+          "closed": 100.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "corpus_linguistics",
+      "kur",
+      "language_resources"
+    ],
+    "comment": ""
+  }
+}

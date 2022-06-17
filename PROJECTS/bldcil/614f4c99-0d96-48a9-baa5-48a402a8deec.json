@@ -1,0 +1,195 @@
+{
+  "schema_version": "0.1.5",
+  "record_metadata": {
+    "uuid": "614f4c99-0d96-48a9-baa5-48a402a8deec",
+    "record_created": "2022-06-16",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Bamberg Lexical Database for Contemporary Iranian Languages",
+    "abbr": "BLDCIL",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2016",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://www.uni-bamberg.de/en/aspra/research/projects/bamberg-lexical-database-for-contemporary-iranian-languages-bldcil/"
+    ],
+    "project_desc": "The aim of this project is the sub-classification of Iranian languages which has proven to be a particularly recalcitrant problem in historical linguistics. BLDCIL will complement and extend existing scholarship by applying a novel phylogenetic methodology to this old problem. The research will be based on a compilation of standardized lexical data sets, together with sound files, from a representative set of Iranian languages, focusing initially on the West Iranian languages.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Bamberg",
+          "ref": [
+            "https://www.geonames.org/2952984/bamberg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.89873",
+          "lng": "10.90067"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Bamberg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7359.8"
+          ]
+        },
+        "websites": [
+          "https://www.uni-bamberg.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Bamberg",
+              "ref": [
+                "https://www.geonames.org/2952984/bamberg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Haig, Geoffrey",
+          "ref": [
+            "https://d-nb.info/gnd/1016008090"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.uni-bamberg.de/aspra/team/aktuelles-team/prof-dr-geoffrey-haig/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "bqi",
+        "ira",
+        "kur",
+        "mzn",
+        "per",
+        "tks",
+        "zum"
+      ],
+      "publications": {
+        "access": {
+          "open": 0.0,
+          "closed": 100.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "bqi",
+      "corpus_linguistics",
+      "ira",
+      "kur",
+      "language_resources",
+      "mzn",
+      "per",
+      "tks",
+      "zum"
+    ],
+    "comment": ""
+  }
+}

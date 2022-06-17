@@ -75,6 +75,10 @@
     "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
     "path": "/PROJECTS/bildverarbeitung_bestimmung_von_visuellen_manuskript_und_zeichenmerkmalen/"
   },
+  "614f4c99-0d96-48a9-baa5-48a402a8deec": {
+    "title": "Bamberg Lexical Database for Contemporary Iranian Languages",
+    "path": "/PROJECTS/bldcil/"
+  },
   "f87c6596-0ce3-4f2e-8ec5-ea5d17253bba": {
     "title": "Change Projekt - Wandel@FU-Bib",
     "path": "/PROJECTS/change_projekt/"
@@ -162,6 +166,10 @@
   "1b19963e-ffc5-48f0-a1b3-81553d601497": {
     "title": "Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments",
     "path": "/PROJECTS/digital_edition_of_the_coptic_old_testament/"
+  },
+  "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed": {
+    "title": "Documentation of Gorani, an endangered language of West Iran",
+    "path": "/PROJECTS/documentation_of_gorani/"
   },
   "6f32aa08-b11d-48f4-8a9d-8f76738dc62e ": {
     "title": "Doha Historical Dictionary (معجم الدوحة التأريخي للغة العربية)",
@@ -278,6 +286,14 @@
   "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e": {
     "title": "Country of Words: Reading and Reception of Palestinian Literature from 1948 to the Present",
     "path": "/PROJECTS/pal_read/"
+  },
+  "c1a2957b-0c24-46e6-9a67-381997525a87": {
+    "title": "Post-predicate Elements in Iranian: Inheritance, Contact, and Information Structure",
+    "path": "/PROJECTS/post_predicate_elements_in_iranian/"
+  },
+  "d0bda69f-d8c4-4521-ab18-af2c097ffcfc": {
+    "title": "Compilation and critical edition of pre-19th century Kurmanji Kurdish",
+    "path": "/PROJECTS/pre_19th_century_kurmanji_kurdish/"
   },
   "a9ca5d9f-47ab-4704-ad27-9a09e492ca2a": {
     "title": "Ptolemaeus Arabus et Latinus",
