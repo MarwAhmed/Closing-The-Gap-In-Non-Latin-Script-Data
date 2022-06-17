@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.5",
+  "schema_version": "0.1.6",
   "record_metadata": {
     "uuid": "",
     "record_created": "",
@@ -52,8 +52,9 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "",
@@ -74,11 +75,10 @@
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
+        "relations": []
       },
       {
+        "relation_type": "parent",
         "type": "project",
         "title": "",
         "ref": [
@@ -97,16 +97,16 @@
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
+        "relations": []
       },
       {
+        "relation_type": "parent",
         "type": "project",
         "title": "",
         "uuid": ""
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "",
@@ -117,8 +117,6 @@
         "uuid": ""
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {
