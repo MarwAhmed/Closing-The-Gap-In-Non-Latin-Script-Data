@@ -55,9 +55,9 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "Friedrich Schiller University Jena",
+          "text": "",
           "ref": [
-            "https://www.grid.ac/institutes/grid.9613.d"
+            "Friedrich Schiller University Jena"
           ]
         },
         "websites": [
