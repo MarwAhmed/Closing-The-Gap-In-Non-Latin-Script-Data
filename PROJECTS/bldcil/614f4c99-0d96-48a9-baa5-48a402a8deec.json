@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.5",
   "record_metadata": {
-    "uuid": "9078ff92-18f1-4019-a9f3-8c7d9aaa0db8",
-    "record_created": "07-06-2022",
+    "uuid": "614f4c99-0d96-48a9-baa5-48a402a8deec",
+    "record_created": "2022-06-16",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,37 +12,36 @@
     ]
   },
   "project": {
-    "title": "Belegwörterbuch der sabäischen Sprache",
-    "abbr": "Sabaweb",
+    "title": "Bamberg Lexical Database for Contemporary Iranian Languages",
+    "abbr": "BLDCIL",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2012",
-        "to": "2024"
+        "from": "2016",
+        "to": ""
       }
     ],
     "websites": [
-      "http://sabaweb.uni-jena.de/Sabaweb"
+      "https://www.uni-bamberg.de/en/aspra/research/projects/bamberg-lexical-database-for-contemporary-iranian-languages-bldcil/"
     ],
-    "project_desc": "This long-term project is dedicated to Sabaic language and aims to create a comprehensive dictionary based on a complete database of all known Sabaic inscriptions covering the period from 14th century BC to 6th century AD. The results of the project are available in an open-access online database which is fully searchable for Sabaic roots, words and forms.",
+    "project_desc": "The aim of this project is the sub-classification of Iranian languages which has proven to be a particularly recalcitrant problem in historical linguistics. BLDCIL will complement and extend existing scholarship by applying a novel phylogenetic methodology to this old problem. The research will be based on a compilation of standardized lexical data sets, together with sound files, from a representative set of Iranian languages, focusing initially on the West Iranian languages.",
     "places": [
       {
         "place_name": {
-          "text": "Jena",
+          "text": "Bamberg",
           "ref": [
-            "https://www.geonames.org/2895044/jena.html"
+            "https://www.geonames.org/2952984/bamberg.html"
           ]
         },
         "coordinates": {
-          "lat": "50.92878",
-          "lng": "11.5899"
+          "lat": "49.89873",
+          "lng": "10.90067"
         }
       }
     ],
     "lang": [
-      "eng",
-      "ger"
+      "eng"
     ],
     "topic_relations": {
       "nls": true,
@@ -55,20 +54,20 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "Friedrich Schiller University Jena",
+          "text": "University of Bamberg",
           "ref": [
-            "https://www.grid.ac/institutes/grid.9613.d"
+            "https://www.grid.ac/institutes/grid.7359.8"
           ]
         },
         "websites": [
-          "https://www.uni-jena.de/en"
+          "https://www.uni-bamberg.de/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "Jena",
+              "text": "Bamberg",
               "ref": [
-                "https://www.geonames.org/2895044/jena.html"
+                "https://www.geonames.org/2952984/bamberg.html"
               ]
             }
           }
@@ -83,20 +82,26 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Nebes, Norbert",
+          "text": "Haig, Geoffrey",
           "ref": [
-            "https://d-nb.info/gnd/1064027237"
+            "https://d-nb.info/gnd/1016008090"
           ]
         },
         "role": 0,
         "websites": [
-          "https://www.gw.uni-jena.de/nebes-norbert"
+          "https://www.uni-bamberg.de/aspra/team/aktuelles-team/prof-dr-geoffrey-haig/"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "xsa"
+        "bqi",
+        "ira",
+        "kur",
+        "mzn",
+        "per",
+        "tks",
+        "zum"
       ],
       "publications": {
         "access": {
@@ -175,9 +180,15 @@
       }
     ],
     "keywords": [
-      "corpus",
-      "online_dictionary",
-      "xsa"
+      "bqi",
+      "corpus_linguistics",
+      "ira",
+      "kur",
+      "language_resources",
+      "mzn",
+      "per",
+      "tks",
+      "zum"
     ],
     "comment": ""
   }
