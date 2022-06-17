@@ -1,31 +1,35 @@
 {
-  "schema_version": "0.1.3",
+  "schema_version": "0.1.5",
   "record_metadata": {
     "uuid": "8779bc56-8526-4d03-85a7-702a03bcf748",
     "record_created": "2022-02-09",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "2022-02-14",
-        "record_modified_by": "Kudela, Xenia Monika"
+        "record_modified_on": "2022-06-15",
+        "record_modified_by": "Müller-Laackman, Jonas"
       }
     ]
   },
   "project": {
     "title": "CorrespSearch",
-    "abbr": "",
+    "abbr": "cS",
     "type": "project",
     "ref": [],
     "date": [
       {
         "from": "2017",
-        "to": ""
+        "to": "2019"
+      },
+      {
+        "from": "2020",
+        "to": "2022"
       }
     ],
     "websites": [
       "https://correspsearch.net/de/start.html"
     ],
-    "project_desc": "Development of a web service which offers an extensive collection of letter editions for research objectives. It enables to search through the indexes of digital and printed editions based on sender, receiver, place or date. ",
+    "project_desc": "Web service that offers an extensive collection of metadata for letter editions. It enables to search through the indexes of digital and printed editions based on sender, receiver, place or date. ",
     "places": [
       {
         "place_name": {
@@ -96,16 +100,112 @@
     ],
     "research_data": {
       "lang": [
-        "ger"
+        "de",
+        "en"
+      ],
+      "publications": {
+        "access": {
+          "open": 100.0,
+          "closed": 0.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          "CC-BY 4.0"
+        ]
+      },
+      "data": {
+        "raw": {},
+        "refined": {},
+        "final": {
+          "datatypes": [
+            {
+              "label": "TEI-XML",
+              "licensing": [
+                "CC-BY 4.0"
+              ],
+              "access": {
+                "open": 100.0,
+                "closed": 0.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "remote",
+              "accessibility": "closed",
+              "ref": [],
+              "description": "internal gitlab"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [
+                "https://github.com/correspSearch"
+              ],
+              "description": "github"
+            }
+          ]
+        }
+      }
+    },
+    "stack": {
+      "database": [
+        "eXist-db"
+      ],
+      "backend": [
+        "elasticSearch"
+      ],
+      "frontend": [
+        "vue",
+        "xslt"
+      ],
+      "tools": [
+        {
+          "label": "csHarvester",
+          "self_developed": true,
+          "ref": "https://github.com/correspSearch/csHarvester",
+          "purpose": "Harvesting and validation of CMIF-files"
+        },
+        {
+          "label": "csIngest",
+          "self_developed": true,
+          "ref": "",
+          "purpose": "Ingest of the CMIF data into elasticSearch"
+        },
+        {
+          "label": "CMIF Creator",
+          "self_developed": true,
+          "ref": "https://github.com/correspSearch/CMIF-Creator",
+          "purpose": "Browser-based CMIF creation"
+        },
+        {
+          "label": "csLink",
+          "self_developed": true,
+          "ref": "https://github.com/correspSearch/csLink",
+          "purpose": "Widget that shows connections in letter networks"
+        }
+      ],
+      "languages": [
+        "xml",
+        "xquery",
+        "javascript",
+        "python",
+        "xslt",
+        "html",
+        "css"
       ]
     },
-    "stack": {},
     "policies": [],
     "keywords": [
+      "cmif",
+      "de",
       "digital_edition",
       "digital_letter_indexes",
+      "en",
       "ger",
       "letters",
+      "tei",
       "webservice"
     ],
     "comment": ""
