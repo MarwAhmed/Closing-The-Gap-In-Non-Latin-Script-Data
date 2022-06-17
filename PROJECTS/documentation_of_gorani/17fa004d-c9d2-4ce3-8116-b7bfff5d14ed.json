@@ -1,0 +1,306 @@
+{
+  "schema_version": "0.1.5",
+  "record_metadata": {
+    "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed",
+    "record_created": "2022-06-16",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Documentation of Gorani, an endangered language of West Iran",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2007",
+        "to": "2012"
+      }
+    ],
+    "websites": [
+      "https://dobes.mpi.nl/projects/gorani/",
+      "https://www.uni-bamberg.de/en/aspra/research/projects/documentation-of-gorani-an-endangered-language-of-west-iran/"
+    ],
+    "project_desc": "This project aims at documenting the endangered language and cultural practices of the Gorani speech community in western Iran. It will provide a collection of film recordings, highlighting the importance of musical performances in all areas of Gorani folklore and culture, annotated collections of religious texts, traditional folklore, oral narratives (mainly from recent history), and everyday speech, descriptive grammatical sketch of the Gawraju’i variety of Gorani and an electronic lexicon with multimedia applications.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Bamberg",
+          "ref": [
+            "https://www.geonames.org/2952984/bamberg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.89873",
+          "lng": "10.90067"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Göttingen",
+          "ref": [
+            "https://www.geonames.org/2918632/goettingen.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.53443",
+          "lng": "9.93228"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Bamberg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7359.8"
+          ]
+        },
+        "websites": [
+          "https://www.uni-bamberg.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Bamberg",
+              "ref": [
+                "https://www.geonames.org/2952984/bamberg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Universität Hamburg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.9026.d"
+          ]
+        },
+        "websites": [
+          "http://www.uni-hamburg.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Hamburg",
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Göttingen",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7450.6"
+          ]
+        },
+        "websites": [
+          "http://www.uni-goettingen.de/en/1.html"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Göttingen",
+              "ref": [
+                "https://www.geonames.org/2918632/goettingen.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "project",
+        "title": "Dokumentation Bedrohter Sprachen (DoBeS)",
+        "ref": [
+          "https://www.wikidata.org/wiki/Q28134351"
+        ],
+        "websites": [
+          "https://dobes.mpi.nl/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": [
+                ""
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Haig, Geoffrey",
+          "ref": [
+            "https://d-nb.info/gnd/1016008090"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.uni-bamberg.de/aspra/team/aktuelles-team/prof-dr-geoffrey-haig/"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Paul, Ludwig",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q24043463"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.aai.uni-hamburg.de/voror/personen/paul.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Kreyenbroek, Philip G",
+          "ref": [
+            "https://d-nb.info/gnd/130880825"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.uni-goettingen.de/de/133087.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        ""
+      ],
+      "publications": {
+        "access": {
+          "open": 0.0,
+          "closed": 100.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "",
+      "corpus_linguistics",
+      "endangered_languages",
+      "language_resources"
+    ],
+    "comment": ""
+  }
+}
