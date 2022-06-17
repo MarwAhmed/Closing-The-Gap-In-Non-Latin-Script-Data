@@ -1,0 +1,237 @@
+{
+  "schema_version": "0.1.5",
+  "record_metadata": {
+    "uuid": "c1a2957b-0c24-46e6-9a67-381997525a87",
+    "record_created": "2022-06-16",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Post-predicate Elements in Iranian: Inheritance, Contact, and Information Structure",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2019-07-01",
+        "to": "2022-06-30"
+      }
+    ],
+    "websites": [
+      "https://www.uni-bamberg.de/aspra/forschung/projekte/post-predicate-elements-in-iranian/",
+      "https://multicast.aspra.uni-bamberg.de/resources/hambam/",
+      "https://multicast.aspra.uni-bamberg.de/resources/wowa/#top"
+    ],
+    "project_desc": "This project is dedicated to the study of the syntax of Iranian languages. It will investigate selected Middle Iranian corpora, and unrelated contact languages, in order to reconstruct the genesis and historical development of Iranian syntax with focus on largely ignored OVX (object-verb-oblique) word order type. The project´s results will be made available on two platforms: The Word Order in Western Asia Corpus and The HamBam Corpus (see project websites).",
+    "places": [
+      {
+        "place_name": {
+          "text": "Bamberg",
+          "ref": [
+            "https://www.geonames.org/2952984/bamberg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.89873",
+          "lng": "10.90067"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Hamadan",
+          "ref": [
+            "https://www.geonames.org/132144/hamadan.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "34.79922",
+          "lng": "48.51456"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "parents": [
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Bamberg",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.7359.8"
+          ]
+        },
+        "websites": [
+          "https://www.uni-bamberg.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Bamberg",
+              "ref": [
+                "https://www.geonames.org/2952984/bamberg.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      },
+      {
+        "type": "organisation",
+        "org_name": {
+          "text": "Bu-Ali Sina University",
+          "ref": [
+            "https://www.grid.ac/institutes/grid.411807.b"
+          ]
+        },
+        "websites": [
+          "http://www.basu.ac.ir/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Hamadan",
+              "ref": [
+                "https://www.geonames.org/132144/hamadan.html"
+              ]
+            }
+          }
+        ],
+        "parents": [],
+        "siblings": [],
+        "children": []
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Haig, Geoffrey",
+          "ref": [
+            "https://d-nb.info/gnd/1016008090"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.uni-bamberg.de/aspra/team/aktuelles-team/prof-dr-geoffrey-haig/"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Rasekh Mahand, Mohammad",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5962522#sitelinks-wikipedia"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://basu.ac.ir/en/~rasekh"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ira",
+        "per"
+      ],
+      "publications": {
+        "access": {
+          "open": 0.0,
+          "closed": 100.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "corpus_linguistics",
+      "ira",
+      "language_resources",
+      "per",
+      "syntax"
+    ],
+    "comment": ""
+  }
+}
