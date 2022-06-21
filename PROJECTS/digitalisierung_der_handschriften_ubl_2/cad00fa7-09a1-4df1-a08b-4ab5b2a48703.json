@@ -52,8 +52,9 @@
       "rdm": false,
       "infrastructure": false
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Universität Leipzig",
@@ -77,16 +78,15 @@
         "parents": [],
         "siblings": [],
         "children": []
-      }
-    ],
-    "children": [],
-    "siblings": [
+      },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig",
         "uuid": "0a75cf74-9cbe-4ce2-9799-ee16dcc1e88e"
       },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "Datenbankgestützte Erfassung, Erforschung und digitale Präsentation der Familienbibliothek Refaiya",
         "uuid": "38e6dfb4-730a-4a80-8090-4b7ea551b3c7"

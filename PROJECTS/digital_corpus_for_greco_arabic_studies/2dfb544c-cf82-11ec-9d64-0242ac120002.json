@@ -62,8 +62,9 @@
       "rdm": false,
       "infrastructure": false
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Harvard University",
@@ -89,6 +90,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Tufts University",
@@ -114,8 +116,6 @@
         "children": []
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

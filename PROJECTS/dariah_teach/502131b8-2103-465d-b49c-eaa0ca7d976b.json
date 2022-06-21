@@ -146,8 +146,9 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
@@ -156,11 +157,9 @@
           ]
         },
         "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb"
-      }
-    ],
-    "children": [],
-    "siblings": [
+      },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "Computational Literary Studies Infrastructure (CLS INFRA)",
         "uuid": "894f2c88-1713-480d-99cd-32d30f3c0ac2"

@@ -42,8 +42,9 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Die Nationale Forschungsdateninfrastruktur (NFDI)",
@@ -69,8 +70,6 @@
         "children": []
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

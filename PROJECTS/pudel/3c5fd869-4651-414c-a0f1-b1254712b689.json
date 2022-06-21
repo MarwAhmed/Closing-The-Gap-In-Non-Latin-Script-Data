@@ -50,8 +50,9 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
@@ -77,6 +78,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "project",
         "title": "Forschungsdatenmanagement in Sachsen (SaxFDM)",
         "ref": [],
@@ -98,8 +100,6 @@
         "children": []
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

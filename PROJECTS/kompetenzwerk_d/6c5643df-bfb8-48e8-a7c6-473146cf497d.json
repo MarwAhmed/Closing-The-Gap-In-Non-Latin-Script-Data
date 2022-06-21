@@ -55,8 +55,9 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
@@ -82,6 +83,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Leibniz-Institut für Geschichte und Kultur des östlichen Europa e.V.",
@@ -107,6 +109,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "das Leibniz-Institut für jüdische Geschichte und Kultur – Simon Dubnow e.V",
@@ -132,6 +135,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Institut für Sächsische Geschichte und Volkskunde e.V",
@@ -157,6 +161,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Sorbische Institut e.V. / serbski institut z.t.",
@@ -182,8 +187,6 @@
         "children": []
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

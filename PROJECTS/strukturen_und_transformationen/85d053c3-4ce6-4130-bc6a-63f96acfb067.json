@@ -63,8 +63,9 @@
       "rdm": false,
       "infrastructure": false
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Zentrum Grundlagenforschung Alte Welt",
@@ -111,6 +112,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
@@ -134,16 +136,15 @@
         "parents": [],
         "siblings": [],
         "children": []
-      }
-    ],
-    "children": [],
-    "siblings": [
+      },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "Altägyptisches Wörterbuch",
         "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760"
       },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "Corpus Coranicum",
         "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"

@@ -95,8 +95,9 @@
       "rdm": false,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Staatsbibliothek zu Berlin",
@@ -122,6 +123,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Universität Erfurt",
@@ -147,6 +149,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Leipzig University (LU)",
@@ -172,6 +175,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Bayerische Staatsbibliothek",
@@ -197,8 +201,6 @@
         "children": []
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

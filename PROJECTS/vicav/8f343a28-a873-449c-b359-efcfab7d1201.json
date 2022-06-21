@@ -51,8 +51,9 @@
       "rdm": false,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
@@ -78,6 +79,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Universität Wien",
@@ -103,6 +105,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "project",
         "title": "CLARIN_AT",
         "ref": [],
@@ -128,36 +131,39 @@
         ],
         "siblings": [],
         "children": []
-      }
-    ],
-    "children": [],
-    "siblings": [
+      },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "WIBARAB: What is Bedouin-Type Arabic'?",
         "uuid": "e9cb8ab1-2d2c-4cc3-a44d-a793220a8638"
       },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "Genesis Rabbah Loanwords",
         "uuid": "94044a63-eae5-4e1d-ba04-64874109fc36"
       },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "Shawi",
         "uuid": "68422d65-ccba-4dcb-8a0e-bd4f3f9e1dc9"
       },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "NoMansLand: Nomads' Manuscripts Landscape",
         "uuid": "e050deba-6e1d-4d82-851b-cf6c1f7187a5"
       },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "Linguistic dynamics in the Greater Tunis Area: a corpus-based approach (TUNICO)",
         "uuid": "79462111-75a7-4fa0-8e11-9d424293a074"
       },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "TUNOCENT",
         "uuid": "325a929a-6764-41e1-b452-6556209fa74f"

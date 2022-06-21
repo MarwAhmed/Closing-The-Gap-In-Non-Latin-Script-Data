@@ -50,8 +50,9 @@
       "rdm": false,
       "infrastructure": false
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Johannes Gutenberg-Universität Mainz",
@@ -77,8 +78,6 @@
         "children": []
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

@@ -63,8 +63,9 @@
       "rdm": false,
       "infrastructure": false
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
@@ -90,6 +91,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Universität Zürich",
@@ -113,16 +115,14 @@
         "parents": [],
         "siblings": [],
         "children": []
-      }
-    ],
-    "children": [
+      },
       {
+        "relation_type": "child",
         "type": "project",
         "title": "A Digital Typology of Arabic Documents",
         "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66"
       }
     ],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

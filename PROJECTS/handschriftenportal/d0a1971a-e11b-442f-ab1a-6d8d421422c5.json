@@ -87,8 +87,9 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Staatsbibliothek zu Berlin – Preußischer Kulturbesitz",
@@ -114,6 +115,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Universitätsbibliothek Leipzig",
@@ -139,6 +141,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Bayerische Staatsbibliothek München",
@@ -164,6 +167,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Herzog August Bibliothek Wolfenbüttel",
@@ -189,8 +193,6 @@
         "children": []
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

@@ -63,8 +63,9 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
@@ -75,6 +76,7 @@
         "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa"
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "CLARIN-D - European Research Infrastructure for Language Resources and Technology",
@@ -83,8 +85,6 @@
         "uuid": "b5604b8b-e9fa-43d3-af0d-ef287cc2fee7"
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

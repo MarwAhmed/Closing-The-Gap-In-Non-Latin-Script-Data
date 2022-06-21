@@ -51,8 +51,9 @@
       "rdm": false,
       "infrastructure": false
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "project",
         "title": "Katalogisierung der Orientalischen Handschriften in Deutschland (KOHD)",
         "ref": [],
@@ -100,8 +101,6 @@
         "children": []
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

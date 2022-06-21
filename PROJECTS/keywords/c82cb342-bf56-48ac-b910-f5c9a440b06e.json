@@ -48,8 +48,9 @@
       "rdm": null,
       "infrastructure": null
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "",
@@ -69,13 +70,12 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "project",
         "title": "",
         "uuid": ""
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {
