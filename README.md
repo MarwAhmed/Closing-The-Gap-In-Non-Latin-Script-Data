@@ -33,7 +33,7 @@ Feel free to discuss the schema in the GitHub issues.
 
 As for now, the easiest way to contribute to our database is to just send us your JSON file, so we can implement it to the store.
 
-### <a id="indexschema"></a>JSON Schema for Projects (`v0.1.5`)
+### <a id="indexschema"></a>JSON Schema for Projects (`v0.1.6`)
 
 See `TEMPLATES/project.json` for a template and `SCHEMATA/project.schema.json` for a comprehensive schema of the latest version.
 
