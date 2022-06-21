@@ -117,7 +117,28 @@
       }
     ],
     "children": [],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "project",
+        "title": "Multilingual Corpus of Annotated Spoken Texts",
+        "uuid": "b37c6bd1-90d3-4718-ab58-fb1d60873186"
+      },
+      {
+        "type": "project",
+        "title": "Bamberg Lexical Database for Contemporary Iranian Languages",
+        "uuid": "614f4c99-0d96-48a9-baa5-48a402a8deec"
+      },
+      {
+        "type": "project",
+        "title": "Documentation of Gorani, an endangered language of West Iran",
+        "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
+      },
+      {
+        "type": "project",
+        "title": "Compilation and critical edition of pre-19th century Kurmanji Kurdish",
+        "uuid": "d0bda69f-d8c4-4521-ab18-af2c097ffcfc"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
