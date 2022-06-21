@@ -304,8 +304,9 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
@@ -331,6 +332,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "The Dutch Language Institute",
@@ -356,6 +358,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Bulgarian Academy of Sciences",
@@ -381,6 +384,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Zagreb",
@@ -406,6 +410,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Cyprus University of Technology",
@@ -431,6 +436,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Charles University",
@@ -456,6 +462,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Copenhagen",
@@ -481,6 +488,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Center of Estonian Language Resources",
@@ -504,6 +512,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Helsinki",
@@ -529,6 +538,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Mannheim",
@@ -554,6 +564,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Institute for Language and Speech Processing",
@@ -579,6 +590,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Hungarian Academy of Sciences",
@@ -604,6 +616,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Árni Magnússon Institute for Icelandic Studies",
@@ -629,6 +642,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Institute for Computational Linguistics “A. Zampolli”",
@@ -654,6 +668,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Latvia",
@@ -679,6 +694,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Vytautas Magnus University",
@@ -704,6 +720,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Utrecht University",
@@ -729,6 +746,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Bergen",
@@ -754,6 +772,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Wrocław University of Science and Technology",
@@ -779,6 +798,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Lisbon",
@@ -804,6 +824,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Jožef Stefan Institute",
@@ -829,6 +850,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Gothenburg",
@@ -852,16 +874,14 @@
         "parents": [],
         "siblings": [],
         "children": []
-      }
-    ],
-    "children": [
+      },
       {
+        "relation_type": "child",
         "type": "project",
         "title": "CLARIN-D - European Research Infrastructure for Language Resources and Technology",
         "uuid": "b5604b8b-e9fa-43d3-af0d-ef287cc2fee7"
       }
     ],
-    "siblings": [],
     "contacts": [],
     "research_data": {
       "lang": []

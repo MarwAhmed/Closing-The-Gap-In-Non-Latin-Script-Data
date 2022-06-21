@@ -91,8 +91,9 @@
       "rdm": false,
       "infrastructure": false
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Maryland, College Park",
@@ -118,6 +119,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Leipzig University (LU)",
@@ -143,6 +145,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "The Aga Khan University (International)",
@@ -177,6 +180,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Vienna",
@@ -200,11 +204,9 @@
         "parents": [],
         "siblings": [],
         "children": []
-      }
-    ],
-    "children": [],
-    "siblings": [
+      },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "Kitab",
         "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df"

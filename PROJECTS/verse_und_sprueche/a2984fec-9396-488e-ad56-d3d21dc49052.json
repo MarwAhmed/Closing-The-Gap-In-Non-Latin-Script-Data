@@ -59,8 +59,9 @@
       "rdm": false,
       "infrastructure": false
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "FU Berlin",
@@ -86,6 +87,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "project",
         "title": "Episteme in Bewegung - Wissenstransfer von der Alten Welt bis in die Frühe Neuzeit",
         "ref": [],
@@ -105,16 +107,14 @@
         "parents": [],
         "siblings": [],
         "children": []
-      }
-    ],
-    "children": [
+      },
       {
+        "relation_type": "child",
         "type": "project",
         "title": "Glossarion",
         "uuid": "ee6404e6-57f0-4e11-bb4a-1bbd13b08cb7"
       }
     ],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

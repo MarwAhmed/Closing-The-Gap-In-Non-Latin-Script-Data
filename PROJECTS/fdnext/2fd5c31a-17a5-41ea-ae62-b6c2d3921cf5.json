@@ -91,8 +91,9 @@
       "rdm": true,
       "infrastructure": false
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
@@ -118,6 +119,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
@@ -143,6 +145,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Technische Universität Berlin",
@@ -168,6 +171,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Universität Potsdam",
@@ -193,6 +197,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Europa-Universität Viadrina Frankfurt (Oder)",
@@ -218,6 +223,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Brandenburgische Technische Universität Cottbus-Senftenberg",
@@ -243,8 +249,6 @@
         "children": []
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

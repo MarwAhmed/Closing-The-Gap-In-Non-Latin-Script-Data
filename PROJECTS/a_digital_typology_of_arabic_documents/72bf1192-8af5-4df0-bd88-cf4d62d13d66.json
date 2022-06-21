@@ -62,8 +62,9 @@
       "rdm": false,
       "infrastructure": false
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Universität Basel",
@@ -89,13 +90,12 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "project",
         "title": "Arabic Papyrology Database",
         "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9"
       }
     ],
-    "children": [],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

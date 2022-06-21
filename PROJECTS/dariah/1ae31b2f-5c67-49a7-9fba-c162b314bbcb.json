@@ -304,8 +304,9 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "French National Centre for Scientific Research",
@@ -331,6 +332,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Universidade Nova de Lisboa",
@@ -356,6 +358,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "National Research Council",
@@ -381,6 +384,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University College Cork",
@@ -406,6 +410,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Luxembourg",
@@ -431,6 +436,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Ghent University",
@@ -456,6 +462,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "International Institute of Social History",
@@ -481,6 +488,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Göttingen State and University Library",
@@ -506,6 +514,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Danish Agency for Science and Higher Education",
@@ -531,6 +540,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Warsaw",
@@ -556,6 +566,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Charles University",
@@ -581,6 +592,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
@@ -606,6 +618,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Institute of Contemporary History",
@@ -631,6 +644,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Institute of Ethnology and Folklore Research",
@@ -656,6 +670,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Sarajevo",
@@ -681,6 +696,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Serbian Academy of Sciences and Arts",
@@ -706,6 +722,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Sofia University",
@@ -731,6 +748,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Academy of Athens",
@@ -756,6 +774,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Cyprus University of Technology",
@@ -779,10 +798,9 @@
         "parents": [],
         "siblings": [],
         "children": []
-      }
-    ],
-    "children": [
+      },
       {
+        "relation_type": "child",
         "type": "organisation",
         "org_name": {
           "text": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
@@ -793,17 +811,18 @@
         "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa"
       },
       {
+        "relation_type": "child",
         "type": "project",
         "title": "Computational Literary Studies Infrastructure (CLS INFRA)",
         "uuid": "894f2c88-1713-480d-99cd-32d30f3c0ac2"
       },
       {
+        "relation_type": "child",
         "type": "project",
         "title": "DARIAH Reference Curriculum",
         "uuid": "502131b8-2103-465d-b49c-eaa0ca7d976b"
       }
     ],
-    "siblings": [],
     "contacts": [
       {
         "pers_name": {

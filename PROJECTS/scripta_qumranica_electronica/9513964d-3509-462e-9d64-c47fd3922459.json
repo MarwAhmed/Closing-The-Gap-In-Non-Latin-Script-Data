@@ -87,8 +87,9 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Akademie der Wissenschaften zu Göttingen",
@@ -114,6 +115,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Tel Aviv University",
@@ -139,6 +141,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Israel Antiquities Authority",
@@ -162,11 +165,9 @@
         "parents": [],
         "siblings": [],
         "children": []
-      }
-    ],
-    "children": [],
-    "siblings": [
+      },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "Qumran Digital: Text und Lexikon",
         "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836"

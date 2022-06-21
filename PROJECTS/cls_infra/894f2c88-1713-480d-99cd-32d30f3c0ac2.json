@@ -194,8 +194,9 @@
       "rdm": true,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "The Institute of the Polish Language of the Polish Academy of Sciences",
@@ -221,6 +222,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Potsdam",
@@ -246,6 +248,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
@@ -271,6 +274,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "National University of Distance Education",
@@ -296,6 +300,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "École Normale Supérieure de Lyon",
@@ -321,6 +326,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
@@ -346,6 +352,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Charles University",
@@ -371,6 +378,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
@@ -381,6 +389,7 @@
         "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb"
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Ghent University",
@@ -406,6 +415,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Belgrade Centre for Digital Humanities",
@@ -431,6 +441,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Royal Netherlands Academy of Arts and Sciences",
@@ -456,6 +467,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Trier",
@@ -481,6 +493,7 @@
         "children": []
       },
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "National University of Ireland, Galway",
@@ -504,11 +517,9 @@
         "parents": [],
         "siblings": [],
         "children": []
-      }
-    ],
-    "children": [],
-    "siblings": [
+      },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "DARIAH Reference Curriculum",
         "uuid": "502131b8-2103-465d-b49c-eaa0ca7d976b"

@@ -56,9 +56,7 @@
       "rdm": false,
       "infrastructure": true
     },
-    "parents": [],
-    "children": [],
-    "siblings": [],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

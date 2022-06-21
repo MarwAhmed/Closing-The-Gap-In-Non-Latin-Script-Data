@@ -54,8 +54,9 @@
       "rdm": false,
       "infrastructure": false
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "The Aga Khan University (International)",
@@ -88,11 +89,9 @@
         "parents": [],
         "siblings": [],
         "children": []
-      }
-    ],
-    "children": [],
-    "siblings": [
+      },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "OpenITI",
         "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f0"

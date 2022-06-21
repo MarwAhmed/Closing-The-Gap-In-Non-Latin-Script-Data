@@ -52,8 +52,9 @@
       "rdm": false,
       "infrastructure": true
     },
-    "parents": [
+    "relations": [
       {
+        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Centre for the Study of Manuscript Cultures",
@@ -98,16 +99,15 @@
         ],
         "siblings": [],
         "children": []
-      }
-    ],
-    "children": [],
-    "siblings": [
+      },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "Datenrepositorium Manuskriptkulturen",
         "uuid": "894dcf0c-7295-4fb8-b4ba-866a5ebe3310"
       },
       {
+        "relation_type": "sibling",
         "type": "project",
         "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
         "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826"
