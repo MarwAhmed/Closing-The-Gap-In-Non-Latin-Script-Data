@@ -75,9 +75,7 @@
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
+        "relations": []
       },
       {
         "relation_type": "sibling",

@@ -74,9 +74,7 @@
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
+        "relations": []
       },
       {
         "relation_type": "parent",
@@ -100,9 +98,7 @@
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
+        "relations": []
       },
       {
         "relation_type": "parent",
@@ -122,15 +118,14 @@
             }
           }
         ],
-        "parents": [
+        "relations": [
           {
+            "relation_type": "parent",
             "type": "project",
             "title": "CLARIN - European Research Infrastructure for Language Resources and Technology",
             "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8"
           }
-        ],
-        "siblings": [],
-        "children": []
+        ]
       },
       {
         "relation_type": "sibling",
