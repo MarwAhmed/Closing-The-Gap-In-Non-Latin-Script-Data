@@ -91,9 +91,7 @@
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
+        "relations": []
       },
       {
         "relation_type": "parent",
@@ -117,9 +115,7 @@
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
+        "relations": []
       }
     ],
     "contacts": [

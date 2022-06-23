@@ -71,8 +71,9 @@
             }
           }
         ],
-        "parents": [
+        "relations": [
           {
+            "relation_type": "parent",
             "type": "organisation",
             "org_name": {
               "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
@@ -92,11 +93,10 @@
                   ]
                 }
               }
-            ]
+            ],
+            "relations": []
           }
-        ],
-        "siblings": [],
-        "children": []
+        ]
       },
       {
         "relation_type": "sibling",

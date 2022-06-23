@@ -86,9 +86,7 @@
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
+        "relations": []
       },
       {
         "relation_type": "parent",
@@ -124,8 +122,9 @@
             }
           }
         ],
-        "parents": [
+        "relations": [
           {
+            "relation_type": "parent",
             "type": "organisation",
             "org_name": {
               "text": "Academy of the Arabic Language",
@@ -143,9 +142,11 @@
                   ]
                 }
               }
-            ]
+            ],
+            "relations": []
           },
           {
+            "relation_type": "parent",
             "type": "organisation",
             "org_name": {
               "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste",
@@ -165,9 +166,11 @@
                   ]
                 }
               }
-            ]
+            ],
+            "relations": []
           },
           {
+            "relation_type": "parent",
             "type": "organisation",
             "org_name": {
               "text": "Israel Academy of Sciences and Humanities",
@@ -187,11 +190,10 @@
                   ]
                 }
               }
-            ]
+            ],
+            "relations": []
           }
-        ],
-        "siblings": [],
-        "children": []
+        ]
       },
       {
         "relation_type": "child",

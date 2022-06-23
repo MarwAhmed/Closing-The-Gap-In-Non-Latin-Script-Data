@@ -86,8 +86,9 @@
             }
           }
         ],
-        "parents": [
+        "relations": [
           {
+            "relation_type": "parent",
             "type": "organisation",
             "org_name": {
               "text": "Universität Hamburg",
@@ -107,11 +108,10 @@
                   ]
                 }
               }
-            ]
+            ],
+            "relations": []
           }
-        ],
-        "siblings": [],
-        "children": []
+        ]
       }
     ],
     "contacts": [

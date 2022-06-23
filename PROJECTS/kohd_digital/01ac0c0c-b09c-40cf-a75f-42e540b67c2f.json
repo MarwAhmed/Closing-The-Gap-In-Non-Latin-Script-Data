@@ -70,8 +70,9 @@
             }
           }
         ],
-        "parents": [
+        "relations": [
           {
+            "relation_type": "parent",
             "type": "organisation",
             "org_name": {
               "text": "Akademie der Wissenschaften zu Göttingen",
@@ -92,13 +93,9 @@
                 }
               }
             ],
-            "parents": [],
-            "siblings": [],
-            "children": []
+            "relations": []
           }
-        ],
-        "siblings": [],
-        "children": []
+        ]
       }
     ],
     "contacts": [

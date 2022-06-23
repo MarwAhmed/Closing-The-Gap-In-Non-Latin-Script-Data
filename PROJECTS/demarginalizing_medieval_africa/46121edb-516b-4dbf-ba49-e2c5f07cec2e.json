@@ -87,8 +87,9 @@
             }
           }
         ],
-        "parents": [
+        "relations": [
           {
+            "relation_type": "parent",
             "type": "organisation",
             "org_name": {
               "text": "Universität Hamburg",
@@ -108,11 +109,10 @@
                   ]
                 }
               }
-            ]
+            ],
+            "relations": []
           }
-        ],
-        "siblings": [],
-        "children": []
+        ]
       },
       {
         "relation_type": "parent",
@@ -136,9 +136,7 @@
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
+        "relations": []
       },
       {
         "relation_type": "parent",
@@ -162,9 +160,7 @@
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
+        "relations": []
       },
       {
         "relation_type": "parent",
@@ -188,9 +184,7 @@
             }
           }
         ],
-        "parents": [],
-        "siblings": [],
-        "children": []
+        "relations": []
       },
       {
         "relation_type": "sibling",
