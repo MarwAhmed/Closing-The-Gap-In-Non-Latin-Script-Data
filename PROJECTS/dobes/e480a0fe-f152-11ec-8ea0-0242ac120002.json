@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "e480a0fe-f152-11ec-8ea0-0242ac120002",
+    "record_created": "2022-06-21",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Documentation of Endangered Languages / Dokumentation Bedrohter Sprachen",
+    "abbr": "DoBeS",
+    "type": "project",
+    "ref": [
+      "https://www.wikidata.org/wiki/Q28134351"
+    ],
+    "date": [
+      {
+        "from": "2000",
+        "to": "2011"
+      }
+    ],
+    "websites": [
+      "https://dobes.mpi.nl/"
+    ],
+    "project_desc": "DoBeS program was initiated in 2000 by the Volkswagen Foundation in order to document languages that are potentially in danger of becoming extinct within a few years’ time. It consisted of one archiving team and several documentation teams recording language data through fieldwork. Since the beginning of the pilot phase in 2000 the teams carried out 67 documentation projects collecting audio and video data in a close cooperation with the speech communities. The data are described with a set of standardized metadata categories and digitally archived according to open standards and made accessible. In addition, the archive has to take care of the long-term persistency of the digital material.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Hanover",
+          "ref": [
+            "https://www.geonames.org/6559065/hannover-landeshauptstadt.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.37362",
+          "lng": "9.73711"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Nijmegen",
+          "ref": [
+            "https://www.geonames.org/2750053/nijmegen.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.8425",
+          "lng": "5.85278"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "fra",
+      "ind",
+      "spa",
+      "por",
+      "rus"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Volkswagen Stiftung",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1766743"
+          ]
+        },
+        "websites": [
+          "https://www.volkswagenstiftung.de/",
+          "https://www.volkswagenstiftung.de/en/funding/documentation-of-endangered-languages"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Hanover",
+              "ref": [
+                "https://www.geonames.org/6559065/hannover-landeshauptstadt.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "Documentation of Gorani, an endangered language of West Iran",
+        "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Austin, Peter",
+          "ref": [
+            "https://d-nb.info/gnd/133996271"
+          ]
+        },
+        "role": 1,
+        "websites": [
+          "https://www.soas.ac.uk/staff/staff30592.php"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "endangered_languages"
+      ],
+      "publications": {
+        "access": {
+          "open": 0.0,
+          "closed": 100.0,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "endangered_languages",
+      "language_documentation",
+      "language_resources",
+      "linguistics"
+    ],
+    "comment": ""
+  }
+}
