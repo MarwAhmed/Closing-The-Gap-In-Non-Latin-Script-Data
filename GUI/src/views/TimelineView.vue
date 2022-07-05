@@ -1,37 +1,43 @@
 <template>
-  <div class="w-full visualbox">
+  <div class="w-full visualbox p-5">
     <!--
     <tag-list
       :taglist="tags"
     />
     -->
-    <h5>Timeline</h5>
-    <p>CAUTION! This timeline only contains projects of which we have gathered dedicated funding periods. Projects with unknown or incomplete funding data are not included.</p>
-    
-    <table class="box">
-      <tr> 
-        <th
-          v-for="(y, yKey) in years"
-          :key="yKey"
-          class="border-l text-xs px-2 pb-1"
-        >{{ y }}</th>
-      </tr>
-      <tr
-        v-for="(p, pKey) in projects"
-        :key="pKey"
-      >
-        <td
-          v-for="(y, yKey) in filteredProjectYears(p, years)"
-          :key="yKey"
-          :colspan="isInFundingPeriod(p, y)"
-          :class="(isInFundingPeriod(p, y) && !p.noDataOnEnding) ? 'bg-darkblue p-2 border-b-1' : 
-            (isInFundingPeriod(p, y) && p.noDataOnEnding) ? 'from-nlsdarkblue bg-gradient-to-r p-2 text-white border-b-1' : 
-            ''"
-          class="m-1 p-0 text-xs border-l"
+    <table class="table-fixed box">
+      <thead class="sticky top-0">
+        <tr>
+          <th :colspan="years.length + 1" class="text-left py-5 px-3 sticky top-0">
+            <p> CAUTION! This timeline contains projects of which we do not have consistend funding information yet. Projects with unknown or incomplete funding data are marked with an asterisk (*)</p>
+          </th>
+        </tr>
+        <tr class="border-y table-head sticky"> 
+          <th>Project</th>
+          <th
+            v-for="(y, yKey) in years"
+            :key="yKey"
+            class="border-l text-xs px-3 pb-1 sticky top-0"
+          >{{ y }}</th>
+        </tr>
+      </thead>
+      <tbody class="relative">
+        <tr
+          v-for="(p, pKey) in projects"
+          :key="pKey"
+          class="border-b timeline-row"
         >
-          <span v-if="isInFundingPeriod(p, y)">{{ p.title }}</span>
-        </td>
-      </tr>
+          <td class="whitespace-nowrap text-xs text-left first-col sticky p-2">
+            <a :href="p.source" target="_blank">{{ p.title }}</a> <span v-if="p.noDataOnEnding">*</span></td>
+          <td
+            v-for="(y, yKey) in years"
+            :key="yKey"
+            :class="(isInFundingPeriod(p, y) && !p.noDataOnEnding) ? 'bg-darkblue p-2 border-b-1 border-darkblue' : ''"
+            class="m-1 p-0 text-xs border-l"
+          >
+          </td>
+        </tr>
+      </tbody>
     </table>
   </div>
 </template>
@@ -108,6 +114,7 @@ export default defineComponent({
                     title: responseProject.data.project.title,
                     periods: period,
                     noDataOnEnding: noEnding,
+                    source: `https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master${responseIndex.data[uuid].path}${uuid}.json`,
                   });
                 }
               /*
@@ -159,13 +166,13 @@ export default defineComponent({
     };
 
     const isInFundingPeriod = (project, year) => {
-      let result = null;
+      let isFunded = false;
       project.periods.map(period => {
-        if (year >= period[0] && year < period[1]) {
-          result = period[1] - period[0] + 1;
+        if (year >= period[0] && year <= period[1]) {
+          isFunded = true;
         }
       });
-      return result;
+      return isFunded;
     };
 
     const filteredProjectYears = (project, years) => {

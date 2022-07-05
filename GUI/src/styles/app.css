@@ -126,3 +126,15 @@ a:hover {
 .elementcount {
   color: #fff;
 }
+
+.timeline-row:hover, .table-head {
+  background-color: #2e4a6151;
+}
+
+.border-darkblue {
+  border-left: 1px solid #202C39;
+}
+
+.first-col, .table-head {
+  z-index: 100;
+}
