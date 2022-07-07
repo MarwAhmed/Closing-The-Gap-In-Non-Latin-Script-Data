@@ -195,16 +195,11 @@
     },
     "policies": [],
     "keywords": [
-      "cmif",
-      "de",
+      "catalogue",
       "digital_edition",
-      "digital_letter_indexes",
-      "en",
       "eng",
       "ger",
-      "letters",
-      "tei",
-      "webservice"
+      "letters"
     ],
     "comment": ""
   }
