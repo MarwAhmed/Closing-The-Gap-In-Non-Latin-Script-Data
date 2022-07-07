@@ -398,9 +398,9 @@
                   <select class="mt-1 block w-full"
                     v-model="project.project.relations[relKey].relation_type"
                   >
-                    <option value="parents">Parent</option>
-                    <option value="siblings">Sibling</option>
-                    <option value="children">Child</option>
+                    <option value="parent">Parent</option>
+                    <option value="sibling">Sibling</option>
+                    <option value="child">Child</option>
                   </select>
                 </label>
                 <label>
@@ -504,6 +504,116 @@
                         class="mt-1 left w-full"
                         v-model="project.project.relations[relKey].websites[relWebsiteKey]"
                       />
+                    </div>
+                  </label>
+                  <!-- Places -->
+                  <label
+                    class="block col-span-2"
+                  >
+                    <span>Locations of the {{ project.project.relations[relKey].type.charAt(0).toUpperCase() + project.project.relations[relKey].type.slice(1) }}</span>
+                    <div 
+                      class="w-full"
+                    >
+                      <div
+                        class="flex flex-row mr-7 w-full"
+                        v-for="(place, placeKey) in project.project.relations[relKey].places"
+                        :key="placeKey"
+                      >
+                        <svg
+                          @click="project.project.relations[relKey].places.push({
+                              place_name: {
+                                text: '',
+                                ref: [''],
+                              },
+                              coordinates: {
+                                lat: '',
+                                lng: '',
+                              },
+                            })"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-6 w-6 mr-1 my-auto"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <svg
+                          v-if="project.project.relations[relKey].places.length > 1"
+                          @click="project.project.relations[relKey].places.splice(placeKey, 1)"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-6 w-6 mr-1 my-auto"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="border border-black rounded rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2">
+                          <label class="block">Name of the place
+                            <input
+                              type="text"
+                              class="mt-1 left w-full"
+                              v-model="project.project.relations[relKey].places[placeKey].place_name.text"
+                            />
+                          </label>
+                          <div>
+                            <label class="block">Authority File URIs of the place</label>
+                            <div
+                              v-for="(ref, refKey) in project.project.relations[relKey].places[placeKey].place_name.ref"
+                              class="flex flex-row ml-1"
+                              :key="refKey"
+                            >
+                              <svg
+                                @click="project.project.relations[relKey].places[placeKey].place_name.ref.push('')"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-6 w-6 mr-1 my-auto"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                              </svg>
+                              <svg
+                                v-if="project.project.relations[relKey].places[placeKey].place_name.ref.length > 1"
+                                @click="project.project.relations[relKey].places[placeKey].place_name.ref.splice(placeKey, 1)"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-6 w-6 mr-1 my-auto"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                              </svg>
+                              <input
+                                type="text"
+                                class="mt-1 left w-full"
+                                v-model="project.project.relations[relKey].places[placeKey].place_name.ref[refKey]"
+                              />
+                            </div>
+                          </div>
+                          <div class="block col-span-2">
+                            <div class="grid grid-cols-2 gap-2">
+                              <label>
+                                <span>Latitude</span> 
+                                <input
+                                  type="text"
+                                  class="mt-1 block w-full"
+                                  v-model="project.project.relations[relKey].places[placeKey].coordinates.lat"
+                                />
+                              </label>
+                              <label>
+                                <span>Longitude</span>
+                                <input
+                                  type="text"
+                                  class="mt-1 block w-full"
+                                  v-model="project.project.relations[relKey].places[placeKey].coordinates.lng"
+                                />
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </label>
                 </div>
@@ -1348,10 +1458,17 @@
           <textarea class="block w-full mt-1" v-model="project.project.comment"></textarea>
         </label>
         <a
+          v-if="output === null"
           class="block col-span-2 bubble p-3 rounded-2xl mt-2 button text-center"
-          :href="`data: text/json;charset=utf-8, ${encodeURIComponent(JSON.stringify(project, null, 2))}`"
-          :download="`${project.project.title.replace(' ', '_').toLowerCase()}.json`"
+          @click="generateJSON(project)"
         >Generate JSON</a>
+        <a
+          v-if="output !== null"
+          class="block col-span-2 bubble p-3 rounded-2xl mt-2 button text-center"
+          :href="`data: text/json;charset=utf-8, ${output}`"
+          :download="`${new Date().toISOString().split('T')[0]}_${project.project.title.replace(' ', '_').toLowerCase()}.json`"
+          @click="reset()"
+        >Download</a>
       </div>
     </div>
   </div>
@@ -1371,9 +1488,13 @@ export default defineComponent({
 //    tagList,
   },
   setup() {
+    let output = ref(null);
+    let oldRelArr = [];
+
     const projectList = ref([]);
     let keywordList = ref('');
     let data = null;
+
     const metadata = reactive({
       editor: '',
       creationDate: new Date().toISOString().split('T')[0],
@@ -1405,27 +1526,9 @@ export default defineComponent({
         key: 'final'
       }
     ]
-    const relationsTemplate = [
-      {
-        relation_type: 'parents',
-        type: 'project',
-        existingEntry: 'null', // Muss raus aus dem Objekt
-        title: '', // Muss noch abhängig von Org usw. gemacht werden
-        refs: [''],
-        websites: [''],
-        places: [
-          {
-            place_name: {
-              text: '',
-              ref: [''],
-            },
-          }
-        ],
-        relations: [],
-      }
-    ];
+   
     const project = reactive({
-      schema_version: '0.1.5',
+      schema_version: '0.1.6',
       record_metadata: {
         uuid: uuidv4(),
         record_created: new Date().toISOString().split('T')[0],
@@ -1465,7 +1568,29 @@ export default defineComponent({
           infrastructure: false,
           meta: false,
         },
-        relations: [...relationsTemplate],
+        relations: [
+          {
+            relation_type: 'parent',
+            type: 'project',
+            existingEntry: 'null', // Muss raus aus dem Objekt
+            title: '', // Muss noch abhängig von Org usw. gemacht werden
+            refs: [''],
+            websites: [''],
+            places: [
+              {
+                place_name: {
+                  text: '',
+                  ref: [''],
+                },
+                coordinates: {
+                  lat: '',
+                  lng: '',
+                },
+              }
+            ],
+            relations: [],
+          }
+        ],
         lang: [''],
         contacts: [
           {
@@ -1564,18 +1689,114 @@ export default defineComponent({
     };
 */
     const addRelation = () => {
-      project.relations.push(...relationsTemplate);
-      project.relations[project.relations.length - 1].relations = [...relationsTemplate];
+      console.log(project);
+      project.project.relations.push({
+        relation_type: 'parent',
+        type: 'project',
+        existingEntry: 'null', // Muss raus aus dem Objekt
+        title: '', // Muss noch abhängig von Org usw. gemacht werden
+        refs: [''],
+        websites: [''],
+        places: [
+          {
+            place_name: {
+              text: '',
+              ref: [''],
+            },
+            coordinates: {
+              lat: '',
+              lng: ''
+            }
+          }
+        ],
+        relations: [],
+      });
     };
 
     const addKeyword = () => {
       if (keywordList.value.includes(',')) {
-        project.keywords = keywordList.value.replace(/\s/ig, '').split(',');
+        project.project.keywords = keywordList.value.replace(/\s/ig, '').split(',');
       }
     };
 
-    const generateJSON = () => {
-      return 
+    const generateJSON = (project) => {
+      oldRelArr = project.project.relations;
+      console.log(projectList);
+      const newRelationArr = [];
+      project.project.relations.map(r => {
+        console.log(r);
+        if (r.type === 'project' && r.existingEntry === "null") {
+          newRelationArr.push({
+            relation_type: r.relation_type,
+            type: 'project',
+            title: r.title,
+            ref: r.refs,
+            websites: r.websites,
+            places: r.places,
+            relations: []
+          });
+        } else if (r.type === 'project' && r.existingEntry !== "null") {
+          projectList.value.map((p) => {
+            if (p.uuid === r.existingEntry) {
+              newRelationArr.push({
+                relation_type: r.relation_type,
+                type: 'project',
+                title: p.title,
+                uuid: r.existingEntry
+              })
+            }
+          });
+        } else if (r.type === 'organisation' && r.existingEntry === "null") {
+          newRelationArr.push({
+            relation_type: r.relation_type,
+            type: 'organisation',
+            org_name: {
+              text: r.title
+            },
+            websites: r.websites,
+            places: r.places,
+            relations: []
+          });
+        } else if (r.type === 'organisation' && r.existingEntry !== "null") {
+          projectList.value.map((p) => {
+            if (p.uuid === r.existingEntry) {
+              newRelationArr.push({
+                relation_type: r.relation_type,
+                type: 'organisation',
+                org_name: {
+                  text: p.title
+                },
+                uuid: r.existingEntry
+              })
+            }
+          })
+        }
+
+        project.project.relations = newRelationArr;
+        /* 
+        relation_type: 'parent',
+        type: 'project',
+        existingEntry: 'null', // Muss raus aus dem Objekt
+        title: '', // Muss noch abhängig von Org usw. gemacht werden
+        refs: [''],
+        websites: [''],
+        places: [
+          {
+            place_name: {
+              text: '',
+              ref: [''],
+            },
+          }
+        ],
+        relations: [],
+        */
+      });
+      output.value = encodeURIComponent(JSON.stringify(project, null, 2));
+    };
+
+    const reset = () => {
+      output.value = null;
+      project.project.relations = oldRelArr;
     };
 
     axios.get('https://raw.githubusercontent.com/Closing-the-Gap-in-NLS-DH/Projects/master/PROJECTS.json')
@@ -1598,6 +1819,8 @@ export default defineComponent({
       metadata,
       data,
       datatypes,
+      output,
+      reset
     };
   }
 });
