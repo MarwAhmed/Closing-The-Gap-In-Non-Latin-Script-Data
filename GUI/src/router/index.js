@@ -30,9 +30,9 @@ const routes = [
     component: () => import('../views/FormView.vue'),
   },
   {
-    path: '/network',
-    name: 'network',
-    component: () => import('../views/NetworkView.vue'),
+    path: '/timeline',
+    name: 'timeline',
+    component: () => import('../views/TimelineView.vue'),
   },
 ];
 

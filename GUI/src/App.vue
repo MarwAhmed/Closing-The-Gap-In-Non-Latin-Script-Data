@@ -40,8 +40,8 @@ export default {
         link: '/map',
       },
       {
-        label: 'Network',
-        link: '/network',
+        label: 'Timeline',
+        link: '/timeline',
       },
       {
         label: 'Contribute',
