@@ -2,6 +2,7 @@
   <div class="w-full">
     <div class="box m-5 rounded-2xl p-5">
       <h3 class="text-xl">Contribute (not yet working)</h3>
+      <h4 class="text-2xl text-left">Metadata</h4>
       <div class="grid grid-cols-2 gap-y-1 gap-x-4 text-left">
         <label class="block col-span-2">
           <span>Name of the Editor (Surname, Forename)</span>
@@ -165,7 +166,7 @@
         >
           <span>Locations of the {{ project.project.type.charAt(0).toUpperCase() + project.project.type.slice(1) }}</span>
           <div
-            class="grid grid-cols-2"
+            class="grid grid-cols-2 border border-black rounded rounded-xl p-4"
             v-for="(place, placeKey) in project.project.places"
             :key="placeKey"
           >
@@ -246,8 +247,29 @@
                 />
               </div>
             </div>
+            <div class="block col-span-2">
+              <div class="grid grid-cols-2 gap-2">
+                <label>
+                  <span>Latitude</span> 
+                  <input
+                    type="text"
+                    class="mt-1 block w-full"
+                    v-model="project.project.places[placeKey].coordinates.lat"
+                  />
+                </label>
+                <label>
+                  <span>Longitude</span>
+                  <input
+                    type="text"
+                    class="mt-1 block w-full"
+                    v-model="project.project.places[placeKey].coordinates.lng"
+                  />
+                </label>
+              </div>
+            </div>
           </div>
         </label>
+        
         <!-- Languages -->
         <label
           class="block col-span-2"
@@ -295,23 +317,43 @@
           <span>Topics</span>
           <div class="flex flex-row">
             <label class="mr-7">
-              <input type="checkbox" />
+              <input type="checkbox"
+                true-value="true"
+                false-value="false"
+                v-model="project.project.topic_relations.dh"
+              />
               <span class="ml-1">Digital Humanities</span>
             </label>
             <label class="mr-7">
-              <input type="checkbox" />
+              <input type="checkbox"
+                true-value="true"
+                false-value="false"
+                v-model="project.project.topic_relations.nls"
+              />
               <span class="ml-1">Non-Latin Script</span>
             </label>
             <label class="mr-7">
-              <input type="checkbox" />
+              <input type="checkbox"
+                true-value="true"
+                false-value="false"
+                v-model="project.project.topic_relations.rdm"
+              />
               <span class="ml-1">Research Data Management</span>
             </label>
             <label class="mr-7">
-              <input type="checkbox" />
+              <input type="checkbox"
+                true-value="true"
+                false-value="false"
+                v-model="project.project.topic_relations.infrastructure"
+              />
               <span class="ml-1">Infrastructure</span>
             </label>
             <label class="mr-7">
-              <input type="checkbox" />
+              <input type="checkbox"
+                true-value="true"
+                false-value="false"
+                v-model="project.project.topic_relations.meta"
+              />
               <span class="ml-1">Meta</span>
             </label>
           </div>
@@ -356,9 +398,9 @@
                   <select class="mt-1 block w-full"
                     v-model="project.project.relations[relKey].relation_type"
                   >
-                    <option value="parents">Parent</option>
-                    <option value="siblings">Sibling</option>
-                    <option value="children">Child</option>
+                    <option value="parent">Parent</option>
+                    <option value="sibling">Sibling</option>
+                    <option value="child">Child</option>
                   </select>
                 </label>
                 <label>
@@ -462,6 +504,116 @@
                         class="mt-1 left w-full"
                         v-model="project.project.relations[relKey].websites[relWebsiteKey]"
                       />
+                    </div>
+                  </label>
+                  <!-- Places -->
+                  <label
+                    class="block col-span-2"
+                  >
+                    <span>Locations of the {{ project.project.relations[relKey].type.charAt(0).toUpperCase() + project.project.relations[relKey].type.slice(1) }}</span>
+                    <div 
+                      class="w-full"
+                    >
+                      <div
+                        class="flex flex-row mr-7 w-full"
+                        v-for="(place, placeKey) in project.project.relations[relKey].places"
+                        :key="placeKey"
+                      >
+                        <svg
+                          @click="project.project.relations[relKey].places.push({
+                              place_name: {
+                                text: '',
+                                ref: [''],
+                              },
+                              coordinates: {
+                                lat: '',
+                                lng: '',
+                              },
+                            })"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-6 w-6 mr-1 my-auto"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <svg
+                          v-if="project.project.relations[relKey].places.length > 1"
+                          @click="project.project.relations[relKey].places.splice(placeKey, 1)"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-6 w-6 mr-1 my-auto"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="border border-black rounded rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2">
+                          <label class="block">Name of the place
+                            <input
+                              type="text"
+                              class="mt-1 left w-full"
+                              v-model="project.project.relations[relKey].places[placeKey].place_name.text"
+                            />
+                          </label>
+                          <div>
+                            <label class="block">Authority File URIs of the place</label>
+                            <div
+                              v-for="(ref, refKey) in project.project.relations[relKey].places[placeKey].place_name.ref"
+                              class="flex flex-row ml-1"
+                              :key="refKey"
+                            >
+                              <svg
+                                @click="project.project.relations[relKey].places[placeKey].place_name.ref.push('')"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-6 w-6 mr-1 my-auto"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                              </svg>
+                              <svg
+                                v-if="project.project.relations[relKey].places[placeKey].place_name.ref.length > 1"
+                                @click="project.project.relations[relKey].places[placeKey].place_name.ref.splice(placeKey, 1)"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-6 w-6 mr-1 my-auto"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                              </svg>
+                              <input
+                                type="text"
+                                class="mt-1 left w-full"
+                                v-model="project.project.relations[relKey].places[placeKey].place_name.ref[refKey]"
+                              />
+                            </div>
+                          </div>
+                          <div class="block col-span-2">
+                            <div class="grid grid-cols-2 gap-2">
+                              <label>
+                                <span>Latitude</span> 
+                                <input
+                                  type="text"
+                                  class="mt-1 block w-full"
+                                  v-model="project.project.relations[relKey].places[placeKey].coordinates.lat"
+                                />
+                              </label>
+                              <label>
+                                <span>Longitude</span>
+                                <input
+                                  type="text"
+                                  class="mt-1 block w-full"
+                                  v-model="project.project.relations[relKey].places[placeKey].coordinates.lng"
+                                />
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </label>
                 </div>
@@ -603,6 +755,691 @@
             </div>
           </div>
         </label>
+
+        <h4 class="text-2xl">Research Data</h4>
+        <!-- Languages -->
+        <label
+          class="block col-span-2"
+        >
+          <span>Languages of the research data of {{ project.project.type.charAt(0).toUpperCase() + project.project.type.slice(1) }} (ISO-639-2)</span>
+          <div 
+            class="flex flex-wrap"
+          >
+            <div
+              class="flex flex-row mr-7"
+              v-for="(lang, langKey) in project.project.research_data.lang"
+              :key="langKey"
+            >
+              <svg
+                @click="project.project.research_data.lang.push('')"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 mr-1 my-auto"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <svg
+                v-if="project.project.research_data.lang.length > 1"
+                @click="project.project.research_data.lang.splice(langKey, 1)"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 mr-1 my-auto"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <input
+                type="text"
+                class="mt-1 left w-20"
+                v-model="project.project.research_data.lang[langKey]"
+              />
+            </div>
+          </div>
+        </label>
+        <!-- Publications -->
+        <label
+          class="block col-span-2"
+        >
+          <span>Percentage of Publications available in OpenAccess: {{ project.project.research_data.publications.access.open }}%</span>
+          <div class="w-full mt-1 flex flex-row">
+            <span class="mx-2">0%</span>
+            <input type="range" class="w-full" v-model="project.project.research_data.publications.access.open" />
+            <span class="mx-2">100%</span>
+          </div>
+        </label>
+        <label
+          class="block col-span-2"
+        >
+          <span>Percentage of Publications available in ClosedAccess: {{ project.project.research_data.publications.access.closed }}%</span>
+          <div class="w-full mt-1 flex flex-row">
+            <span class="mx-2">0%</span>
+            <input type="range" class="w-full" v-model="project.project.research_data.publications.access.closed" />
+            <span class="mx-2">100%</span>
+          </div>
+        </label>
+        <label
+          class="block col-span-2"
+        >
+          <span>Approximate margin of error: {{ project.project.research_data.publications.access.margin }}%</span>
+          <div class="w-full mt-1 flex flex-row">
+            <span class="mx-2">0%</span>
+            <input type="range" class="w-full" v-model="project.project.research_data.publications.access.margin" />
+            <span class="mx-2">100%</span>
+          </div>
+        </label>
+        <!-- Licensing -->
+        <label
+          class="block col-span-2"
+        >
+          <span>Licenses under which the publications are published</span>
+          <div
+            class="flex flex-row"
+            v-for="(lic, licKey) in project.project.research_data.publications.licensing"
+            :key="licKey"
+          >
+            <svg
+              @click="project.project.research_data.publications.licensing.push('')"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <svg
+              v-if="project.project.research_data.publications.licensing.length > 1"
+              @click="project.project.research_data.publications.licensing.splice(licKey, 1)"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <input
+              type="text"
+              class="mt-1 left w-full"
+              v-model="project.project.research_data.publications.licensing[licKey]"
+            />
+          </div>
+        </label>
+        <!-- Datatypes -->
+        <div v-for="(dt, dtKey) in datatypes" :key="dtKey" class="block col-span-2">
+          <h5 class="text-xl mt-3">{{ dt.label }}</h5>
+          <div v-if="project.project.research_data.data[dt.key].datatypes.length === 0" class="flex flex-row mr-7 w-full">
+            <svg
+              @click="project.project.research_data.data[dt.key].datatypes.push({
+                  label: '',
+                  licensing: [
+                    ''
+                  ],
+                  access: {
+                    open: 0,
+                    closed: 0,
+                    margin: 0
+                  }
+                })"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-2 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg> Add Datatype
+          </div>
+          <div
+            class="flex flex-row mr-7 w-full"
+            v-for="(data, dataKey) in project.project.research_data.data[dt.key].datatypes"
+            :key="dataKey"
+          >
+            <svg
+              @click="project.project.research_data.data[dt.key].datatypes.push({
+                  label: '',
+                  licensing: [
+                    ''
+                  ],
+                  access: {
+                    open: 0,
+                    closed: 0,
+                    margin: 0
+                  }
+                })"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <svg
+              @click="project.project.research_data.data[dt.key].datatypes.splice(dataKey, 1)"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <div class="border border-black rounded rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2">
+              <!-- label -->
+              <label class="block col-span-2">
+                <span>Label for the Datatype</span>
+                <input
+                  type="text"
+                  v-model="data.label"
+                  class="mt-1 block w-full"
+                />
+              </label>
+              <!-- Access -->
+              <label
+                class="block col-span-2"
+              >
+                <span>Percentage of the Datatype available in OpenAccess: {{ data.access.open }}%</span>
+                <div class="w-full mt-1 flex flex-row">
+                  <span class="mx-2">0%</span>
+                  <input type="range" class="w-full" v-model="data.access.open" />
+                  <span class="mx-2">100%</span>
+                </div>
+              </label>
+              <label
+                class="block col-span-2"
+              >
+                <span>Percentage of the Datatype available in ClosedAccess: {{ data.access.closed }}%</span>
+                <div class="w-full mt-1 flex flex-row">
+                  <span class="mx-2">0%</span>
+                  <input type="range" class="w-full" v-model="data.access.closed" />
+                  <span class="mx-2">100%</span>
+                </div>
+              </label>
+              <label
+                class="block col-span-2"
+              >
+                <span>Approximate margin of error: {{ data.access.margin }}%</span>
+                <div class="w-full mt-1 flex flex-row">
+                  <span class="mx-2">0%</span>
+                  <input type="range" class="w-full" v-model="data.access.margin" />
+                  <span class="mx-2">100%</span>
+                </div>
+              </label>
+              <!-- Licensing -->
+              <label
+                class="block col-span-2"
+              >
+                <span>Licenses under which the Datatype is published</span>
+                <div
+                  class="flex flex-row"
+                  v-for="(lic, licKey) in data.licensing"
+                  :key="licKey"
+                >
+                  <svg
+                    @click="project.project.research_data.data[dt.key].datatypes[dataKey].licensing.push('')"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 mr-1 my-auto"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <svg
+                    v-if="data.licensing.length > 1"
+                    @click="project.project.research_data.data[dt.key].datatypes[dataKey].licensing.splice(licKey, 1)"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 mr-1 my-auto"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <input
+                    type="text"
+                    class="mt-1 left w-full"
+                    v-model="project.project.research_data.data[dt.key].datatypes[dataKey].licensing[licKey]"
+                  />
+                </div>
+              </label>
+            </div>
+          </div>
+          <!-- Repositories -->
+          <div v-if="project.project.research_data.data[dt.key].repositories.length === 0" class="flex flex-row mr-7 w-full">
+            <svg
+              @click="project.project.research_data.data[dt.key].repositories.push({
+                type: 'local',
+                accessibility: '',
+                ref: '',
+                description: ''
+              })"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-2 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg> Add Repository
+          </div>
+          <div
+            class="flex flex-row mr-7 w-full"
+            v-for="(repo, repoKey) in project.project.research_data.data[dt.key].repositories"
+            :key="repoKey"
+          >
+            <svg
+              @click="project.project.research_data.data[dt.key].repositories.push({
+                type: 'local',
+                accessibility: '',
+                ref: '',
+                description: ''
+              })"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <svg
+              @click="project.project.research_data.data[dt.key].repositories.splice(contactKey, 1)"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <div class="border border-black rounded rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2">
+              <h5 class="col-span-2 text-xl mt-3">Repository for {{ dt.label }}</h5>
+              <label class="block">
+                <span>Type</span>
+                <select class="mt-1 block w-full" v-model="project.project.research_data.data[dt.key].repositories[repoKey].type">
+                  <option value="remote">Remote</option>
+                  <option value="local">Local</option>
+                </select>
+              </label>
+              <label class="block">
+                <span>Accessibility</span>
+                <select class="mt-1 block w-full" v-model="project.project.research_data.data[dt.key].repositories[repoKey].accessibility">
+                  <option value="restricted">Restricted</option>
+                  <option value="open">Open</option>
+                </select>
+              </label>
+              <label class="block col-span-2" v-if="repo.type === 'remote'">
+                <span>Reference-URL or Link to the repository</span>
+                <input
+                  type="text"
+                  v-model="project.project.research_data.data[dt.key].repositories[repoKey].ref"
+                  class="mt-1 block w-full"
+                />
+              </label>
+              <label class="block col-span-2">
+                <span>Description or Label for the repository</span>
+                <input
+                  type="text"
+                  v-model="project.project.research_data.data[dt.key].repositories[repoKey].description"
+                  class="mt-1 block w-full"
+                />
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stack -->
+        <h5 class="text-xl mt-3">Stack</h5>
+        <label
+          class="block col-span-2"
+        >
+          <span>Database</span>
+          <div v-if="project.project.stack.database.length === 0" class="flex flex-row mr-7 w-full">
+            <svg
+              @click="project.project.stack.database.push('')"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-2 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg> Add Database Technology
+          </div>
+          <div
+            class="flex flex-row"
+            v-for="(db, dbKey) in project.project.stack.database"
+            :key="dbKey"
+          >
+            <svg
+              @click="project.project.stack.database.push('')"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <svg
+              @click="project.project.stack.database.splice(dbKey, 1)"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <input
+              type="text"
+              class="mt-1 left w-full"
+              v-model="project.project.stack.database[dbKey]"
+            />
+          </div>
+        </label>
+        <label
+          class="block col-span-2"
+        >
+          <span>Backend</span>
+          <div v-if="project.project.stack.backend.length === 0" class="flex flex-row mr-7 w-full">
+            <svg
+              @click="project.project.stack.backend.push('')"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-2 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg> Add Backend Technology
+          </div>
+          <div
+            class="flex flex-row"
+            v-for="(b, bKey) in project.project.stack.backend"
+            :key="bKey"
+          >
+            <svg
+              @click="project.project.stack.backend.push('')"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <svg
+              @click="project.project.stack.backend.splice(bKey, 1)"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <input
+              type="text"
+              class="mt-1 left w-full"
+              v-model="project.project.stack.backend[bKey]"
+            />
+          </div>
+        </label>
+        <label
+          class="block col-span-2"
+        >
+          <span>Frontend</span> 
+          <div v-if="project.project.stack.frontend.length === 0" class="flex flex-row mr-7 w-full">
+            <svg
+              @click="project.project.stack.frontend.push('')"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-2 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg> Add Frontend Technology
+          </div>
+          <div
+            class="flex flex-row"
+            v-for="(f, fKey) in project.project.stack.frontend"
+            :key="fKey"
+          >
+            <svg
+              @click="project.project.stack.frontend.push('')"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <svg
+              @click="project.project.stack.frontend.splice(fKey, 1)"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <input
+              type="text"
+              class="mt-1 left w-full"
+              v-model="project.project.stack.frontend[fKey]"
+            />
+          </div>
+        </label>
+        <label
+          class="block col-span-2"
+        >
+          <span>Programming, Query or Script Languages</span> 
+          <div v-if="project.project.stack.languages.length === 0" class="flex flex-row mr-7 w-full">
+            <svg
+              @click="project.project.stack.languages.push('')"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-2 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg> Add Language
+          </div>
+          <div
+            class="flex flex-row"
+            v-for="(l, lKey) in project.project.stack.languages"
+            :key="lKey"
+          >
+            <svg
+              @click="project.project.stack.languages.push('')"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <svg
+              @click="project.project.stack.languages.splice(lKey, 1)"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <input
+              type="text"
+              class="mt-1 left w-full"
+              v-model="project.project.stack.languages[lKey]"
+            />
+          </div>
+        </label>
+        <div class="col-span-2">
+          <h5 class="text-xl mt-3">Tools that were used and/or developed in the {{ project.project.type.charAt(0).toUpperCase() + project.project.type.slice(1) }}</h5>
+          <div v-if="project.project.stack.tools.length === 0" class="flex flex-row mr-7 w-full">
+            <svg
+              @click="project.project.stack.tools.push({
+                  label: '',
+                  self_developed: false,
+                  ref: '',
+                  purpose: ''
+                })"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-2 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg> Add Tool
+          </div>
+          <div
+            class="flex flex-row mr-7 w-full"
+            v-for="(tool, toolKey) in project.project.stack.tools"
+            :key="toolKey"
+          >
+            <svg
+              @click="project.project.stack.tools.push(
+                {
+                  label: '',
+                  self_developed: false,
+                  ref: '',
+                  purpose: ''
+                })"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <svg
+              @click="project.project.stack.tools.splice(toolKey, 1)"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <div class="border border-black rounded rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2">
+              <label class="block col-span-2">
+                <input type="checkbox" v-model="project.project.stack.tools[toolKey].self_developed" 
+                  true-value="true"
+                  false-value="false" />
+                <span class="ml-1">Is the tool self-developed?</span>
+              </label>
+              <label class="block col-span-2">
+                <span>Label for the tool</span>
+                <input
+                  type="text"
+                  v-model="project.project.stack.tools[toolKey].label"
+                  class="mt-1 block w-full"
+                />
+              </label>
+              <label class="block col-span-2">
+                <span>Reference-URL or Link to the Tool</span>
+                <input
+                  type="text"
+                  v-model="project.project.stack.tools[toolKey].ref"
+                  class="mt-1 block w-full"
+                />
+              </label>
+              <label class="block col-span-2">
+                <span>Purpose of the Tool</span>
+                <input
+                  type="text"
+                  v-model="project.project.stack.tools[toolKey].purpose"
+                  class="mt-1 block w-full"
+                />
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Policies -->
+        <div class="col-span-2">
+          <h5 class="text-xl mt-3">Policies that apply to the {{ project.project.type.charAt(0).toUpperCase() + project.project.type.slice(1) }}</h5>
+          <div v-if="project.project.policies.length === 0" class="flex flex-row mr-7 w-full">
+            <svg
+              @click="project.project.policies.push({
+                  type: '',
+                  uri: ''
+                })"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-2 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg> Add Policy
+          </div>
+          <div
+            class="flex flex-row mr-7 w-full"
+            v-for="(p, pKey) in project.project.policies"
+            :key="pKey"
+          >
+            <svg
+              @click="project.project.policies.push({
+                  type: '',
+                  uri: ''
+                })"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <svg
+              @click="project.project.policies.splice(pKey, 1)"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <div class="border border-black rounded rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2">
+              <label class="block col-span-2">
+                <span>Label for or Type of the Policy</span>
+                <input
+                  type="text"
+                  v-model="project.project.policies[pKey].label"
+                  class="mt-1 block w-full"
+                />
+              </label>
+              <label class="block col-span-2">
+                <span>Reference-URL or Link to the Policy</span>
+                <input
+                  type="text"
+                  v-model="project.project.policies[pKey].ref"
+                  class="mt-1 block w-full"
+                />
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="text-2xl mt-3">Other</h4>
         <!-- Keywords -->
         <label
           class="block col-span-2"
@@ -621,10 +1458,17 @@
           <textarea class="block w-full mt-1" v-model="project.project.comment"></textarea>
         </label>
         <a
+          v-if="output === null"
           class="block col-span-2 bubble p-3 rounded-2xl mt-2 button text-center"
-          :href="`data: text/json;charset=utf-8, ${encodeURIComponent(JSON.stringify(project, null, 2))}`"
-          :download="`${project.project.title.replace(' ', '_').toLowerCase()}.json`"
+          @click="generateJSON(project)"
         >Generate JSON</a>
+        <a
+          v-if="output !== null"
+          class="block col-span-2 bubble p-3 rounded-2xl mt-2 button text-center"
+          :href="`data: text/json;charset=utf-8, ${output}`"
+          :download="`${new Date().toISOString().split('T')[0]}_${project.project.title.replace(' ', '_').toLowerCase()}.json`"
+          @click="reset()"
+        >Download</a>
       </div>
     </div>
   </div>
@@ -644,9 +1488,13 @@ export default defineComponent({
 //    tagList,
   },
   setup() {
+    let output = ref(null);
+    let oldRelArr = [];
+
     const projectList = ref([]);
     let keywordList = ref('');
     let data = null;
+
     const metadata = reactive({
       editor: '',
       creationDate: new Date().toISOString().split('T')[0],
@@ -666,27 +1514,21 @@ export default defineComponent({
         label: 'Contractor, Honorar Staff or other'
       }
     ]
-    const relationsTemplate = [
+    const datatypes = [
       {
-        relation_type: 'parents',
-        type: 'project',
-        existingEntry: 'null', // Muss raus aus dem Objekt
-        title: '', // Muss noch abhängig von Org usw. gemacht werden
-        refs: [''],
-        websites: [''],
-        places: [
-          {
-            place_name: {
-              text: '',
-              ref: [''],
-            },
-          }
-        ],
-        relations: [],
+        label: 'Raw Data',
+        key: 'raw'
+      },{
+        label: 'Refined Data',
+        key: 'refined'
+      },{
+        label: 'Final Data',
+        key: 'final'
       }
-    ];
+    ]
+   
     const project = reactive({
-      schema_version: '0.1.5',
+      schema_version: '0.1.6',
       record_metadata: {
         uuid: uuidv4(),
         record_created: new Date().toISOString().split('T')[0],
@@ -719,7 +1561,36 @@ export default defineComponent({
             lng: '',
           },
         }],
-        relations: [...relationsTemplate],
+        topic_relations: {
+          dh: false,
+          nls: false,
+          rdm: false,
+          infrastructure: false,
+          meta: false,
+        },
+        relations: [
+          {
+            relation_type: 'parent',
+            type: 'project',
+            existingEntry: 'null', // Muss raus aus dem Objekt
+            title: '', // Muss noch abhängig von Org usw. gemacht werden
+            refs: [''],
+            websites: [''],
+            places: [
+              {
+                place_name: {
+                  text: '',
+                  ref: [''],
+                },
+                coordinates: {
+                  lat: '',
+                  lng: '',
+                },
+              }
+            ],
+            relations: [],
+          }
+        ],
         lang: [''],
         contacts: [
           {
@@ -735,25 +1606,197 @@ export default defineComponent({
             ]           
           }         
         ],
-        keywords: [''],
-        comment: '',
-
-      }
+        research_data: {
+          lang: [
+            ''
+          ],
+          publications: {
+            access: {
+              open: 0,
+              closed: 0,
+              margin: 0
+            },
+            licensing: [
+              ''
+            ]
+          },
+          data: {
+            raw: {
+              datatypes: [],
+              repositories: []
+            },
+            refined: {
+              datatypes: [],
+              repositories: []
+            },
+            final: {
+              datatypes: [],
+              repositories: []
+            }
+          }
+          },
+          stack: {
+            database: [],
+            backend: [],
+            frontend: [],
+            tools: [],
+            languages: []
+          },
+          policies: [],
+          keywords: [''],
+          comment: '',
+        }
     });
+/* Nice to have, might continue later
 
+    const adjustPubAccess = (target, e) => {
+      const oldVal = Number(project.project.research_data.publications.access[target]);
+      const newVal = Number(e.target.value);
+
+      console.log(oldVal, newVal);
+      console.log(project.project.research_data.publications.access);
+
+      if (target === 'open') {
+        if (newVal + project.project.research_data.publications.access.closed > 100) {
+          project.project.research_data.publications.access.open = newVal;
+
+          if (newVal - oldVal > 0)
+            project.project.research_data.publications.access.closed -= (newVal - oldVal);
+          else
+            project.project.research_data.publications.access.closed += (oldVal - newVal);
+          
+          if (project.project.research_data.publications.access.closed < 0) project.project.research_data.publications.access.closed = 0;
+        } else 
+          project.project.research_data.publications.access.open = newVal;
+      }
+
+      if (target === 'closed') {
+        if (newVal + project.project.research_data.publications.access.open > 100) {
+          project.project.research_data.publications.access.closed = newVal;
+
+          if (newVal - oldVal > 0)
+            project.project.research_data.publications.access.open -= (newVal - oldVal);
+          else
+            project.project.research_data.publications.access.open += (oldVal - newVal);
+          
+          if (project.project.research_data.publications.access.open < 0) project.project.research_data.publications.access.open = 0;
+        } else 
+          project.project.research_data.publications.access.closed = newVal;
+      }
+
+      if (target === 'margin') {
+      }
+    };
+*/
     const addRelation = () => {
-      project.relations.push(...relationsTemplate);
-      project.relations[project.relations.length - 1].relations = [...relationsTemplate];
+      console.log(project);
+      project.project.relations.push({
+        relation_type: 'parent',
+        type: 'project',
+        existingEntry: 'null', // Muss raus aus dem Objekt
+        title: '', // Muss noch abhängig von Org usw. gemacht werden
+        refs: [''],
+        websites: [''],
+        places: [
+          {
+            place_name: {
+              text: '',
+              ref: [''],
+            },
+            coordinates: {
+              lat: '',
+              lng: ''
+            }
+          }
+        ],
+        relations: [],
+      });
     };
 
     const addKeyword = () => {
       if (keywordList.value.includes(',')) {
-        project.keywords = keywordList.value.replace(/\s/ig, '').split(',');
+        project.project.keywords = keywordList.value.replace(/\s/ig, '').split(',');
       }
     };
 
-    const generateJSON = () => {
-      return 
+    const generateJSON = (project) => {
+      oldRelArr = project.project.relations;
+      console.log(projectList);
+      const newRelationArr = [];
+      project.project.relations.map(r => {
+        console.log(r);
+        if (r.type === 'project' && r.existingEntry === "null") {
+          newRelationArr.push({
+            relation_type: r.relation_type,
+            type: 'project',
+            title: r.title,
+            ref: r.refs,
+            websites: r.websites,
+            places: r.places,
+            relations: []
+          });
+        } else if (r.type === 'project' && r.existingEntry !== "null") {
+          projectList.value.map((p) => {
+            if (p.uuid === r.existingEntry) {
+              newRelationArr.push({
+                relation_type: r.relation_type,
+                type: 'project',
+                title: p.title,
+                uuid: r.existingEntry
+              })
+            }
+          });
+        } else if (r.type === 'organisation' && r.existingEntry === "null") {
+          newRelationArr.push({
+            relation_type: r.relation_type,
+            type: 'organisation',
+            org_name: {
+              text: r.title
+            },
+            websites: r.websites,
+            places: r.places,
+            relations: []
+          });
+        } else if (r.type === 'organisation' && r.existingEntry !== "null") {
+          projectList.value.map((p) => {
+            if (p.uuid === r.existingEntry) {
+              newRelationArr.push({
+                relation_type: r.relation_type,
+                type: 'organisation',
+                org_name: {
+                  text: p.title
+                },
+                uuid: r.existingEntry
+              })
+            }
+          })
+        }
+
+        project.project.relations = newRelationArr;
+        /* 
+        relation_type: 'parent',
+        type: 'project',
+        existingEntry: 'null', // Muss raus aus dem Objekt
+        title: '', // Muss noch abhängig von Org usw. gemacht werden
+        refs: [''],
+        websites: [''],
+        places: [
+          {
+            place_name: {
+              text: '',
+              ref: [''],
+            },
+          }
+        ],
+        relations: [],
+        */
+      });
+      output.value = encodeURIComponent(JSON.stringify(project, null, 2));
+    };
+
+    const reset = () => {
+      output.value = null;
+      project.project.relations = oldRelArr;
     };
 
     axios.get('https://raw.githubusercontent.com/Closing-the-Gap-in-NLS-DH/Projects/master/PROJECTS.json')
@@ -775,6 +1818,9 @@ export default defineComponent({
       roles,
       metadata,
       data,
+      datatypes,
+      output,
+      reset
     };
   }
 });
