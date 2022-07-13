@@ -2,9 +2,6 @@
 ### Closing the Gap in Non-Latin Script Data  
 
 Last edited: 12-07-2022
-<br>
-<br>
-<br>
 
 ## Introduction 
 Keywords should provide a general information about the topic, aim, result and type of a given project. To this end each project (except of RDM and infrastructure projects) should, if possible, contain at least one keyword for each category: 
@@ -16,8 +13,7 @@ Keywords should provide a general information about the topic, aim, result and t
 -	`other` – for any keywords not matching the above mentioned 
 
 For the most part, the number of keywords should not exceed 5  (research data languages excluded) - all written in lower-case and spaces are to be replaced with underscores. New keywords can be added if the existing ones do not relate to, or do not describe a given project properly. 
-<br>
-<br>
+
 ## List 
 
 1. Output
@@ -28,8 +24,6 @@ For the most part, the number of keywords should not exceed 5  (research data la
     -	`virtual_research_environment` - platforms offering tools and materials for Digital Humanities research
     -	`geographical_visualization`
     -	`network_analysis` – projects studying relationships between people, institutions, etc., e.g. tracking down the transmission of knowledge   
-<br>
-<br>
 
 2. Field
     -	`linguistics`
@@ -47,8 +41,6 @@ For the most part, the number of keywords should not exceed 5  (research data la
     -	`library`
     -	`african_studies`
     -	`biographical_research` – projects studying biographical or prosopographical data, e.g. databases with ancient people names, network analysis of relationships between Muslim scholars, etc. 
-<br>
-<br>
 
 3. Research object 
     -	General
@@ -59,8 +51,6 @@ For the most part, the number of keywords should not exceed 5  (research data la
         -	`old_testament`
         -	`letters`
         -	`endangered_languages`
-
-
     -	Specific 
         -	Text´s titles (except of main religious text mentioned in *general*)
             -	`kalila_and_dimna`
@@ -80,24 +70,17 @@ For the most part, the number of keywords should not exceed 5  (research data la
             -	`egypt`
             -	`palestine`
             -	`tunisia`
-<br>
-<br>
 
 4. Languages - [ISO-639-2-Codes](https://de.wikipedia.org/wiki/Liste_der_ISO-639-2-Codes)
 
-<br>
-<br>
 
 5. Infrastructure projects 
     -	`database` - databases, storages, archives etc. for research data produced in other projects
     -	`archive` – subcategory of database 
     -	`image_processing` 
     -	`manuscript_recovery`
-    -	`online_publishing`
-
-<br>
-<br>
-
+    -	`online_publishing`  
+      
 6. Other
     -	`dh_center`
     -	`excellence_cluster`

@@ -1,7 +1,14 @@
 <template>
   <div class="w-full">
     <div class="box m-5 rounded-2xl p-5">
-      <h3 class="text-xl">Contribute (not yet working)</h3>
+      <h3 class="text-xl">Contribute (alpha)</h3>
+      <p>This form is an alpha version, so bugs are likely to occur.
+        If anything doesn't work as expected, please open an issue on <a class="font-bold" href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/issues" target="_blank">github</a>.
+        Please make sure to provide as much information as possible for better reproducibility.
+        We will continue to develop this service to include additional features, like validation on entry, automatically acquired coordinates or an option to load and continue to work on existing files.
+      </p>
+      <p class="p-4 bubble my-3 rounded-xl">After you finished entering your data, you have to click <span class="font-bold">twice</span> on the button at the end: Once for generating the JSON and once for the download.
+        To populate your data into our database, please provide the JSON-file to our main contact: jonas.mueller-laackman@fu-berlin.de</p>
       <h4 class="text-2xl text-left">Metadata</h4>
       <div class="grid grid-cols-2 gap-y-1 gap-x-4 text-left">
         <label class="block col-span-2">
@@ -664,7 +671,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <div class="border border-black rounded rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2">
-              <label class="block">Name of the contact
+              <label class="block">Name of the contact (Surname, Forename)
                 <input
                   type="text"
                   class="mt-1 left w-full"
@@ -1466,9 +1473,14 @@
           v-if="output !== null"
           class="block col-span-2 bubble p-3 rounded-2xl mt-2 button text-center"
           :href="`data: text/json;charset=utf-8, ${output}`"
-          :download="`${new Date().toISOString().split('T')[0]}_${project.project.title.replace(' ', '_').toLowerCase()}.json`"
+          :download="`${project.record_metadata.uuid}.json`"
           @click="reset()"
         >Download</a>
+        <a
+          class="block col-span-2 reset-btn p-3 rounded-2xl mt-2 button text-center"
+          href="#"
+          @click="resetForm()"
+        >Reset Form</a>
       </div>
     </div>
   </div>
@@ -1526,8 +1538,7 @@ export default defineComponent({
         key: 'final'
       }
     ]
-   
-    const project = reactive({
+    const preset = {
       schema_version: '0.1.6',
       record_metadata: {
         uuid: uuidv4(),
@@ -1646,7 +1657,15 @@ export default defineComponent({
           keywords: [''],
           comment: '',
         }
-    });
+    };
+   
+    const project = reactive(JSON.parse(JSON.stringify(preset)));
+
+    const resetForm = () => {
+      if (confirm('Are you sure you want to reset the form?\n\nPlease make sure you saved your data as a JSON.\nAll the data you entered will be lost!')) {
+        Object.assign(project, preset);
+      }
+    };
 /* Nice to have, might continue later
 
     const adjustPubAccess = (target, e) => {
@@ -1721,7 +1740,6 @@ export default defineComponent({
 
     const generateJSON = (project) => {
       oldRelArr = project.project.relations;
-      console.log(projectList);
       const newRelationArr = [];
       project.project.relations.map(r => {
         console.log(r);
@@ -1773,23 +1791,9 @@ export default defineComponent({
         }
 
         project.project.relations = newRelationArr;
-        /* 
-        relation_type: 'parent',
-        type: 'project',
-        existingEntry: 'null', // Muss raus aus dem Objekt
-        title: '', // Muss noch abhängig von Org usw. gemacht werden
-        refs: [''],
-        websites: [''],
-        places: [
-          {
-            place_name: {
-              text: '',
-              ref: [''],
-            },
-          }
-        ],
-        relations: [],
-        */
+        Object.keys(project.project.topic_relations).map(k => {
+          project.project.topic_relations[k] = Boolean(project.project.topic_relations[k]);
+        });
       });
       output.value = encodeURIComponent(JSON.stringify(project, null, 2));
     };
@@ -1809,6 +1813,7 @@ export default defineComponent({
         });
       }); 
     return {
+      resetForm,
       project,
       projectList,
       addRelation,

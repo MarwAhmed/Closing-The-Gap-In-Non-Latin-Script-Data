@@ -138,3 +138,13 @@ a:hover {
 .first-col, .table-head {
   z-index: 100;
 }
+
+.reset-btn {
+  background-color: #a30000;
+  color: white;
+}
+
+.reset-btn:hover {
+  background-color: #4d0000;
+  color: white;
+}
