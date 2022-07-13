@@ -4,7 +4,6 @@
 
 [![Generic badge](https://img.shields.io/badge/IndexSchema-v0.1.1-blue.svg)](#indexschema)
 [![Generic badge](https://img.shields.io/badge/ProjectsSchema-v0.1.6-blue.svg)](#projectsschema)
-[![Generic badge](https://img.shields.io/badge/ResourcesSchema-v0.1.0-blue.svg)](#resourcesschema)
 
 # Closing the Gap in Non-Latin Script Data
 
@@ -12,7 +11,7 @@ The project aims to facilitate research in Digital Humanities projects dealing w
 
 This repository contains metadata information on projects and useful resources that can be loosely associated to the field of Digital Humanities and Non-Latin-Script-based research. This project is particularly interested in the situation of (digital) Arabic Studies and related fields.
 
-GUI (in development): https://m-l-d-h.github.io/Closing-The-Gap-In-Non-Latin-Script-Data
+Graphical User Interface: https://m-l-d-h.github.io/Closing-The-Gap-In-Non-Latin-Script-Data
 
 ## Contact
 Jonas Müller-Laackman
@@ -23,15 +22,23 @@ Jonas Müller-Laackman
 
 [@Orcid](https://orcid.org/0000-0003-2279-6751)
 
-## Contribution / Schema Documentation
+## Contribution
 
-In case you want to participate in collecting material for the collection of resources and projects, please follow this schema.
+You want to participate and contribute data on your project to our databse? That's great!
 
-The schema underlies continuous development. Existing entries are going to be automatically updated to newer versions of the schemas as far as possible. In case of issues, the creator or last editor will be contacted.
+You can either write plain JSON or use the form we provide on the Graphical User Interface. If you decide to use plain JSON, please follow the provided JSON schema.
 
-Feel free to discuss the schema in the GitHub issues.
+If you are not able or willing to write plain JSON, feel free to use the form we provide: https://m-l-d-h.github.io/Closing-The-Gap-In-Non-Latin-Script-Data/contribute
 
-As for now, the easiest way to contribute to our database is to just send us your JSON file, so we can implement it to the store.
+After you finished your work, just provide us with the final JSON file, so we can ingest it. The data will be available immediately after the file is added to the store.
+
+## Schema Documentation
+
+The schema underlies continuous development. Existing entries are not going to be automatically updated to newer versions of the schema. In case of issues, the creator or last editor will be contacted.
+
+Feel free to discuss possible improvements the schema in the GitHub issues.
+
+We will add a history of all upcoming schema versions beginning with `v0.1.6`.
 
 ### <a id="indexschema"></a>JSON Schema for Projects (`v0.1.6`)
 
