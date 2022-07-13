@@ -196,7 +196,9 @@
       "eng",
       "fre",
       "ger",
-      "quran"
+      "manuscripts",
+      "quran",
+      "religion_history"
     ],
     "comment": ""
   }

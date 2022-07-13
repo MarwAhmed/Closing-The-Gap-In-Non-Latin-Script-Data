@@ -299,6 +299,10 @@
     "title": "SaxFDM-Fokusprojekt: Publikationsdienst für wissenschaftliche Datenmodelle und Vokabulare",
     "path": "/PROJECTS/pudel/"
   },
+  "3c5b84d0-791c-43bc-ab68-7372478bc568": {
+    "title": "Qalamos",
+    "path": "/PROJECTS/qalamos/"
+  },
   "99718590-5e1e-4a64-bf84-6e2213ad1836": {
     "title": "Qumran Digital: Text und Lexikon",
     "path": "/PROJECTS/qumran_digital_text_und_lexikon/"
@@ -388,7 +392,7 @@
     "path": "/PROJECTS/wibarab/"
   },
   "5f3c2fbb-ca17-41c9-acdb-d3e147869400": {
-    "title": "Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s \"History of the Physicians\"",
+    "title": "Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s ’History of the Physicians’",
     "path": "/PROJECTS/wissensgemeinschaften/"
   }
 }

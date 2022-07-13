@@ -23,6 +23,7 @@
       }
     ],
     "websites": [
+      "https://gepris.dfg.de/gepris/projekt/203077103",
       "https://www.manuscript-cultures.uni-hamburg.de/Poster/INF_A4_P2.pdf",
       "https://www.manuscript-cultures.uni-hamburg.de/Projekte_p2.html"
     ],
@@ -136,13 +137,11 @@
     "stack": {},
     "policies": [],
     "keywords": [
+      "database",
       "eng",
       "ger",
-      "infrastructure",
-      "manuscript_research",
-      "repository",
-      "research_data_management"
+      "manuscripts"
     ],
-    "comment": ""
+    "comment": "Previous websites have been deleted"
   }
 }

@@ -197,10 +197,7 @@
     "stack": {},
     "policies": [],
     "keywords": [
-      "dh",
-      "dh_center",
-      "network",
-      "rdm"
+      "dh_center"
     ],
     "comment": ""
   }

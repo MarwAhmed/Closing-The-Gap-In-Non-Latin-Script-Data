@@ -1,0 +1,137 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "3c5b84d0-791c-43bc-ab68-7372478bc568",
+    "record_created": "2022-07-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Qalamos",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2023"
+      }
+    ],
+    "websites": [
+      "https://www.qalamos.net/content/index.xed"
+    ],
+    "project_desc": "Qalamos is the portal for manuscripts and block prints from Asian and African script traditions. It provides access to metadata and digitized copies of all of all collections kept in German memory institutions. In addition, it will create a research infrastructure that provides the international community with direct access to all relevant Oriental manuscript collections in Germany.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      }
+    ],
+    "topic_relations": {
+      "dh": true,
+      "nls": true,
+      "rdm": false,
+      "infrastructure": false,
+      "meta": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "project",
+        "title": "Orient-Digital",
+        "uuid": "a4fa5143-90d2-42ba-a8a1-424b09696b1c"
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Rauch, Christoph",
+          "ref": [
+            "https://d-nb.info/gnd/1102171662"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/service-und-benutzung/kontakt"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "per",
+        "tur"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": "0",
+          "margin": 0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "refined": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "final": {
+          "datatypes": [],
+          "repositories": []
+        }
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [],
+    "keywords": [
+      "ara",
+      "catalogue",
+      "library",
+      "manuscripts",
+      "per",
+      "tur"
+    ],
+    "comment": ""
+  }
+}
