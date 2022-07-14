@@ -101,9 +101,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Staatsbibliothek zu Berlin",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.461943.d"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q170109"
         },
         "websites": [
           "https://staatsbibliothek-berlin.de/"
@@ -148,7 +146,7 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Leipzig University (LU)",
+          "text": "Leipzig University",
           "ref": [
             "https://www.grid.ac/institutes/grid.9647.c"
           ]

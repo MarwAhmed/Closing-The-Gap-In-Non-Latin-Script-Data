@@ -60,10 +60,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Ludwig-Maximilians-Universität in Munich",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5252.0"
-          ]
+          "text": "Ludwig-Maximilians-Universität Munich",
+          "ref": "https://www.wikidata.org/wiki/Q156598"
         },
         "websites": [
           "https://www.lmu.de/"

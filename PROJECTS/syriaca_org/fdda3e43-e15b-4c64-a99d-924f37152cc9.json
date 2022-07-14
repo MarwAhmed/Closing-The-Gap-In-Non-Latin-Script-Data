@@ -103,9 +103,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Princeton University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.16750.35"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q21578"
         },
         "websites": [
           "https://www.princeton.edu/"
@@ -127,9 +125,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Marquette University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.259670.f"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q188370"
         },
         "websites": [
           "http://www.marquette.edu"
@@ -151,9 +147,7 @@
         "type": "organisation",
         "org_name": {
           "text": "New York University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.137628.9"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q49210"
         },
         "websites": [
           "http://www.nyu.edu"

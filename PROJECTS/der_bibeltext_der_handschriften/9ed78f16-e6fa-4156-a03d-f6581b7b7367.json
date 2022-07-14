@@ -60,10 +60,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Hochschule für Jüdische Studien",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.461653.3"
-          ]
+          "text": "Hochschule für Jüdische Studien Heidelberg",
+          "ref": "https://www.wikidata.org/wiki/Q1622186"
         },
         "websites": [
           "http://www.hfjs.eu"

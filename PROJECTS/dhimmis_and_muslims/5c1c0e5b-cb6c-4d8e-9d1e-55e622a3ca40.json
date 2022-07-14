@@ -83,9 +83,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Goethe-Universität Frankfurt am Main",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.7839.5"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q50662"
         },
         "websites": [
           "http://www.goethe-university-frankfurt.de/en?"
@@ -130,10 +128,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Humboldt University of Berlin",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q152087"
-          ]
+          "text": "Humboldt-Universität zu Berlin",
+          "ref": "https://www.wikidata.org/wiki/Q152087"
         },
         "websites": [
           "https://www.hu-berlin.de/de"

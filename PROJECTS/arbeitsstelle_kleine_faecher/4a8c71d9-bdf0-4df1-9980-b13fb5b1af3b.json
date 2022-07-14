@@ -56,9 +56,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Johannes Gutenberg-Universität Mainz",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5802.f"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q161982"
         },
         "websites": [
           "https://www.uni-mainz.de/"

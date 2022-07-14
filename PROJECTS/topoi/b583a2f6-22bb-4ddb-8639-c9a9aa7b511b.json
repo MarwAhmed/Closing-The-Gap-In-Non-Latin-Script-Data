@@ -62,9 +62,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.7468.d"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q152087"
         },
         "websites": [
           "https://www.hu-berlin.de"

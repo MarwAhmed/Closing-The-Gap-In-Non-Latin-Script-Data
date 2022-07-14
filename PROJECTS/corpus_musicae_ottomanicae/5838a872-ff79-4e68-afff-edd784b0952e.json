@@ -108,9 +108,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Max Weber Foundation International Humanities",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.469714.9"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q1913589"
         },
         "websites": [
           "http://www.maxweberstiftung.de/en/"
@@ -131,7 +129,7 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Orient-Institut Istanbul ",
+          "text": "Orient-Institut Istanbul",
           "ref": [
             "https://www.wikidata.org/wiki/Q15837722"
           ]

@@ -310,9 +310,7 @@
         "type": "organisation",
         "org_name": {
           "text": "French National Centre for Scientific Research",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.4444.0"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q280413"
         },
         "websites": [
           "http://www.cnrs.fr/index.php"
@@ -358,9 +356,7 @@
         "type": "organisation",
         "org_name": {
           "text": "National Research Council",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5326.2"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q1340198"
         },
         "websites": [
           "https://www.cnr.it/it"
@@ -430,9 +426,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Ghent University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5342.0"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q1137665"
         },
         "websites": [
           "https://www.ugent.be/en"
@@ -454,9 +448,7 @@
         "type": "organisation",
         "org_name": {
           "text": "International Institute of Social History",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.450142.6"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q1667757"
         },
         "websites": [
           "https://socialhistory.org/en"
@@ -595,7 +587,7 @@
         "org_name": {
           "text": "Institute of Contemporary History",
           "ref": [
-            "https://www.grid.ac/institutes/grid.457134.0"
+            "https://www.wikidata.org/wiki/Q12791409"
           ]
         },
         "websites": [
@@ -618,9 +610,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Institute of Ethnology and Folklore Research",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.454224.1"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q30297130"
         },
         "websites": [
           "http://www.ief.hr/"
@@ -666,9 +656,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Serbian Academy of Sciences and Arts",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.419269.1"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q1132636"
         },
         "websites": [
           "http://www.sanu.ac.rs/"
@@ -690,9 +678,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Sofia University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.11355.33"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q841581"
         },
         "websites": [
           "https://www.uni-sofia.bg/"
