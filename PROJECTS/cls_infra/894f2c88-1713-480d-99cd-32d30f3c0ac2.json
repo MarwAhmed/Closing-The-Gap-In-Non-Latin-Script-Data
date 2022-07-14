@@ -344,9 +344,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Charles University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.4491.8"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q31519"
         },
         "websites": [
           "https://cuni.cz/UKEN-1.html"

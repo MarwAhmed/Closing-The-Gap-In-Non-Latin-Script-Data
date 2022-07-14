@@ -72,9 +72,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Bayerische Akademie der Wissenschaften ",
+          "text": "Bayerische Akademie der Wissenschaften",
           "ref": [
-            "https://www.grid.ac/institutes/grid.423977.c"
+            "https://www.wikidata.org/wiki/Q8898015"
           ]
         },
         "websites": [

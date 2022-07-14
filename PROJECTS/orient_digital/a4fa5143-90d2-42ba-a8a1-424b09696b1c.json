@@ -172,9 +172,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Bayerische Staatsbibliothek",
+          "text": "Bavarian State Library",
           "ref": [
-            "https://www.grid.ac/institutes/grid.432478.e"
+            "https://www.wikidata.org/wiki/Q256507"
           ]
         },
         "websites": [

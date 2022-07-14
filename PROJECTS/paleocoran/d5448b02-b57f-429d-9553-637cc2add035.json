@@ -98,9 +98,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Collège de France",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.410533.0"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q202660"
         },
         "websites": [
           "http://www.college-de-france.fr/site/college/index.htm"

@@ -62,9 +62,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.14095.39"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q153006"
         },
         "websites": [
           "https://www.fu-berlin.de/"

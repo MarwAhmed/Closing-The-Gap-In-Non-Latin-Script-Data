@@ -502,9 +502,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Danish Agency for Science and Higher Education",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.491058.1"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q50037707"
         },
         "websites": [
           "https://ufm.dk/en/the-ministry/organisation/danish-agency-for-higher-education-and-science"
@@ -550,9 +548,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Charles University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.4491.8"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q31519"
         },
         "websites": [
           "https://cuni.cz/UKEN-1.html"
@@ -719,7 +715,7 @@
         "org_name": {
           "text": "Academy of Athens",
           "ref": [
-            "https://www.grid.ac/institutes/grid.417593.d"
+            "https://www.wikidata.org/wiki/Q414403"
           ]
         },
         "websites": [
@@ -742,9 +738,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Cyprus University of Technology",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.15810.3d"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q1518320"
         },
         "websites": [
           "http://www.cut.ac.cy/?languageId=2"

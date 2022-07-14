@@ -121,9 +121,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.14095.39"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q153006"
         },
         "websites": [
           "https://www.fu-berlin.de/"
@@ -193,9 +191,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Europa-Universität Viadrina Frankfurt (Oder)",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.33018.39"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q149481"
         },
         "websites": [
           "https://www.europa-uni.de/en/index.html"
@@ -217,9 +213,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Brandenburgische Technische Universität Cottbus-Senftenberg",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.8842.6"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q149433"
         },
         "websites": [
           "https://www.b-tu.de/"

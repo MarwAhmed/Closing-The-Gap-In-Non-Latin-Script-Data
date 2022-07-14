@@ -406,9 +406,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Cyprus University of Technology",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.15810.3d"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q1518320"
         },
         "websites": [
           "http://www.cut.ac.cy/?languageId=2"
@@ -430,9 +428,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Charles University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.4491.8"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q31519"
         },
         "websites": [
           "https://cuni.cz/UKEN-1.html"
