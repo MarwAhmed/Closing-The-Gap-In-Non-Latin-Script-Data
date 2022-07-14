@@ -168,22 +168,17 @@
           <textarea class="block w-full mt-1" v-model="project.project.project_desc"></textarea>
         </label>
         <!-- Places -->
-        <label
+        <div
           class="block col-span-2"
         >
           <span>Locations of the {{ project.project.type.charAt(0).toUpperCase() + project.project.type.slice(1) }}</span>
           <div
-            class="grid grid-cols-2 border border-black rounded rounded-xl p-4"
+              class="flex flex-row mr-7 w-full"
             v-for="(place, placeKey) in project.project.places"
             :key="placeKey"
           >
-            <div>
-              <label class="block">Name of the place</label>
-              <div 
-                class="flex flex-row"
-              >
-                <svg
-                  @click="project.project.places.push({
+            <svg
+              @click="project.project.places.push({
                       place_name: {
                         text: '',
                         ref: [''],
@@ -193,89 +188,91 @@
                         lng: '',
                       },
                     })"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-1 my-auto"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <svg
-                  v-if="project.project.places.length > 1"
-                  @click="project.project.places.splice(placeKey, 1)"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-1 my-auto"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <svg
+              v-if="project.project.places.length > 1"
+              @click="project.project.places.splice(placeKey, 1)"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 mr-1 my-auto"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <div class="border border-black rounded rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2">
+              <label class="block">
+                <span>Name of the place</span>
                 <input
                   type="text"
                   class="mt-1 left w-full"
                   v-model="project.project.places[placeKey].place_name.text"
                 />
-              </div>
-            </div>
-            <div>
-              <label class="block">Authority File URIs of the place</label>
-              <div
-                v-for="(ref, refKey) in project.project.places[placeKey].place_name.ref"
-                class="flex flex-row ml-1"
-                :key="refKey"
-              >
-                <svg
-                  @click="project.project.places[placeKey].place_name.ref.push('')"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-1 my-auto"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <svg
-                  v-if="project.project.places[placeKey].place_name.ref.length > 1"
-                  @click="project.project.places[placeKey].place_name.ref.splice(placeKey, 1)"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-1 my-auto"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <input
-                  type="text"
-                  class="mt-1 left w-full"
-                  v-model="project.project.places[placeKey].place_name.ref[refKey]"
-                />
-              </div>
-            </div>
-            <div class="block col-span-2">
-              <div class="grid grid-cols-2 gap-2">
-                <label>
-                  <span>Latitude</span> 
+              </label>
+              <label class="block">Authority File URIs of the place
+                <div
+                  v-for="(ref, refKey) in project.project.places[placeKey].place_name.ref"
+                  class="flex flex-row ml-1"
+                  :key="refKey"
+                >
+                  <svg
+                    @click="project.project.places[placeKey].place_name.ref.push('')"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 mr-1 my-auto"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <svg
+                    v-if="project.project.places[placeKey].place_name.ref.length > 1"
+                    @click="project.project.places[placeKey].place_name.ref.splice(placeKey, 1)"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 mr-1 my-auto"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
                   <input
                     type="text"
-                    class="mt-1 block w-full"
-                    v-model="project.project.places[placeKey].coordinates.lat"
+                    class="mt-1 left w-full"
+                    v-model="project.project.places[placeKey].place_name.ref[refKey]"
                   />
-                </label>
-                <label>
-                  <span>Longitude</span>
-                  <input
-                    type="text"
-                    class="mt-1 block w-full"
-                    v-model="project.project.places[placeKey].coordinates.lng"
-                  />
-                </label>
+                </div>
+              </label>
+              <div class="block col-span-2">
+                <div class="grid grid-cols-2 gap-2">
+                  <label>
+                    <span>Latitude</span> 
+                    <input
+                      type="text"
+                      class="mt-1 block w-full"
+                      v-model="project.project.places[placeKey].coordinates.lat"
+                    />
+                  </label>
+                  <label>
+                    <span>Longitude</span>
+                    <input
+                      type="text"
+                      class="mt-1 block w-full"
+                      v-model="project.project.places[placeKey].coordinates.lng"
+                    />
+                  </label>
+                </div>
               </div>
             </div>
           </div>
-        </label>
+        </div>
         
         <!-- Languages -->
         <label
@@ -629,7 +626,7 @@
           </div>
         </label>
         <!-- Contacts -->
-        <label
+        <div
           class="block col-span-2"
         >
           <span>Main contacts of the {{ project.project.type.charAt(0).toUpperCase() + project.project.type.slice(1) }}</span>
@@ -761,11 +758,11 @@
               </label>
             </div>
           </div>
-        </label>
+        </div>
 
         <h4 class="text-2xl">Research Data</h4>
         <!-- Languages -->
-        <label
+        <div
           class="block col-span-2"
         >
           <span>Languages of the research data of {{ project.project.type.charAt(0).toUpperCase() + project.project.type.slice(1) }} (ISO-639-2)</span>
@@ -805,7 +802,7 @@
               />
             </div>
           </div>
-        </label>
+        </div>
         <!-- Publications -->
         <label
           class="block col-span-2"
@@ -838,7 +835,7 @@
           </div>
         </label>
         <!-- Licensing -->
-        <label
+        <div
           class="block col-span-2"
         >
           <span>Licenses under which the publications are published</span>
@@ -874,7 +871,7 @@
               v-model="project.project.research_data.publications.licensing[licKey]"
             />
           </div>
-        </label>
+        </div>
         <!-- Datatypes -->
         <div v-for="(dt, dtKey) in datatypes" :key="dtKey" class="block col-span-2">
           <h5 class="text-xl mt-3">{{ dt.label }}</h5>
