@@ -13,15 +13,6 @@ This repository contains metadata information on projects and useful resources t
 
 Graphical User Interface: https://m-l-d-h.github.io/Closing-The-Gap-In-Non-Latin-Script-Data
 
-## Contact
-Jonas Müller-Laackman
-
-[@Freie Universität Berlin](https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Wissenschaftliche-Mitarbeiterinnen-und-Mitarbeiter/mueller-laackman/index.html)
-
-[@Github](https://github.com/Jomula)
-
-[@Orcid](https://orcid.org/0000-0003-2279-6751)
-
 ## Contribution
 
 You want to participate and contribute data on your project to our databse? That's great!
