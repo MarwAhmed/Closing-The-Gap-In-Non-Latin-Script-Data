@@ -1448,7 +1448,7 @@
         <label
           class="block col-span-2"
         >
-          <span>Keywords that describe the {{ project.project.type.charAt(0).toUpperCase() + project.project.type.slice(1) }} (lowerkey, no whitespace, separated by comma), please consult the <a href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/blob/master/KEYWORDS_DOCUMENTATION.md" target="_blank">keywords documentation</a></span>
+          <span>Keywords that describe the {{ project.project.type.charAt(0).toUpperCase() + project.project.type.slice(1) }} (lowerkey, no whitespace, separated by comma), please consult the <a class="font-bold" href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/blob/master/KEYWORDS_DOCUMENTATION.md" target="_blank">keywords documentation</a></span>
           <input
             type="text"
             class="mt-1 left w-full"
