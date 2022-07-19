@@ -69,7 +69,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität zu Köln",
-          "ref": "https://www.wikidata.org/wiki/Q54096"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q54096"
+          ]
         },
         "websites": [
           "https://thomasinstitut.uni-koeln.de/"

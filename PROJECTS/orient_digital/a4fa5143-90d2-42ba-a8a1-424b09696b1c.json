@@ -101,7 +101,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Staatsbibliothek zu Berlin",
-          "ref": "https://www.wikidata.org/wiki/Q170109"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q170109"
+          ]
         },
         "websites": [
           "https://staatsbibliothek-berlin.de/"
@@ -123,7 +125,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Erfurt",
-          "ref": "https://www.wikidata.org/wiki/Q702524"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q702524"
+          ]
         },
         "websites": [
           "https://www.uni-erfurt.de/"
@@ -145,7 +149,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Leipzig",
-          "ref": "https://www.wikidata.org/wiki/Q154804"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q154804"
+          ]
         },
         "websites": [
           "https://www.uni-leipzig.de/"

@@ -310,7 +310,9 @@
         "type": "organisation",
         "org_name": {
           "text": "French National Centre for Scientific Research",
-          "ref": "https://www.wikidata.org/wiki/Q280413"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q280413"
+          ]
         },
         "websites": [
           "http://www.cnrs.fr/index.php"
@@ -332,7 +334,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universidade Nova de Lisboa",
-          "ref": "https://www.wikidata.org/wiki/Q1979891"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1979891"
+          ]
         },
         "websites": [
           "http://www.unl.pt/en/"
@@ -354,7 +358,9 @@
         "type": "organisation",
         "org_name": {
           "text": "National Research Council",
-          "ref": "https://www.wikidata.org/wiki/Q1340198"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1340198"
+          ]
         },
         "websites": [
           "https://www.cnr.it/it"
@@ -376,7 +382,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University College Cork",
-          "ref": "https://www.wikidata.org/wiki/Q1574185"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1574185"
+          ]
         },
         "websites": [
           "http://www.ucc.ie/en/"
@@ -398,7 +406,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Luxembourg",
-          "ref": "https://www.wikidata.org/wiki/Q59668"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q59668"
+          ]
         },
         "websites": [
           "http://wwwen.uni.lu/"
@@ -420,7 +430,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Ghent University",
-          "ref": "https://www.wikidata.org/wiki/Q1137665"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1137665"
+          ]
         },
         "websites": [
           "https://www.ugent.be/en"
@@ -442,7 +454,9 @@
         "type": "organisation",
         "org_name": {
           "text": "International Institute of Social History",
-          "ref": "https://www.wikidata.org/wiki/Q1667757"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1667757"
+          ]
         },
         "websites": [
           "https://socialhistory.org/en"
@@ -488,7 +502,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Danish Agency for Science and Higher Education",
-          "ref": "https://www.wikidata.org/wiki/Q50037707"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q50037707"
+          ]
         },
         "websites": [
           "https://ufm.dk/en/the-ministry/organisation/danish-agency-for-higher-education-and-science"
@@ -510,7 +526,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Warsaw",
-          "ref": "https://www.wikidata.org/wiki/Q144488"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q144488"
+          ]
         },
         "websites": [
           "http://en.uw.edu.pl/"
@@ -532,7 +550,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Charles University",
-          "ref": "https://www.wikidata.org/wiki/Q31519"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q31519"
+          ]
         },
         "websites": [
           "https://cuni.cz/UKEN-1.html"
@@ -554,7 +574,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
-          "ref": "https://www.wikidata.org/wiki/Q299015"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q299015"
+          ]
         },
         "websites": [
           "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
@@ -600,7 +622,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Institute of Ethnology and Folklore Research",
-          "ref": "https://www.wikidata.org/wiki/Q30297130"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q30297130"
+          ]
         },
         "websites": [
           "http://www.ief.hr/"
@@ -622,7 +646,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Sarajevo",
-          "ref": "https://www.wikidata.org/wiki/Q572286"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q572286"
+          ]
         },
         "websites": [
           "http://www.unsa.ba/s/index.php"
@@ -644,7 +670,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Serbian Academy of Sciences and Arts",
-          "ref": "https://www.wikidata.org/wiki/Q1132636"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1132636"
+          ]
         },
         "websites": [
           "http://www.sanu.ac.rs/"
@@ -666,7 +694,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Sofia University",
-          "ref": "https://www.wikidata.org/wiki/Q841581"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q841581"
+          ]
         },
         "websites": [
           "https://www.uni-sofia.bg/"
@@ -712,7 +742,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Cyprus University of Technology",
-          "ref": "https://www.wikidata.org/wiki/Q1518320"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1518320"
+          ]
         },
         "websites": [
           "http://www.cut.ac.cy/?languageId=2"

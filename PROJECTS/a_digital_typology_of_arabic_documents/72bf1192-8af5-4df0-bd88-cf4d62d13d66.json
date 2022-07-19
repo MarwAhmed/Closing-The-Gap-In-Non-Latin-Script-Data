@@ -68,7 +68,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Basel",
-          "ref": "https://www.wikidata.org/wiki/Q372608"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q372608"
+          ]
         },
         "websites": [
           "https://www.unibas.ch/de"

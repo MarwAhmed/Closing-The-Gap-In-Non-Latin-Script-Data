@@ -93,7 +93,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Staatsbibliothek zu Berlin",
-          "ref": "https://www.wikidata.org/wiki/Q170109"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q170109"
+          ]
         },
         "websites": [
           "http://staatsbibliothek-berlin.de/"
@@ -115,7 +117,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universitätsbibliothek Leipzig",
-          "ref": "https://www.wikidata.org/wiki/Q872896"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q872896"
+          ]
         },
         "websites": [
           "https://www.ub.uni-leipzig.de/start/"
@@ -161,7 +165,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Herzog August Bibliothek Wolfenbüttel",
-          "ref": "https://www.wikidata.org/wiki/Q663820"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q663820"
+          ]
         },
         "websites": [
           "http://www.hab.de/"

@@ -75,7 +75,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Volkswagen Stiftung",
-          "ref": "https://www.wikidata.org/wiki/Q1766743"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1766743"
+          ]
         },
         "websites": [
           "https://www.volkswagenstiftung.de/",

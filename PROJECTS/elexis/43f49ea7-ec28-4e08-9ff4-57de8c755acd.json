@@ -238,7 +238,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Jožef Stefan Institute",
-          "ref": "https://www.wikidata.org/wiki/Q5918873"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5918873"
+          ]
         },
         "websites": [
           "http://www.ijs.si/ijsw"
@@ -260,7 +262,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Sapienza University of Rome",
-          "ref": "https://www.wikidata.org/wiki/Q209344"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q209344"
+          ]
         },
         "websites": [
           "http://www.uniroma1.it/"
@@ -282,7 +286,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
-          "ref": "https://www.wikidata.org/wiki/Q299015"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q299015"
+          ]
         },
         "websites": [
           "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
@@ -304,7 +310,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Institute of the Estonian Language",
-          "ref": "https://www.wikidata.org/wiki/Q387634"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q387634"
+          ]
         },
         "websites": [
           "http://en.eki.ee/index.php"
@@ -326,7 +334,9 @@
         "type": "organisation",
         "org_name": {
           "text": "National University of Ireland, Galway",
-          "ref": "https://www.wikidata.org/wiki/Q644478"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q644478"
+          ]
         },
         "websites": [
           "http://www.nuigalway.ie/"
@@ -348,7 +358,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Society for Danish Language and Literature",
-          "ref": "https://www.wikidata.org/wiki/Q12308333"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q12308333"
+          ]
         },
         "websites": [
           "https://dsl.dk/"
@@ -370,7 +382,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Copenhagen",
-          "ref": "https://www.wikidata.org/wiki/Q186285"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q186285"
+          ]
         },
         "websites": [
           "http://www.ku.dk/english/"
@@ -392,7 +406,9 @@
         "type": "organisation",
         "org_name": {
           "text": "The Dutch Language Institute",
-          "ref": "https://www.wikidata.org/wiki/Q5200436"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5200436"
+          ]
         },
         "websites": [
           "https://ivdnt.org/"
@@ -414,7 +430,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Institute for Bulgarian Language",
-          "ref": "https://www.wikidata.org/wiki/Q12281765"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q12281765"
+          ]
         },
         "websites": [
           "http://ibl.bas.bg/en/"
@@ -436,7 +454,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Royal Spanish Academy",
-          "ref": "https://www.wikidata.org/wiki/Q11993457"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q11993457"
+          ]
         },
         "websites": [
           "http://www.rae.es/"
@@ -458,7 +478,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universidade Nova de Lisboa",
-          "ref": "https://www.wikidata.org/wiki/Q1979891"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1979891"
+          ]
         },
         "websites": [
           "http://www.unl.pt/en/"
@@ -504,7 +526,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Hungarian Academy of Sciences",
-          "ref": "https://www.wikidata.org/wiki/Q265058"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q265058"
+          ]
         },
         "websites": [
           "http://mta.hu/english/"
@@ -526,7 +550,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Trier",
-          "ref": "https://www.wikidata.org/wiki/Q572286"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q572286"
+          ]
         },
         "websites": [
           "https://www.uni-trier.de/"

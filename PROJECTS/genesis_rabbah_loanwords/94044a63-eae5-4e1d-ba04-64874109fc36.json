@@ -70,7 +70,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
-          "ref": "https://www.wikidata.org/wiki/Q299015"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q299015"
+          ]
         },
         "websites": [
           "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
@@ -92,7 +94,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Salzburg",
-          "ref": "https://www.wikidata.org/wiki/Q27265"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q27265"
+          ]
         },
         "websites": [
           "http://www.uni-salzburg.at/index.php?id=52"

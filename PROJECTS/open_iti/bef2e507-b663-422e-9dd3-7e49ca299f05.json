@@ -97,7 +97,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Maryland, College Park",
-          "ref": "https://www.wikidata.org/wiki/Q503415"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q503415"
+          ]
         },
         "websites": [
           "https://www.umd.edu/"
@@ -119,7 +121,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Leipzig",
-          "ref": "https://www.wikidata.org/wiki/Q154804"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q154804"
+          ]
         },
         "websites": [
           "https://www.uni-leipzig.de/"
@@ -141,7 +145,9 @@
         "type": "organisation",
         "org_name": {
           "text": "The Aga Khan University (International)",
-          "ref": "https://www.wikidata.org/wiki/Q4690953"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q4690953"
+          ]
         },
         "websites": [
           "https://www.aku.edu/Pages/united-kingdom.aspx",
@@ -172,7 +178,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Wien",
-          "ref": "https://www.wikidata.org/wiki/Q165980"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q165980"
+          ]
         },
         "websites": [
           "https://www.univie.ac.at/"

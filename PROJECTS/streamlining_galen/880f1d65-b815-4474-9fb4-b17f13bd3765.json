@@ -60,7 +60,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Warwick University",
-          "ref": "https://www.wikidata.org/wiki/Q865528"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q865528"
+          ]
         },
         "websites": [
           "http://www2.warwick.ac.uk/"

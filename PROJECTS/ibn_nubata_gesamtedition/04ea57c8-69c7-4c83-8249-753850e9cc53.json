@@ -57,7 +57,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Westfälische Wilhelms-Universität Münster",
-          "ref": "https://www.wikidata.org/wiki/Q168426"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q168426"
+          ]
         },
         "websites": [
           "https://www.uni-muenster.de"

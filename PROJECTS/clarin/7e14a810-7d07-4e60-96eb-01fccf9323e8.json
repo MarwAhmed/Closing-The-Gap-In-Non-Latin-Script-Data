@@ -310,7 +310,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
-          "ref": "https://www.wikidata.org/wiki/Q299015"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q299015"
+          ]
         },
         "websites": [
           "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
@@ -332,7 +334,9 @@
         "type": "organisation",
         "org_name": {
           "text": "The Dutch Language Institute",
-          "ref": "https://www.wikidata.org/wiki/Q5200436"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5200436"
+          ]
         },
         "websites": [
           "https://ivdnt.org/"
@@ -378,7 +382,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Zagreb",
-          "ref": "https://www.wikidata.org/wiki/Q675848"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q675848"
+          ]
         },
         "websites": [
           "http://www.unizg.hr/"
@@ -400,7 +406,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Cyprus University of Technology",
-          "ref": "https://www.wikidata.org/wiki/Q1518320"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1518320"
+          ]
         },
         "websites": [
           "http://www.cut.ac.cy/?languageId=2"
@@ -422,7 +430,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Charles University",
-          "ref": "https://www.wikidata.org/wiki/Q31519"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q31519"
+          ]
         },
         "websites": [
           "https://cuni.cz/UKEN-1.html"
@@ -444,7 +454,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Copenhagen",
-          "ref": "https://www.wikidata.org/wiki/Q186285"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q186285"
+          ]
         },
         "websites": [
           "http://www.ku.dk/english/"
@@ -488,7 +500,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Helsinki",
-          "ref": "https://www.wikidata.org/wiki/Q28695"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q28695"
+          ]
         },
         "websites": [
           "https://www.helsinki.fi/"
@@ -510,7 +524,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Mannheim",
-          "ref": "https://www.wikidata.org/wiki/Q59668"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q59668"
+          ]
         },
         "websites": [
           "https://www.uni-mannheim.de/en/"
@@ -532,7 +548,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Institute for Language and Speech Processing",
-          "ref": "https://www.wikidata.org/wiki/Q15228720"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q15228720"
+          ]
         },
         "websites": [
           "http://www.ilsp.gr/en"
@@ -554,7 +572,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Hungarian Academy of Sciences",
-          "ref": "https://www.wikidata.org/wiki/Q265058"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q265058"
+          ]
         },
         "websites": [
           "http://mta.hu/english/"
@@ -576,7 +596,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Árni Magnússon Institute for Icelandic Studies",
-          "ref": "https://www.wikidata.org/wiki/Q627418"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q627418"
+          ]
         },
         "websites": [
           "http://www.arnastofnun.is/"
@@ -622,7 +644,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Latvia",
-          "ref": "https://www.wikidata.org/wiki/Q498407"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q498407"
+          ]
         },
         "websites": [
           "https://www.lu.lv"
@@ -644,7 +668,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Vytautas Magnus University",
-          "ref": "https://www.wikidata.org/wiki/Q1756541"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1756541"
+          ]
         },
         "websites": [
           "http://www.vdu.lt/en/"
@@ -666,7 +692,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Utrecht University",
-          "ref": "https://www.wikidata.org/wiki/Q221653"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q221653"
+          ]
         },
         "websites": [
           "http://www.uu.nl/en"
@@ -688,7 +716,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Bergen",
-          "ref": "https://www.wikidata.org/wiki/Q204457"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q204457"
+          ]
         },
         "websites": [
           "http://www.uib.no/en/node/36362"
@@ -710,7 +740,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Wrocław University of Science and Technology",
-          "ref": "https://www.wikidata.org/wiki/Q522109"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q522109"
+          ]
         },
         "websites": [
           "http://www.portal.pwr.wroc.pl"
@@ -732,7 +764,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Lisbon",
-          "ref": "https://www.wikidata.org/wiki/Q1122926"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1122926"
+          ]
         },
         "websites": [
           "http://www.ulisboa.pt/"
@@ -754,7 +788,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Jožef Stefan Institute",
-          "ref": "https://www.wikidata.org/wiki/Q5918873"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5918873"
+          ]
         },
         "websites": [
           "http://www.ijs.si/ijsw"
@@ -776,7 +812,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Gothenburg",
-          "ref": "https://www.wikidata.org/wiki/Q371522"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q371522"
+          ]
         },
         "websites": [
           "http://www.gu.se/english"

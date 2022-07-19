@@ -70,7 +70,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Otto-Friedrich-Universität Bamberg",
-          "ref": "https://www.wikidata.org/wiki/Q707272"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q707272"
+          ]
         },
         "websites": [
           "https://www.uni-bamberg.de/"
@@ -92,7 +94,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Bu-Ali Sina University",
-          "ref": "https://www.wikidata.org/wiki/Q4982044"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q4982044"
+          ]
         },
         "websites": [
           "http://www.basu.ac.ir/"

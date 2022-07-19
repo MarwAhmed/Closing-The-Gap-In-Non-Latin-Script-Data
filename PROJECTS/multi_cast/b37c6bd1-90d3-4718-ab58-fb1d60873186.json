@@ -58,7 +58,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Otto-Friedrich-Universität Bamberg",
-          "ref": "https://www.wikidata.org/wiki/Q707272"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q707272"
+          ]
         },
         "websites": [
           "https://www.uni-bamberg.de/"

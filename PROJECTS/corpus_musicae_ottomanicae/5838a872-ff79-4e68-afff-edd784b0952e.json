@@ -84,7 +84,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Westfälische Wilhelms-Universität Münster",
-          "ref": "https://www.wikidata.org/wiki/Q168426"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q168426"
+          ]
         },
         "websites": [
           "https://www.uni-muenster.de/en/"
@@ -106,7 +108,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Max Weber Foundation International Humanities",
-          "ref": "https://www.wikidata.org/wiki/Q1913589"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1913589"
+          ]
         },
         "websites": [
           "http://www.maxweberstiftung.de/en/"

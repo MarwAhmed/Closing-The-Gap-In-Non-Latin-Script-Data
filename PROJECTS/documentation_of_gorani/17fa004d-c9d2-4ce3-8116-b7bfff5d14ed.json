@@ -81,7 +81,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Otto-Friedrich-Universität Bamberg",
-          "ref": "https://www.wikidata.org/wiki/Q707272"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q707272"
+          ]
         },
         "websites": [
           "https://www.uni-bamberg.de/"
@@ -103,7 +105,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Hamburg",
-          "ref": "https://www.wikidata.org/wiki/Q156725"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q156725"
+          ]
         },
         "websites": [
           "http://www.uni-hamburg.de/"
@@ -125,7 +129,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Georg-August-Universität Göttingen",
-          "ref": "https://www.wikidata.org/wiki/Q152838"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q152838"
+          ]
         },
         "websites": [
           "http://www.uni-goettingen.de/en/1.html"
