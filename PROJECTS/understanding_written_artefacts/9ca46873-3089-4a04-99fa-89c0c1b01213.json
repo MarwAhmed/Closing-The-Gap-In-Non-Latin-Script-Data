@@ -123,9 +123,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Helmut-Schmidt-Universität",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.49096.32"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q530991"
         },
         "websites": [
           "https://www.hsu-hh.de/"
@@ -147,9 +145,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Technische Universität Hamburg",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.6884.2"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q1060"
         },
         "websites": [
           "http://www.tuhh.de"

@@ -238,9 +238,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Jožef Stefan Institute",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.11375.31"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q5918873"
         },
         "websites": [
           "http://www.ijs.si/ijsw"
@@ -262,9 +260,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Sapienza University of Rome",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.7841.a"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q209344"
         },
         "websites": [
           "http://www.uniroma1.it/"
@@ -310,9 +306,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Institute of the Estonian Language",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.454928.6"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q387634"
         },
         "websites": [
           "http://en.eki.ee/index.php"
@@ -334,9 +328,7 @@
         "type": "organisation",
         "org_name": {
           "text": "National University of Ireland, Galway",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.6142.1"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q644478"
         },
         "websites": [
           "http://www.nuigalway.ie/"
@@ -358,9 +350,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Society for Danish Language and Literature",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q12308333"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q12308333"
         },
         "websites": [
           "https://dsl.dk/"
@@ -406,9 +396,7 @@
         "type": "organisation",
         "org_name": {
           "text": "The Dutch Language Institute",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q5200436"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q5200436"
         },
         "websites": [
           "https://ivdnt.org/"
@@ -430,9 +418,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Institute for Bulgarian Language",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.493346.f"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q12281765"
         },
         "websites": [
           "http://ibl.bas.bg/en/"
@@ -454,9 +440,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Royal Spanish Academy",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.469406.9"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q11993457"
         },
         "websites": [
           "http://www.rae.es/"
@@ -526,9 +510,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Hungarian Academy of Sciences",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5018.c"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q265058"
         },
         "websites": [
           "http://mta.hu/english/"

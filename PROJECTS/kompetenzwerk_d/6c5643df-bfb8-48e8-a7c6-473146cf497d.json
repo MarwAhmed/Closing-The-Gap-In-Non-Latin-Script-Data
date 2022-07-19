@@ -61,9 +61,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.461800.b"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q27891200"
         },
         "websites": [
           "https://www.saw-leipzig.de/de/aktuelles"
@@ -85,9 +83,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Leibniz-Institut für Geschichte und Kultur des östlichen Europa e.V.",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.505969.6"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q1499019"
         },
         "websites": [
           "https://leibniz-gwzo.de/de"
@@ -133,9 +129,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Institut für Sächsische Geschichte und Volkskunde e.V",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.461669.a"
-          ]
+          "ref": "https://d-nb.info/gnd/10048270-3"
         },
         "websites": [
           "https://www.isgv.de/"
@@ -158,7 +152,7 @@
         "org_name": {
           "text": "Sorbische Institut e.V. / serbski institut z.t.",
           "ref": [
-            "https://www.grid.ac/institutes/grid.462837.c"
+            "https://www.wikidata.org/wiki/Q149887"
           ]
         },
         "websites": [

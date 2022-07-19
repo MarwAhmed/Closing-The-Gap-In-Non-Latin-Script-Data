@@ -62,9 +62,7 @@
         "type": "organisation",
         "org_name": {
           "text": "College of Saint Benedict & Saint John's University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.254488.7"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q5146820"
         },
         "websites": [
           "https://www.csbsju.edu/"

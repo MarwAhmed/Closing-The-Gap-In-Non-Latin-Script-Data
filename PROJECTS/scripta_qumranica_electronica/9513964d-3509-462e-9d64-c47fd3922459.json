@@ -94,7 +94,7 @@
         "org_name": {
           "text": "Akademie der Wissenschaften zu Göttingen",
           "ref": [
-            "https://www.grid.ac/institutes/grid.461599.6"
+            "https://www.wikidata.org/wiki/Q414188"
           ]
         },
         "websites": [
@@ -117,9 +117,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Tel Aviv University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.12136.37"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q319239"
         },
         "websites": [
           "http://english.tau.ac.il/"
@@ -141,9 +139,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Israel Antiquities Authority",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.12136.37"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q2744135"
         },
         "websites": [
           "http://www.antiquities.org.il/about_en"

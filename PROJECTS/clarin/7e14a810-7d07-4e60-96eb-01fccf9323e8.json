@@ -334,9 +334,7 @@
         "type": "organisation",
         "org_name": {
           "text": "The Dutch Language Institute",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q5200436"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q5200436"
         },
         "websites": [
           "https://ivdnt.org/"
@@ -406,9 +404,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Cyprus University of Technology",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.15810.3d"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q1518320"
         },
         "websites": [
           "http://www.cut.ac.cy/?languageId=2"
@@ -430,9 +426,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Charles University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.4491.8"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q31519"
         },
         "websites": [
           "https://cuni.cz/UKEN-1.html"
@@ -548,9 +542,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Institute for Language and Speech Processing",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.424851.e"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q15228720"
         },
         "websites": [
           "http://www.ilsp.gr/en"
@@ -572,9 +564,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Hungarian Academy of Sciences",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5018.c"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q265058"
         },
         "websites": [
           "http://mta.hu/english/"
@@ -621,7 +611,7 @@
         "org_name": {
           "text": "Institute for Computational Linguistics “A. Zampolli”",
           "ref": [
-            "https://www.grid.ac/institutes/grid.503055.6"
+            "http://viaf.org/viaf/6050160062454135790009"
           ]
         },
         "websites": [
@@ -788,9 +778,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Jožef Stefan Institute",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.11375.31"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q5918873"
         },
         "websites": [
           "http://www.ijs.si/ijsw"

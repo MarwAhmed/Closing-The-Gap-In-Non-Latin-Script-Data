@@ -94,9 +94,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Bu-Ali Sina University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.411807.b"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q4982044"
         },
         "websites": [
           "http://www.basu.ac.ir/"

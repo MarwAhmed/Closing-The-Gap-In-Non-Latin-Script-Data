@@ -60,9 +60,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Leiden University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5132.5"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q156598"
         },
         "websites": [
           "http://www.leiden.edu"

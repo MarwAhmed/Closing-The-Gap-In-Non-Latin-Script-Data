@@ -72,9 +72,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Bayerische Akademie der Wissenschaften ",
+          "text": "Bayerische Akademie der Wissenschaften",
           "ref": [
-            "https://www.grid.ac/institutes/grid.423977.c"
+            "https://www.wikidata.org/wiki/Q8898015"
           ]
         },
         "websites": [
@@ -97,9 +97,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Julius Maximilian University of Würzburg",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.8379.5"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q161976"
         },
         "websites": [
           "https://www.uni-wuerzburg.de/startseite/"

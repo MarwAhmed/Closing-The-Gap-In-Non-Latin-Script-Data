@@ -92,10 +92,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Staatsbibliothek zu Berlin – Preußischer Kulturbesitz",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.461943.d"
-          ]
+          "text": "Staatsbibliothek zu Berlin",
+          "ref": "https://www.wikidata.org/wiki/Q170109"
         },
         "websites": [
           "http://staatsbibliothek-berlin.de/"
@@ -140,9 +138,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Bayerische Staatsbibliothek München",
+          "text": "Bayerische Staatsbibliothek",
           "ref": [
-            "https://www.grid.ac/institutes/grid.432478.e"
+            "https://www.wikidata.org/wiki/Q256507"
           ]
         },
         "websites": [
@@ -165,9 +163,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Herzog August Bibliothek Wolfenbüttel",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.461604.1"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q663820"
         },
         "websites": [
           "http://www.hab.de/"

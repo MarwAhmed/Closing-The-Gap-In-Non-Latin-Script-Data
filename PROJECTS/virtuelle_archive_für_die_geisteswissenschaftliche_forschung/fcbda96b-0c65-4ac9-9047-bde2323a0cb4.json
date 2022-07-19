@@ -56,9 +56,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.461800.b"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q27891200"
         },
         "websites": [
           "https://www.saw-leipzig.de/de"

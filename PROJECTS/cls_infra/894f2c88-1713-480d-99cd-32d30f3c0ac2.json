@@ -272,9 +272,7 @@
         "type": "organisation",
         "org_name": {
           "text": "National University of Distance Education",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.10702.34"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q421739"
         },
         "websites": [
           "https://www.uned.es/universidad/inicio.html"
@@ -320,9 +318,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.7468.d"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q152087"
         },
         "websites": [
           "https://www.hu-berlin.de/?set_language=en&cl=en"
@@ -344,9 +340,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Charles University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.4491.8"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q31519"
         },
         "websites": [
           "https://cuni.cz/UKEN-1.html"
@@ -379,9 +373,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Ghent University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5342.0"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q1137665"
         },
         "websites": [
           "https://www.ugent.be/en"
@@ -427,9 +419,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Royal Netherlands Academy of Arts and Sciences",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.418101.d"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q253439"
         },
         "websites": [
           "http://www.knaw.nl/nl"
@@ -475,9 +465,7 @@
         "type": "organisation",
         "org_name": {
           "text": "National University of Ireland, Galway",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.6142.1"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q644478"
         },
         "websites": [
           "http://www.nuigalway.ie/"
