@@ -90,9 +90,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Tufts University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.429997.8"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q49120"
         },
         "websites": [
           "http://www.tufts.edu/"

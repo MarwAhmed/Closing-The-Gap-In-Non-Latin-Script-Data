@@ -200,9 +200,7 @@
         "type": "organisation",
         "org_name": {
           "text": "The Institute of the Polish Language of the Polish Academy of Sciences",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.460376.0"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q941016"
         },
         "websites": [
           "https://ijp.pan.pl/"

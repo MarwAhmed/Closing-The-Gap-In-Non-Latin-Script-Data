@@ -163,9 +163,7 @@
         "type": "organisation",
         "org_name": {
           "text": "University College London",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.83440.3b"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q193196"
         },
         "websites": [
           "http://www.ucl.ac.uk"

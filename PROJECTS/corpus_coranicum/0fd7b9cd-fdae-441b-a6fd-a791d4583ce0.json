@@ -105,9 +105,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Union der Deutschen Akademien der Wissenschaften",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1662834"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q1662834"
         },
         "websites": [
           "https://www.akademienunion.de/"
