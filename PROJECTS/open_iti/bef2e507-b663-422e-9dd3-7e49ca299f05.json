@@ -118,10 +118,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Leipzig University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.9647.c"
-          ]
+          "text": "Universität Leipzig",
+          "ref": "https://www.wikidata.org/wiki/Q154804"
         },
         "websites": [
           "https://www.uni-leipzig.de/"
