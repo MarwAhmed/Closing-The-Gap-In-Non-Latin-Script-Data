@@ -104,10 +104,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "das Leibniz-Institut für jüdische Geschichte und Kultur – Simon Dubnow e.V",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.505963.c"
-          ]
+          "text": "Simon-Dubnow-Institut für Jüdische Geschichte und Kultur",
+          "ref": "https://d-nb.info/gnd/5236159-7"
         },
         "websites": [
           "https://www.dubnow.de/"

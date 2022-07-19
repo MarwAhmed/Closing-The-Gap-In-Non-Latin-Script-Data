@@ -163,9 +163,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Potsdam",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.11348.3f"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q153012"
         },
         "websites": [
           "https://www.uni-potsdam.de/de/"

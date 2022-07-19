@@ -83,10 +83,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "University of Münster",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5949.1"
-          ]
+          "text": "Westfälische Wilhelms-Universität Münster",
+          "ref": "https://www.wikidata.org/wiki/Q168426"
         },
         "websites": [
           "https://www.uni-muenster.de/en/"

@@ -105,9 +105,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Stuttgart",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5719.a"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q122453"
         },
         "websites": [
           "http://www.uni-stuttgart.de/home/index.en.html"

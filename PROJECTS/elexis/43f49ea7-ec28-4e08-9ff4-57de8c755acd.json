@@ -282,9 +282,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.4299.6"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q299015"
         },
         "websites": [
           "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
@@ -372,9 +370,7 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Copenhagen",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5254.6"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q186285"
         },
         "websites": [
           "http://www.ku.dk/english/"
@@ -529,10 +525,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "University of Trier",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.12391.38"
-          ]
+          "text": "Universität Trier",
+          "ref": "https://www.wikidata.org/wiki/Q572286"
         },
         "websites": [
           "https://www.uni-trier.de/"

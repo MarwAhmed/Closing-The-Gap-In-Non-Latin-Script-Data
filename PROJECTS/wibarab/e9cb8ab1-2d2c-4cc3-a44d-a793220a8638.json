@@ -58,9 +58,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.4299.6"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q299015"
         },
         "websites": [
           "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
@@ -82,9 +80,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Wien",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.10420.37"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q165980"
         },
         "websites": [
           "https://www.univie.ac.at/en/"

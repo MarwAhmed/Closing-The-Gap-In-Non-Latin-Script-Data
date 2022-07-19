@@ -115,9 +115,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Universitätsbibliothek Leipzig",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.9647.c"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q872896"
         },
         "websites": [
           "https://www.ub.uni-leipzig.de/start/"

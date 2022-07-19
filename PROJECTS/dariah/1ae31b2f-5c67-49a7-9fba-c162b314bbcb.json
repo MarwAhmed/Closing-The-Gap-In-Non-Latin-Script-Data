@@ -398,9 +398,7 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Luxembourg",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.16008.3f"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q59668"
         },
         "websites": [
           "http://wwwen.uni.lu/"
@@ -512,9 +510,7 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Warsaw",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.12847.38"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q144488"
         },
         "websites": [
           "http://en.uw.edu.pl/"
@@ -558,9 +554,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.4299.6"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q299015"
         },
         "websites": [
           "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
@@ -628,9 +622,7 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Sarajevo",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.11869.37"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q572286"
         },
         "websites": [
           "http://www.unsa.ba/s/index.php"

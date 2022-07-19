@@ -69,10 +69,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "University of Bamberg",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.7359.8"
-          ]
+          "text": "Otto-Friedrich-Universität Bamberg",
+          "ref": "https://www.wikidata.org/wiki/Q707272"
         },
         "websites": [
           "https://www.uni-bamberg.de/"

@@ -97,9 +97,7 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Maryland, College Park",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.164295.d"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q503415"
         },
         "websites": [
           "https://www.umd.edu/"
@@ -175,10 +173,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "University of Vienna",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.10420.37"
-          ]
+          "text": "Universität Wien",
+          "ref": "https://www.wikidata.org/wiki/Q165980"
         },
         "websites": [
           "https://www.univie.ac.at/"

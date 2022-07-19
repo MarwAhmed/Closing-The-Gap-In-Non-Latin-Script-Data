@@ -72,9 +72,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Warwick University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.7372.1"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q865528"
         },
         "websites": [
           "http://www2.warwick.ac.uk/"
@@ -96,9 +94,7 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Oxford",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.4991.5"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q34433"
         },
         "websites": [
           "http://www.ox.ac.uk"

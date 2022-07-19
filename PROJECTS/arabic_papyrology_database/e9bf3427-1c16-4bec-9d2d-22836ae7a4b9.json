@@ -91,9 +91,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Zürich",
-          "ref": [
-            "https://www.geonames.org/6930857/university-of-zuerich.html"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q206702"
         },
         "websites": [
           "https://www.uzh.ch/de.html"

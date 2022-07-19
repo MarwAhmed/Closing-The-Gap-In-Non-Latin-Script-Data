@@ -80,10 +80,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "University of Bamberg",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.7359.8"
-          ]
+          "text": "Otto-Friedrich-Universität Bamberg",
+          "ref": "https://www.wikidata.org/wiki/Q707272"
         },
         "websites": [
           "https://www.uni-bamberg.de/"
@@ -105,9 +103,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Hamburg",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.9026.d"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q156725"
         },
         "websites": [
           "http://www.uni-hamburg.de/"
@@ -128,10 +124,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "University of Göttingen",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.7450.6"
-          ]
+          "text": "Georg-August-Universität Göttingen",
+          "ref": "https://www.wikidata.org/wiki/Q152838"
         },
         "websites": [
           "http://www.uni-goettingen.de/en/1.html"

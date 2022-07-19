@@ -59,9 +59,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Leipzig",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.9647.c"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q154804"
         },
         "websites": [
           "https://www.uni-leipzig.de/en/"

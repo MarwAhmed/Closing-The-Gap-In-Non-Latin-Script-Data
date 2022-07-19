@@ -79,9 +79,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Vanderbilt University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.152326.1"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q29052"
         },
         "websites": [
           "https://www.vanderbilt.edu/"

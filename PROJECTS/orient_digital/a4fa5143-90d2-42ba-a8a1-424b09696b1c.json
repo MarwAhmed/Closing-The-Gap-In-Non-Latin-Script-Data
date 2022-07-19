@@ -123,9 +123,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Universität Erfurt",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.32801.38"
-          ]
+          "ref": "https://www.wikidata.org/wiki/Q702524"
         },
         "websites": [
           "https://www.uni-erfurt.de/"
