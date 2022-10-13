@@ -201,7 +201,15 @@
         "ref": []
       }
     ],
-    "keywords": [],
+    "keywords": [ 
+      "ara",
+      "bible",
+      "heb",
+      "manuscripts",
+      "quran",
+      "religion_history",
+      "syr"
+    ],
     "comment": ""
   }
 }
