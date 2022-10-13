@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "6d4a8840-4951-11ed-b878-0242ac120002",
+    "record_created": "2022-10-10",
+    "record_created_by": "Ahmed, Marwa Mohammed",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "The InterSaME Project",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2023"
+      }
+    ],
+    "websites": ["https://www.intersame.uni-hamburg.de/project.html"],
+    "project_desc": "The purpose of this project is to bring together strands of research related to various aspects of the transmission of sacred texts in order reach a deeper understanding of the intertwined world of the three major religions of the Middle East at their formative periods of development during the early Islamic centuries. The Arabic Qur’an, the Syriac Bible and the Hebrew Bible, the sacred texts of Islam, Eastern Christianity and Judaism respectively, were all transmitted in oral and written form. ",
+    "places": [ {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+        },
+        "coordinates": {
+          "lat": "53.551086",
+          "lng": "9.993682"
+        }
+      }          
+    ],
+    "lang": [ "eng"],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": true,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Hamburg Universität",
+          "ref": ["https://de.wikipedia.org/wiki/Universit%C3%A4t_Hamburg"]
+        },
+        "websites": ["https://www.uni-hamburg.de/"],
+        "places":[
+          {
+            "place_name": {
+              "text": "Hamburg",
+              "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+            }
+          }
+        ],
+
+        "relations":  []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Dr. Alba Fedeli",
+          "ref": ""
+        },
+        "role": 0,
+        "websites": ["https://www.aai.uni-hamburg.de/voror/personen/fedeli.html"]           
+      }         
+    ],
+    "research_data": {
+      "lang": ["ara"],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": ""
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": ""
+            }
+          ]
+        },
+        "refined": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "XML data storage"
+            },
+            {
+              "type": "",
+              "accessibility": "",
+              "ref": [],
+              "description": ""
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "",
+              "accessibility": "",
+              "ref": [],
+              "description": ""
+            }
+          ]
+        }
+      }
+    },
+    "stack": {
+      "database": [
+         "xml", "json"
+      ],
+      "backend": [
+        ""
+      ],
+      "frontend": [
+        ""
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": [],
+          "purpose": ""
+        }
+      ],
+      "languages": [
+      
+      ]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [],
+    "comment": ""
+  }
+}
